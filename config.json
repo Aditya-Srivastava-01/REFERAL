@@ -1,0 +1,39 @@
+{
+  "_comment": "Non-secret settings. Edit freely. Secrets (Gmail credentials) come from environment variables / GitHub secrets, NOT this file.",
+
+  "followupIntervalDays": 7,
+  "_followupIntervalDays": "Wait at least this many days after your last message before following up.",
+
+  "maxFollowups": 1,
+  "_maxFollowups": "How many follow-ups to send per professor before giving up. 1 = a single nudge.",
+
+  "lookbackDays": 60,
+  "_lookbackDays": "Only consider emails you sent within this many days. Avoids nagging ancient threads.",
+
+  "onlyThreadsIInitiated": true,
+  "_onlyThreadsIInitiated": "If true, only follow up on threads where YOU sent the first message.",
+
+  "allowedDomains": [".edu", ".ac.uk", ".ac.in", ".edu.au", ".edu.cn", ".ac.jp", ".uni-", ".edu.sg"],
+  "_allowedDomains": "Only follow up with recipients whose email domain ENDS WITH or CONTAINS one of these. Empty list [] = allow all domains. This is your main safety net against emailing non-professors.",
+
+  "skipDomains": ["gmail.com", "yahoo.com", "outlook.com", "hotmail.com", "icloud.com"],
+  "_skipDomains": "Never follow up with these recipient domains, even if allowedDomains is empty.",
+
+  "skipAddresses": [],
+  "_skipAddresses": "Specific email addresses to always skip, e.g. someone you already heard from by phone.",
+
+  "gmailLabel": "",
+  "_gmailLabel": "MOST RELIABLE WAY to target only outreach emails. If set (e.g. \"outreach\"), the tool ONLY considers threads carrying this Gmail label, ignoring all other academic mail (coursework, advisors, admin). Apply the label by hand or with a Gmail filter. Empty = scan all sent threads (rely on domain/keyword filters instead).",
+
+  "subjectMustInclude": [],
+  "_subjectMustInclude": "If non-empty, the original subject must contain at least ONE of these words/phrases (case-insensitive) to qualify. Use to target outreach, e.g. [\"PhD\", \"research\", \"prospective\", \"position\", \"opportunity\"]. Empty = no include requirement.",
+
+  "subjectMustExclude": ["assignment", "homework", "lecture", "deadline", "grade", "class", "course", "meeting"],
+  "_subjectMustExclude": "If the original subject contains any of these (case-insensitive), the thread is skipped. Keeps routine academic mail (coursework, admin) from getting follow-ups.",
+
+  "subjectPrefix": "Re: ",
+  "_subjectPrefix": "Prefix for the follow-up subject (kept as a reply).",
+
+  "dryRun": true,
+  "_dryRun": "TRUE = only log what WOULD be sent (no emails go out). Set to false once you've reviewed a dry run. Can be overridden by the DRY_RUN env var."
+}

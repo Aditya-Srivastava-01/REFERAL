@@ -1,0 +1,15 @@
+{
+  "name": "professor-followup",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Auto-sends polite follow-up emails to professors who haven't replied yet.",
+  "type": "commonjs",
+  "scripts": {
+    "token": "node get-token.js",
+    "run": "node followup.js",
+    "dry": "DRY_RUN=true node followup.js"
+  },
+  "dependencies": {
+    "googleapis": "^140.0.0"
+  }
+}

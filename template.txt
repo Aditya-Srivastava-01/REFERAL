@@ -1,0 +1,10 @@
+Dear {{greeting}},
+
+I hope this message finds you well. I wanted to gently follow up on my previous email (below) in case it slipped through the cracks.
+
+I remain very interested and would be grateful for any thoughts you might have when you get a chance. I completely understand you have a busy schedule, so no rush at all.
+
+Thank you very much for your time.
+
+Best regards,
+{{your_name}}
