@@ -12,13 +12,18 @@
  * redirect, so make sure that port is free.
  */
 
+require("./lib/load-env");
+
 const http = require("http");
 const { google } = require("googleapis");
 
 const CLIENT_ID = process.env.GMAIL_CLIENT_ID;
 const CLIENT_SECRET = process.env.GMAIL_CLIENT_SECRET;
 const REDIRECT = "http://localhost:53682";
-const SCOPES = ["https://www.googleapis.com/auth/gmail.modify"];
+const SCOPES = [
+  "https://www.googleapis.com/auth/gmail.modify",
+  "https://www.googleapis.com/auth/spreadsheets",
+];
 
 if (!CLIENT_ID || !CLIENT_SECRET) {
   console.error("Set GMAIL_CLIENT_ID and GMAIL_CLIENT_SECRET in your environment first.");

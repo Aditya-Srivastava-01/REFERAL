@@ -9,6 +9,8 @@
  * Settings come from config.json. DRY_RUN env var overrides config.dryRun.
  */
 
+require("./lib/load-env");
+
 const fs = require("fs");
 const path = require("path");
 const { google } = require("googleapis");
@@ -25,11 +27,13 @@ const CLIENT_ID = process.env.GMAIL_CLIENT_ID;
 const CLIENT_SECRET = process.env.GMAIL_CLIENT_SECRET;
 const REFRESH_TOKEN = process.env.GMAIL_REFRESH_TOKEN;
 const YOUR_NAME = process.env.YOUR_NAME || "";
+const CLI_DRY_RUN = process.argv.includes("--dry-run");
 
 const DRY_RUN =
-  process.env.DRY_RUN != null
+  CLI_DRY_RUN ||
+  (process.env.DRY_RUN != null
     ? /^(1|true|yes)$/i.test(process.env.DRY_RUN)
-    : config.dryRun !== false;
+    : config.dryRun !== false);
 
 if (!CLIENT_ID || !CLIENT_SECRET || !REFRESH_TOKEN) {
   console.error(

@@ -1,0 +1,41 @@
+{
+  "_comment": "Settings for outreach.js (daily sender) and discover.js (candidate finder). Secrets come from env vars / GitHub secrets, NOT this file.",
+  "dailyCap": 5,
+  "_dailyCap": "Maximum first-contact emails sent per run. Keep this low (3-8): personalized trickle beats a blast, and it protects your Gmail sender reputation.",
+  "dryRun": true,
+  "_dryRun": "TRUE = generate and print the emails but send NOTHING. Review at least one dry run, then set false. The DRY_RUN env var overrides this.",
+  "weekdaysOnly": true,
+  "_weekdaysOnly": "Skip Saturday/Sunday runs — professors read email on weekdays.",
+  "gmailLabel": "outreach",
+  "_gmailLabel": "Gmail label applied to every sent email (created automatically). Set the same value as `gmailLabel` in config.json if you want professor-followup to chase ONLY these threads.",
+  "candidateSource": "googleSheets",
+  "_candidateSource": "Use googleSheets to read the Candidates tab, or csv to read candidates.csv.",
+  "spreadsheetId": "1r2eIQWXBE8sf2MYw67yAry-Kpl62oNIxt4ShEgO4-_U",
+  "sheetName": "Candidates",
+  "_sheetName": "A separate tab used by automation. The existing Outreach Tracker tab is not modified.",
+  "model": "gemini-2.5-flash",
+  "_model": "Gemini model that writes the personalized emails.",
+  "delaySecondsBetweenEmails": 45,
+  "_delaySecondsBetweenEmails": "Base pause between sends (randomized ±30%) so the batch doesn't look like a blast.",
+  "resumePath": "assets/ADITYA-SRIVASTAVA-RESUME.pdf",
+  "_resumePath": "Path to your resume PDF (relative to the repo, so GitHub Actions can find it too) — attached to every outreach email. Set to \"\" to send without an attachment.",
+  "skipAddresses": [],
+  "_skipAddresses": "Specific addresses to never email, e.g. someone you already reached another way.",
+  "discover": {
+    "areas": [
+      "ai",
+      "vision",
+      "mlmining",
+      "nlp"
+    ],
+    "_areas": "Area names: ai (AAAI/IJCAI), vision (CVPR/ICCV/ECCV), mlmining (ICML/ICLR/NeurIPS/KDD), nlp (ACL/EMNLP/NAACL), inforet (SIGIR/WWW), robotics (ICRA/IROS/RSS). Raw CSRankings conference codes also work, e.g. \"iclr\".",
+    "excludeCountries": [
+      "in"
+    ],
+    "_excludeCountries": "Two-letter CSRankings country codes to exclude. [\"in\"] = anywhere abroad (everything except India). US institutions have no code and are always included unless you filter differently.",
+    "sinceYear": 2024,
+    "_sinceYear": "Only count publications from this year onward when ranking professors by activity — keeps the list to people actively publishing.",
+    "limit": 300,
+    "_limit": "How many top-ranked professors to put in candidates.csv."
+  }
+}

@@ -22,8 +22,8 @@
   "skipAddresses": [],
   "_skipAddresses": "Specific email addresses to always skip, e.g. someone you already heard from by phone.",
 
-  "gmailLabel": "",
-  "_gmailLabel": "MOST RELIABLE WAY to target only outreach emails. If set (e.g. \"outreach\"), the tool ONLY considers threads carrying this Gmail label, ignoring all other academic mail (coursework, advisors, admin). Apply the label by hand or with a Gmail filter. Empty = scan all sent threads (rely on domain/keyword filters instead).",
+  "gmailLabel": "outreach",
+  "_gmailLabel": "Set to \"outreach\" so this follow-up tool chases ONLY the first-contact emails that outreach.js sent and labeled — not coursework, advisors, or admin mail. Must match outreach-config.json's gmailLabel. Empty = scan all sent threads instead.",
 
   "subjectMustInclude": [],
   "_subjectMustInclude": "If non-empty, the original subject must contain at least ONE of these words/phrases (case-insensitive) to qualify. Use to target outreach, e.g. [\"PhD\", \"research\", \"prospective\", \"position\", \"opportunity\"]. Empty = no include requirement.",

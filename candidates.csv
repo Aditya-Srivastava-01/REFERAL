@@ -1,0 +1,21 @@
+name,affiliation,country,homepage,email,email_guess,email_score,recent_score
+Junchi Yan,Shanghai Jiao Tong University,cn,http://thinklab.sjtu.edu.cn,,,0,19.80
+Yu Qiao 0001,Chinese Academy of Sciences,cn,http://mmlab.siat.ac.cn/yuqiao/index.html,,,0,15.89
+Dacheng Tao,Nanyang Technological University,sg,https://dr.ntu.edu.sg/cris/rp/rp02343,,,fetch failed: HTTP 405,13.69
+Mihaela van der Schaar,University of Cambridge,gb,https://www.vanderschaar-lab.com,,,0,13.66
+Yi Yang 0001,Zhejiang University,cn,https://person.zju.edu.cn/yiyang,,xwmaster@zju.edu.cn,-1,13.57
+Min Zhang 0005,Harbin Institute of Technology,cn,https://zhangmin-nlp-ai.github.io,,,0,12.79
+Tongliang Liu,University of Sydney,au,https://www.sydney.edu.au/engineering/about/our-people/academic-staff/tongliang-liu.html,,info@indiantypefoundry.com,-5,12.68
+Iryna Gurevych,TU Darmstadt,de,https://www.ukp.tu-darmstadt.de/people/group-heads/prof-dr-iryna-gurevych,,,fetch failed: fetch failed,12.61
+Tat-Seng Chua,National University of Singapore,sg,http://www.comp.nus.edu.sg/~chuats,,,0,11.59
+Min-Ling Zhang,Southeast University,cn,https://palm.seu.edu.cn/zhangml,,,0,11.35
+Ziwei Liu 0002,Nanyang Technological University,sg,https://liuziwei7.github.io/index.html,,,0,10.59
+Gim Hee Lee,National University of Singapore,sg,https://sites.google.com/site/gimheelee,,,0,10.47
+Jong Chul Ye,KAIST,kr,https://bispl.weebly.com/professor.html,,jong.ye@gmail.com,1,10.41
+Hongsheng Li 0001,Chinese University of Hong Kong,hk,https://www.ee.cuhk.edu.hk/~hsli,,,fetch failed: fetch failed,9.88
+Dahua Lin,Chinese University of Hong Kong,hk,http://dahualin.org,,,0,9.68
+Kun Zhang 0001,MBZUAI,ae,https://mbzuai.ac.ae/study/faculty/kun-zhang,kun.zhang@mbzuai.ac.ae,kun.zhang@mbzuai.ac.ae,8,9.42
+Volkan Cevher,EPFL,ch,https://people.epfl.ch/volkan.cevher,volkan.cevher@epfl.ch,volkan.cevher@epfl.ch,8,9.40
+Chang Xu 0002,University of Sydney,au,https://sydney.edu.au/engineering/about/our-people/academic-staff/c-xu.html,,info@indiantypefoundry.com,-5,9.34
+Taiji Suzuki,University of Tokyo,jp,http://ibis.t.u-tokyo.ac.jp/suzuki,,,fetch failed: This operation was aborted,9.28
+Sergey Levine,Univ. of California - Berkeley,us,https://people.eecs.berkeley.edu/~svlevine,,,0,9.23

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Heng Huang 0001",
+    "affiliation": "Univ. of Maryland - College Park",
+    "email": "heng@umd.edu",
+    "subject": "Multimodal ML Research Opportunity for B.Tech Student",
+    "body": "Dear Professor Huang,I am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, India, ranking in the top 0.4% nationally in JEE Main.I was particularly interested in your recent work on \"MIRROR: Multi-Modal Pathological Self-Supervised Representation Learning,\" which aligns with my experience building a Masked Autoencoder for hyperspectral imagery to learn spatial-spectral representations. My work at ArchiGen AI Labs also involved designing RAG pipelines that improved AI response accuracy, touching upon multimodal integration.I am seeking an opportunity to contribute to your ongoing research as a research intern or assistant, applying my skills in machine learning, computer vision, and foundation models to challenging real-world problems.My CV is attached for your review, and my GitHub (https://github.com/Aditya-Srivastava-01) provides further details on my projects.Sincerely,Aditya Srivastava",
+    "papersReferenced": [
+      "HistoryNetv2: Structure-Aware Colorization of Historical Garment Images",
+      "Why Text Prevails: Vision May Undermine Multimodal Medical Decision Making",
+      "MIRROR: Multi-Modal Pathological Self-Supervised Representation Learning via Modality Alignment and Retention",
+      "AesTest: Measuring Aesthetic Intelligence from Perception to Production"
+    ],
+    "sentAt": "2026-06-12T06:18:55.976Z",
+    "messageId": "19eba7bbecc9a980",
+    "threadId": "19eba7bbecc9a980"
+  },
+  {
+    "name": "Bo Han 0003",
+    "affiliation": "Hong Kong Baptist University",
+    "email": "bhanml@comp.hkbu.edu.hk",
+    "subject": "OOD Detection Research Internship Inquiry",
+    "body": "Dear Professor Han,I am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University. My work applies machine learning to real-world systems, with a strong interest in out-of-distribution detection. Your paper, 'Provable Discriminative Hyperspherical Embedding for Out-of-Distribution Detection,' aligns directly with my project on Android malware detection. There, I distinguished malicious (OOD) from benign (ID) APKs using a 1,418-dimensional feature space, achieving 90.8% recall through robust classification. I am seeking an opportunity to contribute to your ongoing research as a research intern or assistant, applying machine learning, computer vision, or scientific AI. My CV is attached, and my GitHub is at https://github.com/Aditya-Srivastava-01. Thank you for your time. Aditya Srivastava",
+    "papersReferenced": [
+      "PoP: A Pipeline-oriented Paradigm for Long-tailed Learning Survey",
+      "FedGPS: Statistical Rectification Against Data Heterogeneity in Federated Learning",
+      "Provable Discriminative Hyperspherical Embedding for Out-of-Distribution Detection",
+      "Classifying Long-tailed and Label-noise Data via Disentangling and Unlearning"
+    ],
+    "sentAt": "2026-06-12T06:20:23.503Z",
+    "messageId": "19eba7d121da1f28",
+    "threadId": "19eba7d121da1f28"
+  },
+  {
+    "name": "Philip Torr 0001",
+    "affiliation": "University of Oxford",
+    "email": "philip.torr@eng.ox.ac.uk",
+    "subject": "OOD Detection Research Opportunity",
+    "body": "Dear Professor Torr 0001,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University. My work focuses on applying machine learning to challenging real-world systems across various domains.\n\nI am particularly interested in your recent paper, \"DEEDEE: Fast and Scalable Out-of-Distribution Dynamics Detection.\" My experience building an Android Malware Detection Pipeline, which involved reverse-engineering binaries to extract a 1,418-dimensional feature space and benchmarking models for 90.8% malicious recall, gave me practical insight into identifying anomalous patterns in complex data, aligning with the OOD detection challenges you address.\n\nI am writing to inquire about the possibility of contributing to your ongoing research projects as a research intern or research assistant. I am keen to apply my skills in machine learning, computer vision, NLP, or scientific AI to challenging real-world problems within your lab.\n\nMy CV is attached for your review, and further details about my work can be found on my GitHub: https://github.com/Aditya-Srivastava-01\n\nSincerely,\nAditya Srivastava",
+    "papersReferenced": [
+      "Unforgotten Safety: Preserving Safety Alignment of Large Language Models with Continual Learning",
+      "Measuring what Matters: Construct Validity in Large Language Model Benchmarks",
+      "DEEDEE: Fast and Scalable Out-of-Distribution Dynamics Detection",
+      "MATRIX: Multimodal Agent Tuning for Robust Tool-Use Reasoning"
+    ],
+    "sentAt": "2026-06-12T13:04:53.545Z",
+    "messageId": "19ebbef667ac2c1a",
+    "threadId": "19ebbef667ac2c1a"
+  },
+  {
+    "name": "Mohit Bansal",
+    "affiliation": "University of North Carolina",
+    "email": "mbansal@cs.unc.edu",
+    "subject": "Research Interest: Agentic AI and Video Perception",
+    "body": "Dear Professor Bansal,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University. My academic background includes a 99.59 percentile in JEE Main, and my work applies machine learning to challenging real-world systems.\n\nI am particularly interested in your work on agentic long video understanding, such as \"Active Video Perception.\" My experience building RAG pipelines, which improved AI response accuracy by 30% for enterprise AI systems, aligns with the concept of agents actively seeking and acquiring query-relevant evidence from complex data. I have also developed a hyperspectral foundation model to learn transferable spatial-spectral representations.\n\nI am seeking an opportunity to contribute to one of your ongoing research projects as a research intern or research assistant. I am keen to apply my skills in machine learning, computer vision, and foundation models to real-world problems.\n\nMy CV is attached for your review, and my GitHub profile at https://github.com/Aditya-Srivastava-01 provides further examples of my work.\n\nSincerely,\nAditya Srivastava",
+    "papersReferenced": [
+      "TimeRefine: Temporal Grounding with Time Refining Video LLM",
+      "Hierarchy-Aware Multimodal Unlearning for Medical AI",
+      "Active Video Perception: Iterative Evidence Seeking for Agentic Long Video Understanding",
+      "Prune-Then-Plan: Step-Level Calibration for Stable Frontier Exploration in Embodied Question Answering"
+    ],
+    "sentAt": "2026-06-12T13:06:10.830Z",
+    "messageId": "19ebbf0956d86066",
+    "threadId": "19ebbf0956d86066"
+  },
+  {
+    "name": "Mang Ye",
+    "affiliation": "Wuhan University",
+    "email": "yemang@whu.edu.cn",
+    "subject": "Computer Vision Research: Masked Autoencoders",
+    "body": "Dear Professor Ye,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, highly interested in applying machine learning to challenging real-world systems.\n\nMy interest in computer vision and self-supervised learning leads me to your research, specifically your 2026 paper, 'Scalable and Generalizable Correspondence Pruning Via Geometry-Consistent Pre-Training'. My own project on a Hyperspectral Foundation Model involved building a Masked Autoencoder to learn transferable spatial-spectral representations, directly aligning with the masked autoencoder pre-training framework described.\n\nI am seeking an opportunity to contribute to one of your ongoing research projects as a research intern or research assistant. I am keen to apply my experience in computer vision, self-supervised learning, and foundation models to real-world problems within your lab.\n\nMy CV is attached for your review, and my GitHub profile is available at https://github.com/Aditya-Srivastava-01.\n\nSincerely,\nAditya Srivastava",
+    "papersReferenced": [
+      "HiSymGeo: Hierarchical Context Symbiosis for Cross-View Object-level Image Geo-Localization",
+      "Federated Single-Positive Multi-Label Learning",
+      "Scalable and Generalizable Correspondence Pruning Via Geometry-Consistent Pre-Training",
+      "Dual-level Modality Debiasing Learning for Unsupervised Visible-Infrared Person Re-Identification"
+    ],
+    "sentAt": "2026-06-12T13:07:20.924Z",
+    "messageId": "19ebbf1a712ec5f2",
+    "threadId": "19ebbf1a712ec5f2"
+  }
+]
