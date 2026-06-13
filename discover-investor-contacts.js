@@ -1,17 +1,17 @@
 /**
- * discover-investor-contacts.js — reads the raw investors sheet, tries to
- * find a contact email for each org via Crunchbase + website crawl, then
- * writes enriched rows into the "Outreach" tab ready for investor-outreach.js.
+ * discover-investor-contacts.js — reads the raw investors sheet, finds a
+ * contact email for each org via DuckDuckGo + website crawl, then writes
+ * enriched rows into the "Outreach" tab ready for investor-outreach.js.
  *
- * Run locally (not in CI — Crunchbase blocks datacenter IPs):
- *   node discover-investor-contacts.js
+ * Run locally:  node discover-investor-contacts.js
  *
- * What it does per row:
- *  1. Fetches the Crunchbase page HTML (with browser headers) to extract website URL.
- *  2. Crawls /contact, /about, /team, /apply pages on that website for email addresses.
- *  3. Ranks found emails (apply@ > hello@ > contact@ > info@ > other).
- *  4. Falls back to common patterns: info@{guessed-domain} for well-known orgs.
- *  5. Writes results to the "Outreach" tab. Rows with no email get status "Needs Email".
+ * Strategy per org:
+ *  1. DuckDuckGo Instant Answer API → extract website URL from response.
+ *  2. Crawl that website's /contact /about /team /apply pages for emails.
+ *  3. Fallback: guess domain from org name, verify with HEAD request, crawl.
+ *  4. Ranks emails: apply@ > hello@ > contact@ > info@ > other.
+ *  5. Writes to "Outreach" tab. Already-present rows are skipped.
+ *     Rows with no email found get Status "Needs Email".
  */
 
 require("./lib/load-env");
@@ -35,7 +35,11 @@ const OUTREACH_HEADERS = [
 // HTTP helpers
 // ---------------------------------------------------------------------------
 
-async function fetchPage(url, timeoutMs = 12000) {
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+async function fetchText(url, timeoutMs = 5000) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeoutMs);
   try {
@@ -45,7 +49,6 @@ async function fetchPage(url, timeoutMs = 12000) {
           "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9",
-        "Cache-Control": "no-cache",
       },
       signal: controller.signal,
       redirect: "follow",
@@ -59,34 +62,62 @@ async function fetchPage(url, timeoutMs = 12000) {
   }
 }
 
-function sleep(ms) {
-  return new Promise((r) => setTimeout(r, ms));
+async function fetchJson(url, timeoutMs = 8000) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const res = await fetch(url, {
+      headers: { Accept: "application/json" },
+      signal: controller.signal,
+    });
+    clearTimeout(timer);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.json();
+  } catch (err) {
+    clearTimeout(timer);
+    throw err;
+  }
+}
+
+async function headOk(url, timeoutMs = 2500) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const res = await fetch(url, { method: "HEAD", signal: controller.signal, redirect: "follow" });
+    clearTimeout(timer);
+    return res.ok;
+  } catch {
+    clearTimeout(timer);
+    return false;
+  }
 }
 
 // ---------------------------------------------------------------------------
-// Email extraction
+// Email extraction + ranking
 // ---------------------------------------------------------------------------
 
 const EMAIL_RE = /\b([a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,})\b/g;
-const EMAIL_BLOCKLIST =
-  /noreply|no-reply|donotreply|unsubscribe|example\.|sentry\.io|w3\.org|schema\.org|amazonaws|mailchimp|sendgrid|cloudflare|privacy@|legal@|press@|media@|abuse@|postmaster@|webmaster@|security@/i;
+const EMAIL_BLOCK =
+  /noreply|no-reply|donotreply|unsubscribe|example\.|sentry\.io|w3\.org|schema\.org|amazonaws|mailchimp|sendgrid|cloudflare|privacy@|legal@|press@|media@|abuse@|postmaster@|webmaster@|security@|support@|wixpress|squarespace|googleapis|github\.com/i;
 
-// Prefixes ranked by how likely they are to be a real human inbox
 const EMAIL_PRIORITY = [
   "apply@", "hello@", "hi@", "contact@", "team@", "info@",
   "partners@", "investments@", "invest@", "venture@", "fund@",
-  "startup@", "founders@", "accelerate@",
+  "startup@", "founders@", "accelerate@", "pitch@",
 ];
 
 function extractEmails(html) {
-  const raw = [...new Set((html.match(EMAIL_RE) || []))];
-  return raw.filter((e) => !EMAIL_BLOCKLIST.test(e));
+  return [...new Set((html.match(EMAIL_RE) || []))].filter((e) => !EMAIL_BLOCK.test(e));
 }
 
-function rankEmails(emails) {
+function rankEmails(emails, orgDomain) {
   return [...emails].sort((a, b) => {
     const la = a.toLowerCase();
     const lb = b.toLowerCase();
+    // Prefer emails on the org's own domain
+    const aOwn = orgDomain && la.endsWith("@" + orgDomain) ? -1 : 0;
+    const bOwn = orgDomain && lb.endsWith("@" + orgDomain) ? -1 : 0;
+    if (aOwn !== bOwn) return aOwn - bOwn;
     const ai = EMAIL_PRIORITY.findIndex((p) => la.startsWith(p));
     const bi = EMAIL_PRIORITY.findIndex((p) => lb.startsWith(p));
     return (ai === -1 ? 999 : ai) - (bi === -1 ? 999 : bi);
@@ -94,59 +125,70 @@ function rankEmails(emails) {
 }
 
 // ---------------------------------------------------------------------------
-// Website extraction from Crunchbase HTML
+// Website discovery via DuckDuckGo Instant Answer API
 // ---------------------------------------------------------------------------
 
-function findDeep(obj, key, depth = 0) {
-  if (depth > 12 || !obj || typeof obj !== "object") return null;
-  if (key in obj && typeof obj[key] === "string" && obj[key].startsWith("http"))
-    return obj[key];
-  for (const v of Object.values(obj)) {
-    const r = findDeep(v, key, depth + 1);
-    if (r) return r;
+async function findWebsiteViaDDG(orgName) {
+  try {
+    const q = encodeURIComponent(orgName);
+    const data = await fetchJson(
+      `https://api.duckduckgo.com/?q=${q}&format=json&no_html=1&skip_disambig=1`,
+      6000
+    );
+    // AbstractURL is often wikipedia; we want the org's actual site
+    // Look in RelatedTopics for an "official site" URL
+    const candidates = [];
+    if (data.AbstractURL && !data.AbstractURL.includes("wikipedia") && !data.AbstractURL.includes("crunchbase")) {
+      candidates.push(data.AbstractURL);
+    }
+    if (data.Redirect && data.Redirect.startsWith("http")) candidates.push(data.Redirect);
+    for (const t of (data.RelatedTopics || [])) {
+      if (t.FirstURL && t.FirstURL.startsWith("http") && !t.FirstURL.includes("duckduckgo")) {
+        candidates.push(t.FirstURL);
+      }
+    }
+    // Filter out non-org sites
+    const blocklist = /wikipedia|crunchbase|linkedin|twitter|facebook|instagram|youtube|ycombinator\.com\/companies|techcrunch|bloomberg|forbes/i;
+    return candidates.find((u) => !blocklist.test(u)) || null;
+  } catch {
+    return null;
   }
-  return null;
-}
-
-function extractWebsiteFromCrunchbaseHtml(html) {
-  // Strategy 1: __NEXT_DATA__ embedded JSON (Next.js SSR)
-  const ndMatch = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
-  if (ndMatch) {
-    try {
-      const data = JSON.parse(ndMatch[1]);
-      const site =
-        findDeep(data, "website_url") ||
-        findDeep(data, "homepage_url") ||
-        findDeep(data, "short_url");
-      if (site && !site.includes("crunchbase")) return site;
-    } catch {}
-  }
-
-  // Strategy 2: JSON-LD
-  for (const match of html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)) {
-    try {
-      const ld = JSON.parse(match[1]);
-      const candidates = [ld.url, ...(Array.isArray(ld.sameAs) ? ld.sameAs : [ld.sameAs || ""])];
-      const site = candidates.find(
-        (u) => u && u.startsWith("http") && !u.includes("crunchbase") &&
-          !u.includes("twitter") && !u.includes("facebook") && !u.includes("linkedin")
-      );
-      if (site) return site;
-    } catch {}
-  }
-
-  // Strategy 3: explicit "Homepage" link text on the page
-  const hpMatch = html.match(/href="(https?:\/\/(?!(?:www\.)?crunchbase\.com)[^"]+)"[^>]*>\s*(?:Homepage|Website|Visit site)/i);
-  if (hpMatch) return hpMatch[1];
-
-  return null;
 }
 
 // ---------------------------------------------------------------------------
-// Email discovery pipeline
+// Domain guessing from org name
 // ---------------------------------------------------------------------------
 
-async function findEmailFromWebsite(websiteUrl) {
+const STRIP_WORDS = /\b(accelerator|ventures|capital|fund|labs|lab|studio|studios|network|innovation|center|centre|initiative|program|institute|inc|llc|corp|foundation|group|partners|global|solutions|technologies|technology|tech|digital|health|fintech|biotech|new|the|and|for|of)\b/gi;
+
+function guessDomains(name) {
+  const base = name
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, "")
+    .replace(STRIP_WORDS, " ")
+    .trim()
+    .replace(/\s+/g, "");
+
+  const full = name
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, "")
+    .trim()
+    .replace(/\s+/g, "");
+
+  const suffixes = [".com", ".org", ".co", ".io", ".vc", ".fund"];
+  const candidates = [];
+  for (const s of suffixes) {
+    if (base) candidates.push(base + s);
+    if (full && full !== base) candidates.push(full + s);
+  }
+  return [...new Set(candidates)];
+}
+
+// ---------------------------------------------------------------------------
+// Email crawl from a website
+// ---------------------------------------------------------------------------
+
+async function crawlForEmail(websiteUrl) {
   let origin;
   try {
     origin = new URL(websiteUrl).origin;
@@ -154,44 +196,52 @@ async function findEmailFromWebsite(websiteUrl) {
     return null;
   }
 
-  const paths = ["/", "/contact", "/contact-us", "/about", "/team", "/apply", "/partners", "/invest"];
+  const orgDomain = new URL(websiteUrl).hostname.replace(/^www\./, "");
+  const paths = ["/", "/contact", "/about", "/team", "/apply"];
+
   for (const p of paths) {
     try {
-      const html = await fetchPage(origin + p);
-      const emails = rankEmails(extractEmails(html));
-      if (emails.length > 0) {
-        // Skip emails that look like they belong to a vendor/tool domain
-        const orgDomain = origin.replace(/^https?:\/\/(www\.)?/, "").split("/")[0];
-        const orgEmail = emails.find((e) => e.includes("@" + orgDomain));
-        return orgEmail || emails[0];
-      }
+      const html = await fetchText(origin + p, 7000);
+      const emails = rankEmails(extractEmails(html), orgDomain);
+      // Prefer emails on the org's own domain
+      const ownDomainEmail = emails.find((e) => e.toLowerCase().includes("@" + orgDomain));
+      if (ownDomainEmail) return { email: ownDomainEmail, website: origin };
+      if (emails.length > 0) return { email: emails[0], website: origin };
     } catch {}
-    await sleep(600);
+    await sleep(300);
   }
   return null;
 }
 
-async function discoverEmail(name, crunchbaseUrl) {
-  if (!crunchbaseUrl || !crunchbaseUrl.includes("crunchbase.com")) return null;
+// ---------------------------------------------------------------------------
+// Main discovery per org
+// ---------------------------------------------------------------------------
 
-  let website = null;
-  try {
-    console.log(`  Fetching Crunchbase page...`);
-    const html = await fetchPage(crunchbaseUrl);
-    website = extractWebsiteFromCrunchbaseHtml(html);
-    if (website) console.log(`  Website: ${website}`);
-    else console.log(`  Website not found in Crunchbase HTML.`);
-    await sleep(2000 + Math.random() * 1500); // be polite
-  } catch (err) {
-    console.log(`  Crunchbase fetch failed (${err.message})`);
+async function discoverContact(orgName) {
+  // 1. Try DuckDuckGo
+  const ddgSite = await findWebsiteViaDDG(orgName);
+  if (ddgSite) {
+    const result = await crawlForEmail(ddgSite);
+    if (result) return result;
+    // Got website but no email — still return the website
+    if (!result) return { email: null, website: ddgSite };
   }
 
-  if (website) {
-    const email = await findEmailFromWebsite(website);
-    if (email) return { email, website };
+  await sleep(200);
+
+  // 2. Try domain guessing
+  const guesses = guessDomains(orgName);
+  for (const domain of guesses.slice(0, 3)) {
+    const url = "https://" + domain;
+    if (await headOk(url, 4000)) {
+      const result = await crawlForEmail(url);
+      if (result?.email) return result;
+      if (result?.website) return { email: null, website: result.website };
+    }
+    await sleep(200);
   }
 
-  return website ? { email: null, website } : null;
+  return null;
 }
 
 // ---------------------------------------------------------------------------
@@ -209,14 +259,14 @@ async function readSourceSheet(sheets, spreadsheetId, sheetName) {
   if (!rows.length) throw new Error(`Source sheet "${sheetName}" is empty.`);
 
   const headers = rows[0].map((h) => String(h).trim().toLowerCase());
-  const col = (name) => headers.findIndex((h) => h.includes(name.toLowerCase()));
+  const col = (keyword) => headers.findIndex((h) => h.includes(keyword.toLowerCase()));
 
-  const iName        = col("name");
-  const iTags        = col("tags");
-  const iDesc        = col("description");
-  const iLocation    = col("location");
-  const iCrunchbase  = col("organization");
-  const iProgram     = col("program");
+  const iName       = col("name");
+  const iTags       = col("tags");
+  const iDesc       = col("description");
+  const iLocation   = col("location");
+  const iCrunchbase = col("organization");
+  const iProgram    = col("program");
 
   return rows.slice(1)
     .map((row) => ({
@@ -232,9 +282,7 @@ async function readSourceSheet(sheets, spreadsheetId, sheetName) {
 
 async function ensureOutreachTab(sheets, spreadsheetId, outreachSheetName) {
   const meta = await sheets.spreadsheets.get({ spreadsheetId, fields: "sheets.properties" });
-  const exists = (meta.data.sheets || []).some(
-    (s) => s.properties.title === outreachSheetName
-  );
+  const exists = (meta.data.sheets || []).some((s) => s.properties.title === outreachSheetName);
   if (!exists) {
     await sheets.spreadsheets.batchUpdate({
       spreadsheetId,
@@ -244,50 +292,40 @@ async function ensureOutreachTab(sheets, spreadsheetId, outreachSheetName) {
   }
 }
 
-async function readExistingOutreachRows(sheets, spreadsheetId, outreachSheetName) {
+async function readExistingOutreachNames(sheets, spreadsheetId, outreachSheetName) {
   try {
     const res = await sheets.spreadsheets.values.get({
       spreadsheetId,
-      range: `${quoteSheetName(outreachSheetName)}!A1:J`,
+      range: `${quoteSheetName(outreachSheetName)}!A:A`,
     });
     const rows = res.data.values || [];
-    if (rows.length < 2) return new Set();
-    const headers = rows[0].map((h) => String(h).toLowerCase());
-    const nameCol = headers.indexOf("name");
-    return new Set(rows.slice(1).map((r) => (r[nameCol] || "").toLowerCase().trim()));
+    return new Set(rows.slice(1).map((r) => (r[0] || "").toLowerCase().trim()));
   } catch {
     return new Set();
   }
 }
 
-async function appendToOutreachSheet(sheets, spreadsheetId, outreachSheetName, newRows) {
-  const range = `${quoteSheetName(outreachSheetName)}!A1`;
-
-  // Write header if sheet is empty
-  const current = await sheets.spreadsheets.values.get({ spreadsheetId, range: `${quoteSheetName(outreachSheetName)}!A1:J1` });
-  const hasHeader = (current.data.values || []).length > 0;
-
-  const toWrite = hasHeader ? newRows : [OUTREACH_HEADERS, ...newRows];
-  const appendRange = `${quoteSheetName(outreachSheetName)}!A1`;
-
-  if (toWrite.length === 0) return;
-
-  if (!hasHeader) {
-    await sheets.spreadsheets.values.update({
+async function hasHeader(sheets, spreadsheetId, outreachSheetName) {
+  try {
+    const res = await sheets.spreadsheets.values.get({
       spreadsheetId,
-      range: appendRange,
-      valueInputOption: "RAW",
-      requestBody: { values: toWrite },
+      range: `${quoteSheetName(outreachSheetName)}!A1`,
     });
-  } else {
-    await sheets.spreadsheets.values.append({
-      spreadsheetId,
-      range: `${quoteSheetName(outreachSheetName)}!A:J`,
-      valueInputOption: "RAW",
-      insertDataOption: "INSERT_ROWS",
-      requestBody: { values: newRows },
-    });
+    return (res.data.values || []).length > 0;
+  } catch {
+    return false;
   }
+}
+
+async function appendRows(sheets, spreadsheetId, outreachSheetName, rows) {
+  if (!rows.length) return;
+  await sheets.spreadsheets.values.append({
+    spreadsheetId,
+    range: `${quoteSheetName(outreachSheetName)}!A:J`,
+    valueInputOption: "RAW",
+    insertDataOption: "INSERT_ROWS",
+    requestBody: { values: rows },
+  });
 }
 
 // ---------------------------------------------------------------------------
@@ -303,66 +341,98 @@ async function main() {
   const sheets = createSheetsClient(oauth2);
 
   const spreadsheetId = config.sourceSpreadsheetId;
-  const sourceSheet   = config.sourceSheetName   || "Sheet1";
+  const sourceSheets  = config.sourceSheetNames || [config.sourceSheetName || "Sheet1"];
   const outreachSheet = config.outreachSheetName || "Outreach";
 
-  console.log(`Reading source: "${sourceSheet}" tab...`);
-  const orgs = await readSourceSheet(sheets, spreadsheetId, sourceSheet);
-  console.log(`Found ${orgs.length} orgs.\n`);
+  // Read all source orgs
+  const orgs = [];
+  for (const tab of sourceSheets) {
+    console.log(`Reading "${tab}"...`);
+    const rows = await readSourceSheet(sheets, spreadsheetId, tab);
+    rows.forEach((r) => { r.sourceTab = tab.trim(); });
+    orgs.push(...rows);
+    console.log(`  ${rows.length} orgs`);
+  }
+  console.log(`Total: ${orgs.length} orgs\n`);
 
   await ensureOutreachTab(sheets, spreadsheetId, outreachSheet);
-  const existing = await readExistingOutreachRows(sheets, spreadsheetId, outreachSheet);
-  console.log(`Already in Outreach tab: ${existing.size}\n`);
+
+  // Write header if needed
+  if (!(await hasHeader(sheets, spreadsheetId, outreachSheet))) {
+    await sheets.spreadsheets.values.update({
+      spreadsheetId,
+      range: `${quoteSheetName(outreachSheet)}!A1`,
+      valueInputOption: "RAW",
+      requestBody: { values: [OUTREACH_HEADERS] },
+    });
+  }
+
+  const existing = await readExistingOutreachNames(sheets, spreadsheetId, outreachSheet);
+  console.log(`Already in Outreach tab: ${existing.size}`);
 
   const toProcess = orgs.filter((o) => !existing.has(o.name.toLowerCase().trim()));
   console.log(`To process: ${toProcess.length}\n`);
 
-  const newRows = [];
-  let found = 0, missing = 0;
+  let found = 0, missing = 0, done = 0;
+  const CONCURRENCY = 8;
+  const pendingRows = [];
 
-  for (const org of toProcess) {
-    console.log(`→ ${org.name}`);
-    const result = await discoverEmail(org.name, org.crunchbaseUrl);
-    const email   = result?.email   || "";
-    const website = result?.website || "";
-
-    if (email) {
-      console.log(`  ✓ email: ${email}\n`);
-      found++;
-    } else {
-      console.log(`  ✗ no email found — mark as Needs Email\n`);
-      missing++;
+  async function flushIfReady() {
+    if (pendingRows.length >= 20) {
+      const toWrite = pendingRows.splice(0, 20);
+      await appendRows(sheets, spreadsheetId, outreachSheet, toWrite);
+      console.log(`  (saved batch, total done: ${done})`);
     }
-
-    newRows.push([
-      org.name,
-      email,
-      website,
-      org.description.slice(0, 500),
-      org.location,
-      org.tags || org.programType || "Accelerator",
-      email ? "To Contact" : "Needs Email",
-      "",
-      email ? "Review before first email" : "Add a verified email address",
-      org.crunchbaseUrl,
-    ]);
-
-    // Write in batches of 10 so progress is saved even if interrupted
-    if (newRows.length >= 10) {
-      await appendToOutreachSheet(sheets, spreadsheetId, outreachSheet, newRows.splice(0));
-      console.log("  (batch written to sheet)");
-    }
-
-    await sleep(1500 + Math.random() * 1000);
   }
 
-  if (newRows.length > 0) {
-    await appendToOutreachSheet(sheets, spreadsheetId, outreachSheet, newRows);
+  // Process in parallel chunks of CONCURRENCY
+  for (let i = 0; i < toProcess.length; i += CONCURRENCY) {
+    const chunk = toProcess.slice(i, i + CONCURRENCY);
+    const results = await Promise.all(
+      chunk.map(async (org) => {
+        const result = await discoverContact(org.name);
+        return { org, result };
+      })
+    );
+
+    for (const { org, result } of results) {
+      done++;
+      const email   = result?.email   || "";
+      const website = result?.website || "";
+
+      if (email) {
+        console.log(`[${done}/${toProcess.length}] ✓ ${org.name} → ${email}`);
+        found++;
+      } else {
+        console.log(`[${done}/${toProcess.length}]   ${org.name} — ${website ? "website only" : "not found"}`);
+        missing++;
+      }
+
+      pendingRows.push([
+        org.name,
+        email,
+        website,
+        org.description.slice(0, 500),
+        org.location,
+        org.tags || org.programType || "Accelerator",
+        email ? "To Contact" : "Needs Email",
+        "",
+        email ? "Review before first email" : "Add a verified email address",
+        org.crunchbaseUrl,
+      ]);
+    }
+
+    await flushIfReady();
+    await sleep(300); // brief pause between chunks
+  }
+
+  if (pendingRows.length > 0) {
+    await appendRows(sheets, spreadsheetId, outreachSheet, pendingRows);
   }
 
   console.log("\n--- Done ---");
   console.log(`Emails found: ${found} | Needs manual entry: ${missing}`);
-  console.log(`Open the sheet and fill in missing emails, then run: npm run investor:outreach`);
+  console.log(`\nOpen the sheet, fill in missing emails, then: npm run investor:outreach`);
 }
 
 main().catch((err) => {
