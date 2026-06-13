@@ -1,6 +1,6 @@
 {
   "_comment": "Settings for outreach.js (daily sender) and discover.js (candidate finder). Secrets come from env vars / GitHub secrets, NOT this file.",
-  "dailyCap": 10,
+  "dailyCap": 20,
   "_dailyCap": "Maximum first-contact emails sent per run. Keep this low (3-8): personalized trickle beats a blast, and it protects your Gmail sender reputation.",
   "dryRun": false,
   "_dryRun": "TRUE = generate and print the emails but send NOTHING. Review at least one dry run, then set false. The DRY_RUN env var overrides this.",
