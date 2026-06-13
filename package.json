@@ -16,7 +16,8 @@
     "sheets:setup": "node setup-sheets.js",
     "replies": "node check-replies.js",
     "investor:discover": "node discover-investor-contacts.js",
-    "investor:outreach": "node investor-outreach.js"
+    "investor:outreach": "node investor-outreach.js",
+    "investor:enrich": "node enrich-investor-emails.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
