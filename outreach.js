@@ -241,7 +241,17 @@ Formatting rules:
 
 Subject line:
 - 5–8 words. Concrete: research topic + action. Never just "Opportunity" or "Research Inquiry."
-- Examples: "OOD Detection Research — Contribution Opportunity", "Representation Learning for Hyperspectral Imagery"`;
+- Examples: "OOD Detection Research — Contribution Opportunity", "Representation Learning for Hyperspectral Imagery"
+
+━━━ LINKEDIN NOTE ━━━
+
+Also write a LinkedIn connection request note. Hard rules:
+- STRICT 280-character limit — count every character including spaces. Cut words if needed.
+- No greeting (LinkedIn adds "Hi [Name]," automatically — don't duplicate it).
+- Structure: one sentence saying you emailed them → one sentence with the paper/research hook → strongest signal (JEE percentile or a concrete project result) → student name at the end.
+- Tone: direct, human, not sycophantic. No "I am passionate/excited." No "your impressive work."
+- Example format: "I just emailed you about your work on [topic]. My [project] achieved [result], which connects directly. Top 0.4% JEE Main (1.2M candidates). — Aditya"`;
+
 
 
 // Gemini structured-output schema — guarantees parseable JSON every time.
@@ -257,8 +267,13 @@ const EMAIL_SCHEMA = {
       description:
         "Plain-text email body, 110-170 words. Greeting on its own line, paragraphs separated by blank lines (\\n\\n), sign-off on its own line at the end. Must contain newline characters — never a single collapsed paragraph.",
     },
+    linkedin_note: {
+      type: SchemaType.STRING,
+      description:
+        "LinkedIn connection request note. Strict 280-character maximum (count every character). No greeting. One sentence referencing the email sent, one sentence with the research hook and a concrete result, end with student name. Direct and specific.",
+    },
   },
-  required: ["subject", "body"],
+  required: ["subject", "body", "linkedin_note"],
 };
 
 function buildGeminiModel(genAI) {
@@ -310,9 +325,12 @@ Write the outreach email now.`;
 
       email.subject = email.subject.trim();
       email.body = email.body.replace(/\r\n/g, "\n").trim();
+      email.linkedin_note = (email.linkedin_note || "").trim();
       // Gemini structured output sometimes strips ALL whitespace formatting from
       // JSON strings — that email would arrive as one unreadable wall of text.
       if (!email.body.includes("\n")) throw new Error("body has no paragraph breaks");
+      // Trim LinkedIn note to hard limit if Gemini overruns.
+      if (email.linkedin_note.length > 300) email.linkedin_note = email.linkedin_note.slice(0, 297) + "...";
 
       return email;
     } catch (err) {
@@ -477,6 +495,10 @@ async function main() {
 
     console.log(`  Subject: ${email.subject}`);
     console.log("  " + email.body.split("\n").join("\n  "));
+    if (email.linkedin_note) {
+      console.log(`\n  LinkedIn note (${email.linkedin_note.length} chars):`);
+      console.log(`  "${email.linkedin_note}"`);
+    }
 
     if (DRY_RUN) {
       console.log("  (dry run — not sent)\n");
@@ -506,6 +528,7 @@ async function main() {
         subject: email.subject,
         body: email.body,
         papersReferenced: papers.map((p) => p.title),
+        linkedinNote: email.linkedin_note || "",
         sentAt: new Date().toISOString(),
         messageId: res.data.id,
         threadId: res.data.threadId,
