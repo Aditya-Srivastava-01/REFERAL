@@ -1,0 +1,54 @@
+name: investor-outreach
+
+# Sends the daily batch of personalized PluginAny pitch emails to investors
+# and accelerators, then commits the updated ledger back.
+on:
+  schedule:
+    - cron: "0 9 * * 1-5" # 09:00 UTC weekdays (2:30 PM IST — good time for US morning inboxes)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (generate + log only, send nothing)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: investor-outreach
+  cancel-in-progress: false
+
+jobs:
+  outreach:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Send investor outreach emails
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          YOUR_NAME: ${{ secrets.YOUR_NAME }}
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || '' }}
+        run: node investor-outreach.js
+
+      - name: Commit updated ledger
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add investor-ledger.json
+          if ! git diff --cached --quiet; then
+            git commit -m "investor-outreach: update ledger"
+            git push
+          fi

@@ -1,0 +1,18 @@
+{
+  "_comment": "Settings for investor-outreach.js. Secrets come from env vars, NOT this file.",
+  "dailyCap": 10,
+  "_dailyCap": "Max investor emails per run. Keep low (8-12) — quality over volume.",
+  "dryRun": true,
+  "_dryRun": "TRUE = generate and print emails but send nothing. Review at least once, then set false.",
+  "weekdaysOnly": true,
+  "gmailLabel": "investor-outreach",
+  "sourceSpreadsheetId": "1YXWNP_orNEBiYNMgPw5waXU-aw3_UuBj",
+  "sourceSheetName": "Sheet1",
+  "_sourceSheetName": "The original investors list tab name. Check your sheet for the exact tab name.",
+  "outreachSheetName": "Outreach",
+  "_outreachSheetName": "Tab created by setup-investor-sheets.js with enriched columns (Email, Status, etc.).",
+  "model": "gemini-2.5-flash",
+  "delaySecondsBetweenEmails": 60,
+  "_delaySecondsBetweenEmails": "Pause between sends — investor emails need more care than professor ones.",
+  "skipAddresses": []
+}
