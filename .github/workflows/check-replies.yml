@@ -1,0 +1,46 @@
+name: check-replies
+
+# Scans outreach threads for professor replies, updates the Google Sheet status
+# to "Replied", and marks the ledger so follow-up stops automatically.
+on:
+  schedule:
+    - cron: "0 6,10,14,18 * * 1-5" # 4x daily on weekdays (06, 10, 14, 18 UTC)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write # to commit the updated ledger back
+
+concurrency:
+  group: check-replies
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Check for replies
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+        run: node check-replies.js
+
+      - name: Commit updated ledger
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add outreach-ledger.json
+          if ! git diff --cached --quiet; then
+            git commit -m "replies: mark replied threads in ledger"
+            git push
+          fi

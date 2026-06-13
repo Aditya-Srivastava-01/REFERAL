@@ -13,7 +13,8 @@
     "dry": "node followup.js --dry-run",
     "discover": "node discover.js",
     "outreach": "node outreach.js",
-    "sheets:setup": "node setup-sheets.js"
+    "sheets:setup": "node setup-sheets.js",
+    "replies": "node check-replies.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
