@@ -13,7 +13,7 @@
   "spreadsheetId": "1r2eIQWXBE8sf2MYw67yAry-Kpl62oNIxt4ShEgO4-_U",
   "sheetName": "Candidates",
   "_sheetName": "A separate tab used by automation. The existing Outreach Tracker tab is not modified.",
-  "model": "gemini-2.5-flash",
+  "model": "gemini-2.0-flash",
   "_model": "Gemini model that writes the personalized emails.",
   "delaySecondsBetweenEmails": 45,
   "_delaySecondsBetweenEmails": "Base pause between sends (randomized ±30%) so the batch doesn't look like a blast.",

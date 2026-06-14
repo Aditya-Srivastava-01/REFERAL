@@ -228,7 +228,7 @@ const EMAIL_SCHEMA = {
 
 function buildGeminiModel(genAI) {
   return genAI.getGenerativeModel({
-    model: config.model || "gemini-2.5-flash",
+    model: config.model || "gemini-2.0-flash",
     systemInstruction: SYSTEM_PROMPT,
     generationConfig: {
       responseMimeType: "application/json",
