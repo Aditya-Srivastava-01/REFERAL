@@ -14,27 +14,15 @@ The routing brain is already live and serving real traffic.
 ## Traction
 - 350,000+ combined followers across social platforms (organic growth)
 - Live product: routing engine deployed and handling real requests
-- [ADD: Monthly active users / signups / waitlist size]
-- [ADD: Any revenue, LOIs, or pilot agreements]
 
 ## Team
 - **Aditya Srivastava** — CTO. 2nd-year B.Tech Information Technology, DTU (Delhi Technological University). 99.59 percentile JEE Main — top 0.4% nationally out of 1.2 million candidates. Previously interned at ArchiGen AI (+25% model convergence, +30% RAG retrieval accuracy). Built hyperspectral image analysis and Android malware detection systems.
-- **[CEO NAME — FILL IN]** — [brief background]
-- [ADD any other team members]
 
-## Why Now
-[ADD 1-2 sentences on market timing — e.g., fragmentation of X market, recent trend Y making aggregation valuable now]
-
-## Ask
-- Accelerator: looking for program support, mentorship, and network to go from live product to growth.
-- Investor: $250k–$500k pre-seed to [specific milestone, e.g., "reach 10k paying users" / "launch in 3 markets"].
-
-## GitHub / Portfolio
-https://github.com/Aditya-Srivastava-01
-
-## Important Notes for Email Writing
+## Notes for Email Writing
 - Sign emails as Aditya Srivastava, CTO of PluginAny.
 - NEVER say "I am passionate about" or "we are disrupting."
-- Lead with the 350k social following — it is the strongest signal.
-- Adapt the ask based on org type: accelerators get a program/application angle; VCs get an investment conversation angle.
+- Lead with the 350k social following — it is the strongest concrete signal.
+- Do NOT mention team size, CEO name, revenue, or milestone targets — these are not shared in cold outreach.
+- The ask is always: we're building something big and would love to connect / explore fit.
+- Adapt the ask tone: accelerators get a program/application angle; VCs/angels get an intro-call angle.
 - Keep body under 120 words.

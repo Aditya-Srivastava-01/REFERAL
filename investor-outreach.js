@@ -1,13 +1,18 @@
 /**
- * investor-outreach.js — daily first-contact sender for investor / accelerator outreach.
+ * investor-outreach.js — daily sender for person-centric investor outreach.
  *
- * Reads "To Contact" rows from the "Outreach" tab of the investors spreadsheet,
- * has Gemini write a personalized PluginAny pitch email, sends it from Gmail,
- * labels it "investor-outreach", and records everything in investor-ledger.json.
+ * Reads "To Contact" rows from the "People" tab (created by discover-investor-people.js),
+ * has Gemini write a personalized pitch that references the partner's specific portfolio
+ * company adjacent to PluginAny, sends via Gmail, and records everything in investor-ledger.json.
+ *
+ * Columns in "People" tab:
+ *   A: Partner Name | B: Email | C: Organization | D: Role
+ *   E: Portfolio Reference | F: Investment Thesis
+ *   G: Status | H: Follow-up Date | I: Next Steps | J: LinkedIn
  *
  * Secrets: GMAIL_CLIENT_ID, GMAIL_CLIENT_SECRET, GMAIL_REFRESH_TOKEN,
  *          GEMINI_API_KEY, YOUR_NAME
- * Settings: investor-outreach-config.json
+ * Settings: investor-outreach-config.json (set dryRun: false when ready)
  */
 
 require("./lib/load-env");
@@ -26,7 +31,7 @@ const config = JSON.parse(
 const CLIENT_ID     = process.env.GMAIL_CLIENT_ID;
 const CLIENT_SECRET = process.env.GMAIL_CLIENT_SECRET;
 const REFRESH_TOKEN = process.env.GMAIL_REFRESH_TOKEN;
-const YOUR_NAME     = process.env.YOUR_NAME || "";
+const YOUR_NAME     = process.env.YOUR_NAME || "Aditya Srivastava";
 
 const DRY_RUN =
   process.env.DRY_RUN != null && process.env.DRY_RUN !== ""
@@ -34,15 +39,11 @@ const DRY_RUN =
     : config.dryRun !== false;
 
 if (!CLIENT_ID || !CLIENT_SECRET || !REFRESH_TOKEN) {
-  console.error("Missing Gmail credentials.");
+  console.error("Missing Gmail credentials. Check GMAIL_CLIENT_ID, GMAIL_CLIENT_SECRET, GMAIL_REFRESH_TOKEN.");
   process.exit(1);
 }
 if (!process.env.GEMINI_API_KEY) {
   console.error("Missing GEMINI_API_KEY.");
-  process.exit(1);
-}
-if (!YOUR_NAME) {
-  console.error("Missing YOUR_NAME env var.");
   process.exit(1);
 }
 
@@ -52,15 +53,8 @@ if (!YOUR_NAME) {
 
 function loadProfile() {
   const p = path.join(ROOT, "investor-profile.md");
-  if (!fs.existsSync(p)) {
-    console.error("investor-profile.md not found.");
-    process.exit(1);
-  }
-  const text = fs.readFileSync(p, "utf8");
-  if (/FILL IN/i.test(text)) {
-    console.warn("Warning: investor-profile.md has unfilled placeholders. Fill them before sending live emails.");
-  }
-  return text;
+  if (!fs.existsSync(p)) { console.error("investor-profile.md not found."); process.exit(1); }
+  return fs.readFileSync(p, "utf8");
 }
 
 // ---------------------------------------------------------------------------
@@ -69,52 +63,50 @@ function loadProfile() {
 
 const LEDGER_PATH = path.join(ROOT, "investor-ledger.json");
 function loadLedger() {
-  return fs.existsSync(LEDGER_PATH)
-    ? JSON.parse(fs.readFileSync(LEDGER_PATH, "utf8"))
-    : [];
+  return fs.existsSync(LEDGER_PATH) ? JSON.parse(fs.readFileSync(LEDGER_PATH, "utf8")) : [];
 }
 function saveLedger(ledger) {
   fs.writeFileSync(LEDGER_PATH, JSON.stringify(ledger, null, 2) + "\n");
 }
 
 // ---------------------------------------------------------------------------
-// Google Sheet: read Outreach tab
+// Google Sheet: read People tab
 // ---------------------------------------------------------------------------
 
-function quoteSheetName(name) {
-  return `'${String(name).replace(/'/g, "''")}'`;
-}
+function quoteSheetName(name) { return `'${String(name).replace(/'/g, "''")}'`; }
 
-async function loadInvestorCandidates(sheets, spreadsheetId, sheetName) {
+async function loadPeopleCandidates(sheets, spreadsheetId, sheetName) {
   const range = `${quoteSheetName(sheetName)}!A1:J`;
   const res = await sheets.spreadsheets.values.get({ spreadsheetId, range });
   const rows = res.data.values || [];
-  if (!rows.length) throw new Error(`"${sheetName}" tab is empty. Run npm run investor:discover first.`);
+  if (!rows.length) throw new Error(`"${sheetName}" tab is empty. Run npm run investor:people first.`);
 
   const headers = rows[0].map((h) => String(h).trim().toLowerCase());
-  const col = (name) => headers.findIndex((h) => h.includes(name.toLowerCase()));
+  const col = (kw) => headers.findIndex((h) => h.includes(kw.toLowerCase()));
 
-  const iName     = col("name");
-  const iEmail    = col("email");
-  const iWebsite  = col("website");
-  const iDesc     = col("description");
-  const iLocation = col("location");
-  const iType     = col("type");
-  const iStatus   = col("status");
+  const iPartner    = col("partner");
+  const iEmail      = col("email");
+  const iOrg        = col("organization");
+  const iRole       = col("role");
+  const iPortfolio  = col("portfolio");
+  const iThesis     = col("investment thesis");
+  const iStatus     = col("status");
+  const iLinkedIn   = col("linkedin");
 
   return rows.slice(1).map((row, offset) => ({
-    name:        (row[iName]     || "").trim(),
-    email:       (row[iEmail]    || "").trim(),
-    website:     (row[iWebsite]  || "").trim(),
-    description: (row[iDesc]     || "").trim(),
-    location:    (row[iLocation] || "").trim(),
-    type:        (row[iType]     || "Accelerator").trim(),
-    status:      (row[iStatus]   || "").trim(),
-    _sheetRow:   offset + 2,
+    partnerName:         (row[iPartner]   || "").trim(),
+    email:               (row[iEmail]     || "").trim(),
+    organization:        (row[iOrg]       || "").trim(),
+    role:                (row[iRole]      || "").trim(),
+    portfolioReference:  (row[iPortfolio] || "").trim(),
+    investmentThesis:    (row[iThesis]    || "").trim(),
+    status:              (row[iStatus]    || "").trim(),
+    linkedin:            (row[iLinkedIn]  || "").trim(),
+    _sheetRow:           offset + 2,
   }));
 }
 
-async function markInvestorSent(sheets, spreadsheetId, sheetName, rowNumber) {
+async function markPersonSent(sheets, spreadsheetId, sheetName, rowNumber) {
   const followUp = new Date();
   followUp.setUTCDate(followUp.getUTCDate() + 7);
   await sheets.spreadsheets.values.update({
@@ -128,78 +120,107 @@ async function markInvestorSent(sheets, spreadsheetId, sheetName, rowNumber) {
 }
 
 // ---------------------------------------------------------------------------
-// Gemini: write the pitch email
+// Gemini: write the personalized pitch email
 // ---------------------------------------------------------------------------
 
-const SYSTEM_PROMPT = `You write cold outreach emails from a startup CTO to an investor or accelerator partner.
+const SYSTEM_PROMPT = `You are writing a cold email from Aditya Srivastava (CTO, PluginAny) to a specific investor partner or GP. This email must be good enough that a YC partner would forward it to a colleague. Not "good for a cold email" — actually good.
 
-GOAL: Get a reply within 48 hours. The reader sees 100+ cold pitches a day. The email must signal: real traction, clear product, strong team, right stage — in 5 seconds of scanning.
+━━━ MENTAL MODEL ━━━
 
-━━━ EXACT STRUCTURE (three paragraphs) ━━━
+The partner reads 200 cold pitches a week. 190 are filtered out in the subject line. Of the 10 they open, 9 die in the first sentence. The one they reply to did three things:
+  (a) Showed it was written for THEM specifically — referenced something they personally backed.
+  (b) Made the product instantly clear — one sentence, zero jargon.
+  (c) Gave them one concrete reason to believe — a real number or a sharp analogy.
 
-1. HOOK (one sentence, first line after greeting):
-   Lead with the strongest concrete signal from the profile. Traction number OR a specific product milestone. Never "I hope this finds you well." Never "I wanted to reach out."
+Write THAT email.
 
-2. PRODUCT + TEAM (two to three sentences):
-   - What PluginAny does in plain English (no buzzwords, one sentence).
-   - What makes it defensible or why the timing is right (one sentence, optional).
-   - Team signal: CTO is DTU engineering student, 99.59 percentile JEE Main — top 0.4% nationally out of 1.2M candidates. Shows technical depth.
+━━━ STRUCTURE (follow exactly) ━━━
 
-3. ASK (one to two sentences):
-   Adapt based on the org type field:
-   - If type contains "Accelerator" → "We'd love to be considered for [Program Name / your next cohort]. Happy to jump on a call."
-   - If type contains "VC" or "Venture" or "Fund" or "Angel" → "Would love a 15-minute intro call to show you what we've built."
-   Never "I know you're busy." Never "at your earliest convenience."
+SUBJECT LINE:
+  If portfolio company is known → "re: [PortfolioCompany] — [one sharp phrase about PluginAny]"
+  If no portfolio company → "[Traction number] + [what we are] — [org name]"
+  Examples of good subjects:
+    "re: Rappi — PluginAny is the routing layer for service discovery"
+    "re: Twilio — same API-layer thesis, plugin ecosystem"
+    "350k followers, live routing engine — PluginAny"
+  Examples of bad subjects (never write these):
+    "Exciting opportunity at PluginAny"
+    "Pre-seed startup looking for investment"
+    "PluginAny — $250k raise"
 
-Sign-off: "Best,\n[Name]\nCTO, PluginAny\n[website if available]"
+PARAGRAPH 1 — THE HOOK (2 sentences max):
+  If portfolio company known:
+    Sentence 1: Name their portfolio company and draw the SPECIFIC analogy to PluginAny.
+    Do NOT just say "you backed X." Say WHY it's relevant: what thesis X and PluginAny share.
+    Example: "You backed Rappi before on-demand aggregation was obvious — PluginAny is building the same intelligent routing layer, but for the fragmented plugin and service ecosystem."
+    Example: "Twilio turned telecom infrastructure into a developer API. PluginAny does that for the plugin and service discovery layer — one integration, every provider."
+  If no portfolio company:
+    Lead with the sharpest traction signal: "350,000 people found PluginAny before we ran a single ad."
 
-━━━ HARD RULES ━━━
+PARAGRAPH 2 — PROOF + TEAM (2–3 sentences):
+  - What PluginAny does: one sentence, plain English. "We aggregate fragmented plugin/service providers into a single discovery, comparison, and real-time routing layer."
+  - One proof point: routing engine is live and serving real traffic.
+  - Team signal — write this EXACTLY, word for word, no paraphrasing:
+    "CTO: top 0.4% JEE nationally — 1 in 1.2 million."
 
-Forbidden (any of these is a failure):
-- "I hope this email finds you well"
-- "I am passionate / excited / thrilled / honored"
-- "disrupting", "game-changing", "revolutionary", "transformative"
-- "I wanted to reach out"
-- "We're a startup that..."
-- "I know you're busy"
-- "at your earliest convenience"
-- Invented metrics or claims not in the profile
+PARAGRAPH 3 — THE ASK (1–2 sentences):
+  Confident, not desperate. Peer-to-peer, not supplicant.
+  For accelerators: "We'd love to be in your next cohort — happy to send a deck or jump on a call."
+  For VCs/GPs/angels: "Would love 15 minutes to show you what we've built."
+  Never mention dollar amounts. Never "I know you're busy." Never "at your convenience."
 
-Content rules:
-- Use ONLY facts from COMPANY PROFILE. Never invent numbers.
-- Body: 80–120 words. Tight. Investors do not read long cold pitches.
-- Plain text only. No bullet points, no markdown, no links in body (except sign-off website).
-- Paragraphs separated by blank lines (\\n\\n). Body MUST contain newline characters.
+SIGN-OFF:
+  Best,
+  Aditya
+  CTO, PluginAny
+  https://pluginany.com
 
-Subject line:
-- 4–7 words. Specific. Put a number or outcome in it.
-- Examples: "350k followers, pre-seed open — PluginAny", "PluginAny routing layer — $250k raise"
+━━━ HARD RULES — ANY VIOLATION IS A FAILURE ━━━
+
+Never write:
+  - "I hope this email finds you well" / "I hope you're doing well"
+  - "I am passionate / excited / thrilled / honored / delighted"
+  - "disrupting" / "game-changing" / "revolutionary" / "transformative" / "next-generation"
+  - "I wanted to reach out" / "I am writing to"
+  - "We're a startup that..." / "We're a pre-seed company..."
+  - "I know you're busy" / "at your earliest convenience" / "whenever you get a chance"
+  - Any invented metric not in the profile
+  - Dollar amounts in the ask
+  - CEO name or other team member names — only Aditya
+
+Quality bar: if you could imagine this in a YC application or a Sequoia cold deck, you're on track. If it sounds like a LinkedIn InMail template, start over.
+
+Total body length: 80–100 words. Every word must earn its place. Investors do not read long cold pitches.
+Plain text only. No markdown, no bullet points, no links in the body (only in sign-off).
+Paragraphs separated by blank lines (\\n\\n). Body MUST contain actual newline characters.
 
 ━━━ LINKEDIN NOTE ━━━
 
 Also write a LinkedIn connection request note:
-- STRICT 280-character limit (count every character including spaces).
-- No greeting (LinkedIn adds "Hi [Name]," automatically).
-- Structure: traction hook → what PluginAny does in one clause → team signal → CTA → name.
-- Direct, not sycophantic. No "your impressive portfolio."
-- Example: "350k followers across socials, building PluginAny — real-time routing for plugin discovery. CTO: top 0.4% JEE (1.2M candidates), DTU. Raising $300k pre-seed. — Aditya"`;
+- STRICT 280-character hard limit (count every character including spaces and punctuation).
+- No greeting — LinkedIn adds "Hi [Name]," automatically.
+- If portfolio company known: open with the parallel — "You backed [X] — PluginAny is the [Y] layer for [Z]."
+- Otherwise: traction number → what we do → team signal → ask.
+- End with "— Aditya"
+- Zero sycophancy. No "your impressive portfolio" or "I've followed your work."
+- Should feel like a smart peer reaching out, not a cold pitch.`;
 
 const EMAIL_SCHEMA = {
   type: SchemaType.OBJECT,
   properties: {
     subject: {
       type: SchemaType.STRING,
-      description: "Email subject line, 4-7 words, concrete with a number or outcome.",
+      description: "Email subject line, 4-7 words, concrete with a number, portfolio name, or outcome.",
     },
     body: {
       type: SchemaType.STRING,
       description:
-        "Plain-text email body, 80-120 words. Greeting on its own line, paragraphs separated by blank lines (\\n\\n), sign-off on its own line. Must contain newline characters — never a single collapsed paragraph.",
+        "Plain-text email body, 80-120 words. Greeting on its own line, paragraphs separated by blank lines (\\n\\n), sign-off on its own line. Must contain newline characters.",
     },
     linkedin_note: {
       type: SchemaType.STRING,
       description:
-        "LinkedIn connection request note. Strict 280-character max. No greeting. Traction hook, what PluginAny does, team signal, CTA, name. Direct and specific.",
+        "LinkedIn connection request note. Strict 280-character max. No greeting. Portfolio reference hook if available, then what PluginAny does, team signal, CTA, sender name.",
     },
   },
   required: ["subject", "body", "linkedin_note"],
@@ -221,27 +242,35 @@ function isTransientLlmError(err) {
   return /\b(429|500|503)\b|overloaded|high demand|temporarily|resource exhausted|ECONNRESET|ETIMEDOUT|fetch failed/i.test(msg);
 }
 
-function sleep(ms) {
-  return new Promise((r) => setTimeout(r, ms));
-}
-
-const LLM_ATTEMPTS = 4;
+function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
 
 async function generateEmail(model, profile, candidate) {
-  const userMessage = `COMPANY PROFILE (the sender — sign as "${YOUR_NAME}", CTO of PluginAny):
+  const portfolioLine = candidate.portfolioReference
+    ? `Portfolio company they personally backed (USE THIS IN THE HOOK): ${candidate.portfolioReference}`
+    : "No portfolio reference found — open with the traction signal: 350k organic followers before a single ad.";
+
+  const thesisLine = candidate.investmentThesis
+    ? `Their investment thesis (use to calibrate angle): ${candidate.investmentThesis}`
+    : "";
+
+  const orgType = candidate.role
+    ? (/(accelerator|program|director|manager)/i.test(candidate.role) ? "Accelerator" : "VC/Angel")
+    : "VC/Angel";
+
+  const userMessage = `COMPANY PROFILE:
 ${profile}
 
-TARGET ORGANIZATION (the recipient):
-Name: ${candidate.name}
-Type: ${candidate.type}
-Location: ${candidate.location}
-Website: ${candidate.website || "unknown"}
-Description: ${candidate.description || "No description available."}
+RECIPIENT:
+Name: ${candidate.partnerName || "Partner"}
+Role: ${candidate.role || "Partner"} at ${candidate.organization}
+${portfolioLine}
+${thesisLine}
+Org type for ask: ${orgType}
 
-Write the outreach email now. Adapt the ask for their type: "${candidate.type}".`;
+Write the email now. Follow the structure and quality bar exactly. The hook must draw a SPECIFIC analogy between their portfolio company and PluginAny — not just name-drop it, but explain WHY the thesis is the same.`;
 
   let lastErr;
-  for (let attempt = 1; attempt <= LLM_ATTEMPTS; attempt++) {
+  for (let attempt = 1; attempt <= 4; attempt++) {
     try {
       const result = await model.generateContent(userMessage);
       const text = result.response.text();
@@ -254,17 +283,14 @@ Write the outreach email now. Adapt the ask for their type: "${candidate.type}".
       email.linkedin_note = (email.linkedin_note || "").trim();
 
       if (!email.body.includes("\n")) throw new Error("body has no paragraph breaks");
-      if (email.linkedin_note.length > 300)
-        email.linkedin_note = email.linkedin_note.slice(0, 297) + "...";
+      if (email.linkedin_note.length > 300) email.linkedin_note = email.linkedin_note.slice(0, 297) + "...";
 
       return email;
     } catch (err) {
       lastErr = err;
-      if (attempt === LLM_ATTEMPTS) break;
+      if (attempt === 4) break;
       const waitMs = isTransientLlmError(err) ? attempt * 10000 : 2000;
-      console.log(
-        `  Gemini attempt ${attempt}/${LLM_ATTEMPTS} failed (${err.message}) — retrying in ${Math.round(waitMs / 1000)}s...`
-      );
+      console.log(`  Gemini attempt ${attempt}/4 failed (${err.message}) — retrying in ${Math.round(waitMs / 1000)}s...`);
       await sleep(waitMs);
     }
   }
@@ -312,10 +338,7 @@ async function ensureLabel(gmail, name) {
 async function main() {
   if (config.weekdaysOnly !== false) {
     const day = new Date().getUTCDay();
-    if (day === 0 || day === 6) {
-      console.log("Weekend — skipping.");
-      return;
-    }
+    if (day === 0 || day === 6) { console.log("Weekend — skipping."); return; }
   }
 
   const profile = loadProfile();
@@ -326,27 +349,24 @@ async function main() {
   const gmail = google.gmail({ version: "v1", auth: oauth2 });
   const sheets = createSheetsClient(oauth2);
 
-  const candidates = await loadInvestorCandidates(
-    sheets,
-    config.sourceSpreadsheetId,
-    config.outreachSheetName
-  );
+  const peopleTab = "People";
+  const candidates = await loadPeopleCandidates(sheets, config.sourceSpreadsheetId, peopleTab);
 
   const contactedEmails = new Set(ledger.map((e) => e.email.toLowerCase()));
   const skip = new Set((config.skipAddresses || []).map((a) => a.toLowerCase()));
 
   const batch = candidates
     .filter((c) => c.email && c.email.includes("@"))
-    .filter((c) => c.status.trim().toLowerCase() === "to contact")
+    .filter((c) => c.status.toLowerCase() === "to contact")
     .filter((c) => !contactedEmails.has(c.email.toLowerCase()))
     .filter((c) => !skip.has(c.email.toLowerCase()))
     .slice(0, config.dailyCap || 10);
 
-  console.log(`Mode: ${DRY_RUN ? "DRY RUN (nothing will be sent)" : "LIVE (emails WILL be sent)"}`);
-  console.log(`Candidates with email: ${candidates.filter((c) => c.email).length} | batch: ${batch.length} (cap ${config.dailyCap})\n`);
+  console.log(`Mode: ${DRY_RUN ? "DRY RUN (nothing will be sent)" : "LIVE — emails WILL be sent"}`);
+  console.log(`Ready to contact: ${batch.length} people (cap ${config.dailyCap})\n`);
 
   if (!batch.length) {
-    console.log("Nothing to send — run investor:discover to find more contacts.");
+    console.log("Nothing to send — run: npm run investor:people");
     return;
   }
 
@@ -361,7 +381,9 @@ async function main() {
   let sent = 0, failed = 0;
 
   for (const candidate of batch) {
-    console.log(`→ ${candidate.name} <${candidate.email}> [${candidate.type}]`);
+    const displayName = candidate.partnerName || "Partner";
+    console.log(`→ ${displayName} <${candidate.email}> @ ${candidate.organization}`);
+    if (candidate.portfolioReference) console.log(`  backed: ${candidate.portfolioReference}`);
 
     let email;
     try {
@@ -375,8 +397,7 @@ async function main() {
     console.log(`  Subject: ${email.subject}`);
     console.log("  " + email.body.split("\n").join("\n  "));
     if (email.linkedin_note) {
-      console.log(`\n  LinkedIn note (${email.linkedin_note.length} chars):`);
-      console.log(`  "${email.linkedin_note}"`);
+      console.log(`\n  LinkedIn note (${email.linkedin_note.length} chars):\n  "${email.linkedin_note}"`);
     }
 
     if (DRY_RUN) {
@@ -386,12 +407,11 @@ async function main() {
     }
 
     try {
-      const raw = buildRawMessage({
-        to: candidate.name ? `"${candidate.name}" <${candidate.email}>` : candidate.email,
-        from: myEmail,
-        subject: email.subject,
-        body: email.body,
-      });
+      const toHeader = candidate.partnerName
+        ? `"${candidate.partnerName}" <${candidate.email}>`
+        : candidate.email;
+
+      const raw = buildRawMessage({ to: toHeader, from: myEmail, subject: email.subject, body: email.body });
       const res = await gmail.users.messages.send({ userId: "me", requestBody: { raw } });
       await gmail.users.messages.modify({
         userId: "me",
@@ -400,9 +420,11 @@ async function main() {
       });
 
       ledger.push({
-        name: candidate.name,
+        partnerName: candidate.partnerName,
         email: candidate.email,
-        type: candidate.type,
+        organization: candidate.organization,
+        role: candidate.role,
+        portfolioReference: candidate.portfolioReference,
         subject: email.subject,
         body: email.body,
         linkedinNote: email.linkedin_note || "",
@@ -415,9 +437,7 @@ async function main() {
 
       if (candidate._sheetRow) {
         try {
-          await markInvestorSent(
-            sheets, config.sourceSpreadsheetId, config.outreachSheetName, candidate._sheetRow
-          );
+          await markPersonSent(sheets, config.sourceSpreadsheetId, peopleTab, candidate._sheetRow);
         } catch (e) {
           console.log(`  Warning: email sent but sheet update failed: ${e.message}`);
         }
@@ -435,10 +455,10 @@ async function main() {
   }
 
   console.log("--- Summary ---");
-  console.log(`${DRY_RUN ? "Would send" : "Sent"}: ${sent} | failed: ${failed} | total ever: ${ledger.length}`);
+  console.log(`${DRY_RUN ? "Would have sent" : "Sent"}: ${sent} | failed: ${failed} | total in ledger: ${ledger.length}`);
 }
 
 main().catch((err) => {
-  console.error("Error:", err.message || err);
+  console.error(err.message || err);
   process.exit(1);
 });

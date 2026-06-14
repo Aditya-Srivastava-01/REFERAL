@@ -100,6 +100,10 @@ const EMAIL_RE = /\b([a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,})\b/g;
 const EMAIL_BLOCK =
   /noreply|no-reply|donotreply|unsubscribe|example\.|sentry\.io|w3\.org|schema\.org|amazonaws|mailchimp|sendgrid|cloudflare|privacy@|legal@|press@|media@|abuse@|postmaster@|webmaster@|security@|support@|wixpress|squarespace|googleapis|github\.com/i;
 
+const EMAIL_BAD_DOMAIN = /\.(svg|png|jpg|jpeg|gif|webp|woff|woff2|ttf|eot|ico|pdf|zip|mp4|mp3)$/i;
+const EMAIL_PLACEHOLDER = /^(user@domain|test@test|example@|admin@example|foo@bar|email@email|johnsmith@|jane\.doe@|john\.doe@|name@|yourname@)/i;
+const EMAIL_GENERIC_DOMAIN = /@(email\.com|domain\.com|test\.com|yoursite\.com|website\.com|company\.com|yourcompany\.com|acme\.com)$/i;
+
 const EMAIL_PRIORITY = [
   "apply@", "hello@", "hi@", "contact@", "team@", "info@",
   "partners@", "investments@", "invest@", "venture@", "fund@",
@@ -107,7 +111,9 @@ const EMAIL_PRIORITY = [
 ];
 
 function extractEmails(html) {
-  return [...new Set((html.match(EMAIL_RE) || []))].filter((e) => !EMAIL_BLOCK.test(e));
+  return [...new Set((html.match(EMAIL_RE) || []))].filter(
+    (e) => !EMAIL_BLOCK.test(e) && !EMAIL_BAD_DOMAIN.test(e) && !EMAIL_PLACEHOLDER.test(e) && !EMAIL_GENERIC_DOMAIN.test(e)
+  );
 }
 
 function rankEmails(emails, orgDomain) {
