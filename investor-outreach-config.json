@@ -11,7 +11,7 @@
   "_sourceSheetNames": "All tabs in the investors spreadsheet to discover contacts from.",
   "outreachSheetName": "Outreach",
   "_outreachSheetName": "Tab created by setup-investor-sheets.js with enriched columns (Email, Status, etc.).",
-  "model": "gemini-2.5-flash",
+  "model": "gemini-2.0-flash",
   "delaySecondsBetweenEmails": 60,
   "_delaySecondsBetweenEmails": "Pause between sends — investor emails need more care than professor ones.",
   "skipAddresses": []
