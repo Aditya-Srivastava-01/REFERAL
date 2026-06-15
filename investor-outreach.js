@@ -15,7 +15,7 @@ require("./lib/load-env");
 const fs = require("fs");
 const path = require("path");
 const { google } = require("googleapis");
-const { GoogleGenerativeAI, SchemaType } = require("@google/generative-ai");
+const Groq = require("groq-sdk");
 const { createSheetsClient } = require("./lib/google-sheets");
 
 const ROOT = __dirname;
@@ -37,8 +37,8 @@ if (!CLIENT_ID || !CLIENT_SECRET || !REFRESH_TOKEN) {
   console.error("Missing Gmail credentials.");
   process.exit(1);
 }
-if (!process.env.GEMINI_API_KEY) {
-  console.error("Missing GEMINI_API_KEY.");
+if (!process.env.GROQ_API_KEY) {
+  console.error("Missing GROQ_API_KEY.");
   process.exit(1);
 }
 
@@ -120,40 +120,15 @@ async function markSent(sheets, spreadsheetId, sheetName, rowNumber, partnerName
 // Gemini: combined research + email in one call
 // ---------------------------------------------------------------------------
 
-const EMAIL_SCHEMA = {
-  type: SchemaType.OBJECT,
-  properties: {
-    partner_name: {
-      type: SchemaType.STRING,
-      description: "Full name of the specific partner/GP/MD you are writing to at this org.",
-    },
-    partner_role: {
-      type: SchemaType.STRING,
-      description: "Their role, e.g. General Partner, Managing Director, Partner, Program Manager.",
-    },
-    portfolio_reference: {
-      type: SchemaType.STRING,
-      description: "One company this partner personally backed that is adjacent to PluginAny (aggregation, marketplace, API infra, routing, developer platform). Include WHY it is adjacent, e.g. 'Rappi — on-demand aggregation over fragmented supply, same routing thesis as PluginAny'. Empty string if none found.",
-    },
-    subject: {
-      type: SchemaType.STRING,
-      description: "Email subject line. If portfolio company known: 're: [Company] — [sharp phrase about PluginAny]'. Otherwise: '[traction number] + what we are'. 4-7 words.",
-    },
-    body: {
-      type: SchemaType.STRING,
-      description: "Plain-text email body, 80-100 words. Hook references their portfolio company with a specific thesis parallel. Paragraphs separated by \\n\\n. Must contain newline characters. Sign off: Best,\\nAditya\\nCTO, PluginAny\\nhttps://pluginany.com",
-    },
-    linkedin_note: {
-      type: SchemaType.STRING,
-      description: "LinkedIn connection request note. Hard 280-char limit. No greeting. If portfolio known: open with the parallel. End with '— Aditya'. No sycophancy.",
-    },
-    skip: {
-      type: SchemaType.BOOLEAN,
-      description: "true ONLY if this org is arts-only, biotech-only, completely unrelated to tech/marketplace/routing startups, or defunct.",
-    },
-  },
-  required: ["partner_name", "subject", "body", "skip"],
-};
+const JSON_SCHEMA = `{
+  "partner_name": "Full name of the specific partner/GP/MD at this org",
+  "partner_role": "Their role e.g. General Partner, Managing Director, Partner",
+  "portfolio_reference": "One company they backed adjacent to PluginAny + why e.g. 'Rappi — on-demand aggregation, same routing thesis'. Empty string if none.",
+  "subject": "Email subject line 4-7 words",
+  "body": "Plain-text email body 80-100 words with \\n\\n between paragraphs",
+  "linkedin_note": "LinkedIn note max 280 chars, no greeting, end with — Aditya",
+  "skip": false
+}`;
 
 const SYSTEM_PROMPT = `You are writing investor outreach for Aditya Srivastava (CTO, PluginAny). For each org, you will:
 1. Identify the single most relevant partner/GP at the org — the one whose personal investment history best overlaps with aggregation, marketplace infrastructure, API layers, routing, or developer platforms.
@@ -176,15 +151,8 @@ FORBIDDEN: "I hope this finds you well", "passionate/excited/thrilled", "disrupt
 
 If the org is clearly irrelevant (arts, biotech-only, non-tech nonprofit), set skip=true and leave email fields empty.`;
 
-function buildModel(genAI) {
-  return genAI.getGenerativeModel({
-    model: config.model || "gemini-2.0-flash",
-    systemInstruction: SYSTEM_PROMPT,
-    generationConfig: {
-      responseMimeType: "application/json",
-      responseSchema: EMAIL_SCHEMA,
-    },
-  });
+function buildClient() {
+  return new Groq({ apiKey: process.env.GROQ_API_KEY });
 }
 
 function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
@@ -193,8 +161,8 @@ function isTransient(err) {
   return /429|500|503|overloaded|quota|resource exhausted|ECONNRESET|ETIMEDOUT/i.test(String(err?.message || err));
 }
 
-async function researchAndWrite(model, profile, org) {
-  const prompt = `COMPANY PROFILE (sender):
+async function researchAndWrite(client, profile, org) {
+  const userPrompt = `COMPANY PROFILE (sender):
 ${profile}
 
 TARGET ORG:
@@ -203,13 +171,23 @@ Type: ${org.type}
 Website: ${org.website || "unknown"}
 Description: ${(org.description || "").slice(0, 300)}
 
-Research the most relevant partner at this org and write the personalized email now.`;
+Research the most relevant partner at this org and write the personalized email now.
+Respond with ONLY a JSON object matching this shape:
+${JSON_SCHEMA}`;
 
   for (let attempt = 1; attempt <= 4; attempt++) {
     try {
-      const result = await model.generateContent(prompt);
-      const data = JSON.parse(result.response.text());
+      const completion = await client.chat.completions.create({
+        model: "llama-3.3-70b-versatile",
+        response_format: { type: "json_object" },
+        messages: [
+          { role: "system", content: SYSTEM_PROMPT },
+          { role: "user", content: userPrompt },
+        ],
+        temperature: 0.7,
+      });
 
+      const data = JSON.parse(completion.choices[0].message.content);
       if (data.body) {
         data.body = data.body.replace(/\r\n/g, "\n").trim();
         if (!data.body.includes("\n")) throw new Error("body missing paragraph breaks");
@@ -220,8 +198,8 @@ Research the most relevant partner at this org and write the personalized email 
       return data;
     } catch (err) {
       if (attempt === 4) throw err;
-      const wait = isTransient(err) ? attempt * 15000 : 3000;
-      console.log(`  Gemini attempt ${attempt}/4 failed (${err.message}) — retrying in ${Math.round(wait / 1000)}s`);
+      const wait = isTransient(err) ? attempt * 10000 : 3000;
+      console.log(`  Groq attempt ${attempt}/4 failed (${err.message}) — retrying in ${Math.round(wait / 1000)}s`);
       await sleep(wait);
     }
   }
@@ -297,8 +275,8 @@ async function main() {
   const myEmail = profileRes.data.emailAddress;
   console.log(`Signed in as ${myEmail}\n`);
 
-  const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-  const model = buildModel(genAI);
+  const groq = buildClient();
+  const model = groq;
   const labelId = DRY_RUN ? null : await ensureLabel(gmail, config.gmailLabel || "investor-outreach");
 
   let sent = 0, skipped = 0, failed = 0;

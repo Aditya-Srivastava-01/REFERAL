@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
-    "googleapis": "^140.0.0"
+    "googleapis": "^140.0.0",
+    "groq-sdk": "^1.2.1"
   }
 }
