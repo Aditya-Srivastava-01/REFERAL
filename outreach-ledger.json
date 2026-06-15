@@ -45,7 +45,9 @@
     ],
     "sentAt": "2026-06-12T13:04:53.545Z",
     "messageId": "19ebbef667ac2c1a",
-    "threadId": "19ebbef667ac2c1a"
+    "threadId": "19ebbef667ac2c1a",
+    "replied": true,
+    "repliedAt": "2026-06-15T12:40:15.113Z"
   },
   {
     "name": "Mohit Bansal",
