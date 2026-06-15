@@ -19,7 +19,7 @@ require("./lib/load-env");
 const fs = require("fs");
 const path = require("path");
 const { google } = require("googleapis");
-const { GoogleGenerativeAI, SchemaType } = require("@google/generative-ai");
+const Groq = require("groq-sdk");
 const { parseCsv } = require("./lib/csv");
 const { fetchJson, sleep, normalizeAscii } = require("./lib/web");
 const {
@@ -56,11 +56,8 @@ if (!CLIENT_ID || !CLIENT_SECRET || !REFRESH_TOKEN) {
   console.error("Missing Gmail credentials (GMAIL_CLIENT_ID / GMAIL_CLIENT_SECRET / GMAIL_REFRESH_TOKEN).");
   process.exit(1);
 }
-if (!process.env.GEMINI_API_KEY) {
-  console.error(
-    "Missing GEMINI_API_KEY (needed to write the personalized emails).\n" +
-      "Get a free key at https://aistudio.google.com/apikey (no credit card needed)."
-  );
+if (!process.env.GROQ_API_KEY) {
+  console.error("Missing GROQ_API_KEY. Get a free key at https://console.groq.com");
   process.exit(1);
 }
 if (!YOUR_NAME) {
@@ -254,41 +251,10 @@ Also write a LinkedIn connection request note. Hard rules:
 
 
 
-// Gemini structured-output schema — guarantees parseable JSON every time.
-const EMAIL_SCHEMA = {
-  type: SchemaType.OBJECT,
-  properties: {
-    subject: {
-      type: SchemaType.STRING,
-      description: "Email subject line, 5-9 words.",
-    },
-    body: {
-      type: SchemaType.STRING,
-      description:
-        "Plain-text email body, 110-170 words. Greeting on its own line, paragraphs separated by blank lines (\\n\\n), sign-off on its own line at the end. Must contain newline characters — never a single collapsed paragraph.",
-    },
-    linkedin_note: {
-      type: SchemaType.STRING,
-      description:
-        "LinkedIn connection request note. Strict 280-character maximum (count every character). No greeting. One sentence referencing the email sent, one sentence with the research hook and a concrete result, end with student name. Direct and specific.",
-    },
-  },
-  required: ["subject", "body", "linkedin_note"],
-};
-
-function buildGeminiModel(genAI) {
-  return genAI.getGenerativeModel({
-    model: config.model || "gemini-2.0-flash",
-    systemInstruction: SYSTEM_PROMPT,
-    generationConfig: {
-      responseMimeType: "application/json",
-      responseSchema: EMAIL_SCHEMA,
-    },
-  });
+function buildGroqClient() {
+  return new Groq({ apiKey: process.env.GROQ_API_KEY });
 }
 
-// Transient Gemini failures (the free tier throws 503 "high demand" regularly)
-// deserve a longer backoff than formatting slips, which a fresh sample usually fixes.
 function isTransientLlmError(err) {
   const msg = String((err && err.message) || err);
   return /\b(429|500|503)\b|overloaded|high demand|temporarily|resource exhausted|ECONNRESET|ETIMEDOUT|fetch failed/i.test(msg);
@@ -317,19 +283,24 @@ Write the outreach email now.`;
   let lastErr;
   for (let attempt = 1; attempt <= LLM_ATTEMPTS; attempt++) {
     try {
-      const result = await model.generateContent(userMessage);
-      const text = result.response.text();
-      if (!text) throw new Error("empty response (likely blocked by Gemini safety filter)");
+      const completion = await model.chat.completions.create({
+        model: "llama-3.3-70b-versatile",
+        response_format: { type: "json_object" },
+        messages: [
+          { role: "system", content: SYSTEM_PROMPT },
+          { role: "user", content: userMessage + "\n\nRespond with JSON: {\"subject\": \"...\", \"body\": \"...\", \"linkedin_note\": \"...\"}" },
+        ],
+        temperature: 0.7,
+      });
+      const text = completion.choices[0].message.content;
+      if (!text) throw new Error("empty response");
       const email = JSON.parse(text);
       if (!email.subject || !email.body) throw new Error("incomplete email JSON");
 
       email.subject = email.subject.trim();
       email.body = email.body.replace(/\r\n/g, "\n").trim();
       email.linkedin_note = (email.linkedin_note || "").trim();
-      // Gemini structured output sometimes strips ALL whitespace formatting from
-      // JSON strings — that email would arrive as one unreadable wall of text.
       if (!email.body.includes("\n")) throw new Error("body has no paragraph breaks");
-      // Trim LinkedIn note to hard limit if Gemini overruns.
       if (email.linkedin_note.length > 300) email.linkedin_note = email.linkedin_note.slice(0, 297) + "...";
 
       return email;
@@ -338,7 +309,7 @@ Write the outreach email now.`;
       if (attempt === LLM_ATTEMPTS) break;
       const waitMs = isTransientLlmError(err) ? attempt * 10000 : 2000;
       console.log(
-        `  Gemini attempt ${attempt}/${LLM_ATTEMPTS} failed (${err.message}) — retrying in ${Math.round(waitMs / 1000)}s...`
+        `  Groq attempt ${attempt}/${LLM_ATTEMPTS} failed (${err.message}) — retrying in ${Math.round(waitMs / 1000)}s...`
       );
       await sleep(waitMs);
     }
@@ -466,8 +437,7 @@ async function main() {
   const myEmail = profileRes.data.emailAddress.toLowerCase();
   console.log(`Signed in as ${myEmail}\n`);
 
-  const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
-  const llm = buildGeminiModel(genAI);
+  const llm = buildGroqClient();
   const labelId = DRY_RUN ? null : await ensureLabel(gmail, config.gmailLabel || "outreach");
 
   let sent = 0;
