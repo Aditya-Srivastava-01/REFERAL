@@ -31,7 +31,7 @@ const PEOPLE_HEADERS = [
   "Status", "Follow-up Date", "Next Steps", "LinkedIn",
 ];
 
-const CONCURRENCY = 4;
+const CONCURRENCY = 2; // free tier: 15 RPM — 2 concurrent × ~6s each ≈ 12 RPM
 
 function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
 
@@ -58,7 +58,6 @@ const DISCOVERY_SCHEMA = {
 function buildDiscoveryModel(genAI) {
   return genAI.getGenerativeModel({
     model: "gemini-2.0-flash",
-    tools: [{ googleSearch: {} }],
     generationConfig: {
       responseMimeType: "application/json",
       responseSchema: DISCOVERY_SCHEMA,
@@ -285,7 +284,7 @@ async function main() {
       await appendRows(sheets, spreadsheetId, peopleTab, buffer.splice(0));
     }
 
-    await sleep(800);
+    await sleep(5000); // pace to ~12 RPM — safely under free tier 15 RPM limit
   }
 
   if (buffer.length) await appendRows(sheets, spreadsheetId, peopleTab, buffer);

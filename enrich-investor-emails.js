@@ -61,10 +61,8 @@ function extractBestEmail(text) {
 // ---------------------------------------------------------------------------
 
 function buildGeminiSearchModel(genAI) {
-  // gemini-2.0-flash supports Google Search grounding
   return genAI.getGenerativeModel({
     model: "gemini-2.0-flash",
-    tools: [{ googleSearch: {} }],
   });
 }
 
