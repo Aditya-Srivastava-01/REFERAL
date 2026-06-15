@@ -1,48 +1,17 @@
 name: investor-people-discovery
-
-# Discovers specific partners/GPs at each investor org using Gemini + Google Search.
-# Runs daily overnight to progressively build the People tab without a local terminal.
+# DISABLED — discovery is now done inline in investor-outreach.js (one Gemini call per email sent)
+# This avoids the 2842-call bulk Gemini quota issue on the free tier.
 on:
-  schedule:
-    - cron: "0 2 * * 1-5" # 02:00 UTC weekdays (7:30 AM IST — runs while you sleep)
-  workflow_dispatch: {}
-
-permissions:
-  contents: write
-
-concurrency:
-  group: investor-people-discovery
-  cancel-in-progress: false
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: "Type YES to run (disabled by default)"
+        required: true
+        default: "NO"
 
 jobs:
-  discover:
+  disabled:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    if: ${{ github.event.inputs.confirm == 'YES' }}
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "24"
-
-      - name: Install dependencies
-        run: npm install --no-audit --no-fund
-
-      - name: Discover investor contacts (people)
-        env:
-          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
-          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
-          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: node discover-investor-people.js
-
-      - name: Commit progress
-        if: always()
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A
-          if ! git diff --cached --quiet; then
-            git commit -m "investor-people: discovery progress"
-            git push
-          fi
+      - run: echo "Manually enabled — but this workflow is deprecated. Use investor-outreach instead."

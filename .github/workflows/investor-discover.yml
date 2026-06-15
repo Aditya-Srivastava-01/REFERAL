@@ -1,0 +1,48 @@
+name: investor-discover
+
+# Crawls investor org websites to find contact emails — no Gemini, completely free.
+# Runs nightly to progressively fill the "Outreach" tab (skips already-found orgs).
+# Once Outreach tab is full, investor-outreach sends 10 personalized emails/day.
+on:
+  schedule:
+    - cron: "0 1 * * 1-5" # 01:00 UTC weekdays (6:30 AM IST)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: investor-discover
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Discover investor contacts (web crawl)
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+        run: node discover-investor-contacts.js
+
+      - name: Commit progress
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if ! git diff --cached --quiet; then
+            git commit -m "investor-discover: contact discovery progress"
+            git push
+          fi
