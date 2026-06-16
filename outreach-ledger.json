@@ -80,5 +80,314 @@
     "sentAt": "2026-06-12T13:07:20.924Z",
     "messageId": "19ebbf1a712ec5f2",
     "threadId": "19ebbf1a712ec5f2"
+  },
+  {
+    "name": "Angela Yao",
+    "affiliation": "National University of Singapore",
+    "email": "ayao@comp.nus.edu.sg",
+    "subject": "Self-Supervised Learning Research — Contribution Opportunity",
+    "body": "Dear Professor Yao,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, India, with a 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide.\n\n\n\nYour paper, 'High-Resolution Be Aware: Improving Self-Supervised Real-World Super-Resolution', technically improves self-supervised real-world super-resolution through high-resolution awareness, which connects to my work on building a Masked Autoencoder for hyperspectral imagery to learn transferable spatial-spectral representations, where I improved downstream land-cover classification separability by 20%.\n\n\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\n\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.",
+    "papersReferenced": [
+      "High-Resolution Be Aware: Improving Self-Supervised Real-World Super-Resolution",
+      "Improving Semantic Uncertainty Quantification in LVLMs with Semantic Gaussian Processes",
+      "Scene-Text Grounding for Text-Based Video Question Answering",
+      "AnchorDS: Anchoring Dynamic Sources for Semantically Consistent Text-to-3D Generation"
+    ],
+    "linkedinNote": "I just emailed you about your work on self-supervised learning. My hyperspectral MAE project achieved 20% improved land-cover classification, which connects directly. Top 0.4% JEE Main (1.2M candidates). — Aditya",
+    "sentAt": "2026-06-16T18:18:07.293Z",
+    "messageId": "19ed1a7aae995da7",
+    "threadId": "19ed1a7aae995da7"
+  },
+  {
+    "name": "Yejin Choi 0001",
+    "affiliation": "Stanford University",
+    "email": "yejinc@stanford.edu",
+    "subject": "Multimodal Reasoning Research — Contribution Opportunity",
+    "body": "Dear Professor Yejin Choi,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University (DTU), India, with a 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide.\n\n\n\nYour paper on \"ThinkMorph: Emergent Properties in Multimodal Interleaved Chain-of-Thought Reasoning\" explores the concept of multimodal reasoning by generating progressive text-image reasoning steps. This resonates with my work on building RAG pipelines, which improved AI response accuracy by 30% through enhanced text-image reasoning.\n\n\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research in multimodal reasoning and its applications.\n\n\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.\n\nBest,\nAditya Srivastava",
+    "papersReferenced": [
+      "Long Grounded Thoughts: Synthesizing Visual Problems and Reasoning Chains at Scale",
+      "ThinkMorph: Emergent Properties in Multimodal Interleaved Chain-of-Thought Reasoning",
+      "DLER: Doing Length pEnalty Right - Incentivizing More Intelligence per Token via Reinforcement Learning",
+      "BroRL: Scaling Reinforcement Learning via Broadened Exploration"
+    ],
+    "linkedinNote": "I just emailed you about your work on ThinkMorph. My RAG pipeline project achieved 30% improved AI response accuracy, directly connecting to your multimodal reasoning work. Top 0.4% JEE Main (1.2M candidates). — Aditya",
+    "sentAt": "2026-06-16T18:18:50.943Z",
+    "messageId": "19ed1a855061c1ce",
+    "threadId": "19ed1a855061c1ce"
+  },
+  {
+    "name": "Sung Ju Hwang",
+    "affiliation": "KAIST",
+    "email": "sungju.hwang@kaist.ac.kr",
+    "subject": "Contribution Opportunity in Multimodal Learning Research",
+    "body": "Dear Professor Hwang,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, 99.59 percentile JEE Main.\n\nYour research area in multimodal learning aligns with my project on building a Retrieval-Augmented Generation pipeline, which improved AI response accuracy by 30%. I was particularly drawn to the potential applications of foundation models in this space.\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.",
+    "papersReferenced": [],
+    "linkedinNote": "I just emailed you about your work on multimodal learning. My RAG pipeline achieved 30% improved response accuracy, which connects directly. Top 0.4% JEE Main — Aditya",
+    "sentAt": "2026-06-16T18:19:39.537Z",
+    "messageId": "19ed1a913483e9a2",
+    "threadId": "19ed1a913483e9a2"
+  },
+  {
+    "name": "Tianzhu Zhang 0001",
+    "affiliation": "USTC",
+    "email": "tzzhang@ustc.edu.cn",
+    "subject": "Computer Vision Research — Contribution Opportunity",
+    "body": "Dear Professor Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, top 0.4% nationally in JEE Main.\n\n\n\nYour research area in computer vision aligns with my interests in applying machine learning to real-world systems, particularly in hyperspectral and remote sensing. My project on a Hyperspectral Foundation Model, where I built a Masked Autoencoder (MAE) for hyperspectral imagery, shares similar technical aspects with potential applications in computer vision. \n\n\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\n\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.\nBest,\nAditya Srivastava",
+    "papersReferenced": [],
+    "linkedinNote": "I just emailed you about computer vision. My Hyperspectral MAE project achieved 20% improved land-cover classification. Top 0.4% JEE Main. — Aditya",
+    "sentAt": "2026-06-16T18:20:35.228Z",
+    "messageId": "19ed1a9ec19fbe0c",
+    "threadId": "19ed1a9ec19fbe0c"
+  },
+  {
+    "name": "Ping Luo 0002",
+    "affiliation": "University of Hong Kong",
+    "email": "pluo@cs.hku.hk",
+    "subject": "Representation Learning Research — Contribution Opportunity",
+    "body": "Dear Professor Luo,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide.\n\nYour paper, \"FedMGKD: a multi-granularity trusted knowledge distillation framework for edge personalized federated learning\", technically aligns intermediate representations between student and teacher models across multiple layers to capture richer shared semantics. This resonates with my work on building large-scale data preprocessing pipelines for enterprise AI systems and designing RAG pipelines that improved AI response accuracy by 30%.\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.",
+    "papersReferenced": [
+      "FedMGKD: a multi-granularity trusted knowledge distillation framework for edge personalized federated learning",
+      "Chinese Discharge Drug Recommendation in Metabolic Diseases with Large Language Models",
+      "Research on unified chaotic system with rich dynamic behaviors and image encryption method",
+      "Diffusion-Driven Dual-Level Denoising: Identifying and Mitigating Noisy Implicit Feedback for Knowledge Tracing"
+    ],
+    "linkedinNote": "I just emailed you about your work on representation learning. My RAG pipeline project achieved 30% improved AI response accuracy, which connects directly. Top 0.4% JEE Main (1.2M candidates). — Aditya",
+    "sentAt": "2026-06-16T18:21:19.003Z",
+    "messageId": "19ed1aa97fe60861",
+    "threadId": "19ed1aa97fe60861"
+  },
+  {
+    "name": "Qingming Huang",
+    "affiliation": "Chinese Academy of Sciences",
+    "email": "qmhuang@gucas.ac.cn",
+    "subject": "Multimodal Learning Research — Contribution Opportunity",
+    "body": "Dear Professor Huang,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, securing 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide.\n\n \nThe paper \"SHARP: Semantic Head-Aware Representation Pruning for Efficient MLLMs\" technically employs a pruning framework to reduce inference costs in multimodal large language models. This connects to my work on building RAG pipelines that improved AI response accuracy by 30%, where optimizing model efficiency is crucial for real-world applications.\n\n \nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\n \nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.\n\nBest,\nAditya Srivastava",
+    "papersReferenced": [
+      "SHARP: Semantic Head-Aware Representation Pruning for Efficient MLLMs",
+      "SANR: Scene-Aware Neural Representation for Light Field Image Compression with Rate-Distortion Optimization",
+      "Cost-Aware AUC Optimization via Adaptive Kernel Density Estimation",
+      "Quantifying the Potential to Escape Filter Bubbles: A Behavior-Aware Measure via Contrastive Simulation"
+    ],
+    "linkedinNote": "I just emailed you about your work on multimodal learning. My RAG pipeline project achieved 30% improved AI response accuracy, which connects directly. Top 0.4% JEE Main (1.2M candidates). — Aditya",
+    "sentAt": "2026-06-16T18:22:21.759Z",
+    "messageId": "19ed1ab8c357cb95",
+    "threadId": "19ed1ab8c357cb95"
+  },
+  {
+    "name": "Bo Du 0001",
+    "affiliation": "Wuhan University",
+    "email": "dubo@whu.edu.cn",
+    "subject": "Few-Shot Classification Research — Contribution Opportunity",
+    "body": "Dear Professor Bo Du,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide.\n\nYour paper, \"Prototype Completion With Knowledge Distillation and Gate Recurrent Unit for Few-Shot Classification\", proposes a Knowledge Distillation and GRU-based Prototype Completion Network to alleviate the problem of biased prototypes in few-shot learning, which technically utilizes a background discrimination pre-training module to obtain more accurate prototypes. This connects to my work on building RAG pipelines that improved AI response accuracy by 30%, where I applied similar concepts of knowledge distillation to enhance model performance. \n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.\n\nBest,\nAditya Srivastava",
+    "papersReferenced": [
+      "Prototype Completion With Knowledge Distillation and Gate Recurrent Unit for Few-Shot Classification",
+      "Short-term trajectory prediction for individual metro passengers based on multi-level periodicity mining from semantic trajectory"
+    ],
+    "linkedinNote": "I just emailed you about your work on few-shot classification. My RAG pipeline achieved 30% improved AI response accuracy, which connects directly. Top 0.4% JEE Main (1.2M candidates). — Aditya",
+    "sentAt": "2026-06-16T18:23:02.114Z",
+    "messageId": "19ed1ac2afc5729e",
+    "threadId": "19ed1ac2afc5729e"
+  },
+  {
+    "name": "Benjamin Van Durme",
+    "affiliation": "Johns Hopkins University",
+    "email": "vandurme@jhu.edu",
+    "subject": "Multimodal Learning Research — Contribution Opportunity",
+    "body": "Dear Professor Van Durme,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, India, with a 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide.\n\n\n\nYour paper on \"Synthetic Function Demonstrations Improve Generation in Low-Resource Programming Languages\" generates synthetic, textbook-quality demonstrations of how to use library functions for low-resource programming languages, which improves student model performance. This connects to my work on building RAG pipelines that improved AI response accuracy by 30% through optimized design and feature engineering.\n\n\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\n\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.\nBest,\nAditya Srivastava",
+    "papersReferenced": [
+      "Synthetic Function Demonstrations Improve Generation in Low-Resource Programming Languages",
+      "SocialNLI: A Dialogue-Centric Social Inference Dataset",
+      "SEQR: Secure and Efficient QR-based LoRA Routing",
+      "mmBERT: A Modern Multilingual Encoder with Annealed Language Learning"
+    ],
+    "linkedinNote": "I just emailed you about your work on synthetic function demonstrations. My RAG pipeline achieved 30% improved AI response accuracy, which connects directly. Top 0.4% JEE Main. — Aditya Srivastava",
+    "sentAt": "2026-06-16T18:24:06.545Z",
+    "messageId": "19ed1ad27cb89e57",
+    "threadId": "19ed1ad27cb89e57"
+  },
+  {
+    "name": "Jicong Fan 0001",
+    "affiliation": "CUHK (SZ)",
+    "email": "fanjicong@cuhk.edu.cn",
+    "subject": "Contribution Opportunity in Multimodal Learning",
+    "body": "Dear Professor Fan,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, 99.59 percentile JEE Main.\n\nGiven your work in multimodal learning, I was drawn to the potential applications of self-supervised learning in real-world systems. My experience in building RAG pipelines that improved AI response accuracy by 30% could be relevant to your research. \n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.",
+    "papersReferenced": [],
+    "linkedinNote": "I just emailed you about multimodal learning. My RAG pipeline achieved 30% improved AI response accuracy. Top 0.4% JEE Main (1.2M candidates). — Aditya",
+    "sentAt": "2026-06-16T18:25:09.726Z",
+    "messageId": "19ed1ae1c7422884",
+    "threadId": "19ed1ae1c7422884"
+  },
+  {
+    "name": "Qi Liu 0003",
+    "affiliation": "USTC",
+    "email": "qiliuql@ustc.edu.cn",
+    "subject": "Contribution Opportunity in Multimodal Learning Research",
+    "body": "Dear Professor Qi Liu 0003,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, top 0.4% nationally with a 99.59 percentile in JEE Main.\n\nYour research area in multimodal learning aligns with my interests in foundation models and retrieval-augmented generation. My work on building RAG pipelines, which improved AI response accuracy by 30%, has given me a deeper understanding of the technical challenges in this field. I am excited to explore how my skills can contribute to ongoing research in this area.\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.\nBest,\nAditya Srivastava",
+    "papersReferenced": [],
+    "linkedinNote": "I just emailed you about multimodal learning. My RAG pipeline achieved 30% better AI response accuracy. Top 0.4% JEE Main. — Aditya",
+    "sentAt": "2026-06-16T18:25:58.189Z",
+    "messageId": "19ed1aedb6117084",
+    "threadId": "19ed1aedb6117084"
+  },
+  {
+    "name": "Jason D. Lee",
+    "affiliation": "Univ. of California - Berkeley",
+    "email": "jasond+mylastname@berkeley.edu",
+    "subject": "Cybersecurity Research — Contribution Opportunity",
+    "body": "Dear Professor Lee,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University (DTU), India, secured 99.59 percentile in JEE Main.\n\n\n\nYour paper on 'Introducing and Interfacing with Cybersecurity - A Cards Approach' technically explores a novel approach to cybersecurity, which connects to my project on building an Android Malware Detection Pipeline, where I achieved 90.8% malicious recall using threshold calibration and class imbalance correction.\n\n\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\n\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.\nBest,\nAditya Srivastava",
+    "papersReferenced": [
+      "Introducing and Interfacing with Cybersecurity - A Cards Approach",
+      "Towards Adversarial Policy Discovery via Evolutionary Program Synthesis",
+      "Optimized Month-Ahead Forecasting of Solar Irradiation: A Comparative Analysis of Machine Learning Algorithms",
+      "What is the patient re-identification risk from using de-identified clinical free text data for health research?"
+    ],
+    "linkedinNote": "I just emailed you about your work on cybersecurity. My Android Malware Detection Pipeline achieved 90.8% malicious recall. Top 0.4% JEE Main. — Aditya Srivastava",
+    "sentAt": "2026-06-16T18:26:40.771Z",
+    "messageId": "19ed1af81ce95d70",
+    "threadId": "19ed1af81ce95d70"
+  },
+  {
+    "name": "Jiajun Wu 0001",
+    "affiliation": "Stanford University",
+    "email": "jiajunwu@cs.stanford.edu",
+    "subject": "Computer Vision Research — Contribution Opportunity",
+    "body": "Dear Professor Wu,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, 99.59 percentile in JEE Main, top 0.4% among more than one million candidates nationwide.\n\nYour paper, 'Seeing the Wind from a Falling Leaf', which models motions from videos and recovers invisible forces from visual observations, is particularly interesting to me. This work technically involves an end-to-end differentiable inverse graphics framework to jointly model object geometry, physical properties, and interactions directly from videos. My project on building a Masked Autoencoder (MAE) for hyperspectral imagery to learn transferable spatial-spectral representations shares a connection with your work, as both deal with learning representations from visual data.\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.\n   \nBest,\nAditya Srivastava",
+    "papersReferenced": [
+      "2019 AAAI/ACM SIGAI Dissertation Award Winner - Jiajun Wu",
+      "Seeing the Wind from a Falling Leaf",
+      "Unsupervised cross-domain pedestrian re-identification via squeeze-excitation attention and latent feature mining",
+      "Rotate Both Ways: Time-and-Order RoPE for Generative Recommendation"
+    ],
+    "linkedinNote": "I just emailed you about your work on computer vision. My hyperspectral MAE project achieved 20% improved land-cover classification separability, which connects directly. Top 0.4% JEE Main (1.2M candidates). — Aditya",
+    "sentAt": "2026-06-16T18:27:37.188Z",
+    "messageId": "19ed1b05d50638e6",
+    "threadId": "19ed1b05d50638e6"
+  },
+  {
+    "name": "Mingli Song",
+    "affiliation": "Zhejiang University",
+    "email": "songml@zju.edu.cn",
+    "subject": "Transformer Noise Analysis Research — Contribution Opportunity",
+    "body": "Dear Professor Song,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, 99.59 percentile JEE Main.\n\nYour paper on \"Vibration Noise Analysis and Noise Reduction Techniques for Large-Capacity Medium-Frequency Transformers\" technically analyzes the mechanism of transformer noise generation. This connects to my work on building large-scale data preprocessing pipelines, where I optimized model training convergence time by 25% through batching and feature engineering, which could be applied to simulation models for transformer noise reduction.\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.",
+    "papersReferenced": [
+      "Vibration Noise Analysis and Noise Reduction Techniques for Large-Capacity Medium-Frequency Transformers"
+    ],
+    "linkedinNote": "I just emailed you about your work on transformer noise analysis. My data preprocessing pipelines achieved 25% faster model training, which could apply to your simulation models. Top 0.4% JEE Main (1.2M candidates). — Aditya",
+    "sentAt": "2026-06-16T18:28:21.314Z",
+    "messageId": "19ed1b109f3ed711",
+    "threadId": "19ed1b109f3ed711"
+  },
+  {
+    "name": "Wenguan Wang",
+    "affiliation": "Zhejiang University",
+    "email": "wenguanwang@zju.edu.cn",
+    "subject": "PDPMamba Research — Contribution Opportunity",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University (DTU), India, with a 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide.\n\n\n\n\nYour paper, 'PDPMamba: Potential Panoptic Driving Perception via Multi-Task Visual Mamba', employs a framework with an encoder shared by three decoders, using multi-scale visual Mamba to extract feature information. My project on building a Hyperspectral Foundation Model using a Masked Autoencoder (MAE) for hyperspectral imagery shares a similar technical goal of learning transferable spatial-spectral representations, which could potentially be applied to improve the feature extraction capabilities in PDPMamba.\n\n\n\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research, applying machine learning to real problems in your group.\n\n\n\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.\nBest,\nAditya Srivastava",
+    "papersReferenced": [
+      "PDPMamba: Potential Panoptic Driving Perception via Multi-Task Visual Mamba",
+      "Breaking Information Isolation: Accelerating MRI via Inter-sequence Mapping and Progressive Masking",
+      "Microstrip isoelectric focusing with deep learning for simultaneous screening of diabetes, anemia, and thalassemia"
+    ],
+    "linkedinNote": "I just emailed you about your work on PDPMamba. My Hyperspectral MAE project learned transferable spatial-spectral representations. Top 0.4% JEE Main (1.2M candidates). — Aditya",
+    "sentAt": "2026-06-16T18:29:26.087Z",
+    "messageId": "19ed1b2078cc7b9f",
+    "threadId": "19ed1b2078cc7b9f"
+  },
+  {
+    "name": "Zhiyuan Liu 0001",
+    "affiliation": "Tsinghua University",
+    "email": "liuzy@tsinghua.edu.cn",
+    "subject": "LLM Serving Research — Contribution Opportunity",
+    "body": "Dear Professor Liu,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University (DTU), India, with a 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide.\n\n\n\nYour paper on \"semi-PD: Towards Efficient LLM Serving via Phase-Wise Disaggregated Computation and Unified Storage\" implements phase-wise computation to optimize LLM serving. My work on building RAG pipelines, which improved AI response accuracy by 30%, shares similar goals of optimizing model performance. \n\n\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\n\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.\n\nBest,\nAditya Srivastava",
+    "papersReferenced": [
+      "Secure and Private Recommendation based on Federated Graph Neural Network",
+      "Fault Knowledge Graph Construction Method for Hydraulic Turbine Speed Control System Based on BERTWWM-BiLSTM-MHA-CRF Model",
+      "Multifunctional neuromorphic optoelectronic computing using all 2D floating-gate transistors",
+      "semi-PD: Towards Efficient LLM Serving via Phase-Wise Disaggregated Computation and Unified Storage"
+    ],
+    "linkedinNote": "I just emailed you about your work on LLM serving. My RAG pipeline project achieved 30% improved AI response accuracy, which connects directly. Top 0.4% JEE Main (1.2M candidates). — Aditya",
+    "sentAt": "2026-06-16T18:30:08.946Z",
+    "messageId": "19ed1b2aff41852a",
+    "threadId": "19ed1b2aff41852a"
+  },
+  {
+    "name": "Yang Liu 0018",
+    "affiliation": "Univ. of California - Santa Cruz",
+    "email": "yangliu@ucsc.edu",
+    "subject": "Secure Recommendation Systems Research — Contribution Opportunity",
+    "body": "Dear Professor Yang Liu 0018,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, India, securing 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide.\n\nYour paper, \"Secure and Private Recommendation based on Federated Graph Neural Network\" (2025), employs Diffie-Hellman for secure embedding transmission to protect user privacy. This resonates with my project on Android Malware Detection Pipeline, where I benchmarked machine learning models to achieve 90.8% malicious recall, emphasizing the importance of secure data transmission in real-world systems.\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.",
+    "papersReferenced": [
+      "Secure and Private Recommendation based on Federated Graph Neural Network",
+      "Fault Knowledge Graph Construction Method for Hydraulic Turbine Speed Control System Based on BERTWWM-BiLSTM-MHA-CRF Model",
+      "Multifunctional neuromorphic optoelectronic computing using all 2D floating-gate transistors",
+      "semi-PD: Towards Efficient LLM Serving via Phase-Wise Disaggregated Computation and Unified Storage"
+    ],
+    "linkedinNote": "I just emailed you about your work on secure recommendation systems. My Android Malware Detection Pipeline achieved 90.8% malicious recall, which connects directly. Top 0.4% JEE Main (1.2M candidates). — Aditya",
+    "sentAt": "2026-06-16T18:31:03.948Z",
+    "messageId": "19ed1b3859e20281",
+    "threadId": "19ed1b3859e20281"
+  },
+  {
+    "name": "Jinwoo Shin",
+    "affiliation": "KAIST",
+    "email": "jinwoos@kaist.ac.kr",
+    "subject": "Computer Vision Research — Contribution Opportunity",
+    "body": "Dear Professor Shin,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, 99.59 percentile JEE Main.\n\nYour research area in computer vision aligns with my interest in applying machine learning to real-world systems, as seen in my project on building a Masked Autoencoder for hyperspectral imagery, which improved downstream land-cover classification separability by 20%.\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.\n\nBest,\nAditya Srivastava",
+    "papersReferenced": [],
+    "linkedinNote": "I just emailed you about computer vision. My hyperspectral MAE project achieved 20% improved land-cover classification, top 0.4% JEE Main. — Aditya",
+    "sentAt": "2026-06-16T18:31:58.893Z",
+    "messageId": "19ed1b45a32a62ba",
+    "threadId": "19ed1b45a32a62ba"
+  },
+  {
+    "name": "Tong Zhang 0001",
+    "affiliation": "Univ. of Illinois at Urbana-Champaign",
+    "email": "tozhang@illinois.edu",
+    "subject": "Text Feature Selection Research — Contribution Opportunity",
+    "body": "Dear Professor Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University (DTU), India, with a 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide.\n\nYour paper, \"Federated multi-label text feature selection via manifold-aware sparse modeling and cooperative grey wolf optimization\", technically achieves federated multi-label text feature selection through manifold-aware sparse modeling and cooperative grey wolf optimization. This connects to my project on building a Retrieval-Augmented Generation (RAG) pipeline, where I improved AI response accuracy by 30% through optimised feature engineering and batching, which shares similar technical goals of efficient feature selection and utilization in distributed environments.\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.\n\nBest,\nAditya Srivastava",
+    "papersReferenced": [
+      "A Method for Comment Text Feature Mining via Integrated Keyword Extraction, Clustering, and Sentiment Analysis",
+      "Short-Packet Communication in CDRT Networks with Imperfect CSI Over Nakagami-m Fading Channels: RSMA or NOMA?",
+      "Weakly Supervised Non-Intrusive Load Monitoring via State-Anchored Frozen Large Language Model Adaptation",
+      "Federated multi-label text feature selection via manifold-aware sparse modeling and cooperative grey wolf optimization"
+    ],
+    "linkedinNote": "I just emailed you about your work on federated text feature selection. My RAG pipeline project achieved 30% improved response accuracy, connecting to your manifold-aware sparse modeling work. Top 0.4% JEE Main (1.2M candidates). — Aditya",
+    "sentAt": "2026-06-16T18:32:44.853Z",
+    "messageId": "19ed1b50f6e73ffc",
+    "threadId": "19ed1b50f6e73ffc"
+  },
+  {
+    "name": "Qinghua Hu",
+    "affiliation": "Tianjin University",
+    "email": "zhangchangqing@tju.edu.cn",
+    "subject": "Orientation-Aware Object Detection Research — Contribution Opportunity",
+    "body": "Dear Professor Hu,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University (DTU), India, with a 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide.\n\nYour paper on 'Orientation-Aware Task-Decoupled Learning for Oriented Object Detection' implements task-decoupled learning to improve object detection performance, which aligns with my work on building a Hyperspectral Foundation Model using a Masked Autoencoder (MAE) to learn transferable spatial-spectral representations. My project improved downstream land-cover classification separability by 20% while reducing pre-training latency by 25%, and I believe this experience could be relevant to your research on oriented object detection.\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.",
+    "papersReferenced": [
+      "Multimodal fusion on low-quality data: A comprehensive survey",
+      "Orientation-Aware Task-Decoupled Learning for Oriented Object Detection",
+      "BasicAVSR: Arbitrary-Scale Video Super-Resolution via Image Priors and Enhanced Motion Compensation",
+      "Motion-Aware Adaptive Pixel Pruning for Efficient Local Motion Deblurring"
+    ],
+    "linkedinNote": "I just emailed you about your work on oriented object detection. My Hyperspectral MAE project achieved 20% improved land-cover classification, Top 0.4% JEE Main. — Aditya",
+    "sentAt": "2026-06-16T18:33:45.503Z",
+    "messageId": "19ed1b5fc6a8b72c",
+    "threadId": "19ed1b5fc6a8b72c"
+  },
+  {
+    "name": "Rynson W. H. Lau",
+    "affiliation": "City University of Hong Kong",
+    "email": "rynsonwhlau@gmail.com",
+    "subject": "Vision-Language Models Research — Contribution Opportunity",
+    "body": "Dear Professor Lau,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, top 0.4% nationally in JEE Main.\n\n\n\n\nYour paper 'Understanding the robustness of vision-language models to medical image artefacts' evaluates VLMs' performance on images with and without artefacts, which technically assesses their robustness through benchmarking on real-world medical datasets. This connects to my work on building a Hyperspectral Foundation Model using a Masked Autoencoder (MAE) for hyperspectral imagery, where I improved downstream land-cover classification separability by 20%, sharing similar concerns about model robustness and performance on varied data.\n\n\n\n\nI was wondering whether there might be an opportunity to contribute to your ongoing research.\n\n\n\n\nMy CV is attached, and further work is available on my GitHub: https://github.com/Aditya-Srivastava-01.\nBest,\nAditya Srivastava",
+    "papersReferenced": [
+      "Large language models for diabetes training: a prospective study",
+      "Can ‘Deep Research’ agents and general AI agentic systems autonomously perform systematic review and meta-analysis?",
+      "Understanding the robustness of vision-language models to medical image artefacts",
+      "Large language models and global health equity: a roadmap for equitable adoption in LMICs"
+    ],
+    "linkedinNote": "I just emailed you about your work on vision-language models. My Hyperspectral MAE project achieved 20% improved land-cover classification, connecting to your VLM research. Top 0.4% JEE Main (1.2M candidates). — Aditya",
+    "sentAt": "2026-06-16T18:34:26.733Z",
+    "messageId": "19ed1b69ddced3be",
+    "threadId": "19ed1b69ddced3be"
   }
 ]
