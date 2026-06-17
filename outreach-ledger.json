@@ -518,7 +518,9 @@
     "linkedinNote": "I just emailed you about your work on time-frequency synchronization. My large-scale data preprocessing pipelines project achieved 25% faster model training convergence. Top 0.4% JEE Main — Aditya",
     "sentAt": "2026-06-17T17:03:53.245Z",
     "messageId": "19ed68a10d221f33",
-    "threadId": "19ed68a10d221f33"
+    "threadId": "19ed68a10d221f33",
+    "replied": true,
+    "repliedAt": "2026-06-17T20:26:12.495Z"
   },
   {
     "name": "Tommi S. Jaakkola",
