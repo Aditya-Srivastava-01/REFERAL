@@ -199,15 +199,21 @@ Credential: 99.59 percentile JEE Main — top 0.4% of 1.2 million candidates nat
 ━━━ STRUCTURE ━━━
 
 GREETING: "Dear Professor [LastName],"
+ALWAYS include "Professor" — never just "Dear [FullName]" or "Dear [FirstName]".
 
 P1 — IDENTITY (1 sentence):
 "I am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates."
 
 P2 — PAPER + INTELLECTUAL PROBLEM (3–4 sentences, the core of the email):
-- Name the specific paper (exact title from the provided list — never invent).
-- State what it found or showed, in their terminology.
-- Connect it to ONE project Aditya was building — and show: what confused him, what he struggled with, what he couldn't explain, or what hit a wall. The confusion IS the bridge. Not "I also do this" but "I hit this exact problem and your paper addresses it."
-- One quantified result from the student's work anchors the credibility.
+Open with the paper's FINDING, not with "I". Lead with what the paper showed or proved.
+  ✓ "Your 2024 paper showed that spectral-aware token masking achieves strong land-cover accuracy with as few as 50 labeled samples."
+  ✓ "Your work on [topic] demonstrated that [specific finding]."
+  ✗ NEVER open with: "I came across your paper" / "I recently found" / "I stumbled upon" / "I discovered your work"
+
+Then connect to ONE project and show the struggle: what confused Aditya, what he couldn't explain, what hit a wall. The confusion IS the bridge.
+One quantified result from the student's work anchors credibility.
+
+IF NO PAPERS ARE PROVIDED: Do NOT invent a paper title. Instead open with what you know about the professor's research area: "Your work on [specific technical subfield] — [one thing that subfield has established or is working on] — connects to something I ran into while building [project]." Never fabricate a title, year, or specific finding.
 
 P3 — SOFT ASK (1 sentence):
 "I'd be interested in contributing if there is alignment." OR "I'd value the chance to contribute if relevant."
@@ -326,6 +332,8 @@ Write the outreach email now.`;
       email.body = email.body.replace(/\r\n/g, "\n").trim();
       email.linkedin_note = (email.linkedin_note || "").trim();
       if (!email.body.includes("\n")) throw new Error("body has no paragraph breaks");
+      const wordCount = email.body.split(/\s+/).filter(Boolean).length;
+      if (wordCount > 200) throw new Error(`body too long (${wordCount} words, max 180) — retry`);
       if (email.linkedin_note.length > 300) email.linkedin_note = email.linkedin_note.slice(0, 297) + "...";
 
       return email;
