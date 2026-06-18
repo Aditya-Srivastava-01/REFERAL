@@ -1,11 +1,11 @@
 name: professor-outreach
 
-# Sends the daily batch of personalized first-contact emails and commits the
-# updated ledger back, so the same professor is never contacted twice.
-# Also runnable on demand from the Actions tab (with a dry-run toggle).
+# Runs every 4 hours on weekdays — 6 batches/day, 20 emails per batch ≈ 120/day.
+# Spreading sends looks organic to spam filters and hits MIT/Oxford/ETH morning inboxes.
+# The ledger prevents any professor from ever being contacted twice across runs.
 on:
   schedule:
-    - cron: "30 13 * * 1-5" # 13:30 UTC, weekdays (morning in US/EU inboxes)
+    - cron: "0 */4 * * 1-5" # every 4 hours, Mon–Fri UTC
   workflow_dispatch:
     inputs:
       dry_run:

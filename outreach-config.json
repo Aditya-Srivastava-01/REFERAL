@@ -1,7 +1,7 @@
 {
   "_comment": "Settings for outreach.js (daily sender) and discover.js (candidate finder). Secrets come from env vars / GitHub secrets, NOT this file.",
-  "dailyCap": 100,
-  "_dailyCap": "Maximum first-contact emails sent per run.",
+  "dailyCap": 20,
+  "_dailyCap": "Emails per run. Workflow runs every 4 hours (6x/day) = ~120 emails/day total.",
   "dryRun": false,
   "_dryRun": "TRUE = generate and print the emails but send NOTHING. Review at least one dry run, then set false. The DRY_RUN env var overrides this.",
   "weekdaysOnly": true,
