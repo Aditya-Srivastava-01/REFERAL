@@ -1622,5 +1622,202 @@
     "sentAt": "2026-06-18T22:32:01.709Z",
     "messageId": "19edcdcd8251e0de",
     "threadId": "19edcdcd8251e0de"
+  },
+  {
+    "name": "Yang Deng 0002",
+    "affiliation": "Singapore Management University",
+    "email": "dengyang17dydy@gmail.com",
+    "subject": "Question about your 2025 paper on frame-attentive dynamic link prediction",
+    "body": "Dear Professor Deng,\n\nI'm Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper showed that frame-attentive dynamic link prediction can uncover narrative resonance in social networks with large language models. I've been building a retrieval-augmented generation (RAG) pipeline at ArchiGen AI, where we've seen accuracy gains plateau past a certain retrieval threshold. \n\nI'd be interested in contributing if there is alignment. \n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Frame-attentive dynamic link prediction: uncovering narrative resonance in social networks with large language model",
+      "AlcheMinT: Fine-grained Temporal Control for Multi-Reference Consistent Video Generation",
+      "Seismic Catalog Construction in Jiangxi by Integrating Seismometers and Accelerometers",
+      "Auto-Rubric: Learning From Implicit Weights to Explicit Rubrics for Reward Modeling"
+    ],
+    "linkedinNote": "Emailed you re: frame-attentive dynamic link prediction. Retrieval-augmentation gains plateaued. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-19T05:08:01.314Z",
+    "messageId": "19ede4763f9ca58e",
+    "threadId": "19ede4763f9ca58e"
+  },
+  {
+    "name": "Cordelia Schmid",
+    "affiliation": "INRIA",
+    "email": "cordelia.schmid@inria.fr",
+    "subject": "Question about your work on Large-Scale Pre-Training for Grounded Video Caption Generation",
+    "body": "Dear Professor Schmid,\n\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\n\nYour work on large-scale pre-training for grounded video caption generation demonstrated that leveraging temporally dense bounding boxes can improve captioning accuracy. Your approach of creating a large-scale pre-training dataset (HowToGround1M) and fine-tuning the model on a small-scale but high-quality dataset (iGround) shows a promising direction in addressing the challenges of this task.\n\n\nI've been working on a project where I built a hyperspectral foundation model using masked autoencoders to learn transferable spatial-spectral representations. However, I struggled to understand why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. I was wondering if there might be some insight from your work on how to better leverage large-scale pre-training for transfer learning in computer vision tasks.\n\n\nI'd be interested in contributing if there is alignment.\n\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\n\nBest,\nAditya",
+    "papersReferenced": [
+      "FOM-Nav: Frontier-Object Maps for Object Goal Navigation",
+      "Large-Scale Pre-Training for Grounded Video Caption Generation",
+      "CaptionFormer: Unified Segmentation, Tracking, and Captioning for Spatio-Temporal Objects",
+      "RECODE: Reasoning Through Code Generation for Visual Question Answering"
+    ],
+    "linkedinNote": "Emailed you re: Grounded Video Caption Generation. Struggled to understand why spectral-spatial representations transferred robustly to downstream tasks with few labeled samples. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-19T05:08:33.940Z",
+    "messageId": "19ede47e30719a50",
+    "threadId": "19ede47e30719a50"
+  },
+  {
+    "name": "Hanghang Tong",
+    "affiliation": "Univ. of Illinois at Urbana-Champaign",
+    "email": "htong@illinois.edu",
+    "subject": "Your Finding on Code as Agent Harness - Harness Interface Difficulty",
+    "body": "Dear Professor Tong,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University, 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper 'Code as Agent Harness' showed how code serves as an operational substrate for agent reasoning, acting, environment modeling, and execution-based verification. However, I struggled to understand how the harness interface, where code connects agents to reasoning, action, and environment modeling, can be effectively designed for long-horizon execution, especially when dealing with feedback-driven control.\n\nI attempted to apply a similar framework to my Android Malware Detection Pipeline, but benchmarked 20+ machine learning models, and achieved 90.8% malicious recall using threshold calibration and class imbalance correction. However, the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem, and standard calibration didn't resolve it.\n\nI'd be interested in contributing if there is alignment.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Code as Agent Harness",
+      "Mixture of Sequence: Theme-Aware Mixture-of-Experts for Long-Sequence Recommendation",
+      "Advances in Knowledge Discovery and Data Mining",
+      "Few-Shot Knowledge Graph Completion via Transfer Knowledge from Similar Tasks"
+    ],
+    "linkedinNote": "Emailed you re: Code as Agent Harness - Harness Interface Difficulty. Struggled with designing harness interfaces for long-horizon execution in malware detection. Top 0.4% JEE Main (1.2M).",
+    "sentAt": "2026-06-19T05:09:02.501Z",
+    "messageId": "19ede485303e9512",
+    "threadId": "19ede485303e9512"
+  },
+  {
+    "name": "Yingbin Liang",
+    "affiliation": "Ohio State University",
+    "email": "liang.889@osu.edu",
+    "subject": "The role of partial OSI in learning guarantees for POMDPs - A connection to structured subclasses",
+    "body": "Dear Professor Yingbin Liang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on POMDPs, particularly the 2026 paper on regret bounds and limits under partial online state information, demonstrated the importance of understanding the necessary amount of online state information required for efficient learning guarantees. I was struck by the connection to structured subclasses that remain learnable under partial OSI.\n\nThis resonates with my work on PluginAny EV routing system, where standard shortest-path approaches broke under partial observability of charger availability. Real-time state changes made a static graph problem closer to a POMDP. I struggled to find an efficient way to adapt to the partial information, and this problem aligns with the theoretical framework you proposed.\n\nI'd be interested in contributing if there is alignment.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Reinforcement Learning with Partial Online State Information in POMDPs: Regret Bounds and Limits",
+      "Mixture-of-Transformers Learn Faster: A Theoretical Study on Classification Problems",
+      "Multi-head Transformers Provably Learn Symbolic Multi-step Reasoning via Gradient Descent",
+      "Absorb and Converge: Provable Convergence Guarantee for Absorbing Discrete Diffusion Models"
+    ],
+    "linkedinNote": "Emailed you re: POMDPs. EV routing system broke under partial charger observability. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-19T05:09:28.936Z",
+    "messageId": "19ede48b834b4ca6",
+    "threadId": "19ede48b834b4ca6"
+  },
+  {
+    "name": "Huaxiu Yao",
+    "affiliation": "University of North Carolina",
+    "email": "huaxiu@cs.unc.edu",
+    "subject": "Question about self-evolving vision-language agents",
+    "body": "Dear Professor Yao,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on vision-language agents demonstrated the potential of self-evolving models in multimodal reasoning tasks. Specifically, Agent0-VL's ability to incorporate tool usage into self-evaluation and self-repair resonates with my struggles in building a retrieval-augmented generation (RAG) pipeline at ArchiGen AI, where accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself.\n\nI'd be interested in contributing if there is alignment.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "VLAA-GUI: Knowing When to Stop, Recover, and Search, A Modular Framework for GUI Automation",
+      "FREE: The Foundational Semantic Recognition for Modeling Environmental Ecosystems",
+      "SimpleMem: Efficient Lifelong Memory for LLM Agents",
+      "Agent0-VL: Exploring Self-Evolving Agent for Tool-Integrated Vision-Language Reasoning"
+    ],
+    "linkedinNote": "",
+    "sentAt": "2026-06-19T05:09:59.855Z",
+    "messageId": "19ede49331f1fcd7",
+    "threadId": "19ede49331f1fcd7"
+  },
+  {
+    "name": "Shuai Li 0010",
+    "affiliation": "Shanghai Jiao Tong University",
+    "email": "shuaili8@sjtu.edu.cn",
+    "subject": "Question about your 2026 paper on Transfer Neural Network Quality Score Decoupling",
+    "body": "Dear Professor Li,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper showed that transfer neural network quality score decoupling is effective in complex sports scenarios, particularly in addressing the uneven distribution of action quality assessment scores in long sports videos. I was intrigued by the dual-stream structure combining dynamic and static streams, as well as the quality score decoupling module based on the Transformer network decoder.\n\nWhile building a malware detection system using the CIC-AndMal2017 dataset, I encountered a distribution shift problem similar to what you described in your work. Specifically, the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem, and standard calibration didn't resolve it. I would be interested in contributing if there is alignment.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Athlete action quality assessment based on transfer neural network quality score decoupling in complex sports scenarios",
+      "Deep Learning Identifies Abnormal Promyelocytes in Peripheral Blood Based on Morphological Analysis",
+      "Stabilizing Reinforcement Learning for Systems with Disturbances Based on Youla-Kucera Prameterization",
+      "A meta-analysis of AI-enabled personalized STEM education in schools"
+    ],
+    "linkedinNote": "Emailed you re: Transfer Neural Network Quality Score Decoupling. Distribution shift problem in malware detection similar to your work; looking for alignment. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-19T05:10:26.654Z",
+    "messageId": "19ede499b3b071d6",
+    "threadId": "19ede499b3b071d6"
+  },
+  {
+    "name": "Cornelia Caragea",
+    "affiliation": "University of Illinois at Chicago",
+    "email": "ccaragea@nsf.gov",
+    "subject": "Question about your 2026 paper on SSL model calibration",
+    "body": "Dear Professor Caragea,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper showed that semi-supervised learning models often suffer from poor calibration, with overconfident predictions misrepresenting actual likelihoods. I was working on an anomaly detection pipeline, where standard calibration didn't resolve the remaining failure cases that looked like a distributional shift problem. I benchmarked 20+ models, achieving 90.8% malicious recall, but the remaining cases clustered in a way that looked like a distributional shift problem. Your work on SSL model calibration has implications for this problem, as the SSL models' overconfidence in their pseudolabels could be contributing to this issue.\n\nI'd be interested in contributing if there is alignment.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "BLooP: Zero-Shot Abstractive Summarization Using Large Language Models with Bigram Lookahead Promotion",
+      "On the Calibration of Image Semi-Supervised Learning Models",
+      "MADIAVE: Multi-Agent Debate for Implicit Attribute Value Extraction",
+      "CalibrateMix: Guided-Mixup Calibration of Image Semi-Supervised Models"
+    ],
+    "linkedinNote": "Emailed Cornelia Caragea re: SSL model calibration. Anomaly detection pipeline benchmarked 20+ models. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-19T05:10:55.174Z",
+    "messageId": "19ede4a0afef1c2f",
+    "threadId": "19ede4a0afef1c2f"
+  },
+  {
+    "name": "Nicolas Flammarion",
+    "affiliation": "EPFL",
+    "email": "nicolas.flammarion@epfl.ch",
+    "subject": "Question about transfer efficiency in sparse feature spaces",
+    "body": "Dear Professor Flammarion,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on sparse feature spaces and out-of-distribution detection — the connections between representation learning, anomaly detection, and transfer efficiency — connects to something I ran into while building an Android malware detection pipeline. By reverse-engineering APKs via Apktool into a 1,418-dimensional sparse feature space, I benchmarked 20+ models, reaching 90.8% malicious recall. However, the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem, and standard calibration didn't resolve it. I'd be interested in contributing if there is alignment.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: transfer efficiency in sparse feature spaces. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-19T05:11:30.777Z",
+    "messageId": "19ede4a95e7f3987",
+    "threadId": "19ede4a95e7f3987"
+  },
+  {
+    "name": "Hadi Hosseini",
+    "affiliation": "Pennsylvania State University",
+    "email": "hadi@psu.edu",
+    "subject": "AI Mistake as a Pedagogical Opportunity — Leveraging Imperfections for Higher-Order Thinking",
+    "body": "Dear Professor Hosseini,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates nationwide.\n\nYour 2026 paper, 'The Pedagogy of AI Mistakes: Fostering Higher-Order Thinking,' caught my attention because it showed how AI-generated errors can facilitate analysis, reflection, and critical thinking in students. I found this concept interesting because, in my work on anomaly detection in the Android malware detection pipeline, I encountered a similar issue of distributional shift in sparse feature spaces, which standard calibration didn't resolve.\n\nI'd be interested in contributing if there is alignment. My CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "The Pedagogy of AI Mistakes: Fostering Higher-Order Thinking",
+      "AI Education in a Mirror: Challenges Faced by Academic and Industry Experts"
+    ],
+    "linkedinNote": "Emailed you re: AI Mistake as a Pedagogical Opportunity. Distributional shift in sparse feature spaces — standard calibration didn't resolve it. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-19T05:11:54.535Z",
+    "messageId": "19ede4af3ee709d9",
+    "threadId": "19ede4af3ee709d9"
+  },
+  {
+    "name": "Kristian Kersting",
+    "affiliation": "TU Darmstadt",
+    "email": "kersting@cs.tu-darmstadt.de",
+    "subject": "CycliST: Connection to downstream separability in hyperspectral imagery",
+    "body": "Dear Professor Kersting,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on CycliST showed a significant challenge in evaluating video language models on their ability for textual reasoning over cyclical state transitions. I ran into a similar issue while building a masked autoencoder for hyperspectral imagery. Despite achieving 20% improvement in downstream land-cover classification separability and 25% reduction in pre-training latency, I couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. I'd be interested in contributing if there is alignment.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "CycliST: A Video Language Model Benchmark for Reasoning on Cyclical State Transitions",
+      "Large language models still struggle with false beliefs",
+      "ART: Adaptive Relation Tuning for Generalized Relation Prediction",
+      "Human-Allied Relational Reinforcement Learning"
+    ],
+    "linkedinNote": "Emailed you re: CycliST. Difficulty explaining transfer efficiency in hyperspectral imagery. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-19T05:12:20.230Z",
+    "messageId": "19ede4b56a78d5c9",
+    "threadId": "19ede4b56a78d5c9"
+  },
+  {
+    "name": "Mor Geva",
+    "affiliation": "Tel Aviv University",
+    "email": "morgeva@tauex.tau.ac.il",
+    "subject": "Question about MoNaCo, retrieval mechanisms in LLMs",
+    "body": "Dear Professor Geva,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on MoNaCo demonstrated that current LLM agents are limited in handling the complexity and breadth of real-world information-seeking tasks, achieving at most 61.2% F1 on MoNaCo.\n\nDuring my project on retrieval-augmented generation (RAG), I encountered a bottleneck where accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself.\n\nI'd be interested in contributing if there is alignment. \n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "M <scp>o</scp> N <scp>a</scp> C <scp>o</scp> : More Natural and Complex Questions for Reasoning Across Dozens of Documents",
+      "Mixing Mechanisms: How Language Models Retrieve Bound Entities In-Context",
+      "LMEnt: A Suite for Analyzing Knowledge in Language Models from Pretraining Data to Representations",
+      "Constructing Interpretable Features from Compositional Neuron Groups"
+    ],
+    "linkedinNote": "Emailed you re: MoNaCo, retrieval mechanisms in LLMs. Plateaued RAG accuracy gains past retrieval threshold. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-19T05:12:57.107Z",
+    "messageId": "19ede4be637d1c48",
+    "threadId": "19ede4be637d1c48"
+  },
+  {
+    "name": "Li Zhang 0040",
+    "affiliation": "Fudan University",
+    "email": "lizhangfd@fudan.edu.cn",
+    "subject": "Question about data poisoning attacks in Federated Recommender Systems",
+    "body": "Dear Professor Li Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on FeGSuPe demonstrated the importance of securing federated graph neural networks against data poisoning attacks and inference attacks. I ran into a similar issue while working on an anomaly detection pipeline for Android malware, where I noticed a distributional shift in the sparse feature spaces that standard calibration couldn't resolve.\n\nI'd be interested in contributing if there is alignment.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Secure and Private Recommendation based on Federated Graph Neural Network",
+      "Fault Knowledge Graph Construction Method for Hydraulic Turbine Speed Control System Based on BERTWWM-BiLSTM-MHA-CRF Model",
+      "Multifunctional neuromorphic optoelectronic computing using all 2D floating-gate transistors",
+      "semi-PD: Towards Efficient LLM Serving via Phase-Wise Disaggregated Computation and Unified Storage"
+    ],
+    "linkedinNote": "",
+    "sentAt": "2026-06-19T05:13:33.581Z",
+    "messageId": "19ede4c75aa8c74e",
+    "threadId": "19ede4c75aa8c74e"
   }
 ]
