@@ -590,7 +590,9 @@
     "linkedinNote": "I just emailed you about your work on 4D animal reconstruction. My hyperspectral MAE project achieved 20% improved land-cover classification, which connects directly. Top 0.4% JEE Main. — Aditya",
     "sentAt": "2026-06-17T17:07:27.700Z",
     "messageId": "19ed68d57e1fcf8b",
-    "threadId": "19ed68d57e1fcf8b"
+    "threadId": "19ed68d57e1fcf8b",
+    "replied": true,
+    "repliedAt": "2026-06-19T19:59:17.734Z"
   },
   {
     "name": "Fei Wu 0001",
@@ -1269,7 +1271,9 @@
     "linkedinNote": "Emailed you re: Self-Ensemble Post Learning for Noisy Domain Generalization. Failure cases in my malware detection pipeline looked like distributional shift, but couldn't explain why. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-18T18:39:23.560Z",
     "messageId": "19edc07dd2993625",
-    "threadId": "19edc07dd2993625"
+    "threadId": "19edc07dd2993625",
+    "replied": true,
+    "repliedAt": "2026-06-19T19:59:21.303Z"
   },
   {
     "name": "Radu Timofte",
@@ -1740,7 +1744,9 @@
     "linkedinNote": "Emailed Cornelia Caragea re: SSL model calibration. Anomaly detection pipeline benchmarked 20+ models. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-19T05:10:55.174Z",
     "messageId": "19ede4a0afef1c2f",
-    "threadId": "19ede4a0afef1c2f"
+    "threadId": "19ede4a0afef1c2f",
+    "replied": true,
+    "repliedAt": "2026-06-19T19:59:23.337Z"
   },
   {
     "name": "Nicolas Flammarion",
