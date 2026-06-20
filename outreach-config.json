@@ -35,7 +35,7 @@
     "_excludeCountries": "Two-letter CSRankings country codes to exclude. [\"in\"] = anywhere abroad (everything except India). US institutions have no code and are always included unless you filter differently.",
     "sinceYear": 2024,
     "_sinceYear": "Only count publications from this year onward when ranking professors by activity — keeps the list to people actively publishing.",
-    "limit": 300,
+    "limit": 2000,
     "_limit": "How many top-ranked professors to put in candidates.csv."
   }
 }

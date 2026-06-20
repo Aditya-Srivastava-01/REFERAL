@@ -1,0 +1,39 @@
+name: professor-discover
+
+# Runs nightly to refill the Candidates tab in Google Sheets.
+# discover.js pulls the latest CSRankings data and extracts emails from faculty pages.
+# setup-sheets.js --force clears old rows and writes only professors not yet in the ledger.
+on:
+  schedule:
+    - cron: "0 1 * * *" # 01:00 UTC every day
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: professor-discover
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Discover professors
+        run: node discover.js --refresh
+
+      - name: Refresh candidate sheet (skip already-contacted)
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+        run: node setup-sheets.js --force
