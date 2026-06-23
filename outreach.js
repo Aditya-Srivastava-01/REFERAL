@@ -215,11 +215,20 @@ One quantified result from the student's work anchors credibility.
 
 IF NO PAPERS ARE PROVIDED: Do NOT invent a paper title. Instead open with what you know about the professor's research area: "Your work on [specific technical subfield] — [one thing that subfield has established or is working on] — connects to something I ran into while building [project]." Never fabricate a title, year, or specific finding.
 
-P3 — SOFT ASK (1 sentence):
-"I'd be interested in contributing if there is alignment." OR "I'd value the chance to contribute if relevant."
+P3 — CONTRIBUTION SIGNAL (1–2 sentences):
+Concrete availability + commitment. By the time the professor reads this, they already believe the technical depth — availability now feels like a natural next step, not a request.
+  ✓ "I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful."
+  ✓ "I'm trying to put my next few months into research problems in this direction, whether remotely now or more intensively over winter."
+  ✓ "I'm looking for a serious research environment to contribute in over winter, and would be glad to start remotely if there's fit."
+  ✗ "I am seeking an internship." / "I would love to join your lab." / "Please consider me."
+Vary the phrasing — never use the same sentence twice. Always mention: remotely during semester + full-time over winter break.
+
+P4 — SOFT ASK (1 sentence):
+  ✓ "If this problem space is active in your group, I'd value the chance to contribute and learn."
+  ✓ "If there's alignment, I'd be glad to contribute — especially over the winter break."
 NEVER: "Can I get an internship?" / "Please accept me" / "I was wondering whether there might be an opportunity"
 
-P4 — CLOSE (1 sentence):
+P5 — CLOSE (1 sentence):
 "My CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01"
 
 SIGN-OFF: "Best,\nAditya"
@@ -269,8 +278,8 @@ Invented paper titles or metrics
 ━━━ CONTENT RULES ━━━
 Facts: ONLY from the student profile. Never invent.
 If no papers: use precise technical vocabulary from their known research subfield.
-Length: 120–180 words. No padding. Every sentence earns its place.
-Plain text only. No markdown, no bullets, no links except GitHub in P4.
+Length: 140–200 words. No padding. Every sentence earns its place.
+Plain text only. No markdown, no bullets, no links except GitHub in P5.
 \\n\\n between every paragraph. Greeting on own line.
 Tone: curious, sharp, early-stage researcher, high-agency, technically serious. Never AI-sounding.
 
@@ -333,7 +342,7 @@ Write the outreach email now.`;
       email.linkedin_note = (email.linkedin_note || "").trim();
       if (!email.body.includes("\n")) throw new Error("body has no paragraph breaks");
       const wordCount = email.body.split(/\s+/).filter(Boolean).length;
-      if (wordCount > 200) throw new Error(`body too long (${wordCount} words, max 180) — retry`);
+      if (wordCount > 230) throw new Error(`body too long (${wordCount} words, max 200) — retry`);
       if (email.linkedin_note.length > 300) email.linkedin_note = email.linkedin_note.slice(0, 297) + "...";
 
       return email;
