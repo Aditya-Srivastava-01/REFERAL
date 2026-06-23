@@ -3479,7 +3479,9 @@
     "linkedinNote": "Emailed you re: interestingness in math problems. Accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-23T11:26:00.442Z",
     "messageId": "19ef43ae326bcba8",
-    "threadId": "19ef43ae326bcba8"
+    "threadId": "19ef43ae326bcba8",
+    "replied": true,
+    "repliedAt": "2026-06-23T12:44:18.119Z"
   },
   {
     "name": "Shashank Srivastava",
@@ -3513,7 +3515,9 @@
     "linkedinNote": "Emailed you re: Bidirectional Temporal-Aware Modeling for MTSF. EV charging route planning temporal patterns affected route quality, but couldn't explain transferable temporal representations. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-23T11:27:05.549Z",
     "messageId": "19ef43be18aca6cc",
-    "threadId": "19ef43be18aca6cc"
+    "threadId": "19ef43be18aca6cc",
+    "replied": true,
+    "repliedAt": "2026-06-23T12:44:19.182Z"
   },
   {
     "name": "Wenjie Wang 0007",
