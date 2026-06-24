@@ -205,15 +205,18 @@ P1 — IDENTITY (1 sentence):
 "I am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates."
 
 P2 — PAPER + INTELLECTUAL PROBLEM (3–4 sentences, the core of the email):
+CRITICAL: The "Recent papers:" block in the user message lists the ONLY papers you may reference. If the list is non-empty, choose ONE paper from that exact list. You MUST use a title and year drawn verbatim from the list. If you cite a paper title or year that is not in the list, that is a fabrication failure — worse than any other error.
+
 Open with the paper's FINDING, not with "I". Lead with what the paper showed or proved.
-  ✓ "Your 2024 paper showed that spectral-aware token masking achieves strong land-cover accuracy with as few as 50 labeled samples."
-  ✓ "Your work on [topic] demonstrated that [specific finding]."
+  ✓ "Your 2025 paper on low-rank rank selection showed that language model compression can be made differentiable without accuracy loss."
+  ✓ "Your work on [topic from the list] demonstrated that [specific finding from that paper]."
   ✗ NEVER open with: "I came across your paper" / "I recently found" / "I stumbled upon" / "I discovered your work"
+  ✗ NEVER cite a paper title, year, or finding that is not in the provided list.
 
 Then connect to ONE project and show the struggle: what confused Aditya, what he couldn't explain, what hit a wall. The confusion IS the bridge.
 One quantified result from the student's work anchors credibility.
 
-IF NO PAPERS ARE PROVIDED: Do NOT invent a paper title. Instead open with what you know about the professor's research area: "Your work on [specific technical subfield] — [one thing that subfield has established or is working on] — connects to something I ran into while building [project]." Never fabricate a title, year, or specific finding.
+IF "Recent papers:" SAYS "(none found …)": Do NOT invent a paper title. Instead open with what you know about the professor's research area: "Your work on [specific technical subfield] — [one thing that subfield has established or is working on] — connects to something I ran into while building [project]." Never fabricate a title, year, or specific finding.
 
 P3 — CONTRIBUTION SIGNAL (1–2 sentences):
 Concrete availability + commitment. By the time the professor reads this, they already believe the technical depth — availability now feels like a natural next step, not a request.
@@ -273,7 +276,7 @@ A professor is drawn in by a mind already wrestling with their problem — not a
 "unpaid is fine / available immediately"
 CGPA — never mention
 More than one project — pick exactly one
-Invented paper titles or metrics
+Any paper title, year, or finding NOT listed in the "Recent papers:" block — this is the worst possible failure. The professor will know immediately if you invent a paper they didn't write.
 
 ━━━ CONTENT RULES ━━━
 Facts: ONLY from the student profile. Never invent.
@@ -309,6 +312,10 @@ async function generateEmail(model, profile, candidate, papers) {
         .join("\n")
     : "(none found — refer to their research area in general terms)";
 
+  const paperWarning = papers.length
+    ? `⚠️ ONLY THESE ${papers.length} PAPER(S) MAY BE CITED. Any other title or year = fabrication failure:\n`
+    : "";
+
   const userMessage = `STUDENT PROFILE (the sender — sign as "${YOUR_NAME}"):
 ${profile}
 
@@ -316,7 +323,7 @@ PROFESSOR (the recipient):
 Name: ${candidate.name}
 Institution: ${candidate.affiliation}
 Recent papers:
-${paperBlock}
+${paperWarning}${paperBlock}
 
 Write the outreach email now.`;
 
@@ -344,6 +351,19 @@ Write the outreach email now.`;
       const wordCount = email.body.split(/\s+/).filter(Boolean).length;
       if (wordCount > 230) throw new Error(`body too long (${wordCount} words, max 200) — retry`);
       if (email.linkedin_note.length > 300) email.linkedin_note = email.linkedin_note.slice(0, 297) + "...";
+
+      // Fabrication guard: if papers were provided, any year cited in "Your YYYY paper"
+      // must exist in the list. Catches the most common hallucination pattern.
+      if (papers.length > 0) {
+        const providedYears = new Set(papers.map((p) => String(p.year)));
+        const yearMatch = email.body.match(/\b(20\d{2})\s+paper\b/i);
+        if (yearMatch && !providedYears.has(yearMatch[1])) {
+          throw new Error(
+            `FABRICATION: cited year ${yearMatch[1]} not in provided papers ` +
+            `(available: ${[...providedYears].join(", ")}) — use only the listed papers`
+          );
+        }
+      }
 
       return email;
     } catch (err) {
