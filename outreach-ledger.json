@@ -5070,7 +5070,9 @@
     "linkedinNote": "Emailed you re: Retrieval-Augmented Generation. Accuracy gains plateaued past a certain threshold. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-24T11:14:08.218Z",
     "messageId": "19ef9565f0db5f66",
-    "threadId": "19ef9565f0db5f66"
+    "threadId": "19ef9565f0db5f66",
+    "replied": true,
+    "repliedAt": "2026-06-24T19:59:12.644Z"
   },
   {
     "name": "Ganzhao Yuan",
