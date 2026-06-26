@@ -466,10 +466,24 @@ async function main() {
   oauth2.setCredentials({ refresh_token: REFRESH_TOKEN });
   const gmail = google.gmail({ version: "v1", auth: oauth2 });
   const sheets = createSheetsClient(oauth2);
-  const candidates =
-    config.candidateSource === "googleSheets"
-      ? await loadSheetCandidates(sheets, config.spreadsheetId, config.sheetName)
-      : loadCsvCandidates();
+
+  // Google OAuth token refresh can fail with "Premature close" on transient
+  // network drops from GitHub Actions. Retry up to 4 times before giving up.
+  let candidates;
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    try {
+      candidates = config.candidateSource === "googleSheets"
+        ? await loadSheetCandidates(sheets, config.spreadsheetId, config.sheetName)
+        : loadCsvCandidates();
+      break;
+    } catch (err) {
+      const isNetwork = /premature close|network|ECONNRESET|ETIMEDOUT|fetch failed|ENOTFOUND/i.test(err.message);
+      if (!isNetwork || attempt === 4) throw err;
+      const wait = attempt * 8000;
+      console.log(`  Google Sheets auth failed (${err.message}) — retry ${attempt}/4 in ${wait / 1000}s`);
+      await new Promise((r) => setTimeout(r, wait));
+    }
+  }
 
   const contactedEmails = new Set(ledger.map((e) => e.email.toLowerCase()));
   const contactedPeople = new Set(ledger.map((e) => `${e.name}|${e.affiliation}`));
