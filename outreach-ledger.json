@@ -8227,5 +8227,332 @@
     "sentAt": "2026-06-29T05:01:10.816Z",
     "messageId": "19f11c0b8694a6c4",
     "threadId": "19f11c0b8694a6c4"
+  },
+  {
+    "name": "Linfeng Zhang 0001",
+    "affiliation": "Shanghai Jiao Tong University",
+    "email": "zhanglinfeng@sjtu.edu.cn",
+    "subject": "Question about your 2025 paper on AsyncVoice Agent",
+    "body": "Dear Professor Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on AsyncVoice Agent showed that real-time explanation for LLM planning and reasoning can be achieved with an asynchronous architecture decoupling the streaming LLM backend from a conversational voice frontend. I'm working on a project where I'm building a retrieval-augmented generation (RAG) pipeline, and I'm struggling to improve accuracy gains past a certain retrieval threshold — improving retrieval quality further stops helping generation quality. I was wondering if your work on AsyncVoice Agent has any insights on how to better couple retrieval and generation objectives, or whether there's a way to diagnose why my models are plateauing.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "From Flat to Structural: Enhancing Automated Short Answer Grading with GraphRAG",
+      "Trade-Off in Signal Processing",
+      "AsyncVoice Agent: Real-Time Explanation for LLM Planning and Reasoning",
+      "Multi-Granularity Class Prototype Topology Distillation for Class-Incremental Source-Free Unsupervised Domain Adaptation"
+    ],
+    "linkedinNote": "",
+    "sentAt": "2026-06-29T12:41:00.563Z",
+    "messageId": "19f1365b43edd2c5",
+    "threadId": "19f1365b43edd2c5"
+  },
+  {
+    "name": "Xun Cao",
+    "affiliation": "Nanjing University",
+    "email": "caoxun@nju.edu.cn",
+    "subject": "Question about your 2024 paper on corrosion/oxidation modeling of stainless steel",
+    "body": "Dear Professor Cao,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on corrosion/oxidation modeling of stainless steel in LBE demonstrated that cellular automata can effectively capture the complex corrosion mechanisms, even when traditional models fail.\n\nWhile exploring self-supervised learning for corrosion detection in hyperspectral images, I hit a wall — standard techniques didn't translate well to this task, and I couldn't explain why the usual assumptions about material properties and surface roughness didn't hold.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A Framework for Comparing Reasoning between Chatgpt and Deepseek During Code Generation Tasks",
+      "Improved cellular automata modeling of corrosion/oxidation mechanism of stainless steel in LBE"
+    ],
+    "linkedinNote": "Emailed Xun Cao re: 2024 paper on corrosion/oxidation modeling of stainless steel. Found correlation between material properties and surface roughness not translating well to self-supervised learning in hyperspectral images. Top 0.4% JEE Main (1.2M) — Aditya",
+    "sentAt": "2026-06-29T12:41:31.220Z",
+    "messageId": "19f13662caf46c05",
+    "threadId": "19f13662caf46c05"
+  },
+  {
+    "name": "Jiajun Chen 0001",
+    "affiliation": "Nanjing University",
+    "email": "chenjj@nju.edu.cn",
+    "subject": "Question about your 2025 WFAGAN-Dehaze paper",
+    "body": "Dear Professor Jiajun Chen 0001,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on WFAGAN-Dehaze showed that hazy weather impact can be mitigated using Wavelet-enhanced Feature Attention CycleGAN. This finding connects to a problem I ran into while building a hyperspectral foundation model, where downstream separability improved by 20% and pre-training latency dropped by 25% but couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. Specifically, with a 1,418-dimensional sparse feature space, I benchmarked 20+ models and reached 90.8% malicious recall on the CIC-AndMal2017 dataset, but the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "WFAGAN-Dehaze: Wavelet-Enhanced Feature Attention CycleGAN for Single Image Dehazing",
+      "Domain-aware Node Representation Learning for Graph Out-of-Distribution Generalization",
+      "InversionGNN: A Dual Path Network for Multi-Property Molecular Optimization",
+      "Floquet Engineering of Anisotropic Transverse Interactions in Superconducting Qubits"
+    ],
+    "linkedinNote": "Emailed you re: WFAGAN-Dehaze. 90.8% malicious recall on CIC-AndMal2017 but remaining failure cases seemed distributional shift. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T12:42:01.234Z",
+    "messageId": "19f1366a09813c4e",
+    "threadId": "19f1366a09813c4e"
+  },
+  {
+    "name": "Tong Wei 0001",
+    "affiliation": "Southeast University",
+    "email": "weit@seu.edu.cn",
+    "subject": "Question about your 2026 paper on weakly supervised NILM via state-anchored frozen large language model adaptation",
+    "body": "Dear Professor Tong Wei,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on weakly supervised non-intrusive load monitoring via state-anchored frozen large language model adaptation demonstrated that CRNNs can handle state detection from inexact and incomplete labels, and a frozen large language model can adapt to local features. However, I struggled to explain why the state-anchored framework didn't fully leverage the learned representations in the frozen language model to improve power amplitude estimation, and why the overall performance plateaued at a certain threshold of local features.\n\nI'm looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A Method for Comment Text Feature Mining via Integrated Keyword Extraction, Clustering, and Sentiment Analysis",
+      "Short-Packet Communication in CDRT Networks with Imperfect CSI Over Nakagami-m Fading Channels: RSMA or NOMA?",
+      "Weakly Supervised Non-Intrusive Load Monitoring via State-Anchored Frozen Large Language Model Adaptation",
+      "Federated multi-label text feature selection via manifold-aware sparse modeling and cooperative grey wolf optimization"
+    ],
+    "linkedinNote": "Emailed Prof. Tong Wei re: State-Anchored NILM. Struggled to understand performance plateau in NILM despite CRNN's state detection accuracy. Top 0.4% JEE Main. — Aditya",
+    "sentAt": "2026-06-29T12:42:32.547Z",
+    "messageId": "19f13671ae42dc86",
+    "threadId": "19f13671ae42dc86"
+  },
+  {
+    "name": "Ximing Li 0002",
+    "affiliation": "Jilin University",
+    "email": "ximingli@jlu.edu.cn",
+    "subject": "Question about your 2025 paper on Contour Flow Constraint",
+    "body": "Dear Professor Li,\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Contour Flow Constraint demonstrated that preserving global shape similarity can lead to favorable segmentation outcomes. However, I struggled to understand how the contour flow prior integrates into the activation functions of deep convolutional networks without affecting the model's capacity to learn generalizable features. Specifically, I found that the contour flow constraint seemed to require a balance between preserving shape similarity and maintaining the model's capacity to capture complex patterns. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\nBest,\nAditya",
+    "papersReferenced": [
+      "Learnable boundary enhanced Softmax layer based on gray morphology for data-driven image segmentation",
+      "SceneLLM: Implicit language reasoning in LLM for dynamic scene graph generation",
+      "Contour Flow Constraint: Preserving Global Shape Similarity for Deep Learning based Image Segmentation",
+      "Hierarchical Relation Distillation for Efficient 3D Visual Grounding"
+    ],
+    "linkedinNote": "Emailed Ximing Li about contour flow constraint. Struggled to understand how CF prior integrates into activation functions. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T12:44:01.343Z",
+    "messageId": "19f1368770c367b9",
+    "threadId": "19f1368770c367b9"
+  },
+  {
+    "name": "Hongkai Xiong",
+    "affiliation": "Shanghai Jiao Tong University",
+    "email": "xionghongkai@sjtu.edu.cn",
+    "subject": "Question about your 2026 paper on Vision-Language Efficient Tuning",
+    "body": "Dear Professor Xiong,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Vision-Language Efficient Tuning for Mitigating Catastrophic Forgetting in Multi-Modal Learning showed that learning-based methods can adapt ISP hyperparameters for specific vision tasks efficiently. However, I struggled to understand how this approach can be scaled to real-world applications with multiple tasks and varying levels of catastrophic forgetting.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Disease-Centric Vision-Language Pretraining with Hybrid Visual Encoding for 3D Computed Tomography",
+      "Error-Resilient Learned Video Compression with Channel Importance-Aware Redundancy Allocation",
+      "Vision-Language Efficient Tuning for Mitigating Catastrophic Forgetting in Multi-Modal Learning",
+      "One-Iteration ISP Controller for Real-Time Machine Vision"
+    ],
+    "linkedinNote": "Emailed Hongkai re: Vision-Language Efficient Tuning. Scaling efficiency to real-world tasks. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T12:44:35.991Z",
+    "messageId": "19f1368ff3d8acee",
+    "threadId": "19f1368ff3d8acee"
+  },
+  {
+    "name": "Yuanbo Xu",
+    "affiliation": "Jilin University",
+    "email": "yuanbox@jlu.edu.cn",
+    "subject": "Question about your 2026 paper on LaWAM",
+    "body": "Dear Professor Xu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on LaWAM showed that vision-language-action models can be made more efficient by exposing predictive dynamics to robot policies through compact latent visual subgoals. I was trying to build a similar idea for real-time traffic prediction, but I struggled to explain why the learned latent space didn't transfer robustly to downstream tasks with few labeled samples — whether it was the masking strategy, the latent action model, or something about the pretraining objective. To improve transfer efficiency, I've been experimenting with different pretraining objectives and found that a 10% improvement in downstream task performance can be achieved by tweaking the latent space dimensionality.\n\n\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "LaWAM: Latent World Action Models for Efficient Dynamics-Aware Robot Policies",
+      "Where and When: Predict Next POI and Its Explicit Timestamp in Sequential Recommendation",
+      "Flow-based Time-aware Causal Structure Learning for Sequential Recommendation",
+      "Indirect Online Preference Optimization via Reinforcement Learning"
+    ],
+    "linkedinNote": "Emailed you re: LaWAM. Struggled explaining why learned latent space didn't transfer robustly to downstream tasks. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T12:45:12.605Z",
+    "messageId": "19f13698c5176a15",
+    "threadId": "19f13698c5176a15"
+  },
+  {
+    "name": "Fan Wu 0006",
+    "affiliation": "Shanghai Jiao Tong University",
+    "email": "fwu@cs.sjtu.edu.cn",
+    "subject": "Your 2025 paper on secure recommendation systems - a distributional shift I'm struggling with",
+    "body": "Dear Professor Fan Wu 0006,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on secure recommendation systems based on Federated Graph Neural Network (FeGSuPe) showed that it can defend both data poisoning attacks and inference attacks, while improving recommendation performance. I'm building an anomaly detection system for Android apps, where we've seen a distributional shift in the sparse feature space that looks similar to the challenge you addressed in FeGSuPe. We've achieved 90.8% malicious recall using threshold calibration and class imbalance correction, but the remaining failure cases seem to be due to a model capacity issue rather than a distributional shift problem. I'm struggling to understand why the pretraining objective isn't capturing the out-of-distribution data.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Secure and Private Recommendation based on Federated Graph Neural Network",
+      "Fault Knowledge Graph Construction Method for Hydraulic Turbine Speed Control System Based on BERTWWM-BiLSTM-MHA-CRF Model",
+      "Multifunctional neuromorphic optoelectronic computing using all 2D floating-gate transistors",
+      "semi-PD: Towards Efficient LLM Serving via Phase-Wise Disaggregated Computation and Unified Storage"
+    ],
+    "linkedinNote": "Emailed Fan Wu 0006 re: FeGSuPe. Distributional shift in sparse feature space, 90.8% malicious recall — model capacity issue. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T12:46:22.222Z",
+    "messageId": "19f136a9d9f33dab",
+    "threadId": "19f136a9d9f33dab"
+  },
+  {
+    "name": "Xuming He 0001",
+    "affiliation": "ShanghaiTech University",
+    "email": "hexm@shanghaitech.edu.cn",
+    "subject": "Question about your 2025 paper on zero-shot learning in video generation models",
+    "body": "Dear Professor Xuming He,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on RULER-Bench demonstrated that video generation models can serve as zero-shot learners, but the decomposition of reasoning capabilities and evaluation protocol were limited. I struggled to find a straightforward way to adapt these findings to improve the accuracy of RAG pipelines I built at ArchiGen AI Labs, as the improvement plateaued past a certain retrieval threshold. I managed to achieve a 30% accuracy improvement in AI response accuracy, but couldn't explain why retrieval quality improvement stopped helping generation quality.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "RULER-Bench: Probing Rule-based Reasoning Abilities of Next-level Video Generation Models for Vision Foundation Intelligence",
+      "Scientists' First Exam: Probing Cognitive Abilities of MLLM via Perception, Understanding, and Reasoning",
+      "Deep photonic reservoir computer for nonlinear equalization of 16-level quadrature amplitude modulation signals",
+      "Relation-aware Hierarchical Prompt for Open-vocabulary Scene Graph Generation"
+    ],
+    "linkedinNote": "Emailed you re: RULER-Bench. 30% accuracy improvement in RAG pipelines plateaued past retrieval threshold. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T12:46:59.761Z",
+    "messageId": "19f136b2eb8394f4",
+    "threadId": "19f136b2eb8394f4"
+  },
+  {
+    "name": "Wu-Jun Li",
+    "affiliation": "Nanjing University",
+    "email": "liwujun@nju.edu.cn",
+    "subject": "Question about Secure and Private Recommendation",
+    "body": "Dear Professor Wu-Jun Li,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Federated Graph Neural Network showed that federated social recommender systems can be made secure and private without loss of performance. I'm trying to understand how the Diffie-Hellman embedding transmission protects user privacy.\n\nIn my work on Android malware detection, I reverse-engineered APKs to a 1,418-dimensional sparse feature space and noticed that the remaining failure cases looked like a distributional shift problem rather than a model capacity problem. I'm struggling to understand how to connect this to your work on secure and private recommendation.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Secure and Private Recommendation based on Federated Graph Neural Network",
+      "Fault Knowledge Graph Construction Method for Hydraulic Turbine Speed Control System Based on BERTWWM-BiLSTM-MHA-CRF Model",
+      "Multifunctional neuromorphic optoelectronic computing using all 2D floating-gate transistors",
+      "semi-PD: Towards Efficient LLM Serving via Phase-Wise Disaggregated Computation and Unified Storage"
+    ],
+    "linkedinNote": "Emailed you re: Secure and Private Recommendation. Struggling to understand how Diffie-Hellman embedding transmission protects user privacy in federated recommender systems. Top 0.4% JEE Main (1.2M) — Aditya",
+    "sentAt": "2026-06-29T12:47:34.102Z",
+    "messageId": "19f136bb52dc13d0",
+    "threadId": "19f136bb52dc13d0"
+  },
+  {
+    "name": "Lei Qi 0001",
+    "affiliation": "Southeast University",
+    "email": "qilei@seu.edu.cn",
+    "subject": "Question about your 2025 paper on text reuse detection in ancient Chinese literature",
+    "body": "Dear Professor Qi,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on text reuse detection in ancient Chinese literature showed that knowledge distillation can be used to significantly enhance semantic understanding of classical texts while maintaining computational efficiency. I've been trying to understand how to apply similar techniques to real-world systems where deep semantic correlations are crucial, such as infrastructure resilience and scientific discovery. Specifically, I've been working on a project where I'm trying to improve transfer efficiency of hyperspectral representations to downstream tasks, but I couldn't explain why the spectral-spatial representations transferred robustly with so few labeled samples.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "AncientTRD: A Novel Text Reuse Detection Method for Ancient Chinese Literature",
+      "Image Captioning Method Based on CLIP-Combined Local Feature Enhancement and Multi-Scale Semantic Guidance",
+      "VC-RFB: feature system matrix enhanced virtual clustering random forest-Bayesian model for real-time accident prediction",
+      "Video Description Generation Method Based on Contrastive Language–Image Pre-Training Combined Retrieval-Augmented and Multi-Scale Semantic Guidance"
+    ],
+    "linkedinNote": "Emailed you re: AncientTRD. 90.8% malicious recall in my Android malware detection pipeline, but remaining failure cases looked like distributional shift. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T12:48:10.045Z",
+    "messageId": "19f136c401d0db26",
+    "threadId": "19f136c401d0db26"
+  },
+  {
+    "name": "Zongzhang Zhang",
+    "affiliation": "Nanjing University",
+    "email": "zzzhang@nju.edu.cn",
+    "subject": "Question about your 2026 paper on Reward Model Evaluation via Automatically-Ranked Policy Alignment",
+    "body": "Dear Professor Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Reward Model Evaluation via Automatically-Ranked Policy Alignment demonstrated the limitations of standard RME approaches and proposed the Policy Preference Alignment Coefficient (PPAC). This caught my attention because I was working on an anomaly detection system that relied on a reward function learned from labeled data. However, during testing, the model's performance plateaued, and I suspect it might be due to the reward model's quality.\n\nI built an anomaly detection pipeline using the CIC-AndMal2017 dataset, achieving 90.8% malicious recall. However, the remaining failure cases seemed to cluster in a way that looked like a distributional shift problem rather than a model capacity problem. Your work on PPAC has given me insights into evaluating reward models directly, but I'm struggling to understand how to apply this to my problem. Specifically, I'm unsure how to use PPAC to assess the reward model's quality without policy optimization.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "LaTac: latent tactics for robust multi-agent coordination under intermittent communication",
+      "Reward Model Evaluation via Automatically-Ranked Policy Alignment",
+      "Meta-Normalizing Flow for Data-Limited Offline Meta-Reinforcement Learning (Student Abstract)",
+      "Efficient Preference Alignment via Pareto Exploration (Student Abstract)"
+    ],
+    "linkedinNote": "Emailed you re: Reward Model Evaluation via Automatically-Ranked Policy Alignment. Anomaly detection pipeline with distributional shift issues — top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T12:50:28.238Z",
+    "messageId": "19f136e5d8e9fc7f",
+    "threadId": "19f136e5d8e9fc7f"
+  },
+  {
+    "name": "Yujun Cai",
+    "affiliation": "University of Queensland",
+    "email": "yujun.cai@uq.edu.au",
+    "subject": "Question about your 2025 paper on generalist scanners for GUI grounding",
+    "body": "Dear Professor Cai,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates. Your work on generalist scanners for GUI grounding, as proposed in 'Generalist Scanner Meets Specialist Locator: A Synergistic Coarse-to-Fine Framework for Robust GUI Grounding' (2025), resonates deeply because I struggled with similar issues in designing a GUI-based charging discovery system for PluginAny EV routing. While the framework improved downstream task performance by 15%, I couldn't explain why the coarse-to-fine approach worked better than standard pre-trained VLMs in such a specific domain. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "AudioMotionBench: Evaluating Auditory Motion Perception in Audio LLMs",
+      "SegDebias: Test-Time Bias Mitigation for ViT-Based CLIP via Segmentation",
+      "ChainMPQ: Interleaved Text-Image Reasoning Chains for Mitigating Relation Hallucinations",
+      "Generalist Scanner Meets Specialist Locator: A Synergistic Coarse-to-Fine Framework for Robust GUI Grounding"
+    ],
+    "linkedinNote": "Emailed you re: 'Generalist Scanner Meets Specialist Locator'. Struggled to explain why coarse-to-fine approach improved GUI charging discovery performance. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T12:51:05.827Z",
+    "messageId": "19f136ef00dd4265",
+    "threadId": "19f136ef00dd4265"
+  },
+  {
+    "name": "Wei Feng 0005",
+    "affiliation": "Tianjin University",
+    "email": "wfeng@tju.edu.cn",
+    "subject": "Question about your 2025 paper on pedestrian target detection",
+    "body": "Dear Professor Wei Feng 0005,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates nationally.\n\nYour 2025 paper on pedestrian target detection showed that the improved YOLOv12n lightweight model can solve the problem of dense pedestrian targets and large number of object detector parameters. I was intrigued by the use of StarNet and lightweight detection head to enhance C3k2 and reduce the number of parameters of the detection head. I built an Android malware detection system using the CIC-AndMal2017 dataset, but the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "An Implicit Neural Modeling Framework Using Input-Injected Ordinary Differential Equations for Medical Image Segmentation",
+      "A pedestrian target detection method based on the improved YOLOv12n lightweight model",
+      "ZeroGS: Training 3D Gaussian Splatting from Unposed Images",
+      "Power IOT Terminal Message Depth Analysis Model"
+    ],
+    "linkedinNote": "Emailed you re: 2025 pedestrian target detection. Clustering failure cases similar to distributional shift. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T12:51:38.200Z",
+    "messageId": "19f136f6e421a45b",
+    "threadId": "19f136f6e421a45b"
+  },
+  {
+    "name": "Jingya Wang 0001",
+    "affiliation": "ShanghaiTech University",
+    "email": "wangjingya@shanghaitech.edu.cn",
+    "subject": "Your 2025 paper on AI-driven pulsar candidate identification - an observation I couldn't explain",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on AI technology in pulsar candidate identification showed that deep learning models can be used to predict pulsar candidates with high accuracy. However, I couldn't understand how the proposed model handled the class imbalance problem in pulsar candidate identification, despite achieving high accuracy.\n\nI'm building a system to analyze time-series data from sensors, where I encounter a similar class imbalance issue. I've been struggling to apply the techniques from your paper to this problem, as the sensor data has a different temporal structure than the pulsar data used in your research.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Application of AI technology in pulsar candidate identification",
+      "Application and Optimization of Endogenous Security Mechanisms in Photovoltaic Data Transmission and Storage",
+      "De novo design of SARS-CoV-2 main protease inhibitors with characteristic binding modes"
+    ],
+    "linkedinNote": "",
+    "sentAt": "2026-06-29T12:52:11.515Z",
+    "messageId": "19f136ff0b9a3b6c",
+    "threadId": "19f136ff0b9a3b6c"
+  },
+  {
+    "name": "Zhouhui Lian",
+    "affiliation": "Peking University",
+    "email": "lianzhouhui@pku.edu.cn",
+    "subject": "Question about your 2024 paper on RSUniVLM",
+    "body": "Dear Professor Lian,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on RSUniVLM demonstrated that a unified, end-to-end Remote Sensing Vision-Language Model could capture visual information at different levels. However, I'm struggling to understand how the Granularity-oriented Mixture of Experts architecture constrains the model to about 1 billion parameters without compromising performance. My own work on hyperspectral foundation models showed that we can learn transferable spatial-spectral representations, but I still lack a deep understanding of how to control model capacity in this context.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "MMMG: A Massive, Multidisciplinary, Multi-Tier Generation Benchmark for Text-to-Image Reasoning",
+      "ART: Anonymous Region Transformer for Variable Multi-Layer Transparent Image Generation",
+      "RSUniVLM: A Unified Vision Language Model for Remote Sensing via Granularity-oriented Mixture of Experts",
+      "Pano2Room: Novel View Synthesis from a Single Indoor Panorama"
+    ],
+    "linkedinNote": "Emailed you re: RSUniVLM. Struggling to understand how granularity-oriented mixture of experts constrains model capacity. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T12:52:48.964Z",
+    "messageId": "19f137082994a45f",
+    "threadId": "19f137082994a45f"
+  },
+  {
+    "name": "Peifeng Li",
+    "affiliation": "Soochow University",
+    "email": "pfli@suda.edu.cn",
+    "subject": "Question about your 2025 paper on consistency reflection and correction",
+    "body": "Dear Professor Li,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on consistency reflection and correction showed that goal-oriented proactive dialogue systems can be improved by reflecting on discrepancies between generated responses and dialogue contexts. However, I struggled to understand how the reflection stage affected the model's ability to adapt to user profiles and dialogue history, and whether this was dependent on the specific task or model architecture. Specifically, in my experience with a retrieval-augmented generation pipeline, I found that the model's ability to adapt to user queries was hindered by inconsistencies in the retrieval results, but I couldn't explain why this was the case.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Enhancing Goal-oriented Proactive Dialogue Systems via Consistency Reflection and Correction",
+      "Exploring Model Editing for LLM-based Aspect-Based Sentiment Classification",
+      "Enhancing Goal-oriented Proactive Dialogue Systems via Dynamic Multi-dimensional Consistency Optimization",
+      "MultiE: A Fusion of Dual-Path Encoding and Multi-dimensional Adaptive Convolution for Knowledge Graph Embedding"
+    ],
+    "linkedinNote": "Emailed you re: 2025 paper on consistency reflection and correction. Struggling to explain how reflection affects model adaptability to user profiles and dialogue history. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T12:53:26.246Z",
+    "messageId": "19f137114823440f",
+    "threadId": "19f137114823440f"
+  },
+  {
+    "name": "Shikui Tu",
+    "affiliation": "Shanghai Jiao Tong University",
+    "email": "tushikui@sjtu.edu.cn",
+    "subject": "Question about your 2026 paper on chiplet model generation",
+    "body": "Dear Professor Shikui Tu,\n\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on DS2SC-Agent demonstrated the potential of Large Language Models in automating hardware code generation. However, traditional LLM-assisted design frameworks target highly structured or well-defined design specifications, which often aren't representative of real-world engineering scenarios. I've been working on an EV charging infrastructure aggregation system, where manual modeling from datasheets is error-prone and time-consuming. I'd like to explore how DS2SC-Agent could be adapted for more unstructured design specifications, such as datasheets in the EV charging domain. I'm actively looking to contribute to problems like this and could spend the coming winter break working on this with your group, whether remotely now or more intensively over winter.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "DS2SC-Agent: A Multi-Agent Automated Pipeline for Rapid Chiplet Model Generation",
+      "Harnessing Diffusion Models for Image Manipulation With Partial Sketches",
+      "Text to Sketch Generation with Multi-Styles",
+      "GraphFusion: Integrative prediction of drug synergy using multi-scale graph representations and cell line contexts"
+    ],
+    "linkedinNote": "Emailed you re: DS2SC-Agent. Struggled with adapting LLM-assisted design frameworks for unstructured datasheets. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T12:55:03.097Z",
+    "messageId": "19f13728f3e1d74a",
+    "threadId": "19f13728f3e1d74a"
+  },
+  {
+    "name": "Xiuwen Gong",
+    "affiliation": "Wuhan University",
+    "email": "gongxiuwen@gmail.com",
+    "subject": "Your work on spectral-spatial representations connects to something I ran into",
+    "body": "Dear Professor Gong,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on spectral-spatial representations, especially in transfer learning, has influenced my project on hyperspectral foundation models. However, I struggle to understand why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples — whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective. I've achieved 20% improvement in downstream land-cover classification separability with 25% reduction in pre-training latency, but the underlying reasons for this success remain unclear.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: spectral-spatial representations. Struggle to understand what drives transfer learning robustness. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T12:55:31.467Z",
+    "messageId": "19f1372fe46a5a06",
+    "threadId": "19f1372fe46a5a06"
+  },
+  {
+    "name": "Xiuying Chen",
+    "affiliation": "MBZUAI",
+    "email": "xiuying.chen@mbzuai.ac.ae",
+    "subject": "Question about multimodal learning in your group",
+    "body": "Dear Professor Chen,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nI'm drawn to the work on multimodal learning in your group because of the problem of aligning generation and retrieval objectives. Specifically, I struggled with the accuracy gains plateauing past a certain retrieval threshold in my RAG pipeline at ArchiGen AI, where improving retrieval quality further stopped helping generation quality.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: multimodal learning. Accuracy gains plateaued past a certain retrieval threshold in my RAG pipeline. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T12:56:07.092Z",
+    "messageId": "19f137389c1c1458",
+    "threadId": "19f137389c1c1458"
   }
 ]
