@@ -8873,5 +8873,328 @@
     "sentAt": "2026-06-29T18:26:31.608Z",
     "messageId": "19f14a208654eeb3",
     "threadId": "19f14a208654eeb3"
+  },
+  {
+    "name": "Christopher Musco",
+    "affiliation": "New York University",
+    "email": "cmusco@nyu.edu",
+    "subject": "Your 2026 paper on spectral density estimation for normal matrices",
+    "body": "Dear Professor Musco,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on spectral density estimation for normal matrices showed that matrix-vector product queries can lead to a good approximation of the uniform distribution on the eigenvalues of a matrix. I'm working on a hyperspectral foundation model that learns transferable spatial-spectral representations, and I'm struggling to understand why the spectral-spatial representations transfer robustly to downstream tasks with so few labeled samples — whether it's the masking strategy, the spectral tokenization, or something about the pretraining objective. I've made progress in improving downstream land-cover classification separability by 20% while reducing pre-training latency by 25%, but I'd love to contribute to research addressing this knowledge gap.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Spectral density estimation for normal matrices",
+      "Quasi-optimal Hierarchically Semi-separable Matrix Approximation",
+      "Fixed-Sparsity Matrix Approximation from Matrix-Vector Products",
+      "Randomized block-Krylov subspace methods for low-rank approximation of matrix functions"
+    ],
+    "linkedinNote": "Emailed you re: Spectral density estimation for normal matrices. Struggling to understand transfer robustness in hyperspectral foundation models. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T21:39:48.291Z",
+    "messageId": "19f1552fc374c3b4",
+    "threadId": "19f1552fc374c3b4"
+  },
+  {
+    "name": "Julia Hirschberg",
+    "affiliation": "Columbia University",
+    "email": "julia@cs.columbia.edu",
+    "subject": "Question about your 2025 paper on expressive Japanese character text-to-speech",
+    "body": "Dear Professor Hirschberg,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on expressive Japanese character text-to-speech with VITS and Style-BERT-VITS2 JP Extra showed that pitch-accent sensitivity and stylistic variability can be effectively addressed with the right models. I struggled to replicate similar improvements in my own language model for character dialogue generation, where the transfer efficiency plateaued past a certain retrieval threshold. I'm actively looking to spend the coming winter break working deeply on problems like this and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Comparative Evaluation of Expressive Japanese Character Text-to-Speech with Vits and Style-Bert-Vits2",
+      "Read to Hear: A Zero-Shot Pronunciation Assessment Using Textual Descriptions and LLMs",
+      "Adaptable Non-Parametric Approach for Speech-Based Symptom Assessment: Isolating Private Medical Data in a Retrieval Datastore",
+      "Comparison-Based Automatic Evaluation for Meeting Summarization"
+    ],
+    "linkedinNote": "Emailed you re: 2025 text-to-speech paper. Accuracy gains plateaued past retrieval threshold in my own model. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T21:40:19.268Z",
+    "messageId": "19f155374fe18a1a",
+    "threadId": "19f155374fe18a1a"
+  },
+  {
+    "name": "Antoine Ledent",
+    "affiliation": "Singapore Management University",
+    "email": "aledent@smu.edu.sg",
+    "subject": "Question about your 2026 paper on Language Embeddings Meet Shallow Autoencoders",
+    "body": "Dear Professor Ledent,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Language Embeddings Meet Shallow Autoencoders showed that shallow autoencoders can learn effective representations for downstream tasks. However, when I tried applying this idea to build a retrieval-augmented generation pipeline for a conversational AI system, the generation quality plateaued despite improvements in retrieval quality — suggesting that the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself. I'm trying to understand why this is happening and whether there's a way to decouple the objectives.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Language Embeddings Meet Shallow Autoencoders",
+      "The Stars Align: Modeling User Rating Calibration with Sparse Semantic Review Features",
+      "A Refined Generalization Analysis for Extreme Multi-class Supervised Contrastive Representation Learning",
+      "Scalable Multi-Task Low-Rank Model Adaptation"
+    ],
+    "linkedinNote": "Emailed you re: Language Embeddings Meet Shallow Autoencoders. Generation quality improvement plateaued despite retrieval quality improvement, unsure why. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T21:40:51.615Z",
+    "messageId": "19f1553f5c1c69f8",
+    "threadId": "19f1553f5c1c69f8"
+  },
+  {
+    "name": "Shudong Huang",
+    "affiliation": "Sichuan University",
+    "email": "huangsd@scu.edu.cn",
+    "subject": "Question about your 2025 paper on biomedical trigger detection",
+    "body": "Dear Professor Huang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on DCA-Net demonstrated that graph-based dependent sampling and dynamic context association can be highly effective for biomedical trigger detection. I was particularly intrigued by the way your model leveraged graph structure to capture the complex relationships between samples and contexts. However, I struggled to understand how your approach could be generalized to similar tasks in other domains, where the relationship between samples and contexts may be less well-defined.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Efficient feature selection based on bounded approximate entropy",
+      "EBAD-GS: Deblurring Gaussian Splatting with Event-Driven Bundle Adjustment",
+      "UG-HDR: Uncertainty-Guided HDR Imaging under Large Motion and Extreme Exposure",
+      "DCA-Net: Graph-based dependent sampling and dynamic context association for biomedical trigger detection"
+    ],
+    "linkedinNote": "Emailed Shudong Huang re: DCA-Net. Struggled with generalizing DCA-Net to other domains. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T21:41:21.358Z",
+    "messageId": "19f155466bdab9c8",
+    "threadId": "19f155466bdab9c8"
+  },
+  {
+    "name": "Cong Shen 0001",
+    "affiliation": "University of Virginia",
+    "email": "cong@virginia.edu",
+    "subject": "Question about federated multi-label text feature selection via manifold-aware sparse modeling",
+    "body": "Dear Professor Shen,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on federated multi-label text feature selection via manifold-aware sparse modeling and cooperative grey wolf optimization showed that this approach can handle high dimensionality and sparse features in distributed environments. I'm struggling to understand how the manifold-aware sparse modeling part can identify relevant features when the labels are incomplete. The problem I'm facing is similar when building a retrieval-augmented generation pipeline — the labels are often noisy or missing, and I want to leverage the power of large language models to adapt to this noise. I've made some progress with a CRNN, but the state detection part is still tricky.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A Method for Comment Text Feature Mining via Integrated Keyword Extraction, Clustering, and Sentiment Analysis",
+      "Short-Packet Communication in CDRT Networks with Imperfect CSI Over Nakagami-m Fading Channels: RSMA or NOMA?",
+      "Weakly Supervised Non-Intrusive Load Monitoring via State-Anchored Frozen Large Language Model Adaptation",
+      "Federated multi-label text feature selection via manifold-aware sparse modeling and cooperative grey wolf optimization"
+    ],
+    "linkedinNote": "Emailed you re: Federated multi-label text feature selection via manifold-aware sparse modeling. Stuck on state detection in noisy labels — similar to my RAG pipeline's adaptation challenge. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T21:41:46.300Z",
+    "messageId": "19f1554c923c5a21",
+    "threadId": "19f1554c923c5a21"
+  },
+  {
+    "name": "Tae-Kyun Kim 0001",
+    "affiliation": "KAIST",
+    "email": "kimtaekyun@kaist.ac.kr",
+    "subject": "Your work on edge-aware feature learning - something I ran into",
+    "body": "Dear Professor Kim 0001,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on edge-aware feature learning connects to something I ran into while building a hyperspectral foundation model. I was trying to learn transferable spatial-spectral representations but couldn't explain why my downstream land-cover classification separability improved by 20% and pre-training latency dropped by 25%. Whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn. My CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: edge-aware feature learning. Trying to understand why spectral-spatial representations transfer robustly to downstream tasks with few labeled samples, especially when the bottleneck shifts from retrieval to how retrieval and generation objectives are coupled. Top 0.4% JEE Main (1....",
+    "sentAt": "2026-06-29T21:42:21.674Z",
+    "messageId": "19f155553ddc63ac",
+    "threadId": "19f155553ddc63ac"
+  },
+  {
+    "name": "Xi Yang 0011",
+    "affiliation": "Xidian University",
+    "email": "yangx@xidian.edu.cn",
+    "subject": "Question about your 2026 paper on Retrieval-Guided Contextual Inference",
+    "body": "Dear Professor Xi Yang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Retrieval-Guided Contextual Inference for Training-Free Video Anomaly Detection in Low-Light Scenarios showed that retrieval-augmented context can improve low-light video anomaly detection. I'm currently exploring similar problems in anomaly detection for real-world systems, and I ran into a similar challenge with a 90.8% malicious recall on a malware detection benchmark, but the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem. My recent work on a 1,418-dimensional sparse feature space for malware detection didn't explain why the standard calibration didn't resolve it. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Retrieval-Guided Contextual Inference for Training-Free Video Anomaly Detection in Low-Light Scenarios",
+      "EKPC: Elastic Knowledge Preservation and Compensation for Class-Incremental Learning",
+      "Efficient bidirectional fusion multi-gate network for lightweight single image super-resolution",
+      "SSD: Making Face Forgery Clues Evident Again With Self-Steganographic Detection"
+    ],
+    "linkedinNote": "Emailed you re: Retrieval-Guided Contextual Inference. 90.8% malicious recall, but class imbalance correction didn't resolve remaining failure cases. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T21:42:46.766Z",
+    "messageId": "19f1555b4f1b6403",
+    "threadId": "19f1555b4f1b6403"
+  },
+  {
+    "name": "Zenglin Xu",
+    "affiliation": "Fudan University",
+    "email": "zenglinxu@fudan.edu.cn",
+    "subject": "Question about your 2025 paper on diffusion models for time series and spatio-temporal data",
+    "body": "Dear Professor Xu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on diffusion models for time series and spatio-temporal data showed that these models enhance generative, inferential, and downstream capabilities across diverse fields such as healthcare, recommendation, climate, energy, audio, and traffic. However, I struggled to reconcile how the models handle traditional challenges and foster novel solutions in diffusion model-based data mining tasks and applications.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "CANS: Accelerating Multiuser Collaborative Edge Inference via Cooperative Autodidactic NeuroSurgeon",
+      "Revisiting long-term time series forecasting: an investigation on affine mapping",
+      "DARC: Disagreement-Aware Alignment via Risk-Constrained Decoding",
+      "A Survey on Diffusion Models for Time Series and Spatio-Temporal Data"
+    ],
+    "linkedinNote": "Emailed you re: Diffusion Models for Time Series and Spatio-Temporal Data. Struggled to reconcile how the models handle traditional challenges and foster novel solutions in diffusion model-based data mining tasks and applications. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T21:43:12.884Z",
+    "messageId": "19f15561b0ec3027",
+    "threadId": "19f15561b0ec3027"
+  },
+  {
+    "name": "Zhuang Li 0001",
+    "affiliation": "RMIT University",
+    "email": "zhuang.li@rmit.edu.au",
+    "subject": "Your work on transformers and multimodal learning connects to something I ran into building hyperspectral foundation models.",
+    "body": "Dear Professor Li,\n\nI am Aditya Srivastava, a second-year B.Tech student at Delhi Technological University. I secured 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide.\n\nMy work focuses on applying machine learning to difficult real-world systems, especially in computer vision and NLP. Recently, I've been working on hyperspectral foundation models to learn transferable spatial-spectral representations. I built a Masked Autoencoder (MAE) that improved downstream land-cover classification separability by 20% while reducing pre-training latency by 25%.\n\nHowever, I struggled to explain why spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. Specifically, I couldn't determine whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective. This problem space is similar to your work on transformers and multimodal learning, and I'd be glad to contribute to this area in your lab.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If there's alignment, I'd value the chance to contribute and learn. My CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed Zhuang Li 0001 re: transformers and multimodal learning. Hyperspectral representations transferred robustly to downstream tasks with so few labeled samples. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T21:43:57.550Z",
+    "messageId": "19f1556cbbfaf17a",
+    "threadId": "19f1556cbbfaf17a"
+  },
+  {
+    "name": "Laura Leal-Taixé",
+    "affiliation": "TU Munich",
+    "email": "leal.taixe@tum.de",
+    "subject": "Question about your 2026 paper on Structureless Visual Localization",
+    "body": "Dear Professor Laura Leal-Taixé,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on structureless visual localization showed that camera pose estimation can be made more flexible by representing the scene as a database of images with known poses. Struggling to apply this idea to a real-world problem, I've been building a large-scale EV charging infrastructure aggregation system, where camera pose estimation would be critical for live charger discovery and route planning. However, I've hit a wall trying to explain why the system's performance degrades under partial observability of charger availability.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest, \nAditya",
+    "papersReferenced": [
+      "A Guide to Structureless Visual Localization",
+      "Depth Completion as Parameter-Efficient Test-Time Adaptation",
+      "SVAG-Bench: A Large-Scale Benchmark for Multi-Instance Spatio-temporal Video Action Grounding",
+      "MATCHA: Towards Matching Anything"
+    ],
+    "linkedinNote": "Emailed you re: Structureless Visual Localization. EV charging system performance degrades under partial observability of charger availability. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T21:44:34.339Z",
+    "messageId": "19f155759655f1d9",
+    "threadId": "19f155759655f1d9"
+  },
+  {
+    "name": "Pulkit Agrawal 0001",
+    "affiliation": "Massachusetts Inst. of Technology",
+    "email": "pulkitag@mit.edu",
+    "subject": "Understanding Interestingness in Language Models Through Human Judgments",
+    "body": "Dear Professor Agrawal,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on code-enabled language models showed that they can outperform reasoning models on diverse tasks, even without fine-tuning. However, I struggled with the connection between language models and human interestingness judgments. Your 2025 paper on understanding interestingness in math problems with humans and language models found that LLMs largely fail to match the distribution of human judgments. I'm trying to understand why LLMs struggle to align with human notions of interestingness, especially in math, despite being broad agreement in many cases.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A Matter of Interest: Understanding Interestingness of Math Problems in Humans and Language Models",
+      "Code-enabled language models can outperform reasoning models on diverse tasks",
+      "A Domain-Specific Probabilistic Programming Language for Reasoning about Reasoning (Or: A Memo on memo)",
+      "Multimodal inference through mental simulation"
+    ],
+    "linkedinNote": "Emailed Pulkit Agrawal re: 'Code-enabled language models can outperform reasoning models on diverse tasks'. Struggled to connect LLMs with human interestingness judgments — broad agreement, but failing to match human distributions. Aditya, top 0.4% JEE Main.",
+    "sentAt": "2026-06-29T21:45:10.538Z",
+    "messageId": "19f1557e7151aab0",
+    "threadId": "19f1557e7151aab0"
+  },
+  {
+    "name": "Jianwei Niu 0002",
+    "affiliation": "Beihang University",
+    "email": "niujianwei@buaa.edu.cn",
+    "subject": "Question about your 2025 paper on recent advances in diffusion-based embodied imitation learning",
+    "body": "Dear Professor Niu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on recent advances in diffusion-based embodied imitation learning showed that this approach can provide a robust and generalizable way to tackle complex tasks in embodied AI. However, I couldn't help but wonder about the challenges in extending this framework to real-world scenarios with partial observability and noisy sensory inputs, which seems to be a common challenge in many real-world applications I've worked on.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A Physical Model-Guided Framework for Underwater Image Enhancement and Depth Estimation",
+      "Recent advances in diffusion-based embodied imitation learning: a survey",
+      "MASGC: Hybrid attention and synchronous graph learning for monocular 3D pose estimation",
+      "Decoupling Dense Video Captioning via Task-specific Prompts"
+    ],
+    "linkedinNote": "Emailed you re: recent advances in diffusion-based embodied imitation learning. Challenges in extending embodied AI to real-world scenarios with partial observability and noisy sensory inputs. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T21:45:48.419Z",
+    "messageId": "19f15587ae9c75f5",
+    "threadId": "19f15587ae9c75f5"
+  },
+  {
+    "name": "Sameer Singh 0001",
+    "affiliation": "Univ. of California - Irvine",
+    "email": "sameer@uci.edu",
+    "subject": "Question about your 2025 paper on Leveraging In-Context Learning for Language Model Agents",
+    "body": "Dear Professor Singh,\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Leveraging In-Context Learning for Language Model Agents showed that ICL can significantly improve performance, reliability, robustness, and efficiency of language model agents for agentic tasks. However, I struggled to understand the limitations of set-selection of trajectories of similar tasks as demonstrations – what constitutes demonstrations, and when and where to show them.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\nBest,\nAditya",
+    "papersReferenced": [
+      "Software based medical device evaluation through reinforcement learning",
+      "Leveraging In-Context Learning for Language Model Agents",
+      "Semantic Probabilistic Control of Language Models",
+      "WIND: A Wireless Intelligent Network Digital Twin for Federated Learning and Multi-Layer Optimization"
+    ],
+    "linkedinNote": "",
+    "sentAt": "2026-06-29T21:46:21.905Z",
+    "messageId": "19f1558fefeb5f91",
+    "threadId": "19f1558fefeb5f91"
+  },
+  {
+    "name": "Xingang Pan",
+    "affiliation": "Nanyang Technological University",
+    "email": "xingang.pan@ntu.edu.sg",
+    "subject": "Question about your 2025 paper on autoregressive diffusion world models",
+    "body": "Dear Professor Pan,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Epona, the autoregressive diffusion world model, demonstrated that localized spatiotemporal distribution modeling enables flexible-length, long-horizon predictions in autonomous driving world modeling. However, I struggled to understand why your modular trajectory and video prediction approach seamlessly integrates motion planning with visual modeling without compromising on video quality, especially in scenarios with sparse and varying object counts. This seems to contradict the conventional video diffusion models' reliance on global joint distribution modeling. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Enhancing MMDiT-Based Text-to-Image Models for Similar Subject Generation",
+      "Boosting Monocular Metric Depth Estimation via Bokeh Rendering",
+      "Bokeh Diffusion: Defocus Blur Control in Text-to-Image Diffusion Models",
+      "Epona: Autoregressive Diffusion World Model for Autonomous Driving"
+    ],
+    "linkedinNote": "Emailed you re: Epona. Video diffusion world models struggle with flexible-length predictions and integrating trajectory planning. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T21:46:58.648Z",
+    "messageId": "19f15598d17d7de2",
+    "threadId": "19f15598d17d7de2"
+  },
+  {
+    "name": "Philip C. Woodland",
+    "affiliation": "University of Cambridge",
+    "email": "pw117@cam.ac.uk",
+    "subject": "Your 2026 paper on cross-lingual interleaving for SLMs",
+    "body": "Dear Professor Woodland,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University, ranked 99.59 percentile in JEE Main, top 0.4% among over a million candidates.\n\nYour 2026 paper on cross-lingual interleaving for Speech Language Models (SLMs) showed that mixing speech tokens across languages without textual supervision can improve monolingual semantic accuracy, enable robust cross-lingual continuation, and strengthen cross-lingual hidden-state representations. This aligns with my own work on retrieval-augmented generation (RAG) and LLM agents, where I've seen that improving retrieval quality can lead to better generation quality only up to a certain point, after which the bottleneck shifts to how retrieval and generation objectives are coupled.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. I'm trying to put my next few months into research problems in this direction, whether remotely now or more intensively over winter. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Cross-Lingual Interleaving for Speech Language Models",
+      "Audio-Conditioned Diffusion LLMs for ASR and Deliberation Processing",
+      "Str-DiffSep: Streamable Diffusion Model for Speech Separation",
+      "Measuring the Redundancy of Decoder Layers in SpeechLLMs"
+    ],
+    "linkedinNote": "Emailed you re: Cross-Lingual Interleaving for SLMs. Accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled. Top 0.4% JEE Main (1...",
+    "sentAt": "2026-06-29T21:48:12.357Z",
+    "messageId": "19f155aad4326ad5",
+    "threadId": "19f155aad4326ad5"
+  },
+  {
+    "name": "Siva Reddy",
+    "affiliation": "McGill University",
+    "email": "dept.linguistics@mcgill.ca",
+    "subject": "Question about your 2025 paper on Architecture-Agnostic Linear Scaling of Reasoning",
+    "body": "Dear Professor Reddy,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Architecture-Agnostic Linear Scaling of Reasoning showed that reinforcement learning can be made linear by structuring reasoning into fixed-size chunks, decoupling thinking length from context size. This idea got me thinking about how to scale up complex reasoning tasks without quadratic compute growth.\n\nI've been working on a project where I'm trying to apply reasoning to a downstream task, but my current approach is hitting a wall when the task requires long chains of thought. I've seen some success with attention-based policies, but they still suffer from exponential compute growth with reasoning length.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "The Markovian Thinker: Architecture-Agnostic Linear Scaling of Reasoning",
+      "Understanding the Influence of Synthetic Data for Text Embedders",
+      "Reframing linguistic bootstrapping as joint inference using visually-grounded grammar induction models",
+      "REARANK: Reasoning Re-ranking Agent via Reinforcement Learning"
+    ],
+    "linkedinNote": "Emailed you re: The Markovian Thinker. My reasoning approach is hitting a wall when task requires long chains of thought. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T21:49:23.918Z",
+    "messageId": "19f155bc4788bd22",
+    "threadId": "19f155bc4788bd22"
+  },
+  {
+    "name": "Samuel Horváth",
+    "affiliation": "MBZUAI",
+    "email": "samuel.horvath@mbzuai.ac.ae",
+    "subject": "Distributional shift in sparse feature spaces — your OOD work",
+    "body": "Dear Professor Horváth,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on out-of-distribution detection and anomaly detection in sparse feature spaces — such as in sparse feature representations of malware — demonstrated the challenges of identifying distributional shifts. I ran into a similar problem with my Android malware detection pipeline, where the failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem. The pipeline reverse-engineered APKs via Apktool into a 1,418-dimensional sparse feature space and achieved 90.8% malicious recall using threshold calibration and class imbalance correction, but the remaining failure cases were puzzling.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: distributional shift in sparse feature spaces. 90.8% malicious recall in APK feature space, but remaining failure cases clustered like a distributional shift problem. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T21:49:56.412Z",
+    "messageId": "19f155c456829c2a",
+    "threadId": "19f155c456829c2a"
+  },
+  {
+    "name": "Karthik Nandakumar",
+    "affiliation": "Michigan State University",
+    "email": "nandakum@msu.edu",
+    "subject": "Question about your 2026 paper on prefix-nested LoRA for federated fine-tuning",
+    "body": "Dear Professor Nandakumar,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on prefix-nested LoRA for federated fine-tuning under rank heterogeneity showed that LoRA enables privacy-preserving adaptation of foundation models. I was trying to apply a similar idea to my project on PluginAny EV routing system — live multi-network charging aggregation and route planning — but it broke under partial observability of charger availability; real-time state changes turned a static graph problem into something closer to a POMDP.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "PreLort: Prefix-Nested LoRA for Federated Fine-Tuning under Rank Heterogeneity",
+      "SafeDiffusion-R1: Online Reward Steering for Safe Diffusion Post-Training",
+      "Data-Free Client Contribution Estimation via Logit Maximization for Federated Learning",
+      "Response-Conditioned Parallel-to-Sequential Orchestration for Multi-Agent Systems"
+    ],
+    "linkedinNote": "Emailed Karthik Nandakumar re: PreLort. Trying to adapt LoRA for PluginAny EV routing system but it failed under partial observability. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T21:50:29.505Z",
+    "messageId": "19f155cc52c53ef4",
+    "threadId": "19f155cc52c53ef4"
+  },
+  {
+    "name": "Nassir Navab",
+    "affiliation": "TU Munich",
+    "email": "martina.hilla@tum.de",
+    "subject": "Question about VALA's visibility-aware aggregation for 3D Gaussian Splatting",
+    "body": "Dear Professor Navab,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on VALA (Visibility-Aware Language Aggregation) for 3D Gaussian Splatting demonstrated that visibility-aware gates can retain only visible Gaussians, reducing noise in language embeddings. However, I struggled to understand how the streaming weighted geometric median in cosine space merges noisy multi-view features effectively — whether it's the weighted average or the geometric median that's responsible for the improvement, or if it's both.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "SpeechCT-CLIP: Distilling Text-Image Knowledge to Speech for Voice-Native Multimodal CT Analysis",
+      "GALA: Guided Attention with Language Alignment for Open Vocabulary Gaussian Splatting",
+      "Visibility-Aware Language Aggregation for Open-Vocabulary Segmentation in 3D Gaussian Splatting",
+      "SuperGSeg: Open-Vocabulary 3D Segmentation with Structured Super-Gaussians"
+    ],
+    "linkedinNote": "Emailed you re: VALA. VALA's visibility-aware aggregation for 3D Gaussian Splatting has me wondering about its combination of weighted average and geometric median for noise reduction. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T21:51:06.064Z",
+    "messageId": "19f155d556a49238",
+    "threadId": "19f155d556a49238"
+  },
+  {
+    "name": "Huaping Liu 0001",
+    "affiliation": "Tsinghua University",
+    "email": "askengineering@oregonstate.edu",
+    "subject": "Your 2025 paper on semi-supervised shape-aware medical image segmentation",
+    "body": "Dear Professor Liu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on SS-MPP: Semi-Supervised Shape-Aware Medical Image Segmentation Based on Multi-Scale Pixel-Wise Prototype showed that leveraging the consistency of pixel intensities in medical images can enhance overall and edge segmentation. This finding got me curious about what happens when we apply similar consistency constraints in hyperspectral imaging – do we see similar boosts in downstream separability? I've been experimenting with masked autoencoders for hyperspectral data, and my results indicate that downstream separability improved 20% and pre-training latency dropped 25%, but I struggled to explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "SS-MPP: Semi-Supervised Shape-Aware Medical Image Segmentation Based on Multi-Scale Pixel-Wise Prototype",
+      "Improve Multi-Modal Embedding Learning via Explicit Hard Negative Gradient Amplifying"
+    ],
+    "linkedinNote": "Emailed you re: SS-MPP. Struggled explaining why spectral-spatial hyperspectral representations transferred robustly. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-06-29T21:51:41.694Z",
+    "messageId": "19f155ddfe092caf",
+    "threadId": "19f155ddfe092caf"
   }
 ]
