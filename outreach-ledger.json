@@ -11528,5 +11528,322 @@
     "sentAt": "2026-07-01T15:01:26.426Z",
     "messageId": "19f1e32fc6db69a6",
     "threadId": "19f1e32fc6db69a6"
+  },
+  {
+    "name": "Nizar Habash",
+    "affiliation": "NYU Abu Dhabi",
+    "email": "nizar.habash@nyu.edu",
+    "subject": "Question about your 2025 paper on Dialectal Arabic MMLU",
+    "body": "Dear Professor Habash,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Dialectal Arabic MMLU showed that language model evaluation for Arabic dialects requires benchmarks beyond Modern Standard Arabic (MSA). This aligns closely with a problem I've been trying to understand in my work on cross-lingual augmentation techniques for Maltese NLP.\n\nI've been building a pipeline that leverages Arabic-language resources to augment Maltese data, but I've been struggling to explain why the augmentations are benefiting Maltese models. Your work demonstrated the importance of dialectal evaluation in LLMs, and I'm wondering if there's a connection to the challenges I'm facing with Maltese.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "DialectalArabicMMLU: Benchmarking Dialectal Capabilities in Arabic and Multilingual Language Models",
+      "Data Augmentation for Maltese NLP using Transliterated and Machine Translated Arabic Data",
+      "NADI 2025: The First Multidialectal Arabic Speech Processing Shared Task",
+      "Machine Translation in the Era of Large Language Models:A Survey of Historical and Emerging Problems"
+    ],
+    "linkedinNote": "Emailed you re: Dialectal Arabic MMLU. Maltese augmentation pipeline bottleneck — seeking a connection to dialectal evaluation. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:05:04.728Z",
+    "messageId": "19f1edb1fe357c68",
+    "threadId": "19f1edb1fe357c68"
+  },
+  {
+    "name": "Alex Wong 0001",
+    "affiliation": "Yale University",
+    "email": "alex.wong@yale.edu",
+    "subject": "Your work on Hyperspectral Image Analysis — Downstream Transfer Efficiency",
+    "body": "Dear Professor Wong,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on Hyperspectral Image Analysis demonstrated that masked pretraining can learn transferable spatial-spectral representations, improving downstream land-cover classification separability by a significant margin. I struggled with understanding why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples — whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective. In my Hyperspectral Foundation Model, I achieved a 20% improvement in separability while reducing pre-training latency by 25%, but couldn't explain the underlying reasons.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01.\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "",
+    "sentAt": "2026-07-01T18:05:27.494Z",
+    "messageId": "19f1edb77bb55327",
+    "threadId": "19f1edb77bb55327"
+  },
+  {
+    "name": "Giorgos B. Stamou",
+    "affiliation": "NTUA",
+    "email": "gstam@cs.ntua.gr",
+    "subject": "Question about multimodal representations in foundation models",
+    "body": "Dear Professor Stamou,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on multimodal learning and foundation models — specifically how multimodal representations are learned and transferred across tasks — connects to something I ran into while building a Retrieval-Augmented Generation (RAG) pipeline at ArchiGen AI. The RAG pipeline improved AI response accuracy by 30%, but accuracy gains plateaued past a certain retrieval threshold. I'm trying to understand why the bottleneck shifted to how retrieval and generation objectives were coupled.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed Giorgos Stamou re: multimodal representations. Accuracy gains plateaued past a certain retrieval threshold — trying to understand the bottleneck. Top 0.4% JEE Main (1.2M) — Aditya",
+    "sentAt": "2026-07-01T18:05:53.143Z",
+    "messageId": "19f1edbdb1cbfc1a",
+    "threadId": "19f1edbdb1cbfc1a"
+  },
+  {
+    "name": "Mohammad Hajiesmaili",
+    "affiliation": "Univ. of Massachusetts Amherst",
+    "email": "hajiesmaili@cs.umass.edu",
+    "subject": "Your 2025 paper on near-optimal view and bitrate adaptation for 360-degree video streaming",
+    "body": "Dear Professor Hajiesmaili,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on BOLA360 showed that near-optimal view and bitrate adaptation for 360-degree video streaming can be achieved with a novel online adaptive bitrate algorithm. However, I struggled to understand why the algorithm could efficiently handle diverse and unpredictable error profiles in real-world settings — whether it was the learning-augmented predictors, the provable robustness, or something about the bitrate allocators. \n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. My relevant experience includes building a hyperspectral foundation model that improved downstream land-cover classification separability by 20% while reducing pre-training latency by 25%.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Learning-Augmented 360° Video Streaming: Robust Viewport Adaptation with Simple Predictors",
+      "Fairness in the k-Server Problem",
+      "<tt>BOLA360</tt> : Near-optimal View and Bitrate Adaptation for 360-degree Video Streaming",
+      "Multi-objective Evolutionary Learning for Near Pareto-Optimal Optimization of Solar Deployment"
+    ],
+    "linkedinNote": "Emailed you re: BOLA360. Struggled to understand how the algorithm handles diverse error profiles. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:06:22.383Z",
+    "messageId": "19f1edc4cd99a5c9",
+    "threadId": "19f1edc4cd99a5c9"
+  },
+  {
+    "name": "Or Litany",
+    "affiliation": "Technion",
+    "email": "or.litany@gmail.com",
+    "subject": "Question about your 2026 paper on SpectralSplats",
+    "body": "Dear Professor Litany,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU, 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on SpectralSplats showed that robust differentiable tracking via spectral moment supervision can resolve the \"vanishing gradient\" problem in 3D Gaussian Splatting. However, I struggled to understand why the spectral moment supervision helped in tracking, especially when dealing with partial occlusions and severe camera misalignment.\n\nI'm actively looking to spend the coming winter break working deeply on robust tracking problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "SceneTeract: Agentic Functional Affordances and VLM Grounding in 3D Scenes",
+      "SpectralSplats: Robust Differentiable Tracking via Spectral Moment Supervision",
+      "Appreciate the View: A Task-Aware Evaluation Framework for Novel View Synthesis",
+      "Retrieval-Augmented Gaussian Avatars: Improving Expression Generalization"
+    ],
+    "linkedinNote": "Emailed you re: SpectralSplats. Struggled to understand why spectral moment supervision helps in robust tracking, especially with partial occlusions and camera misalignment. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:06:56.198Z",
+    "messageId": "19f1edcd15a04467",
+    "threadId": "19f1edcd15a04467"
+  },
+  {
+    "name": "Tailin Wu",
+    "affiliation": "Westlake University",
+    "email": "wutailin@westlake.edu.cn",
+    "subject": "Question about your 2025 paper on one-step diffusion via shortcutting flow paths",
+    "body": "Dear Professor Wu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% among more than one million candidates nationwide.\n\nYour 2025 paper on one-step diffusion via shortcutting flow paths showed that shortcut models can be designed for one-step diffusion models from scratch, achieving state-of-the-art FID50k scores on ImageNet-256x256. However, I'm struggling to understand how the design framework for shortcut models disentangles concrete component-level choices and enables systematic identification of improvements. Specifically, I'm having trouble grasping how the theoretical justification for shortcut models' validity relates to their practical implementation.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A Survey of Generative Techniques for Spatial-Temporal Data Mining",
+      "On the Design of One-step Diffusion via Shortcutting Flow Paths",
+      "Integrated AI and Communications: A Two-Way Catalysis Toward 6G and Beyond",
+      "FLDmamba: Integrating Fourier and Laplace Transform Decomposition with Mamba for Enhanced Time Series Prediction"
+    ],
+    "linkedinNote": "Emailed you re: shortcutting flow paths. Struggling to understand how design framework improves FID50k scores. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:07:32.329Z",
+    "messageId": "19f1edd5e8d1c637",
+    "threadId": "19f1edd5e8d1c637"
+  },
+  {
+    "name": "Ashiqur R. KhudaBukhsh",
+    "affiliation": "Rochester Inst. of Technology",
+    "email": "khudabukhsh@mail.rit.edu",
+    "subject": "Question about In-Context Learning and Annotator Reliability",
+    "body": "Dear Professor KhudaBukhsh,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Annotator Reliability Through In-Context Learning showed that in-context learning can be used as a robust method for identifying reliable annotators, improving data quality. I'm building a system that utilizes self-supervised learning to improve annotator consistency, but I'm struggling to bridge the gap between in-context learning and my specific downstream tasks. Specifically, I'm facing challenges in adapting the ARTICLE framework to my dataset, which has a unique annotation structure. I'm looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A Large Scale Social Web Audit of AI Generated Text Detection Systems",
+      "Quantifying the Academic Quality of Children’s Videos Using Machine Comprehension",
+      "Code and Data Repository for Quantifying the Academic Quality of Children's Videos Using Machine Comprehension",
+      "ARTICLE: Annotator Reliability Through In-Context Learning"
+    ],
+    "linkedinNote": "Emailed you re: Annotator Reliability Through In-Context Learning. Struggling to bridge in-context learning to my downstream tasks. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:08:03.426Z",
+    "messageId": "19f1eddd9f71bdc9",
+    "threadId": "19f1eddd9f71bdc9"
+  },
+  {
+    "name": "Markus Bläser",
+    "affiliation": "Saarland University",
+    "email": "neumann@cs.uni-saarland.de",
+    "subject": "Question about your 2025 paper on Probabilistic and Causal Satisfiability",
+    "body": "Dear Professor Bläser,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on probabilistic and causal satisfiability showed that the problem is NP-complete for basic and linear terms, and complete for the existential theory of the reals for polynomial terms. I noticed that while your work provides a clear understanding of the problem's complexity, it doesn't address the issue of how to efficiently find a solution when the problem is infeasible. This is particularly challenging in probabilistic and causal reasoning, where the problem may have an unbounded number of solutions.\n\nIn my work on RAG pipelines for AI response accuracy, I encountered a similar issue where the optimal solution space was unbounded, leading to a significant increase in computation time. I was wondering if your group has explored any methods for handling infeasible problems in probabilistic and causal satisfiability, and if there's potential for collaboration on this topic.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Exponential lower bound via exponential sums",
+      "Problems from Optimization and Computational Algebra Equivalent to Hilbert’s Nullstellensatz",
+      "Probabilistic and Causal Satisfiability: Constraining the Model",
+      "Which Graph Motif Parameters Count?"
+    ],
+    "linkedinNote": "Emailed you re: Probabilistic and Causal Satisfiability. In RAG pipelines, ran into similar challenges finding solutions when the problem is infeasible. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:08:34.170Z",
+    "messageId": "19f1ede5142d8ac6",
+    "threadId": "19f1ede5142d8ac6"
+  },
+  {
+    "name": "Matthias Thimm",
+    "affiliation": "University of Koblenz-Landau",
+    "email": "service@uni-koblenz.de",
+    "subject": "Question about your 2025 paper on SPO-Representable Inductive Inference Operators Extending Rational Closure",
+    "body": "Dear Professor Thimm,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on SPO-Representable Inductive Inference Operators Extending Rational Closure showed that rational closure can be extended by SPO-representable inference operators, which are semantically characterized by refinements of the Z-rank relation on possible worlds. I struggled with explaining why certain inductive inference operators failed to satisfy conditional syntax splitting, even though they were SPO-representable.\n\nMy current project involves applying machine learning to difficult real-world systems, and I'm actively looking to spend the coming winter break working on problems like this, contributing remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Conditional Syntax and Semantic Splittings of Strongly and Weakly Consistent Belief Bases",
+      "Inductive Nonmonotonic Reasoning Based on Defeasible and Indefeasible Beliefs",
+      "SPO-Representable Inductive Inference Operators Extending Rational Closure",
+      "Explaining Changes in Total Preorders and Ranking Functions"
+    ],
+    "linkedinNote": "Emailed you re: SPO-Representable Inductive Inference Operators. SPO-representable inference operators failed to satisfy conditional syntax splitting, despite being semantically characterized by refinements of the Z-rank relation on possible worlds. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:09:00.608Z",
+    "messageId": "19f1edeb75c25aca",
+    "threadId": "19f1edeb75c25aca"
+  },
+  {
+    "name": "Yongmei Liu 0001",
+    "affiliation": "Sun Yat-sen University",
+    "email": "ymliu@mail.sysu.edu.cn",
+    "subject": "Question about your 2025 paper on Gaussian graphical models",
+    "body": "Dear Professor Liu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on learning Gaussian graphical models from correlated data showed that cluster-based bootstrap algorithms can infer GGMs from correlated data, addressing the issue of inflated Type I error when ignoring correlation among observations. This result resonated with my work on hyperspectral foundation models, where I observed that downstream separability improved 20% and pre-training latency dropped 25% when using a masked autoencoder to learn transferable spatial-spectral representations. However, I struggled to explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Learning Gaussian graphical models from correlated data",
+      "MultiLogicNMR(er): A Benchmark and Neural-Symbolic Framework for Non-monotonic Reasoning with Multiple Extensions"
+    ],
+    "linkedinNote": "Emailed Yongmei Liu re: 2025 GGM correlated data. Struggled to explain transfer robustness in hyperspectral MAE. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:09:34.662Z",
+    "messageId": "19f1edf3d12234eb",
+    "threadId": "19f1edf3d12234eb"
+  },
+  {
+    "name": "Jiantao Jiao",
+    "affiliation": "Univ. of California - Berkeley",
+    "email": "jiantao@cs.berkeley.edu",
+    "subject": "The Path Not Taken: RLVR Provably Learns Off the Principals - A Conundrum in Self-Play",
+    "body": "Dear Professor Jiao,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on RLVR showed that it reliably improves the reasoning performance of large language models, yet it appears to modify only a small fraction of parameters. I'm struggling to understand why this sparsity is a surface artifact of a model-conditioned optimization bias, and how the Three-Gate Theory mechanistically explains these dynamics. In my experience with RAG pipelines at ArchiGen AI Labs, accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself. I'd value the chance to discuss this further.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "AMA-Bench: Evaluating Long-Horizon Memory for Agentic Applications",
+      "STEM: Scaling Transformers with Embedding Modules",
+      "The Path Not Taken: RLVR Provably Learns Off the Principals",
+      "Language Self-Play For Data-Free Training"
+    ],
+    "linkedinNote": "Emailed you re: The Path Not Taken: RLVR Provably Learns Off the Principals. Accuracy gains plateaued past a certain retrieval threshold in my RAG pipelines at ArchiGen AI Labs. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:10:10.638Z",
+    "messageId": "19f1edfc8e111506",
+    "threadId": "19f1edfc8e111506"
+  },
+  {
+    "name": "David F. Fouhey",
+    "affiliation": "New York University",
+    "email": "david.fouhey@nyu.edu",
+    "subject": "Question about your 2025 paper on 3D-MVP for manipulation",
+    "body": "Dear Professor Fouhey,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on 3D-MVP showed that pretraining on large-scale 3D datasets improves generalization for downstream robotics tasks. However, I encountered a problem while scaling 2D to 3D pretraining objectives for my hyperspectral foundation model. Specifically, the downstream separability improved 20% and pre-training latency dropped 25%, but couldn't explain WHY the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples — whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "LookUp3D: Data-Driven 3D Scanning",
+      "SELDOM: Scene Editing via Latent Diffusion with Object-Centric Modifications",
+      "3D-GRAND: A Million-Scale Dataset for 3D-LLMs with Better Grounding and Less Hallucination",
+      "3D-MVP: 3D Multiview Pretraining for Manipulation"
+    ],
+    "linkedinNote": "Emailed you re: 3D-MVP. Scaling 2D to 3D pretraining objectives for hyperspectral foundation model — struggled with robust transfer. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:10:46.654Z",
+    "messageId": "19f1ee055143f641",
+    "threadId": "19f1ee055143f641"
+  },
+  {
+    "name": "Kui Ren 0001",
+    "affiliation": "Zhejiang University",
+    "email": "kuiren@zju.edu.cn",
+    "subject": "Question about your 2025 paper on authenticity requirement identification",
+    "body": "Dear Professor Ren,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on authenticity requirement identification method based on HDEF architecture demonstrated remarkable improvements in requirement assessment by addressing single dimension, subjective dependence, and insufficient interpretability. I found this particularly intriguing as I've been struggling to explain why certain feature engineering strategies were more effective than others in anomaly detection tasks.\n\nIn my work on Android malware detection using the CIC-AndMal2017 dataset, I extracted a 1,418-dimensional sparse feature space and achieved 90.8% malicious recall using threshold calibration and class imbalance correction. However, a significant portion of failure cases seemed to cluster in a way that resembled a distributional shift problem rather than a model capacity issue.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Developing an Intelligent Assistant for Student Affairs: Integrating AI into the All-Round, Whole-Process, and Whole-Staff Education System",
+      "Research on authenticity requirement identification method based on HDEF architecture",
+      "InSe Dynamic Memristor-Based Reservoir Computing for Temporal and Spatial Signal Recognition",
+      "Deep learning as a predictor for MammaPrint risk group from pathology slides in Chinese early-stage breast cancer."
+    ],
+    "linkedinNote": "Emailed Kui Ren re: authenticity requirement identification. Struggling to explain why certain feature engineering strategies were more effective in anomaly detection. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:11:24.668Z",
+    "messageId": "19f1ee0ea7eae014",
+    "threadId": "19f1ee0ea7eae014"
+  },
+  {
+    "name": "Yunbo Wang",
+    "affiliation": "Shanghai Jiao Tong University",
+    "email": "yunbow@sjtu.edu.cn",
+    "subject": "Question about your 2024 paper on cloud service load balancing optimization",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University (DTU), India (graduating May 2028). Secured 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide. Current CGPA: 8.06/10.\n\nYour 2024 paper on optimizing cloud service load balancing through heat conduction equation applications showed that this approach can effectively simulate and analyze dynamic load distribution changes, proposing corresponding optimization strategies. I'm struggling to understand how to adapt this method for real-time, partial-observability scenarios in large-scale distributed systems, especially where charger availability and route planning intersect.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Optimizing Cloud Service Load Balancing Through Heat Conduction Equation Applications"
+    ],
+    "linkedinNote": "Emailed you re: cloud service load balancing optimization. Struggling to adapt this approach for real-time, partial-observability scenarios in large-scale distributed systems. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:11:57.700Z",
+    "messageId": "19f1ee16af6c4e68",
+    "threadId": "19f1ee16af6c4e68"
+  },
+  {
+    "name": "Alan Fern",
+    "affiliation": "Oregon State University",
+    "email": "alan.fern@oregonstate.edu",
+    "subject": "Question about your 2024 paper on action ranking for planning",
+    "body": "Dear Professor Fern,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on Graph Neural Network Based Action Ranking for Planning showed that relational policies for classical planning can be learned by ranking actions. I'm struggling to understand how your Gated Recurrent Unit (GRU) augmented GNN architecture learned locally consistent ranking when trained on small problem instances, especially when applied to larger instances.\n\nIn my own work on plugin-any, an EV charging infrastructure aggregation and interoperability system, I encountered a similar challenge in route planning under partial observability of charger availability. A static graph problem turned into a POMDP. I've benchmarked 20+ models but couldn't explain why standard shortest-path approaches broke under real-time state changes.\n\nI'm looking to spend the coming winter break working deeply on problems like this and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Budgeted Online Active Learning with Expert Advice and Episodic Priors",
+      "Self-attention-based Diffusion Model for Time-series Imputation in Partial Blackout Scenarios",
+      "Graph Neural Network Based Action Ranking for Planning",
+      "Self-attention-based Diffusion Model for Time-series Imputation"
+    ],
+    "linkedinNote": "Emailed you re: Graph Neural Network Based Action Ranking for Planning. Struggling to understand locally consistent ranking under partial observability of charger availability in plugin-any. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:12:30.597Z",
+    "messageId": "19f1ee1eb68a22cd",
+    "threadId": "19f1ee1eb68a22cd"
+  },
+  {
+    "name": "Xiaoning Qian",
+    "affiliation": "Texas A&M University",
+    "email": "xqian@ece.tamu.edu",
+    "subject": "Question about InvarGC: Invariant Granger Causality for Heterogeneous Interventional Time Series under Latent Confounding",
+    "body": "Dear Professor Qian,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on invariant Granger causality demonstrated that identifying causal sufficiency is critical, but challenging, in the presence of latent confounders.\n\nI'm struggling to explain the transfer of temporal patterns in my own time series analysis project, where I built a model for predicting energy demand from historical load data. I used a lagged feature construction approach, but the model's performance degraded as the number of lagged features increased. I'm concerned that the model's failure might be due to the underlying latent confounding in the data.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Perron--Frobenius Operator Matching for Generative Modeling",
+      "Causal Discovery Should Embrace the Wisdom of the Crowd",
+      "Evaluating GFlowNet from partial episodes for stable and flexible policy-based training",
+      "InvarGC: Invariant Granger Causality for Heterogeneous Interventional Time Series under Latent Confounding"
+    ],
+    "linkedinNote": "Emailed you re: InvarGC. Struggling to explain the transfer of temporal patterns in my own time series analysis project, where I built a model for predicting energy demand from historical load data, using a lagged feature construction approach. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:13:06.765Z",
+    "messageId": "19f1ee2790ef8217",
+    "threadId": "19f1ee2790ef8217"
+  },
+  {
+    "name": "Philipp Koehn",
+    "affiliation": "Johns Hopkins University",
+    "email": "phi@jhu.edu",
+    "subject": "Question about your 2025 paper on interactive multimodal tool-use agents",
+    "body": "Dear Professor Koehn,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on effective interactive tool use demonstrated a Turn-level Adjudicated Reinforcement Learning (TARL) framework for training agents in multi-modal contexts. I was particularly interested in the use of a Large Language Model (LLM) as a judge for turn-level evaluation.\n\nWhile exploring the application of TARL to a robotics problem, I encountered challenges in credit assignment for long-horizon tasks. I was wondering whether the strategies employed in TARL could be adapted or combined with other approaches to better address this challenge.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Process-Supervised Reinforcement Learning for Interactive Multimodal Tool-Use Agents",
+      "Preliminary Ranking of WMT25 General Machine Translation Systems",
+      "HiMATE: A Hierarchical Multi-Agent Framework for Machine Translation Evaluation",
+      "Streaming Sequence Transduction through Dynamic Compression"
+    ],
+    "linkedinNote": "Emailed you re: 2025 interactive multimodal tool-use agents. Struggled with credit assignment in long-horizon tasks. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:13:40.846Z",
+    "messageId": "19f1ee2ffdb9a5a2",
+    "threadId": "19f1ee2ffdb9a5a2"
+  },
+  {
+    "name": "Jinyu Tian 0001",
+    "affiliation": "MUST",
+    "email": "jytian@must.edu.mo",
+    "subject": "Your work on multimodal learning connects to transfer efficiency — something I ran into",
+    "body": "Dear Professor Tian,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on multimodal learning connects to something I ran into while building a retrieval-augmented generation pipeline at ArchiGen AI. Accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself. I quantified this effect by achieving 30% accuracy improvement, but it plateaued after a certain point.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: Transfer Efficiency in Multimodal Learning. AI response accuracy plateaued after a certain retrieval threshold — improving retrieval quality didn't help generation quality. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:14:09.335Z",
+    "messageId": "19f1ee36d19358b5",
+    "threadId": "19f1ee36d19358b5"
+  },
+  {
+    "name": "Ruiquan Huang",
+    "affiliation": "University of Kentucky",
+    "email": "ruiquanhuang@uky.edu",
+    "subject": "Question about your 2026 paper on Breaking the Computational Barrier",
+    "body": "Dear Professor Huang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Breaking the Computational Barrier showed that actor-critic algorithms can be made provably efficient for low-rank MDPs by using supervised learning as a computational proxy. I've been trying to build a pipeline for a challenging real-world problem in energy systems, which involves sequential decision-making under uncertainty. I've been stuck on the issue of distributional shift in sparse feature spaces — the benchmarked 20+ models I used for anomaly detection performed well initially but started failing in a predictable way after a certain point. I couldn't explain why this was happening, whether it was due to the model capacity or the problem itself.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Discrete MeanFlow: One-Step Generation via Conditional Transition Kernels",
+      "Breaking the Computational Barrier: Provably Efficient Actor-Critic for Low-Rank MDPs",
+      "Differentially Private Wireless Federated Learning Using Orthogonal Sequences",
+      "Flow Matching for Offline Reinforcement Learning with Discrete Actions"
+    ],
+    "linkedinNote": "Emailed you re: Breaking the Computational Barrier. Distributional shift in sparse feature spaces, like when anomaly detection models start failing in a predictable way. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:14:46.334Z",
+    "messageId": "19f1ee3ff2c7c93a",
+    "threadId": "19f1ee3ff2c7c93a"
+  },
+  {
+    "name": "Ning Ding 0002",
+    "affiliation": "Tsinghua University",
+    "email": "ningding.cs@gmail.com",
+    "subject": "Question about your 2025 paper on multimodal intelligence in chemical discovery",
+    "body": "Dear Professor Ning Ding 0002,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on multimodal intelligence in chemical discovery showed that the fusion of machine learning algorithms has catalyzed a paradigm shift in chemistry research from empirical exploration to data-driven discovery. I've been trying to apply a similar multimodal approach to my own research in security and anomaly detection, but I'm struggling to effectively fuse spectral, microscopic, and time series data to identify potential anomalies.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Multimodal Intelligence in Chemical Discovery: Integrating Interpretable ML, Autonomous Robotics, and Edge Computing"
+    ],
+    "linkedinNote": "Emailed you re: Multimodal Intelligence in Chemical Discovery. Struggling to fuse spectral, microscopic, and time series data for anomaly detection. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-01T18:15:47.511Z",
+    "messageId": "19f1ee4ec20c5ac9",
+    "threadId": "19f1ee4ec20c5ac9"
   }
 ]
