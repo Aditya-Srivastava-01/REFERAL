@@ -3181,7 +3181,9 @@
     "linkedinNote": "",
     "sentAt": "2026-06-23T04:12:08.118Z",
     "messageId": "19ef2ada9f83c6f8",
-    "threadId": "19ef2ada9f83c6f8"
+    "threadId": "19ef2ada9f83c6f8",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:09:42.090Z"
   },
   {
     "name": "Steve Hanneke",
@@ -6539,7 +6541,9 @@
     "linkedinNote": "Emailed you re: Your 2025 paper on embedding space organization and unified signatures. Struggling to couple retrieval and generation objectives without losing performance on downstream tasks. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-26T06:11:47.166Z",
     "messageId": "19f028e49fe5b6ea",
-    "threadId": "19f028e49fe5b6ea"
+    "threadId": "19f028e49fe5b6ea",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:02.399Z"
   },
   {
     "name": "Chris Callison-Burch",
@@ -7183,7 +7187,9 @@
     "linkedinNote": "Emailed you re: Cut2Next. Struggled to find a way to integrate domain knowledge & meteorological data into video analysis. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-26T14:49:07.336Z",
     "messageId": "19f0467eac70afa8",
-    "threadId": "19f0467eac70afa8"
+    "threadId": "19f0467eac70afa8",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:06.528Z"
   },
   {
     "name": "Taylor Berg-Kirkpatrick",
@@ -8729,7 +8735,9 @@
     "linkedinNote": "Emailed you re: Towards Audio Token Compression in Large Audio Language Models. Struggled to understand how low-rank adapters adapt to loss of information during token compression. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-29T18:20:44.089Z",
     "messageId": "19f149cba8dc30ed",
-    "threadId": "19f149cba8dc30ed"
+    "threadId": "19f149cba8dc30ed",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:15.588Z"
   },
   {
     "name": "Jun Liu 0002",
@@ -9394,7 +9402,9 @@
     "linkedinNote": "Emailed Jay-Yoon Lee re: AutoGuard-Hybrid. Struggling to generalize threshold-based mitigation to varying attack patterns. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-30T04:22:11.614Z",
     "messageId": "19f16c363cd565a8",
-    "threadId": "19f16c363cd565a8"
+    "threadId": "19f16c363cd565a8",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:19.813Z"
   },
   {
     "name": "Robert West 0001",
@@ -9532,7 +9542,9 @@
     "linkedinNote": "Emailed you re: 'Retrieval-Augmented Generation for Medical Question Answering on a Heart Failure Dataset: Performance Analysis (Preprint)' (2025). Struggled to capture nuanced clinical queries in RAG system. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-30T11:16:06.183Z",
     "messageId": "19f183e5554bf502",
-    "threadId": "19f183e5554bf502"
+    "threadId": "19f183e5554bf502",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:21.030Z"
   },
   {
     "name": "Qilong Feng",
@@ -9657,7 +9669,9 @@
     "linkedinNote": "Emailed you re: Secure and Private Recommendation. Struggled with data poisoning attacks in my AI pipeline. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-30T11:20:27.824Z",
     "messageId": "19f184253e32690d",
-    "threadId": "19f184253e32690d"
+    "threadId": "19f184253e32690d",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:22.016Z"
   },
   {
     "name": "Bin Yu 0001",
@@ -9863,7 +9877,9 @@
     "linkedinNote": "Emailed you re: SONIC. Transfer efficiency in pre-trained models — something I ran into with hyperspectral. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-30T14:35:07.176Z",
     "messageId": "19f18f48894d37bb",
-    "threadId": "19f18f48894d37bb"
+    "threadId": "19f18f48894d37bb",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:23.615Z"
   },
   {
     "name": "Shichao Pei",
@@ -9948,7 +9964,9 @@
     "linkedinNote": "Emailed you re: Making VLMs More Robot-Friendly: Self-Critical Distillation of Low-Level Procedural Reasoning. Accuracy gains plateaued past retrieval threshold in RAG pipeline. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-30T14:38:16.087Z",
     "messageId": "19f18f76b676eac9",
-    "threadId": "19f18f76b676eac9"
+    "threadId": "19f18f76b676eac9",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:24.298Z"
   },
   {
     "name": "Björn Ommer",
@@ -10223,7 +10241,9 @@
     "linkedinNote": "Emailed Shay Moran re: PAC Learning with Bandit Feedback: Sharp Sample Complexity in the Realizable Setting. Struggled adapting the bandit DS dimension to my EV charging problem. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-30T18:06:55.937Z",
     "messageId": "19f19b6754de9401",
-    "threadId": "19f19b6754de9401"
+    "threadId": "19f19b6754de9401",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:26.122Z"
   },
   {
     "name": "Mong-Li Lee",
@@ -10291,7 +10311,9 @@
     "linkedinNote": "Emailed Juho Kannala re: VQ-VFM-OCL. Struggled to generalize unified approach to complex object textures despite top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-30T18:10:01.354Z",
     "messageId": "19f19b948929a6f0",
-    "threadId": "19f19b948929a6f0"
+    "threadId": "19f19b948929a6f0",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:26.718Z"
   },
   {
     "name": "Chirag Agarwal",
@@ -10488,7 +10510,9 @@
     "linkedinNote": "Emailed you re: Questioning Representational Optimism. Struggled to replicate SIMA 2's robust generalization in embodied agents. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-30T18:18:15.042Z",
     "messageId": "19f19c0d0eccb486",
-    "threadId": "19f19c0d0eccb486"
+    "threadId": "19f19c0d0eccb486",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:28.106Z"
   },
   {
     "name": "Arno Solin",
@@ -10843,7 +10867,9 @@
     "linkedinNote": "Emailed you re: distributional shift in sparse feature spaces. 90.8% malicious recall but remaining 9.2% clustered like a distributional shift problem. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-01T04:43:55.079Z",
     "messageId": "19f1bfda22848e38",
-    "threadId": "19f1bfda22848e38"
+    "threadId": "19f1bfda22848e38",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:30.567Z"
   },
   {
     "name": "Vincent Lepetit",
@@ -10855,7 +10881,9 @@
     "linkedinNote": "",
     "sentAt": "2026-07-01T04:44:29.470Z",
     "messageId": "19f1bfe28a748608",
-    "threadId": "19f1bfe28a748608"
+    "threadId": "19f1bfe28a748608",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:31.182Z"
   },
   {
     "name": "Jacob R. Gardner",
@@ -11275,7 +11303,9 @@
     "linkedinNote": "Emailed you re: probabilistic planning. PluginAny EV routing system — adapting shortest-path to POMDP. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-01T11:39:18.291Z",
     "messageId": "19f1d79efaab66f0",
-    "threadId": "19f1d79efaab66f0"
+    "threadId": "19f1d79efaab66f0",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:34.825Z"
   },
   {
     "name": "Miguel Á. Carreira-Perpiñán",
@@ -11359,7 +11389,9 @@
     "linkedinNote": "Emailed you re: distributional shift. Clustering failure cases in sparse feature space. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-01T14:54:06.946Z",
     "messageId": "19f1e2c4882b2bc2",
-    "threadId": "19f1e2c4882b2bc2"
+    "threadId": "19f1e2c4882b2bc2",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:35.846Z"
   },
   {
     "name": "Yichao Yan",
@@ -11407,7 +11439,9 @@
     "linkedinNote": "Emailed you re: multimodal learning. Transfer efficiency in RAG — accuracy gains plateauing. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-01T14:56:11.485Z",
     "messageId": "19f1e2e2eccb8f1d",
-    "threadId": "19f1e2e2eccb8f1d"
+    "threadId": "19f1e2e2eccb8f1d",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:36.494Z"
   },
   {
     "name": "Guang Chen 0001",
@@ -11431,7 +11465,9 @@
     "linkedinNote": "Emailed you re: transfer efficiency in multimodal learning. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-01T14:57:19.209Z",
     "messageId": "19f1e2f38b02d87d",
-    "threadId": "19f1e2f38b02d87d"
+    "threadId": "19f1e2f38b02d87d",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:36.888Z"
   },
   {
     "name": "Yuanyuan Lei 0001",
@@ -13055,7 +13091,9 @@
     "linkedinNote": "Emailed you re: Your 2024 paper on offline preference optimization. Struggled with explaining distributional shift in sparse feature spaces. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-02T14:30:03.075Z",
     "messageId": "19f233c9d6425f1d",
-    "threadId": "19f233c9d6425f1d"
+    "threadId": "19f233c9d6425f1d",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:46.908Z"
   },
   {
     "name": "Søren Hauberg",
@@ -13067,7 +13105,9 @@
     "linkedinNote": "Emailed you re: transfer efficiency in multimodal learning. Accuracy gains in RAG pipeline plateaued past certain retrieval threshold. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-02T14:30:39.705Z",
     "messageId": "19f233d2d4adf79f",
-    "threadId": "19f233d2d4adf79f"
+    "threadId": "19f233d2d4adf79f",
+    "replied": true,
+    "repliedAt": "2026-07-02T16:10:47.487Z"
   },
   {
     "name": "Krishnendu Chatterjee",
