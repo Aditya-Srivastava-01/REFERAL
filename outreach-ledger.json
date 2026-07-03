@@ -15099,5 +15099,321 @@
     "sentAt": "2026-07-03T14:37:22.899Z",
     "messageId": "19f2869ae610ce1a",
     "threadId": "19f2869ae610ce1a"
+  },
+  {
+    "name": "Jie Zhang 0071",
+    "affiliation": "Chinese Academy of Sciences",
+    "email": "jie.zhang@vipl.ict.ac.cn",
+    "subject": "Question about your 2025 paper on secure federated graph neural networks",
+    "body": "Dear Professor Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on secure federated graph neural networks showed that Graph Neural Network-based social recommender systems can be made private and secure without sacrificing recommendation quality. I'm trying to apply a similar idea to anomaly detection in a distributed system, where model updates are shared between nodes.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Secure and Private Recommendation based on Federated Graph Neural Network",
+      "Fault Knowledge Graph Construction Method for Hydraulic Turbine Speed Control System Based on BERTWWM-BiLSTM-MHA-CRF Model",
+      "Multifunctional neuromorphic optoelectronic computing using all 2D floating-gate transistors",
+      "semi-PD: Towards Efficient LLM Serving via Phase-Wise Disaggregated Computation and Unified Storage"
+    ],
+    "linkedinNote": "",
+    "sentAt": "2026-07-03T17:41:33.761Z",
+    "messageId": "19f29124e947cb9c",
+    "threadId": "19f29124e947cb9c"
+  },
+  {
+    "name": "Chen Zhao 0010",
+    "affiliation": "Baylor University",
+    "email": "chen_zhao@baylor.edu",
+    "subject": "Question about your 2025 paper on AncientTRD",
+    "body": "Dear Professor Chen Zhao,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on AncientTRD showed that knowledge distillation can significantly enhance semantic understanding of classical texts while maintaining computational efficiency. I've been struggling to understand how to leverage knowledge distillation in a similar manner to improve transfer efficiency in multimodal learning tasks — whether it's coupling CLIP with retrieval-augmented generation or enhancing local feature representations in image captioning models.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "AncientTRD: A Novel Text Reuse Detection Method for Ancient Chinese Literature",
+      "Image Captioning Method Based on CLIP-Combined Local Feature Enhancement and Multi-Scale Semantic Guidance",
+      "VC-RFB: feature system matrix enhanced virtual clustering random forest-Bayesian model for real-time accident prediction",
+      "Video Description Generation Method Based on Contrastive Language–Image Pre-Training Combined Retrieval-Augmented and Multi-Scale Semantic Guidance"
+    ],
+    "linkedinNote": "Emailed Chen Zhao re: AncientTRD. 90.8% malicious recall on Android malware detection using sparse features, but unsure how to explain failure cases. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:42:11.456Z",
+    "messageId": "19f2912e1f934fd2",
+    "threadId": "19f2912e1f934fd2"
+  },
+  {
+    "name": "Mengye Ren",
+    "affiliation": "New York University",
+    "email": "mengye@nyu.edu",
+    "subject": "Question about your 2026 paper on Generative Recursive Reasoning",
+    "body": "Dear Professor Ren,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Generative Recursive Reasoning showed that recursive latent reasoning can be turned into probabilistic multi-trajectory computation. This sparked my interest in extending reasoning systems to handle uncertainty.\n\nWhile building a routing system for live charger discovery and route planning, I struggled to find a suitable method to account for partial observability of charger availability. Real-time state changes turned a static graph problem into something closer to a POMDP.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "AdaJEPA: An Adaptive Latent World Model",
+      "Continual Visual and Verbal Learning Through a Child's Egocentric Input",
+      "Generative Recursive Reasoning",
+      "Memory Transfer Learning: How Memories are Transferred Across Domains in Coding Agents"
+    ],
+    "linkedinNote": "Emailed you re: Generative Recursive Reasoning. Struggled to extend reasoning systems to handle uncertainty under partial observability. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:42:43.511Z",
+    "messageId": "19f29135f3636cf7",
+    "threadId": "19f29135f3636cf7"
+  },
+  {
+    "name": "Victor Veitch",
+    "affiliation": "University of Chicago",
+    "email": "victorveitch@gmail.com",
+    "subject": "Question about your 2025 paper on Exploratory Annealed Decoding",
+    "body": "Dear Professor Veitch,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates. Your 2025 paper on Exploratory Annealed Decoding for Verifiable Reinforcement Learning showed that early token exploration can enhance the reasoning capabilities of large language models. I was particularly intrigued by the 'explore-at-the-beginning, exploit-at-the-end' strategy and its application in annealing the sampling temperature. In my current project, building a retrieval-augmented generation (RAG) pipeline, I've been struggling with understanding the trade-off between retrieval quality and generation quality as the retrieval threshold increases. I'd like to explore how the exploration-exploitation trade-off in EAD might inform the design of my retrieval module.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Optimization Dynamics Imprint Semantic Specificity in Contrastive Embedding Norms",
+      "The Information Geometry of Softmax: Probing and Steering",
+      "Let it Calm: Exploratory Annealed Decoding for Verifiable Reinforcement Learning",
+      "Incorporating Hierarchical Semantics in Sparse Autoencoder Architectures"
+    ],
+    "linkedinNote": "Emailed you re: Exploratory Annealed Decoding. Retrieval threshold's impact on generation quality in RAG pipeline, struggling to balance exploration-exploitation. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:43:17.430Z",
+    "messageId": "19f2913e2bc1cc00",
+    "threadId": "19f2913e2bc1cc00"
+  },
+  {
+    "name": "Xiao Zhang 0034",
+    "affiliation": "Renmin University of China",
+    "email": "zhangx89@ruc.edu.cn",
+    "subject": "Question about your 2025 paper on text reuse detection",
+    "body": "Dear Professor Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU -- 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates. Your 2025 paper on AncientTRD: A Novel Text Reuse Detection Method for Ancient Chinese Literature showed that knowledge distillation can significantly enhance semantic understanding of classical texts while maintaining computational efficiency. I'm working on a text classification project for historical documents, and I've been struggling to understand why my current features aren't capturing deep semantic correlations. Your work on leveraging knowledge distillation for text reuse detection has given me some ideas, but I'm stuck on how to apply it to my project. Specifically, I'm trying to figure out whether a masked language model with knowledge distillation can learn to identify semantic word relationships in a way that my current hand-crafted features can't. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "AncientTRD: A Novel Text Reuse Detection Method for Ancient Chinese Literature",
+      "Image Captioning Method Based on CLIP-Combined Local Feature Enhancement and Multi-Scale Semantic Guidance",
+      "VC-RFB: feature system matrix enhanced virtual clustering random forest-Bayesian model for real-time accident prediction",
+      "Video Description Generation Method Based on Contrastive Language–Image Pre-Training Combined Retrieval-Augmented and Multi-Scale Semantic Guidance"
+    ],
+    "linkedinNote": "Emailed you re: 2025 paper on AncientTRD. Stuck on how to apply knowledge distillation to historical text classification. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:43:52.322Z",
+    "messageId": "19f29146adb884ea",
+    "threadId": "19f29146adb884ea"
+  },
+  {
+    "name": "Siqi Sun",
+    "affiliation": "Fudan University",
+    "email": "siqisun@fudan.edu.cn",
+    "subject": "Question about your 2024 paper on SR-YOLOv8",
+    "body": "Dear Professor Sun,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on SR-YOLOv8 showed that the ResBlock-CBAM module enhances the ability of YOLOv8 to extract important features in small object detection for traffic scenes. However, I struggled to understand why the SPD-Conv architecture solves the problem of feature information loss in the downsampling process. Specifically, what exactly was the impact of the SPD-Conv architecture on object detection performance, and how did it compare to other architectures?\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Multi-Granularity Based Collaborative Learning for Semi-Supervised Hashing",
+      "Construction of Computer Undergraduate Vocational Education Talent Training System",
+      "SR-YOLOv8: Small Object Detection Method for Traffic Scenes"
+    ],
+    "linkedinNote": "Emailed Siqi Sun re: SR-YOLOv8. Struggled to understand SPD-Conv architecture impact on small object detection. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:44:26.246Z",
+    "messageId": "19f2914f1f5422a5",
+    "threadId": "19f2914f1f5422a5"
+  },
+  {
+    "name": "Lei Sha",
+    "affiliation": "Beihang University",
+    "email": "shalei@buaa.edu.cn",
+    "subject": "Question about your 2025 paper on Reasoning Dependency Generation",
+    "body": "Dear Professor Sha,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Reasoning Dependency Generation showed that LLMs can be made more objective through fine-tuning with unbiased reasoning data. I'm struggling to understand how to generate a large-scale dataset of QA pairs that explicitly model the dependencies between choices, evidences, and justifications. Specifically, I'm having trouble with constructing balanced reasoning QA pairs that can be used to mitigate choice-supportive bias.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Resistive memory-based neural differential equation solver for score-based diffusion model",
+      "A ZTNA-Based Architecture for Secure and Trusted Access in Campus Networks",
+      "AgentHOI: Towards Multi-Agent Collaborative Human-Object Interaction Detection",
+      "Alleviating Choice Supportive Bias in LLM with Reasoning Dependency Generation"
+    ],
+    "linkedinNote": "Emailed you re: 2025 paper on Reasoning Dependency Generation. Struggling to construct balanced reasoning QA pairs for mitigating choice-supportive bias. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:45:03.650Z",
+    "messageId": "19f291583df6782a",
+    "threadId": "19f291583df6782a"
+  },
+  {
+    "name": "Edith Elkind",
+    "affiliation": "Northwestern University",
+    "email": "finance@cs.ox.ac.uk",
+    "subject": "Temporal Fair Division and Cake Cutting - Connection to Fair Allocation",
+    "body": "Dear Professor Elkind,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on temporal fair division of indivisible items and the 2025 work on verifying proportionality in temporal voting demonstrate novel approaches to fairness in sequential allocation.\n\nI recently built an Android malware detection system and achieved 90.8% malicious recall using threshold calibration and class imbalance correction. However, I noticed that the failure cases clustered in a way that suggested a potential distributional shift problem.\n\nI'm actively looking to spend the coming winter break working on problems like this and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Strengthening Proportionality in Temporal Voting",
+      "Verifying Proportionality in Temporal Voting",
+      "Dividing a Graphical Cake",
+      "Temporal Fair Division of Indivisible Items"
+    ],
+    "linkedinNote": "Emailed you re: Temporal Fair Division and Cake Cutting. 90.8% malicious recall but failure cases looked like distributional shift — need to understand better. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:45:39.013Z",
+    "messageId": "19f29160c6fc2baf",
+    "threadId": "19f29160c6fc2baf"
+  },
+  {
+    "name": "Purnamrita Sarkar",
+    "affiliation": "University of Texas at Austin",
+    "email": "purna.sarkar@austin.utexas.edu",
+    "subject": "Question about normalized sigmoid gating in DeepSeekMoE",
+    "body": "Dear Professor Sarkar,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on normalized sigmoid gating in DeepSeekMoE demonstrated the statistical benefits of shared experts and normalized sigmoid gating. Specifically, you showed that these two features enable faster convergence of the expert estimation task. I'm struggling to understand why this convergence happens so rapidly, despite the model's increased capacity due to the shared expert strategy. Perhaps it's related to the normalized sigmoid gating mechanism's ability to adapt to diverse input distributions.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01",
+    "papersReferenced": [
+      "On Bayesian Softmax-Gated Mixture-of-Experts Models",
+      "Conformalized Bayesian Inference, with Applications to Random Partition Models",
+      "On DeepSeekMoE: Statistical Benefits of Shared Experts and Normalized Sigmoid Gating",
+      "Statistical Inference for Policy Evaluation with Temporal Difference Learning"
+    ],
+    "linkedinNote": "Emailed you re: normalized sigmoid gating in DeepSeekMoE. Convergence gains from shared experts and normalized sigmoid gating perplex me. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:46:14.023Z",
+    "messageId": "19f2916944eab662",
+    "threadId": "19f2916944eab662"
+  },
+  {
+    "name": "Patrick Thiran",
+    "affiliation": "EPFL",
+    "email": "patrick.thiran@epfl.ch",
+    "subject": "Distributed State Changes in Route Planning — Your Work on Network Dynamics",
+    "body": "Dear Professor Thiran,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates nationally.\n\nYour work on network dynamics and complex systems — especially how real-time state changes can transform static graph problems into something closer to a POMDP — connects to something I ran into while building PluginAny, an EV routing system that aggregates live multi-network charging information and plans routes in real-time.\n\nThe system breaks when the charger availability graph changes in real-time due to partial observability of charger states. I tried standard shortest-path approaches but they failed to adapt to the changing availability, which made me wonder about the applicability of POMDPs in this scenario.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: distributed state changes. EV routing system breaks under partial observability of charger availability. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:46:46.078Z",
+    "messageId": "19f291713fbe4161",
+    "threadId": "19f291713fbe4161"
+  },
+  {
+    "name": "Yuankai Luo",
+    "affiliation": "Nanjing University",
+    "email": "yuankailuo@nju.edu.cn",
+    "subject": "Your work on multimodal representation learning connects to something I ran into",
+    "body": "Dear Professor Luo,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nI was intrigued by your research on multimodal learning and noticed that your recent work on representation learning could be connected to my own experience with retrieval-augmented generation (RAG) in my project at ArchiGen AI Labs, where I designed RAG pipelines that improved AI response accuracy by 30%. I have been trying to understand how multimodal pretraining objectives can be coupled with downstream tasks to improve transfer efficiency, but I've been struggling to explain why certain pretraining strategies work better than others in my experiments.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: multimodal representation learning. Difficulty explaining pretraining-objective coupling in RAG pipelines. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:47:13.663Z",
+    "messageId": "19f29177f859cb90",
+    "threadId": "19f29177f859cb90"
+  },
+  {
+    "name": "Jian Lou 0001",
+    "affiliation": "Sun Yat-sen University",
+    "email": "jian.lou@hoiying.net",
+    "subject": "Question about your 2025 paper on federated PCA",
+    "body": "Dear Professor Lou,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on federated PCA showed that collaborative PCA computations across distributed clients can be made possible without raw data exchanges. However, I struggled to understand how the local power iteration strategy and warm-start mechanism were combined to accelerate convergence in vertically partitioned data environments.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Federated Principal Component Analysis for Vertically Partitioned Data",
+      "SecPE: Secure Prompt Ensembling for Private and Robust Large Language Models"
+    ],
+    "linkedinNote": "Emailed you re: 'Federated Principal Component Analysis for Vertically Partitioned Data'. Struggled to combine local power iteration and warm-start mechanisms for distributed PCA. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:47:50.418Z",
+    "messageId": "19f29180cdef6a4d",
+    "threadId": "19f29180cdef6a4d"
+  },
+  {
+    "name": "Huan Zhang 0001",
+    "affiliation": "Univ. of Illinois at Urbana-Champaign",
+    "email": "huan@huan-zhang.com",
+    "subject": "Question about weakly supervised NILM via state-anchored frozen large language model adaptation",
+    "body": "Dear Professor Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on weakly supervised non-intrusive load monitoring via state-anchored frozen large language model adaptation demonstrated that NILM can be disaggregated without dense frame-level power annotations. Your approach explicitly separates appliance state detection from power amplitude estimation, and assigns each sub-task to its appropriate supervision signal. However, I struggled to explain why your state detection using a CRNN under multiple-instance learning framework didn't generalize to downstream power amplitude estimation as robustly as expected, despite using a frozen large language model adapted to the state-anchored framework.\n\nThis problem space is similar to what I ran into while building my hyperspectral foundation model, where improving downstream land-cover classification separability by 20% while reducing pre-training latency by 25% relied on understanding how spectral-spatial representations transferred robustly to downstream tasks, possibly due to the masking strategy or spectral tokenization.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A Method for Comment Text Feature Mining via Integrated Keyword Extraction, Clustering, and Sentiment Analysis",
+      "Short-Packet Communication in CDRT Networks with Imperfect CSI Over Nakagami-m Fading Channels: RSMA or NOMA?",
+      "Weakly Supervised Non-Intrusive Load Monitoring via State-Anchored Frozen Large Language Model Adaptation",
+      "Federated multi-label text feature selection via manifold-aware sparse modeling and cooperative grey wolf optimization"
+    ],
+    "linkedinNote": "Emailed you re: weakly supervised NILM. Struggled to explain why weakly supervised state detection didn't generalize robustly. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:48:22.106Z",
+    "messageId": "19f291888f71c9a5",
+    "threadId": "19f291888f71c9a5"
+  },
+  {
+    "name": "Jiaqi Wang 0002",
+    "affiliation": "Auburn University",
+    "email": "jqwang@auburn.edu",
+    "subject": "Your work on multimodal learning and RAG — a bottleneck I ran into",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on multimodal learning and Retrieval-Augmented Generation (RAG) — especially the challenge of coupling retrieval and generation objectives — connects to something I ran into while building a RAG pipeline at ArchiGen AI. I improved AI response accuracy by 30% through RAG, but the accuracy gains plateaued past a certain retrieval threshold. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: RAG pipeline bottleneck. Accuracy gains plateaued past a certain retrieval threshold. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:48:49.752Z",
+    "messageId": "19f2918f57a28b94",
+    "threadId": "19f2918f57a28b94"
+  },
+  {
+    "name": "Yu Zhang 0044",
+    "affiliation": "Texas A&M University",
+    "email": "yuzhang@tamu.edu",
+    "subject": "Question about your 2025 paper on Secure and Private Recommendation",
+    "body": "Dear Professor Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Secure and Private Recommendation based on Federated Graph Neural Network showed that federated recommender systems based on GNN can be vulnerable to security and privacy issues. I was trying to build a pipeline for secure and private recommendation using federated learning, but I'm struggling to understand how to effectively defend against data poisoning attacks and inference attacks. Specifically, I'm having trouble removing the collaboration mechanism to reduce attack risks.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Secure and Private Recommendation based on Federated Graph Neural Network",
+      "Fault Knowledge Graph Construction Method for Hydraulic Turbine Speed Control System Based on BERTWWM-BiLSTM-MHA-CRF Model",
+      "Multifunctional neuromorphic optoelectronic computing using all 2D floating-gate transistors",
+      "semi-PD: Towards Efficient LLM Serving via Phase-Wise Disaggregated Computation and Unified Storage"
+    ],
+    "linkedinNote": "Emailed you re: Secure and Private Recommendation. Struggling to remove collaboration mechanism in federated learning. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:49:26.142Z",
+    "messageId": "19f291982628903c",
+    "threadId": "19f291982628903c"
+  },
+  {
+    "name": "Baishakhi Ray",
+    "affiliation": "Columbia University",
+    "email": "rayb@cs.columbia.edu",
+    "subject": "Your 2025 RoFL paper on robust fingerprinting of language models",
+    "body": "Dear Professor Ray,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on RoFL showed that language model developers can create robust fingerprints to identify their models in a black-box setting. I was impressed by the method's ability to permit model identification with a limited number of queries, making it non-invasive and effective.\n\nIn my recent work on building a retrieval-augmented generation (RAG) pipeline, I encountered issues with model adaptation and fine-tuning. Specifically, I struggled to explain why the model's performance plateaued after a certain number of fine-tuning steps, despite improvements in retrieval quality. Your work on RoFL sparked an interest in me to explore how robust fingerprinting could be applied to RAG pipelines to better understand model behavior and adaptation.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Your Compiler is Backdooring Your Model: Understanding and Exploiting Compilation Inconsistency Vulnerabilities in Deep Learning Compilers",
+      "Relaxed Proximal Point Algorithm: Tight Complexity Bounds and Acceleration Without Momentum",
+      "Collusion-Resistant and Reliable Incentive Mechanism for Federated Learning",
+      "RoFL: Robust Fingerprinting of Language Models"
+    ],
+    "linkedinNote": "Emailed you re: RoFL. RAG pipeline performance plateaued despite retrieval quality improvements. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:50:00.977Z",
+    "messageId": "19f291a0d703bca0",
+    "threadId": "19f291a0d703bca0"
+  },
+  {
+    "name": "Chenyang Si",
+    "affiliation": "Nanjing University",
+    "email": "chenyang.si@nju.edu.cn",
+    "subject": "Question about Diversity in Bitwise Autoregressive Generation",
+    "body": "Dear Professor Si,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University (DTU), India — 99.59 percentile in JEE Main, top 0.4% among more than one million candidates nationwide.\n\nYour 2025 paper on DiverseAR showed that bitwise autoregressive image generation can be made more diverse without sacrificing visual quality. Specifically, the adaptive logits distribution scaling mechanism dynamically adjusts the sharpness of the binary output distribution during sampling, resulting in smoother predictions and greater diversity. However, I'm struggling to understand how this approach handles the potential fidelity loss caused by distribution smoothing — whether the trade-off between diversity and fidelity can be systematically optimized.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "One-to-More: High-Fidelity Training-Free Anomaly Generation with Attention Control",
+      "PosterCopilot: Toward Layout Reasoning and Controllable Editing for Professional Graphic Design",
+      "DiverseAR: Boosting Diversity in Bitwise Autoregressive Image Generation",
+      "VBench++: Comprehensive and Versatile Benchmark Suite for Video Generative Models"
+    ],
+    "linkedinNote": "Emailed you re: DiverseAR. Struggling to optimize the trade-off between diversity and fidelity in bitwise autoregressive generation. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:50:37.246Z",
+    "messageId": "19f291a9990d1a97",
+    "threadId": "19f291a9990d1a97"
+  },
+  {
+    "name": "Wee Sun Lee",
+    "affiliation": "National University of Singapore",
+    "email": "dcsleews@nus.edu.sg",
+    "subject": "Question about Your 2025 Correcting False Alarms from Unseen",
+    "body": "Dear Professor Lee,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on correcting false alarms from unseen showed that graph anomaly detection models can degrade significantly when normal samples emerge during deployment. This aligns with my struggle with the remaining 9.2% failure cases in my Android malware detection pipeline — where the remaining cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem. I was able to achieve 90.8% malicious recall, but I've been stuck on why standard calibration didn't resolve it. Specifically, I've been trying to understand what makes these distributional shifts happen, and how to better anticipate them in my models.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Correction to: Incomplete Data Classification via Distribution Alignment With Evidence Combination",
+      "Linear Discriminant Analysis via Dominating Bayes Error Minimization",
+      "Correcting False Alarms from Unseen: Adapting Graph Anomaly Detectors at Test Time",
+      "G-reasoner: Foundation Models for Unified Reasoning over Graph-structured Knowledge"
+    ],
+    "linkedinNote": "Emailed Wee Sun Lee re: Correcting False Alarms from Unseen. My 90.8% malicious recall plateaued due to distributional shift, and I'm trying to understand why standard calibration didn't resolve it. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:51:12.097Z",
+    "messageId": "19f291b20577fdd2",
+    "threadId": "19f291b20577fdd2"
+  },
+  {
+    "name": "Zhiqiang Xu",
+    "affiliation": "MBZUAI",
+    "email": "zhiqiang.xu@mbzuai.ac.ae",
+    "subject": "Connecting to transfer efficiency in multimodal systems — Your work on retrieval-augmented generation",
+    "body": "Dear Professor Xu,\n\n\n    I am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\n    I recently read about retrieval-augmented generation (RAG) and its applications in multimodal systems. Your work on RAG demonstrates impressive results in improving AI response accuracy. \n\n    I built a RAG pipeline at ArchiGen AI, which improved accuracy by 30%, but I found that accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself.\n\n    I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\n    If this problem space is active in your group, I'd value the chance to contribute and learn.\n\n    My CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\n\n    Best,\n\n    Aditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: retrieval-augmented generation. Accuracy gains plateaued past a certain threshold — how retrieval & generation objectives are coupled. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:51:47.237Z",
+    "messageId": "19f291baa01cf3f4",
+    "threadId": "19f291baa01cf3f4"
+  },
+  {
+    "name": "Yuanyuan Shi",
+    "affiliation": "Univ. of California - San Diego",
+    "email": "yyshi@ucsd.edu",
+    "subject": "Question about your 2024 paper on Fast ORB Keypoints Extraction Algorithm",
+    "body": "Dear Professor Shi,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on Fast ORB Keypoints Extraction Algorithm showed that grid division can significantly reduce feature point extraction time in visual SLAM. However, I was unable to explain why grid-based methods outperformed traditional approaches when both had similar computational complexities — whether it was the parallelization of grid cells or the adaptive grid resolution.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "To Google, or not to Google, that is the question: Ethics of internet searches when caring for incarcerated individuals",
+      "Inaugural Editorial of the Chinese Journal of Information Fusion",
+      "Implementation of A Fast ORB Keypoints Extraction Algorithm Based on Grid Division"
+    ],
+    "linkedinNote": "Emailed you re: Fast ORB Keypoints Extraction Algorithm. Feature point extraction time reduction unclear to me despite grid-based methods outperforming traditional approaches. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T17:52:23.679Z",
+    "messageId": "19f291c38d9b2cfc",
+    "threadId": "19f291c38d9b2cfc"
   }
 ]
