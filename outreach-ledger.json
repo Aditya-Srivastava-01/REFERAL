@@ -14441,5 +14441,335 @@
     "sentAt": "2026-07-03T07:43:14.624Z",
     "messageId": "19f26ee864975b26",
     "threadId": "19f26ee864975b26"
+  },
+  {
+    "name": "Alexandros A. Voudouris",
+    "affiliation": "University of Essex",
+    "email": "alexandros.voudouris@essex.ac.uk",
+    "subject": "Question about your 2025 paper on jump games on graphs",
+    "body": "Dear Professor Voudouris,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on jump games on graphs showed that the induced game may have improving response cycles, but is a potential game under certain conditions, such as the graph being of degree at most 2 or the graph being 3-regular with two empty nodes. This result resonates with my own work on graph-based systems, where understanding game-theoretic properties is crucial.\n\nIn particular, I've been trying to apply your findings to my EV routing system, PluginAny, which aggregates and optimizes multi-network charging. However, I've hit a wall understanding how the jump game dynamics affect the system's performance in the presence of partial charger observability. Quantifying this impact is essential to improving the system's scalability and reliability.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Variety-Seeking Jump Games on Graphs",
+      "Optimal Metric Distortion for Matching on the Line",
+      "Improved metric distortion via threshold approvals",
+      "Metric distortion of obnoxious distributed voting"
+    ],
+    "linkedinNote": "Emailed you re: Variety-Seeking Jump Games on Graphs. EV routing system, PluginAny, got stuck on jump game dynamics, partial charger observability. Top 0.4% JEE Main (1.2M) — Aditya",
+    "sentAt": "2026-07-03T10:45:54.485Z",
+    "messageId": "19f2795c25db083b",
+    "threadId": "19f2795c25db083b"
+  },
+  {
+    "name": "Frederic Sala",
+    "affiliation": "University of Wisconsin - Madison",
+    "email": "fredsala@cs.wisc.edu",
+    "subject": "Question about Test-Time Scaling Makes Overtraining Compute-Optimal",
+    "body": "Dear Professor Sala,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on test-time scaling showed that repeated sampling at inference time can make overtraining compute-optimal despite the increased inference cost. I'm trying to build a retrieval-augmented generation (RAG) pipeline where the retrieval component has to be queried multiple times due to memory constraints, which led me to wonder about the role of pretraining in such setups.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Test-Time Scaling Makes Overtraining Compute-Optimal",
+      "Weight Updates as Activation Shifts: A Principled Framework for Steering",
+      "SkillOrchestra: Learning to Route Agents via Skill Transfer",
+      "CARE: Confounder-Aware Aggregation for Reliable LLM Evaluation"
+    ],
+    "linkedinNote": "Emailed you re: Test-Time Scaling Makes Overtraining Compute-Optimal. Retrieval-augmented generation (RAG) pipeline memory constraints reminded me of your 2026 paper. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:46:22.638Z",
+    "messageId": "19f2796304d86350",
+    "threadId": "19f2796304d86350"
+  },
+  {
+    "name": "Tal Linzen",
+    "affiliation": "New York University",
+    "email": "linzen@nyu.edu",
+    "subject": "Question about LLM introspection and human memory",
+    "body": "Dear Professor Linzen,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper 'Can LLMs Introspect? A Reality Check' argued that detecting and reporting internal states in language models may be premature due to pattern matching and insufficient behavioral evidence. I'm struggling to understand the implications of this for simulating human memory with language models. Specifically, if introspection is not a reliable indicator of human-like memory, how can we measure the alignment between human and model performance in tasks that require human-like memory?\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "The Syntactic Ambiguity Processing Benchmark",
+      "To model human linguistic prediction, make LLMs less superhuman",
+      "Simulating Human Memory with Language Models",
+      "Can LLMs Introspect? A Reality Check"
+    ],
+    "linkedinNote": "Emailed you re: Can LLMs Introspect? A Reality Check. Difficulty in LLM human-like memory simulation — what to measure for alignment with humans? Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:46:53.601Z",
+    "messageId": "19f2796ab90961d7",
+    "threadId": "19f2796ab90961d7"
+  },
+  {
+    "name": "Matei Zaharia",
+    "affiliation": "Univ. of California - Berkeley",
+    "email": "matei@berkeley.edu",
+    "subject": "Question about your 2025 paper on LLM CHESS",
+    "body": "Dear Professor Zaharia,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on LLM CHESS demonstrated that large language models struggle to follow instructions and show generalization in complex reasoning tasks like chess, despite achieving high accuracy in simpler tasks. This resonates with my work on RAG pipelines at ArchiGen AI Labs, where accuracy gains plateaued past a certain retrieval threshold, and improving retrieval quality further stopped helping generation quality.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Let the Barbarians In: How AI Can Accelerate Systems Performance Research",
+      "LLM CHESS: Benchmarking Reasoning and Instruction-Following in LLMs through Chess",
+      "SkyRL-Agent: Efficient RL Training for Multi-turn LLM Agent",
+      "Rethinking the Cost of Distributed Caches for Datacenter Services"
+    ],
+    "linkedinNote": "Emailed you re: LLM CHESS. Accuracy gains plateaued past a certain retrieval threshold in RAG pipelines. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:48:00.928Z",
+    "messageId": "19f2797b08d1d865",
+    "threadId": "19f2797b08d1d865"
+  },
+  {
+    "name": "Maria Antoniak",
+    "affiliation": "University of Colorado Boulder",
+    "email": "maria.antoniak@colorado.edu",
+    "subject": "Question about whitespace in LLM-generated poetry",
+    "body": "Dear Professor Antoniak,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on whitespace in LLM-generated poetry showed that poets and language models differ significantly in their use of whitespace, with poets exhibiting more complex and varied whitespace distributions. I was struck by how whitespace reflects both adherence to standardized forms and rebellion against those forms.\n\nWhile working on a project to analyze the role of whitespace in poetry, I found that LLM-generated poems often struggle to replicate the nuanced use of whitespace seen in human-written poetry. This led me to wonder: what can we learn from poets about the importance of whitespace in generating more human-like text?\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "AI Fiction in the Wild",
+      "Characterizing Narrative Content in Web-scale LLM Pretraining Data",
+      "so much depends / upon / a whitespace: Why Whitespace Matters for Poets and LLMs",
+      "Computational Hermeneutics: Evaluating Generative AI as a Cultural Technology"
+    ],
+    "linkedinNote": "Emailed you re: whitespace in poetry. LLM-generated poems struggle to replicate nuanced whitespace use. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:49:06.907Z",
+    "messageId": "19f2798b36d607fe",
+    "threadId": "19f2798b36d607fe"
+  },
+  {
+    "name": "Thomas Lukasiewicz",
+    "affiliation": "TU Wien",
+    "email": "thomas.lukasiewicz@tuwien.ac.at",
+    "subject": "Question about your 2025 paper on multi-layer representations for dense passage retrieval",
+    "body": "Dear Professor Lukasiewicz,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on multi-layer representations for dense passage retrieval showed that utilizing representations from multiple encoder layers can improve retrieval efficiency. Specifically, you proposed leveraging pooling strategies to reduce multi-vector models to single-vector ones, which I found intriguing. I'm building a retrieval-augmented generation pipeline, where the bottleneck appears to be how retrieval and generation objectives are coupled, not retrieval itself. I've seen improvements in accuracy gains plateau past a certain retrieval threshold, and I wonder if your work on MLR could offer insights on how to address this.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Investigating Multi-layer Representations for Dense Passage Retrieval",
+      "Dimension-independent learning rates for high-dimensional classification problems",
+      "C2M-DoT: Cross-modal consistent multi-view medical report generation with domain transfer network",
+      "Towards the Training of Deeper Predictive Coding Neural Networks"
+    ],
+    "linkedinNote": "Emailed you re: multi-layer representations for dense passage retrieval. Accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, ...",
+    "sentAt": "2026-07-03T10:49:42.470Z",
+    "messageId": "19f27993e3772df4",
+    "threadId": "19f27993e3772df4"
+  },
+  {
+    "name": "Yingyu Liang",
+    "affiliation": "University of Hong Kong",
+    "email": "yliang@cs.wisc.edu",
+    "subject": "Question about your 2024 paper on error-prone language models in RL",
+    "body": "Dear Professor Liang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on error-prone language models in RL showed that inconsistent rankings, which approximate potential-based shaping functions, can lead to suboptimal policies. I'm struggling to understand how to apply your proposed method to a real-world problem where the language model feedback is noisy and biased. Specifically, I'm interested in how to quantify and mitigate the effects of hallucination and other errors in the language model feedback.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Online Language Splatting",
+      "Learning Coupled Meteorological Characteristics Aids Short-Term Photovoltaic Interval Prediction Methods",
+      "Path Planning for Harvesting Robotic Arm Based on AAP-RRT* Algorithm",
+      "Navigating Noisy Feedback: Enhancing Reinforcement Learning with Error-Prone Language Models"
+    ],
+    "linkedinNote": "Emailed Prof Yingyu Liang re: 'Navigating Noisy Feedback: Enhancing Reinforcement Learning with Error-Prone Language Models'. Struggle: how to apply the proposed method to real-world noisy and biased language model feedback. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:51:27.980Z",
+    "messageId": "19f279ada331d986",
+    "threadId": "19f279ada331d986"
+  },
+  {
+    "name": "Eugene Belilovsky",
+    "affiliation": "Concordia University",
+    "email": "belilovsky.eugene@gmail.com",
+    "subject": "Incentivizing Permissionless Distributed Learning of LLMs - A question on peer uptime and reliability",
+    "body": "Dear Professor Belilovsky,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on incentivizing permissionless distributed learning of LLMs showed that Gauntlet can be applied to any synchronous distributed training scheme that relies on aggregating updates or pseudo-gradients. I'm particularly intrigued by the two-stage mechanism for fast filtering of peer uptime, reliability, and synchronization, combined with the core component that estimates the loss before and after individual pseudo-gradient contributions.\n\nI'm trying to put my next few months into research problems in this direction, whether remotely now or more intensively over winter. Specifically, I've been exploring the trade-offs between model parallelism and pseudo-gradient compression in distributed training of LLMs. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Test Time Adaptation Using Adaptive Quantile Recalibration",
+      "Sketch-guided Cage-based 3D Gaussian Splatting Deformation",
+      "Heterogeneous Low-Bandwidth Pre-Training of LLMs",
+      "Incentivizing Permissionless Distributed Learning of LLMs"
+    ],
+    "linkedinNote": "Emailed you re: Incentivizing Permissionless Distributed Learning of LLMs. Model parallelism and pseudo-gradient compression in distributed training of LLMs is confusing me, especially regarding peer uptime and reliability. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:52:26.608Z",
+    "messageId": "19f279bbfa76ee45",
+    "threadId": "19f279bbfa76ee45"
+  },
+  {
+    "name": "Shuang Li 0002",
+    "affiliation": "CUHK (SZ)",
+    "email": "lishuang@cuhk.edu.cn",
+    "subject": "Your work on self-supervised learning connects to representation transfer in downstream tasks.",
+    "body": "Dear Professor Li,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on self-supervised learning connects to representation transfer in downstream tasks. Your research on learning transferable features without labels has been a foundation for understanding how to leverage unlabeled data effectively, but what still confuses me is how the representations transfer robustly to downstream tasks when we have so few labeled samples — whether it's the choice of masking strategy or something about the pre-training objective. In my hyperspectral foundation model, I improved downstream land-cover classification separability by 20% while reducing pre-training latency by 25%, but the representations also transferred robustly to downstream tasks with few labeled samples. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: self-supervised learning. Transfer efficiency in downstream tasks still confuses me. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:52:57.386Z",
+    "messageId": "19f279c36396a21c",
+    "threadId": "19f279c36396a21c"
+  },
+  {
+    "name": "Jieyu Zhao 0001",
+    "affiliation": "University of Southern California",
+    "email": "jieyuz@usc.edu",
+    "subject": "Transfer efficiency in LLM scoring — your 2025 paper on interval evaluations",
+    "body": "Dear Professor Zhao,\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\nYour 2025 paper on interval evaluations with conformal prediction showed that LLM-based scoring can be made more reliable by providing valid prediction intervals with coverage guarantees. I ran into a similar problem in my work on building RAG pipelines, where the accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself. I benchmarked 20+ models, reached 30% accuracy improvement, but couldn't explain why the gains stopped.\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\nBest,\nAditya",
+    "papersReferenced": [
+      "ScaleMamba-YOLO: a multi-scale MambaYOLO for medical object detection",
+      "Deciphering interventional dynamical causality from non-intervention complex systems",
+      "DRoPE: Directional Rotary Position Embedding for Efficient Agent Interaction Modeling",
+      "Analyzing Uncertainty of LLM-as-a-Judge: Interval Evaluations with Conformal Prediction"
+    ],
+    "linkedinNote": "Emailed you re: your 2025 paper on interval evaluations. My RAG pipeline accuracy gains plateaued past a certain retrieval threshold. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:53:33.707Z",
+    "messageId": "19f279cc597cdf2c",
+    "threadId": "19f279cc597cdf2c"
+  },
+  {
+    "name": "Jiannong Cao 0001",
+    "affiliation": "The Hong Kong Polytechnic Univ.",
+    "email": "csjcao@comp.polyu.edu.hk",
+    "subject": "Question on your 2026 paper on injective linear attention for anomaly detection",
+    "body": "Dear Professor Cao,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on injective linear attention for anomaly detection showed that quality enhancement can improve detection performance under compressed inputs. However, in my own attempts to build a robust anomaly detection system using the MVTecAD dataset, I've found that my models consistently underperform when dealing with real-world inputs that have been JPEG compressed to various levels. Specifically, while my models achieve high accuracy on the original dataset, their performance drops significantly when confronted with compressed images.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Quality Enhancement for Anomaly Detection via Injective Linear Attention",
+      "FedSM: Semantic-Guided Feature Mixup for Bias Reduction in Federated Learning With Long-Tail Data",
+      "Circuit Board Welding Defect Detection Based on Industrial IoVT",
+      "Enhancing Self-Supervised Monocular Depth Estimation via Dual-Branch Local Distillation and Structural Priors"
+    ],
+    "linkedinNote": "Emailed you re: injective linear attention. Real-world JPEG compression drops my anomaly detection accuracy. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:54:06.778Z",
+    "messageId": "19f279d4777cbedb",
+    "threadId": "19f279d4777cbedb"
+  },
+  {
+    "name": "Xiang Ao 0001",
+    "affiliation": "Chinese Academy of Sciences",
+    "email": "aoxiang@ict.ac.cn",
+    "subject": "Question about your 2025 paper on event camera tracking",
+    "body": "Dear Professor Ao,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on cross-modal event camera tracking based on Gaussian splatting demonstrated that Gaussian splatting can facilitate highly efficient and realistic novel view synthesis. I attempted to apply a similar cross-modal approach to my project on hyperspectral image compression, but I'm struggling to explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples — whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective. I managed to improve downstream land-cover classification separability by 20% and reduce pre-training latency by 25%.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "GS-EVT: Cross-Modal Event Camera Tracking Based on Gaussian Splatting",
+      "Haplotype-resolved assembly of diploid and polyploid genomes using quantum computing"
+    ],
+    "linkedinNote": "Emailed you re: GS-EVT: Cross-Modal Event Camera Tracking Based on Gaussian Splatting. Struggling to explain transfer efficiency — top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:54:40.396Z",
+    "messageId": "19f279dcb28835ae",
+    "threadId": "19f279dcb28835ae"
+  },
+  {
+    "name": "Amit K. Roy-Chowdhury",
+    "affiliation": "Univ. of California - Riverside",
+    "email": "firstnamelastnameinitials@ece.ucr.edu",
+    "subject": "Question about your 2025 paper on Visual Alignment of Medical Vision-Language Models for Grounded Radiology Report Generation",
+    "body": "Dear Professor Roy-Chowdhury,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Visual Alignment of Medical Vision-Language Models for Grounded Radiology Report Generation showed that visual hallucinations can be tackled through two complementary reasoning stages in Med-VLMs. I was exploring similar reasoning stages for visual-spectral alignment in hyperspectral foundation models, but struggled to explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. Your work on tackling hallucinations through cross-modal alignment has given me insights into this problem, but I still can't explain why spectral-spatial alignment can be as effective as you've shown. Specifically, I'm trying to understand how VALOR can be adapted for hyperspectral imagery.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Visual Alignment of Medical Vision-Language Models for Grounded Radiology Report Generation",
+      "CARD: Correlation Aware Restoration with Diffusion",
+      "SAGA: Source Attribution of Generative AI Videos",
+      "Uncertainty-Aware Diffusion-Guided Refinement of 3D Scenes"
+    ],
+    "linkedinNote": "",
+    "sentAt": "2026-07-03T10:55:07.380Z",
+    "messageId": "19f279e337908e5e",
+    "threadId": "19f279e337908e5e"
+  },
+  {
+    "name": "Anand Bhattad",
+    "affiliation": "Johns Hopkins University",
+    "email": "bhattad@jhu.edu",
+    "subject": "Question about your 2025 paper on view-invariant policy learning",
+    "body": "Dear Professor Bhattad,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on view-invariant policy learning with camera conditioning demonstrated that conditioning policies on camera extrinsics significantly improves generalization across viewpoints for standard behavior cloning policies. This resonated with my own experience in robotics, where I struggled to develop a robust policy that could adapt to changing camera poses in a dynamic environment.\n\nSpecifically, I was trying to build a real-time route planning system for EV charging infrastructure aggregation and interoperability. The system relied heavily on camera observations to detect and track charging stations, but it consistently broke down when the camera pose changed. I was wondering if you could share your thoughts on how your approach might be applied to my problem.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "SpotLight: Shadow-Guided Object Relighting via Diffusion",
+      "Do You Know Where Your Camera Is? View-Invariant Policy Learning with Camera Conditioning",
+      "ScribbleLight: Single Image Indoor Relighting with Scribbles",
+      "Visual Jenga: Discovering Object Dependencies via Counterfactual Inpainting"
+    ],
+    "linkedinNote": "Emailed you re: view-invariant policy learning. Struggled with a similar problem in route planning for EV charging. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:55:54.153Z",
+    "messageId": "19f279eea20c418b",
+    "threadId": "19f279eea20c418b"
+  },
+  {
+    "name": "Guodong Zhou",
+    "affiliation": "Soochow University",
+    "email": "gdzhou@suda.edu.cn",
+    "subject": "Question about EEA: Exploration-Exploitation Agent for Long Video Understanding",
+    "body": "Dear Professor Zhou,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on EEA showed that exploration-exploitation balance can be achieved through semantic guidance with hierarchical tree search process. This finding resonates with my struggle while working on a hyperspectral foundation model — improving downstream land-cover classification separability by 20% while reducing pre-training latency by 25%. I couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples, whether it was the masking strategy, the spectral tokenization, or something about the pre-training objective.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "EEA: Exploration-Exploitation Agent for Long Video Understanding",
+      "Can GRPO Boost Complex Multimodal Table Understanding?",
+      "Explainable Machine Learning Predicts Mortality in Critically Ill Patients with Nonvariceal Upper Gastrointestinal Bleeding: A MIMIC-IV Study with External Validation",
+      "Pangu Ultra MoE: How to Train Your Big MoE on Ascend NPUs"
+    ],
+    "linkedinNote": "Emailed you re: EEA: Exploration-Exploitation Agent for Long Video Understanding. Struggled to understand why spectral-spatial representations transferred robustly to downstream tasks. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:56:31.276Z",
+    "messageId": "19f279f7ad6706a0",
+    "threadId": "19f279f7ad6706a0"
+  },
+  {
+    "name": "Madhav V. Marathe",
+    "affiliation": "University of Virginia",
+    "email": "mvm7hz@virginia.edu",
+    "subject": "Question about your 2025 paper on graph-constrained semantic segmentation",
+    "body": "Dear Professor Marathe,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on graph-constrained semantic segmentation demonstrated that iterative refinement can improve existing ground truth for infrastructure networks. I'm working on a project where downstream separability improved 20% and pre-training latency dropped 25%, but couldn't explain WHY the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples — whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "LLM-Enabled Scientific Knowledge Diffusion Analysis",
+      "IGraSS: Learning to Identify Infrastructure Networks from Satellite Imagery by Iterative Graph-constrained Semantic Segmentation",
+      "Theoretical foundations for parent divorcing transformations in Bayesian networks",
+      "Efficient PAC Learnability of Dynamical Systems Over Multilayer Networks"
+    ],
+    "linkedinNote": "Emailed you re: IGraSS. Downstream transferability mystery — top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:57:43.040Z",
+    "messageId": "19f27a092b96e9f7",
+    "threadId": "19f27a092b96e9f7"
+  },
+  {
+    "name": "Mengyue Wu",
+    "affiliation": "Shanghai Jiao Tong University",
+    "email": "mengyuewu@sjtu.edu.cn",
+    "subject": "Video-to-Audio Alignment in Smooth-Foley: Something I ran into",
+    "body": "Dear Professor Wu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Smooth-Foley demonstrated that semantic and temporal alignment in audio can be enhanced by feeding semantic guidance from textual labels to the generation model. This problem space seems to intersect with my own work on building robust audio-visual representations, particularly in the context of hyperspectral remote sensing.\n\nI recently encountered a similar challenge in my hyperspectral MAE project, where downstream separability improved 20% and pre-training latency dropped 25%, but couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. \n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Smooth-Foley: Creating Continuous Sound for Video-to-Audio Generation Under Semantic Guidance"
+    ],
+    "linkedinNote": "Emailed re: Smooth-Foley. Similar challenges with robust audio-visual representations in hyperspectral remote sensing. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:58:09.082Z",
+    "messageId": "19f27a0f8ded6b11",
+    "threadId": "19f27a0f8ded6b11"
+  },
+  {
+    "name": "Ben Bergen 0001",
+    "affiliation": "Univ. of California - San Diego",
+    "email": "bkbergen@ucsd.edu",
+    "subject": "Question about your 2026 paper on monolingual language models",
+    "body": "Dear Professor Bergen,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University, securing 99.59 percentile in JEE Main, top 0.4% among 1.2 million candidates nationwide.\n\nYour work on monolingual language models for low-resource languages - specifically Goldfish, a suite of 1,000 small monolingual language models trained comparably for 350 languages - demonstrated the potential of small, monolingually-trained models to outperform large multilingual models. I struggled to explain why these smaller models could generalize better than their larger counterparts, despite having less data and parameters. In my experiments, I found that a smaller model (125M parameters) could be trained on a smaller dataset (1GB) and achieve comparable performance to a larger model (7.1B parameters) trained on a much larger dataset (100GB). However, this improvement came at the cost of significantly reduced pre-training latency - a phenomenon I couldn't fully understand.\n\nI'm actively looking to spend the coming winter break working on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Discovering Lexical Gaps Using Embeddings from Multilingual LLMs",
+      "Large language models pass a standard three-party Turing test",
+      "Goldfish: Monolingual Language Models for 350 Languages",
+      "Better language models better model the N400, but not reading time"
+    ],
+    "linkedinNote": "Emailed you re: Goldfish monolingual language models. Struggled to explain why smaller monolingually-trained models generalise better than larger multilingually-trained models. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:58:46.497Z",
+    "messageId": "19f27a18a793f4a6",
+    "threadId": "19f27a18a793f4a6"
+  },
+  {
+    "name": "Debmalya Mandal",
+    "affiliation": "University of Warwick",
+    "email": "debmalya.mandal@warwick.ac.uk",
+    "subject": "Question about your 2025 paper on corruption-robustness in performative RL",
+    "body": "Dear Professor Mandal,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on corruption-robustness in performative RL showed that Huber's $ε$-contamination model, where an $ε$ fraction of data points is corrupted by arbitrary adversarial noise, can be addressed using a repeated retraining approach based on convex-concave optimization under corrupted gradients. However, I struggled to understand how your approach extends performative RL's repeated retraining methods to handle such corrupted data.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "GRAPHLCP: Structure-Aware Localized Conformal Prediction on Graphs",
+      "Corruption-robust Offline Multi-agent Reinforcement Learning From Human Feedback",
+      "Sparse Offline Reinforcement Learning with Corruption Robustness",
+      "On Corruption-Robustness in Performative Reinforcement Learning"
+    ],
+    "linkedinNote": "Emailed you re: 'On Corruption-Robustness in Performative Reinforcement Learning' (2025). Struggled to understand how repeated retraining methods extend to handle corrupted data. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:59:22.837Z",
+    "messageId": "19f27a219ccb14a5",
+    "threadId": "19f27a219ccb14a5"
+  },
+  {
+    "name": "Florent Avellaneda",
+    "affiliation": "Université du Québec à Montréal",
+    "email": "avellaneda.florent@uqam.ca",
+    "subject": "Question about your 2025 paper on GLiSE: Automated Grey Literature Extraction",
+    "body": "Dear Professor Avellaneda,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on GLiSE: A Prompt-Driven and ML-Powered Tool for Automated Grey Literature Extraction in Software Engineering showed that embedding-based semantic classifiers can be used to filter and rank grey literature search results according to their relevance. I've been working on a similar project — extracting relevant information from unstructured texts in the context of scientific systems and energy — and I'm struggling to understand how GLiSE handles context-dependent semantic shifts in text embeddings and whether that impacts its effectiveness in capturing nuanced information. \n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "LLM Code Smells: A Taxonomy and Detection Approach",
+      "DynamicsLLM: a Dynamic Analysis-based Tool for Generating Intelligent Execution Traces Using LLMs to Detect Android Behavioural Code Smells",
+      "Designing FSMs Specifications from Requirements with GPT 4.0",
+      "GLiSE: A Prompt-Driven and ML-Powered Tool for Automated Grey Literature Extraction in Software Engineering"
+    ],
+    "linkedinNote": "Emailed you re: GLiSE. Struggling to understand how GLiSE handles context-dependent semantic shifts in text embeddings. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T10:59:59.807Z",
+    "messageId": "19f27a2a97e1df56",
+    "threadId": "19f27a2a97e1df56"
   }
 ]
