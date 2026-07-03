@@ -14775,5 +14775,323 @@
     "sentAt": "2026-07-03T10:59:59.807Z",
     "messageId": "19f27a2a97e1df56",
     "threadId": "19f27a2a97e1df56"
+  },
+  {
+    "name": "Jung-Eun Kim",
+    "affiliation": "North Carolina State University",
+    "email": "jung-eun.kim@ncsu.edu",
+    "subject": "Your work on multimodal systems — the role of retrieval thresholds in RAG pipelines",
+    "body": "Dear Professor Jung-Eun Kim,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on multimodal systems and retrieval-augmented generation (RAG) pipelines connects to something I ran into while building a RAG pipeline at ArchiGen AI Labs. I noticed that accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself. I achieved 30% accuracy improvement, but that gain stopped beyond a certain retrieval quality threshold. \n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: multimodal systems. Accuracy gains plateaued past certain retrieval threshold. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T14:25:09.350Z",
+    "messageId": "19f285e7c044da5a",
+    "threadId": "19f285e7c044da5a"
+  },
+  {
+    "name": "Per Kristian Lehre",
+    "affiliation": "University of Birmingham",
+    "email": "p.k.lehre@cs.bham.ac.uk",
+    "subject": "Question about your 2025 paper on black-box complexity analysis for adversarial optimisation",
+    "body": "Dear Professor Lehre,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on black-box complexity analysis for adversarial optimisation showed that the average performance of all black-box adversarial optimisation algorithms is the same, and that a black-box complexity framework can be used to derive general lower bounds on the query complexity. This resonated with my own experience working on a plugin for EV charging infrastructure aggregation and interoperability systems, where I found that the optimisation problem shifted from finding the optimal route to adapting to the dynamic charger availability.\n\nHowever, I've struggled to understand how the solution concept in defining optimality affects the optimisation process in practice. Specifically, I've been trying to apply this understanding to improve the real-time state changes handling in my plugin, but I've hit a wall. I've quantified the issue by seeing a 30% decrease in route planning efficiency when charger availability changes rapidly.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A General Upper Bound for the Runtime of a Coevolutionary Algorithm on Impartial Combinatorial Games",
+      "Analysis of the Impact of Tournament Size on Coevolutionary Search",
+      "Hot off the Press: No Free Lunch Theorem and Black-Box Complexity Analysis for Adversarial Optimisation",
+      "Runtime Analysis with Variable Cost"
+    ],
+    "linkedinNote": "Emailed you re: 'Hot off the Press: No Free Lunch Theorem and Black-Box Complexity Analysis for Adversarial Optimisation'. Struggled to understand the solution concept in defining optimality. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T14:25:37.384Z",
+    "messageId": "19f285eea83921f4",
+    "threadId": "19f285eea83921f4"
+  },
+  {
+    "name": "Uri Stemmer",
+    "affiliation": "Tel Aviv University",
+    "email": "uristemmer@tauex.tau.ac.il",
+    "subject": "Question about your 2025 paper on simple and robust distributed counting",
+    "body": "Dear Professor Stemmer,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates. \n\nYour 2025 paper on simple and robust distributed counting showed that a server can continuously approximate the total number of events across k sites while minimizing communication. I was impressed by the sub- logarithmic communication complexity achieved in the robust protocol. \n\nI've been working on a distributed system for real-time charger discovery and route planning in the PluginAny EV charging infrastructure aggregation system, and I'm struggling to explain why our current approach breaks down when charger availability changes in real-time. I've tried various techniques, but nothing seems to give the robustness I'm looking for. \n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Protecting the Undeleted in Machine Unlearning",
+      "Adaptively Robust Resettable Streaming",
+      "One Attack to Rule Them All: Tight Quadratic Bounds for Adaptive Queries on Cardinality Sketches",
+      "A Simple and Robust Protocol for Distributed Counting"
+    ],
+    "linkedinNote": "Emailed Uri Stemmer re: 2025 distributed counting. Struggling to explain why real-time charger availability turns a static graph routing problem into a POMDP in PluginAny EV charging infrastructure aggregation system. Top 0.4% JEE Main (1.2M).",
+    "sentAt": "2026-07-03T14:26:12.498Z",
+    "messageId": "19f285f7435e49df",
+    "threadId": "19f285f7435e49df"
+  },
+  {
+    "name": "Zhaozheng Yin",
+    "affiliation": "Stony Brook University",
+    "email": "zyin@cs.stonybrook.edu",
+    "subject": "Question about your 2025 paper on Annotation-Efficient Hybrid Learning for Temporal Sentence Grounding",
+    "body": "Dear Professor Yin,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU, 99.59 percentile JEE Main, top 0.4% among 1.2 million candidates. I found your 2025 paper on Annotation-Efficient Hybrid Learning for Temporal Sentence Grounding fascinating, as it showed that progressive pseudo-label self-learning can efficiently address the annotation costs in weakly-supervised Temporal Sentence Grounding. This aligns with my own struggle to understand how self-supervised learning methods can be effectively adapted for real-world systems, especially when dealing with limited labeled data. In my work on hyperspectral foundation models, I saw a similar challenge - downstream separability improved by 20% and pre-training latency dropped by 25%, but couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Annotation-Efficient Hybrid Learning for Temporal Sentence Grounding",
+      "MVCM: Enhancing Multi-View and Cross-Modality Alignment for Medical Visual Question Answering and Medical Image-Text Retrieval",
+      "SemiDAViL: Semi-supervised Domain Adaptation with Vision-Language Guidance for Semantic Segmentation",
+      "FALCON: Fair Active Learning for Content Moderation"
+    ],
+    "linkedinNote": "Emailed you re: Annotation-Efficient Hybrid Learning for Temporal Sentence Grounding. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T14:26:46.870Z",
+    "messageId": "19f285ffbd2c6ec9",
+    "threadId": "19f285ffbd2c6ec9"
+  },
+  {
+    "name": "Christopher J. Quinn",
+    "affiliation": "Iowa State University",
+    "email": "cjquinn@iastate.edu",
+    "subject": "Your work on robotics and graph optimization — something I ran into",
+    "body": "Dear Professor Quinn,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on robotics and graph optimization — specifically, the challenges of partial observability in dynamic environments — connects to something I ran into while building a real-time EV routing system. I had to adapt standard shortest-path approaches to accommodate charger availability updates, which effectively turned a static graph problem into something closer to a POMDP. I managed to improve route planning accuracy by 22% using a POMDP-based model, but the remaining errors looked like they could benefit from a more sophisticated treatment of distributional shift in sparse feature spaces.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: robotics and graph optimization. EV routing turned a static graph problem into a POMDP. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T14:27:17.492Z",
+    "messageId": "19f286073f0f68d4",
+    "threadId": "19f286073f0f68d4"
+  },
+  {
+    "name": "Saurabh Gupta 0001",
+    "affiliation": "Univ. of Illinois at Urbana-Champaign",
+    "email": "saurabhg@illinois.edu",
+    "subject": "Question about your 2025 paper on bimanual 3D hand motion forecasting",
+    "body": "Dear Professor Gupta,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on bimanual 3D hand motion and articulation forecasting in everyday images showed that training on diverse data with imputed labels can improve forecasting accuracy by 14%. I'm working on a project that uses computer vision for infrastructure inspection, and I've been trying to understand how to forecast object motion from a single image. However, I've hit a wall when trying to scale up the object detection component to real-world datasets — the models I've tried struggle to generalize well to new images without extensive fine-tuning. I've achieved some success with a 10% improvement in object detection accuracy, but I'm unsure why this improvement is limited, whether it's due to the choice of model, the quality of the annotations, or something else entirely.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Bimanual 3D Hand Motion and Articulation Forecasting in Everyday Images",
+      "PhysGen3D: Crafting a Miniature Interactive World from a Single Image",
+      "Kinematic-ICP: Enhancing LiDAR Odometry with Kinematic Constraints for Wheeled Mobile Robots Moving on Planar Surfaces",
+      "Leveraging Explainable AQ1 AI for Drug Efficacy and Mortality Analysis: Insights from an Observational Dataset"
+    ],
+    "linkedinNote": "Emailed you re: 'Bimanual 3D Hand Motion and Articulation Forecasting in Everyday Images'. Scaling object detection on real-world datasets without extensive fine-tuning. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T14:28:28.773Z",
+    "messageId": "19f2861881817add",
+    "threadId": "19f2861881817add"
+  },
+  {
+    "name": "Yan Wang 0002",
+    "affiliation": "Macquarie University",
+    "email": "yan.wang@mq.edu.au",
+    "subject": "Question about State-Anchored Frozen Large Language Model Adaptation",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, securing 99.59 percentile in JEE Main, top 0.4% among more than one million candidates nationwide.\n\nYour 2026 paper on Weakly Supervised Non-Intrusive Load Monitoring via State-Anchored Frozen Large Language Model Adaptation demonstrated a three-stage framework that explicitly separates appliance state detection from power amplitude estimation, assigning each sub-task to its appropriate supervision signal. This framework inspired me to explore similar ideas in my project on Hyperspectral Foundation Model, where I built a Masked Autoencoder (MAE) for hyperspectral imagery to learn transferable spatial-spectral representations. However, I struggled to explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A Method for Comment Text Feature Mining via Integrated Keyword Extraction, Clustering, and Sentiment Analysis",
+      "Short-Packet Communication in CDRT Networks with Imperfect CSI Over Nakagami-m Fading Channels: RSMA or NOMA?",
+      "Weakly Supervised Non-Intrusive Load Monitoring via State-Anchored Frozen Large Language Model Adaptation",
+      "Federated multi-label text feature selection via manifold-aware sparse modeling and cooperative grey wolf optimization"
+    ],
+    "linkedinNote": "",
+    "sentAt": "2026-07-03T14:29:07.322Z",
+    "messageId": "19f28621ec0407c5",
+    "threadId": "19f28621ec0407c5"
+  },
+  {
+    "name": "Naveed Akhtar",
+    "affiliation": "University of Melbourne",
+    "email": "naveed.akhtar1@unimelb.edu.au",
+    "subject": "GenMix: Explaining Transfer Efficiency in Data-Augmented Models",
+    "body": "Dear Professor Akhtar,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on GenMix showed that data augmentation can be made generalizable through generative diffusion model image editing. This got me thinking about how to make transfer efficiency more interpretable in data-augmented models. In my hyperspectral foundation model project, I improved downstream land-cover classification separability by 20% while reducing pre-training latency by 25%, but couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "GenMix: Effective data augmentation with generative diffusion model image editing",
+      "MDIR: Multi-Dimensional Degradation Representation Learning for All-in-One Image Restoration",
+      "Multi-Modal Shape Encoding for 3-D Object Detection",
+      "Prompt-guided selective frequency network for real-world scene text image super-Resolution"
+    ],
+    "linkedinNote": "Emailed you re: GenMix. Improved hyperspectral representation transfer efficiency by 25% but struggled to explain why. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T14:29:40.091Z",
+    "messageId": "19f28629fd64006c",
+    "threadId": "19f28629fd64006c"
+  },
+  {
+    "name": "Siwei Lyu",
+    "affiliation": "University at Buffalo",
+    "email": "siweilyu@buffalo.edu",
+    "subject": "Question about your 2026 paper on Adversarial Machine Learning",
+    "body": "Dear Professor Siwei Lyu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Adversarial Machine Learning showed that attack vectors are not exhaustive and new attacks can emerge over the lifecycle of a system. I ran into a similar problem in my Android malware detection pipeline, where benchmarked 20+ models, reached 90.8% malicious recall — but the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Attacks in Adversarial Machine Learning: A Systematic Survey from the Lifecycle Perspective",
+      "Forensics Adapter: Unleashing CLIP for Generalizable Face Forgery Detection",
+      "Forensic deepfake audio detection using segmental speech features",
+      "Framing digital inauthenticity: Comparing user detection of AI-generated faces to messaged-based scam methods"
+    ],
+    "linkedinNote": "",
+    "sentAt": "2026-07-03T14:30:44.674Z",
+    "messageId": "19f28639bc219f2c",
+    "threadId": "19f28639bc219f2c"
+  },
+  {
+    "name": "Tianmin Shu",
+    "affiliation": "Johns Hopkins University",
+    "email": "tianmin.shu@jhu.edu",
+    "subject": "Your 2025 paper on SimWorld-Robotics and realistic simulators",
+    "body": "Dear Professor Shu,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University (DTU) and 99.59 percentile JEE Main, top 0.4% among more than one million candidates nationwide.\n\nYour work on SimWorld-Robotics demonstrated that realistic, open-ended world simulation is crucial for developing and evaluating LLM/VLM agents in complex physical and social environments. This aligns with my struggles while building a self-supervised representation learning pipeline for multimodal robotics tasks, where I found that standard pretraining objectives failed to capture the nuances of embodied interactions in real-world scenarios. I was wondering if there's alignment between your research interests and my work, and if there's an opportunity to contribute and learn.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "ThoughtTrace: Understanding User Thoughts in Real-World LLM Interactions",
+      "RealWebAssist: A Benchmark for Long-Horizon Web Assistance with Real-World Users",
+      "SimWorld-Robotics: Synthesizing Photorealistic and Dynamic Urban Environments for Multimodal Robot Navigation and Collaboration",
+      "SimWorld: An Open-ended Realistic Simulator for Autonomous Agents in Physical and Social Worlds"
+    ],
+    "linkedinNote": "Emailed you re: SimWorld-Robotics: Synthesizing Photorealistic and Dynamic Urban Environments. Real-world robotics interactions in realistic simulators seem similar to the embodied AI challenges I've faced in multimodal robotics tasks. Top 0.4% JEE Main (1.2M).",
+    "sentAt": "2026-07-03T14:31:22.879Z",
+    "messageId": "19f286431b5cc122",
+    "threadId": "19f286431b5cc122"
+  },
+  {
+    "name": "Kai Shu",
+    "affiliation": "Emory University",
+    "email": "kai.shu@emory.edu",
+    "subject": "Your 2025 paper on agentic LLMs - Unifying Knowledge in Agentic LLMs: Concepts, Methods, and Recent Advancements",
+    "body": "Dear Professor Shu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on agentic LLMs showed that unifying knowledge in agentic LLMs extends models from passive generators to active problem solvers that can reason, plan, and interact with external tools. I struggled with the same problem in my project, a retrieval-augmented generation pipeline, where accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself. In my pipeline, I achieved a 30% accuracy improvement, but the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem, and standard calibration didn't resolve it.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Beyond Tokens: A Survey on Decoding Methods for Large Language and Vision-Language Models",
+      "Can Multimodal LLMs Perform Time Series Anomaly Detection?",
+      "Unifying Knowledge in Agentic LLMs: Concepts, Methods, and Recent Advancements",
+      "Towards Effective Model Editing for LLM Personalization"
+    ],
+    "linkedinNote": "Emailed you re: Unifying Knowledge in Agentic LLMs. Accuracy gains plateaued in retrieval-augmented generation pipeline. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T14:31:58.694Z",
+    "messageId": "19f2864bc9632dae",
+    "threadId": "19f2864bc9632dae"
+  },
+  {
+    "name": "Carlo D'Eramo",
+    "affiliation": "University of Würzburg",
+    "email": "carlo.deramo@uni-wuerzburg.de",
+    "subject": "Question about your 2025 paper on 'Use the Online Network If You Can: Towards Fast and Stable Reinforcement Learning'",
+    "body": "Dear Professor D'Eramo,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on 'Use the Online Network If You Can: Towards Fast and Stable Reinforcement Learning' showed that using the online network as a bootstrapped target can lead to unstable learning, but your MINTO method mitigates the potential overestimation bias by computing the target using the MINimum estimate between the Target and Online network. I'm working on building a reinforcement learning system for an EV charging infrastructure aggregation and interoperability system, and I've hit a wall trying to balance stability and learning speed. The system's behavior changes rapidly due to real-time state updates, and I'm struggling to find a suitable update rule that adapts quickly without overestimating the value function.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Do Not Imitate, Reinforce: Iterative Classification via Belief Refinement",
+      "Continual Model-based Reinforcement Learning for Fault-Adaptive Control",
+      "Use the Online Network If You Can: Towards Fast and Stable Reinforcement Learning",
+      "$K$-Level Policy Gradients for Multi-Agent Reinforcement Learning"
+    ],
+    "linkedinNote": "Emailed you re: 'Use the Online Network If You Can: Towards Fast and Stable Reinforcement Learning'. Struggling to balance stability and learning speed in an EV charging infrastructure aggregation system. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T14:32:34.175Z",
+    "messageId": "19f286547d9c642a",
+    "threadId": "19f286547d9c642a"
+  },
+  {
+    "name": "Zhengming Ding",
+    "affiliation": "Tulane University",
+    "email": "zding1@tulane.edu",
+    "subject": "Question about your 2025 paper on diffusion guided adversarial state perturbations in RL",
+    "body": "Dear Professor Ding,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on diffusion guided adversarial state perturbations in RL showed that existing defenses against RL attacks are vulnerable to state-of-the-art diffusion-based attacks. I'm particularly intrigued by the idea of exploring new attack methods that can manipulate high-dimensional image inputs to mislead agent behavior.\n\nIn my own work on Android malware detection using sparse features, I ran into a similar problem where standard models struggled to capture the distributional shift in the failure cases. Your work resonates with my struggles, and I'd love to dive deeper into this problem space.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "VLMs Guided Interpretable Decision Making for Autonomous Driving <sup>*</sup>",
+      "VLMs Guided Interpretable Decision Making for Autonomous Driving",
+      "Diffusion Guided Adversarial State Perturbations in Reinforcement Learning",
+      "Hypergraph Clustering Network with Partial Attribute Imputation"
+    ],
+    "linkedinNote": "Emailed you re: Diffusion Guided Adversarial State Perturbations in RL. Distributional shift in sparse feature spaces — your OOD work — resonates with my Android malware detection pipeline issues. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T14:33:02.729Z",
+    "messageId": "19f2865b78fd21f9",
+    "threadId": "19f2865b78fd21f9"
+  },
+  {
+    "name": "Zaiqiao Meng",
+    "affiliation": "University of Glasgow",
+    "email": "zaiqiao.meng@glasgow.ac.uk",
+    "subject": "Question about your 2026 paper on Adaptive RAG Models",
+    "body": "Dear Professor Meng,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on SPARKLE proposed a structured and plug-and-play agentic retrieval policy for adaptive RAG models, leveraging knowledge graph-based reasoning to control the retrieval process and generalising across different retrievers and LLMs. However, I struggled to understand how SPARKLE handles situations where the proxy model is not perfectly aligned with the retriever's objectives, potentially leading to suboptimal retrieval decisions.\n\nI'm actively looking to spend the coming winter break working deeply on RAG problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "SPARKLE: A Structured and Plug-and-play Agentic Retrieval Policy for Adaptive RAG Models",
+      "CCS: Clinical Consensus Selection for Radiology Report Generation",
+      "A Large-Scale Dataset and Benchmark: Do Protein-Ligand Models Learn Binding Sites or Just Binding Likelihood?",
+      "Triplet-Structured Knowledge Integration for Interactive Medical Question Answering"
+    ],
+    "linkedinNote": "Emailed you re: SPARKLE. Struggled to understand proxy model alignment with retriever objectives. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T14:33:27.106Z",
+    "messageId": "19f2866171ee0574",
+    "threadId": "19f2866171ee0574"
+  },
+  {
+    "name": "Haoyu Wang 0004",
+    "affiliation": "University at Albany - SUNY",
+    "email": "hwang28@albany.edu",
+    "subject": "Question about your 2025 paper on soil inorganic carbon prediction",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on soil inorganic carbon prediction showed that stacking models outperform individual models and exhibit superior transfer capabilities. I was trying to apply transfer learning to my hyperspectral foundation model, but couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. Could it be related to the masking strategy, spectral tokenization, or the pre-training objective?\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Ensemble and transfer learning of soil inorganic carbon with visible near-infrared spectra",
+      "BabyLM Turns 3: Call for papers for the 2025 BabyLM workshop"
+    ],
+    "linkedinNote": "Emailed you re: soil inorganic carbon prediction. Hyperspectral transfer learning struggling with robustness. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T14:33:58.074Z",
+    "messageId": "19f28668f1e6dbc6",
+    "threadId": "19f28668f1e6dbc6"
+  },
+  {
+    "name": "Sarah Dean",
+    "affiliation": "Cornell University",
+    "email": "sdean@cornell.edu",
+    "subject": "Your work on multimodal learning and self-supervised learning — transfer efficiency bottleneck",
+    "body": "Dear Professor Dean,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on multimodal learning and self-supervised learning — especially the transfer efficiency bottleneck — connects to something I ran into while building a Retrieval-Augmented Generation (RAG) pipeline at ArchiGen AI. I was able to improve AI response accuracy by 30%, but accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: transfer efficiency bottleneck in multimodal learning. 90.8% malicious recall in Android Malware Detection, but plateaued RAG pipeline accuracy gains — seeking remote contribution opportunity. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T14:34:34.497Z",
+    "messageId": "19f28671d8879382",
+    "threadId": "19f28671d8879382"
+  },
+  {
+    "name": "Lorenzo Torresani",
+    "affiliation": "Northeastern University",
+    "email": "l.torresani@northeastern.edu",
+    "subject": "Question about your 2026 paper on self-evolving agents for video temporal grounding",
+    "body": "Dear Professor Torresani,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on EvoGround, self-evolving video agents for video temporal grounding, demonstrated that unsupervised learning can achieve state-of-the-art performance on VTG benchmarks. What struck me was how the two coupled agents, proposer and solver, learned temporal grounding from raw videos without human-labeled data. This mutual improvement process resonates with my own work on self-supervised learning and multimodal representations.\n\nI've been struggling to understand how the proposer generates query-moment pairs from raw videos that are then refined by the solver. I've experimented with various methods for query generation, but none seem to match the quality of EvoGround's proposed pairs. I'm actively looking to spend the coming winter break working deeply on problems like this and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest, \nAditya",
+    "papersReferenced": [
+      "SVI-Bench: A Dynamic Microworld for Strategic Video Intelligence",
+      "RECIPE: Procedural Planning via Grounding in Instructional Video",
+      "EvoGround: Self-Evolving Video Agents for Video Temporal Grounding",
+      "TimeRefine: Temporal Grounding with Time Refining Video LLM"
+    ],
+    "linkedinNote": "Emailed you re: EvoGround. Query generation from raw videos in VTG still a gap. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T14:35:04.683Z",
+    "messageId": "19f286793063dd09",
+    "threadId": "19f286793063dd09"
+  },
+  {
+    "name": "Judy Hoffman",
+    "affiliation": "Univ. of California - Irvine",
+    "email": "judy.hoffman@uci.edu",
+    "subject": "Contrastive Flow Matching and Emergence of Human to Robot Transfer",
+    "body": "Dear Professor Hoffman,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Emergence of Human to Robot Transfer in Vision-Language-Action Models demonstrated that human-to-robot transfer emerges once the VLA is pre-trained on sufficient scenes, tasks, and embodiments. I've been struggling to understand why the emergence of this transfer requires such scale, and how it relates to the pre-training objectives used. Specifically, I'm trying to build a multimodal foundation model for robotic tasks, where the transfer efficiency is critical but hard to quantify.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Resolving Interference (RI): Disentangling Models for Improved Model Merging",
+      "Emergence of Human to Robot Transfer in Vision-Language-Action Models",
+      "Contrastive Flow Matching",
+      "Improving Personalized Search with Regularized Low-Rank Parameter Updates"
+    ],
+    "linkedinNote": "Emailed you re: Emergence of Human to Robot Transfer. Trying to understand the pre-training objectives used in VLAs but struggling to quantify transfer efficiency for robotic tasks. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T14:35:39.273Z",
+    "messageId": "19f28681b1e50836",
+    "threadId": "19f28681b1e50836"
+  },
+  {
+    "name": "Eric T. Nalisnick",
+    "affiliation": "Johns Hopkins University",
+    "email": "nalisnick@jhu.edu",
+    "subject": "Question about your 2025 paper on early-exiting to control corrupted contexts",
+    "body": "Dear Professor Nalisnick,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on early-exiting to control corrupted contexts showed that dynamic early exit prediction can be used to ignore later attention heads that attend the most to unsafe inputs, thereby limiting the impact of harmful context on model performance.\n\nI've been working on an Android malware detection pipeline, and I've encountered a similar problem with distributional shift in sparse feature spaces. The remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem, and standard calibration didn't resolve it.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A Tale of Two Temperatures: Simple, Efficient, and Diverse Sampling from Diffusion Language Models",
+      "Conformal Thinking: Risk Control for Reasoning on a Compute Budget",
+      "Controlling the Risk of Corrupted Contexts for Language Models via Early-Exiting",
+      "Improving Handshape Representations for Sign Language Processing: A Graph Neural Network Approach"
+    ],
+    "linkedinNote": "Emailed you re: Controlling the Risk of Corrupted Contexts. Remaining failure cases in Android malware detection pipeline looked like distributional shift, not model capacity problem. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T14:36:52.513Z",
+    "messageId": "19f2869398154650",
+    "threadId": "19f2869398154650"
+  },
+  {
+    "name": "Hantao Yao",
+    "affiliation": "USTC",
+    "email": "yaohantao@ustc.edu.cn",
+    "subject": "Your work on robust foundation models - something I ran into",
+    "body": "Dear Professor Yao,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University - 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on robust foundation models connects to something I ran into while building a hyperspectral foundation model. Despite 20% improvement in downstream land-cover classification separability and 25% reduction in pre-training latency, I struggled to understand why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. Was it the masking strategy, the spectral tokenization, or something about the pretraining objective?\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: robust foundation models. Ran into a bottleneck in hyperspectral transfer learning, and I'm top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-03T14:37:22.899Z",
+    "messageId": "19f2869ae610ce1a",
+    "threadId": "19f2869ae610ce1a"
   }
 ]
