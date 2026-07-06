@@ -1976,7 +1976,9 @@
     "linkedinNote": "",
     "sentAt": "2026-06-22T05:18:04.545Z",
     "messageId": "19eedc3ada4ae4f2",
-    "threadId": "19eedc3ada4ae4f2"
+    "threadId": "19eedc3ada4ae4f2",
+    "replied": true,
+    "repliedAt": "2026-07-06T10:55:28.390Z"
   },
   {
     "name": "Bo Dai 0002",
@@ -3101,7 +3103,9 @@
     "linkedinNote": "Emailed you re: BuilderBench. Transfer efficiency in plug-and-play systems is a struggle. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-22T22:21:14.891Z",
     "messageId": "19ef16c690f26a44",
-    "threadId": "19ef16c690f26a44"
+    "threadId": "19ef16c690f26a44",
+    "replied": true,
+    "repliedAt": "2026-07-06T10:55:34.883Z"
   },
   {
     "name": "Cheng-Zhong Xu 0001",
@@ -4946,7 +4950,9 @@
     "linkedinNote": "Emailed you re: discrepancy detection in multilingual QA. Clustering failure cases in malware detection looked like distributional shift. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-24T04:20:42.500Z",
     "messageId": "19ef7dbde71ac6f8",
-    "threadId": "19ef7dbde71ac6f8"
+    "threadId": "19ef7dbde71ac6f8",
+    "replied": true,
+    "repliedAt": "2026-07-06T10:55:44.101Z"
   },
   {
     "name": "Mirella Lapata",
@@ -5870,7 +5876,9 @@
     "linkedinNote": "Emailed you re: ARM-Thinker. Accuracy gains plateaued past a certain retrieval threshold. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-24T21:46:13.492Z",
     "messageId": "19efb99108def439",
-    "threadId": "19efb99108def439"
+    "threadId": "19efb99108def439",
+    "replied": true,
+    "repliedAt": "2026-07-06T10:55:48.651Z"
   },
   {
     "name": "Osbert Bastani",
@@ -14065,7 +14073,9 @@
     "linkedinNote": "Emailed you re: ViterbiPlanNet. Stuck on procedural planning in instructional videos, trying to learn ViterbiPlanNet's end-to-end learning of procedural knowledge graphs. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-03T04:04:34.722Z",
     "messageId": "19f2626562b2e0c6",
-    "threadId": "19f2626562b2e0c6"
+    "threadId": "19f2626562b2e0c6",
+    "replied": true,
+    "repliedAt": "2026-07-06T10:56:28.681Z"
   },
   {
     "name": "Giovanni Maria Farinella",
@@ -15337,7 +15347,9 @@
     "linkedinNote": "Emailed you re: Secure and Private Recommendation. Struggling to remove collaboration mechanism in federated learning. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-03T17:49:26.142Z",
     "messageId": "19f291982628903c",
-    "threadId": "19f291982628903c"
+    "threadId": "19f291982628903c",
+    "replied": true,
+    "repliedAt": "2026-07-06T10:56:35.118Z"
   },
   {
     "name": "Baishakhi Ray",
@@ -15493,7 +15505,9 @@
     "linkedinNote": "Emailed you re: Bridging AI and Clinical Reasoning. Achieved 90.8% malicious recall but the remaining failure cases looked like a distributional shift problem, not a model capacity one. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-03T21:18:02.704Z",
     "messageId": "19f29d8803f2b96c",
-    "threadId": "19f29d8803f2b96c"
+    "threadId": "19f29d8803f2b96c",
+    "replied": true,
+    "repliedAt": "2026-07-06T10:56:36.159Z"
   },
   {
     "name": "Brian Bullins",
@@ -15680,7 +15694,9 @@
     "linkedinNote": "Emailed you re: DebiasRAG. Accuracy gains plateaued past a certain retrieval threshold. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-03T21:24:41.080Z",
     "messageId": "19f29de945617314",
-    "threadId": "19f29de945617314"
+    "threadId": "19f29de945617314",
+    "replied": true,
+    "repliedAt": "2026-07-06T10:56:37.284Z"
   },
   {
     "name": "Yo-Sub Han",
