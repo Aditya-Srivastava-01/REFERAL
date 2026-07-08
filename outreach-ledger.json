@@ -9117,7 +9117,9 @@
     "linkedinNote": "",
     "sentAt": "2026-06-29T21:46:21.905Z",
     "messageId": "19f1558fefeb5f91",
-    "threadId": "19f1558fefeb5f91"
+    "threadId": "19f1558fefeb5f91",
+    "replied": true,
+    "repliedAt": "2026-07-08T08:41:54.049Z"
   },
   {
     "name": "Xingang Pan",
@@ -17441,7 +17443,9 @@
     "linkedinNote": "Emailed you re: multi-modal learning. Ran into a similar problem with hyperspectral MAE. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-07T11:20:12.198Z",
     "messageId": "19f3c4e99919f67e",
-    "threadId": "19f3c4e99919f67e"
+    "threadId": "19f3c4e99919f67e",
+    "replied": true,
+    "repliedAt": "2026-07-08T08:42:35.735Z"
   },
   {
     "name": "Alina Oprea",
@@ -17668,7 +17672,9 @@
     "linkedinNote": "Emailed you re: 2026 IEEE World Congress on Computational Intelligence. Query-based attack method didn't generalize to unseen APKs despite optimization. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-07T14:54:09.733Z",
     "messageId": "19f3d127c2b6bdd1",
-    "threadId": "19f3d127c2b6bdd1"
+    "threadId": "19f3d127c2b6bdd1",
+    "replied": true,
+    "repliedAt": "2026-07-08T08:42:37.226Z"
   },
   {
     "name": "Saber Salehkaleybar",
@@ -18431,7 +18437,9 @@
     "linkedinNote": "Emailed you re: WMAttack. Uncertainty in non-observable attack sequences — similar issue in my work on Android malware detection. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-07T21:41:11.249Z",
     "messageId": "19f3e8720e1e32ba",
-    "threadId": "19f3e8720e1e32ba"
+    "threadId": "19f3e8720e1e32ba",
+    "replied": true,
+    "repliedAt": "2026-07-08T08:42:41.335Z"
   },
   {
     "name": "Rajiv Khanna",
@@ -18610,7 +18618,9 @@
     "linkedinNote": "Emailed Nikhil Singh re: Distributional shift in sparse feature spaces — your OOD work on IDS. 90.8% malicious recall, but distributional shift in failure cases — seeking to explore this further. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-08T03:31:03.602Z",
     "messageId": "19f3fc7717135753",
-    "threadId": "19f3fc7717135753"
+    "threadId": "19f3fc7717135753",
+    "replied": true,
+    "repliedAt": "2026-07-08T08:42:42.546Z"
   },
   {
     "name": "Ming Jin 0005",
