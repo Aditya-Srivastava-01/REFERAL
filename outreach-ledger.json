@@ -19640,7 +19640,9 @@
     "linkedinNote": "Emailed you re: Differentiable GPU-Parallelized Task and Motion Planning. Struggled to understand how VLM-TAMP scales to everyday problems. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-08T14:33:27.050Z",
     "messageId": "19f4225e1df7b852",
-    "threadId": "19f4225e1df7b852"
+    "threadId": "19f4225e1df7b852",
+    "replied": true,
+    "repliedAt": "2026-07-08T19:48:24.307Z"
   },
   {
     "name": "Hui Qian 0001",
@@ -19986,7 +19988,9 @@
     "linkedinNote": "Emailed you re: MotionFlow. Found a connection between accuracy gains plateauing and your work on complex camera trajectory control. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-08T17:48:34.869Z",
     "messageId": "19f42d88695ada3c",
-    "threadId": "19f42d88695ada3c"
+    "threadId": "19f42d88695ada3c",
+    "replied": true,
+    "repliedAt": "2026-07-08T19:48:26.707Z"
   },
   {
     "name": "Fengchun Qiao",
