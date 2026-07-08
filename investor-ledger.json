@@ -698,5 +698,47 @@
     "messageId": "19f3c600a79d5960",
     "threadId": "19f3c600a79d5960",
     "replied": false
+  },
+  {
+    "orgName": "Unicorn Ventures",
+    "partnerName": "Alexandra Tynion",
+    "partnerRole": "General Partner",
+    "portfolioReference": "ZipLine — on-demand logistics, similar intelligent routing",
+    "email": "contact@unicornventures.com",
+    "subject": "350k followers, routing platform",
+    "body": "You backed ZipLine before on-demand logistics was obvious — PluginAny is the same intelligent routing layer for the plugin ecosystem. \n\n PluginAny is a discovery, aggregation, marketplace, and real-time routing platform. Proof: routing engine live. Team: CTO: top 0.4% JEE nationally — 1 in 1.2 million. \n\n We'd love to be in your next cohort — happy to send a deck or jump on a call.",
+    "linkedinNote": "Building intelligent plugin routing layer like ZipLine for logistics — Aditya",
+    "sentAt": "2026-07-08T10:53:07.207Z",
+    "messageId": "19f415c290c83f32",
+    "threadId": "19f415c290c83f32",
+    "replied": false
+  },
+  {
+    "orgName": "Archetype Digital",
+    "partnerName": "Alexis Ohanian",
+    "partnerRole": "General Partner",
+    "portfolioReference": "Rappi — on-demand aggregation, same routing thesis",
+    "email": "sbrenner@archetype.org",
+    "subject": "350k followers, routing platform — Archetype",
+    "body": "You backed Rappi before on-demand aggregation was obvious — PluginAny is the same intelligent routing layer for the plugin ecosystem. \n\n PluginAny is a discovery and aggregation platform with a live routing engine. CTO: top 0.4% JEE nationally — 1 in 1.2 million. \n\n We'd love to be in your next cohort — happy to send a deck or jump on a call. Best, Aditya CTO, PluginAny https://pluginany.com",
+    "linkedinNote": "Rappi-like routing for plugins, 350k followers — Aditya",
+    "sentAt": "2026-07-08T10:54:11.395Z",
+    "messageId": "19f415d2446256e5",
+    "threadId": "19f415d2446256e5",
+    "replied": false
+  },
+  {
+    "orgName": "INOVAIT",
+    "partnerName": "Alexandre Sieber",
+    "partnerRole": "Co-Founder and Executive Director",
+    "portfolioReference": "",
+    "email": "ReservaunespacioconnosotrosInovait@inovait.co",
+    "subject": "350k followers, routing platform",
+    "body": "You backed companies that leverage tech for innovation — PluginAny applies the same thesis to plugin and service discovery. \n\n PluginAny is a discovery, aggregation, marketplace, and real-time routing platform. Routing engine live. CTO: top 0.4% JEE nationally — 1 in 1.2 million. \n\n We'd love to be in your next cohort — happy to send a deck or jump on a call.",
+    "linkedinNote": "Building PluginAny, a routing platform for plugins and services, with 350k followers — Aditya",
+    "sentAt": "2026-07-08T10:55:22.230Z",
+    "messageId": "19f415e39b8766ba",
+    "threadId": "19f415e39b8766ba",
+    "replied": false
   }
 ]
