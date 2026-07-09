@@ -21216,5 +21216,334 @@
     "sentAt": "2026-07-09T08:01:57.139Z",
     "messageId": "19f45e5d17523439",
     "threadId": "19f45e5d17523439"
+  },
+  {
+    "name": "Lina Wang 0001",
+    "affiliation": "Wuhan University",
+    "email": "lnwang@whu.edu.cn",
+    "subject": "Question about your 2025 paper on Guideable Visual Interpretation",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Guideable Visual Interpretation showed that medical tomographic image analysis can be improved with deep network performance. I struggled with explaining why pre-trained CNNs transferred robustly to downstream tasks despite having different data distributions for training and evaluation — whether it was the masking strategy, the data augmentation, or something about the pretraining objective. I experimented with hyperspectral image processing, and my results improved downstream land-cover classification separability by 20% while reducing pre-training latency by 25%.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01.\n\nBest,\nAditya",
+    "papersReferenced": [
+      "GVI: Guideable Visual Interpretation on medical tomographic images to improve the performance of deep network",
+      "Multimodal high-throughput approach assisted by deep learning for the analysis of ceramic saggars",
+      "On the issue of transparency and reproducibility in nanomedicine",
+      "M2Fusion: Multi-time Multimodal Fusion for Prediction of Pathological Complete Response in Breast Cancer"
+    ],
+    "linkedinNote": "Emailed you re: 2025 GVI paper. Struggled with transfer learning robustness. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:13:30.210Z",
+    "messageId": "19f46952e76d28b8",
+    "threadId": "19f46952e76d28b8"
+  },
+  {
+    "name": "Omri Abend",
+    "affiliation": "Hebrew University of Jerusalem",
+    "email": "oabend@cs.huji.ac",
+    "subject": "Control Illusion: Applying Hierarchical Instruction Schemes to Improve Instruction Prioritization",
+    "body": "Dear Professor Abend,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates nationwide.\n\nYour 2026 paper on control illusion in large language models showed that hierarchical instruction schemes struggle with consistent instruction prioritization, even for simple formatting conflicts. I'm building a retrieval-augmented generation (RAG) pipeline, where I noticed that the widely-adopted system/user prompt separation fails to establish a reliable instruction hierarchy. I'm trying to improve instruction prioritization by exploring different prompt engineering techniques. My work on RAG pipelines demonstrated a 30% accuracy improvement, but I couldn't explain why the retrieval quality starts to plateau past a certain threshold.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Control Illusion: The Failure of Instruction Hierarchies in Large Language Models",
+      "QA-Noun: Representing Nominal Semantics via Natural Language Question-Answer Pairs",
+      "The Challenge and Reward of Fair Play in Narrative: A Computational Approach",
+      "The future of open human feedback"
+    ],
+    "linkedinNote": "Emailed re: Control Illusion. Instruction prioritization struggles in RAG pipelines. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:14:02.576Z",
+    "messageId": "19f4695ad6a7ec63",
+    "threadId": "19f4695ad6a7ec63"
+  },
+  {
+    "name": "Xinyang Li",
+    "affiliation": "Tsinghua University",
+    "email": "xinyangli@tsinghua.edu.cn",
+    "subject": "Question about your 2025 paper on multi-objective sensor placement",
+    "body": "Dear Professor Li,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on multi-objective sensor placement for leakage location and network calibration showed that pressure data can serve multiple objectives simultaneously. However, I found that the framework assumes a relatively small-scale network and might not scale well to larger systems. I'm working on applying machine learning to real-world systems and wonder if there's any scope to explore more robust and adaptable monitoring points for larger water distribution networks.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "VocalBench-zh: Decomposing and Benchmarking the Speech Conversational Abilities in Mandarin Context",
+      "DICE: Structured Reasoning in LLMs through SLM-Guided Chain-of-Thought Correction",
+      "Multi-objective optimization of pressure sensor placement for leakage location and network calibration",
+      "Molecular docking-based design of novel tricyclic tetrahydropyridothienopyrimidinone derivatives as AChE/MAO-B dual inhibitors"
+    ],
+    "linkedinNote": "Emailed you re: multi-objective sensor placement. Found a scalability limitation while working on robust monitoring points for larger networks. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:14:52.938Z",
+    "messageId": "19f4696722d34f6c",
+    "threadId": "19f4696722d34f6c"
+  },
+  {
+    "name": "Hady Wirawan Lauw",
+    "affiliation": "Singapore Management University",
+    "email": "hadywlauw@smu.edu.sg",
+    "subject": "Question about your 2025 paper on parameter-efficient VAEs",
+    "body": "Dear Professor Lauw,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on parameter-efficient Variational AutoEncoders for multimodal multi-interest recommendation showed that a novel parameter-merging function can efficiently capture diverse user preferences behind multimodal data with minimal complexity. This caught my attention as I struggled to design a unified model that balances the richness of multimodal data with representational power in my own project on retrieval-augmented generation (RAG) pipelines.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "VARIUM+: Semantic Expert-Structured Memory-Augmented Variational Autoencoder for Multi-Interest Recommendation",
+      "Parameter-Efficient Variational AutoEncoder for Multimodal Multi-Interest Recommendation",
+      "Conv4Rec: A 1-by-1 Convolutional Autoencoder for User Profiling Through Joint Analysis of Implicit and Explicit Feedback",
+      "Conv4Rec: A 1-by-1 Convolutional AutoEncoder for User Profiling through Joint Analysis of Implicit and Explicit Feedbacks"
+    ],
+    "linkedinNote": "Emailed you re: your 2025 paper on parameter-efficient VAEs. Struggled to balance multimodal data with representational power in my RAG pipeline. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:15:31.047Z",
+    "messageId": "19f46970650d8213",
+    "threadId": "19f46970650d8213"
+  },
+  {
+    "name": "Hongyang R. Zhang",
+    "affiliation": "Northeastern University",
+    "email": "ho.zhang@northeastern.edu",
+    "subject": "Question about your 2025 paper on scalable multi-objective reinforcement learning",
+    "body": "Dear Professor Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on scalable multi-objective and meta reinforcement learning via gradient estimation showed that the two-stage procedure of meta-training followed by fine-tuning can effectively estimate policies that simultaneously optimize multiple objectives in RL. However, I struggled to understand how the adaptation step leverages the first-order approximation property of well-trained policy networks, and how that property is empirically verified.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Scalable Multi-Objective and Meta Reinforcement Learning via Gradient Estimation"
+    ],
+    "linkedinNote": "Emailed you re: Scalable Multi-Objective and Meta Reinforcement Learning via Gradient Estimation. Struggled to understand how the adaptation step leverages the first-order approximation property of well-trained policy networks. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:16:03.485Z",
+    "messageId": "19f46978717f09b4",
+    "threadId": "19f46978717f09b4"
+  },
+  {
+    "name": "Jorge Fandinno",
+    "affiliation": "University of Nebraska - Omaha",
+    "email": "jfandinno@unomaha.edu",
+    "subject": "Question about Strong Equivalence of Logic Programs (2025)",
+    "body": "Dear Professor Fandinno,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 work on strong equivalence of logic programs demonstrated that this can be sometimes established by deriving rules of each program from rules of the other in an appropriate deductive system.\n\nWhile exploring recursive aggregates as intensional functions in answer set programming, I struggled to explain why the strong equivalence of two programs containing aggregates under either semantics can be reduced to reasoning in classical First-Order logic. I found that my models often broke under the propagation of epistemic consequences.\n\nI've actively been looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. My CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Dynamic Epistemic Logic with ASP Updates: Application to Conditional Planning",
+      "Deductive Systems for Logic Programs with Counting",
+      "Recursive Aggregates as Intensional Functions in Answer Set Programming: Semantics and Strong Equivalence",
+      "Solving Epistemic Logic Programs Using Generate-and-Test with Propagation"
+    ],
+    "linkedinNote": "Emailed Professor Fandinno re: Strong Equivalence of Logic Programs (2025). Struggled with reducing strong equivalence of logic programs under either semantics to classical First-Order logic. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:16:36.936Z",
+    "messageId": "19f469809a3659ec",
+    "threadId": "19f469809a3659ec"
+  },
+  {
+    "name": "Kaushik Sinha",
+    "affiliation": "Wichita State University",
+    "email": "kaushik.sinha@wichita.edu",
+    "subject": "Question about your 2025 paper on voice cloning detection",
+    "body": "Dear Professor Sinha,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on voice cloning detection showed that deep learning and acoustic feature analysis can be combined to achieve 96.4% detection accuracy. I was particularly intrigued by the hybrid CNN-BiLSTM model's performance on a comprehensive dataset.\n\nIn my own work on Android malware detection, I've encountered difficulties with distributional shift in sparse feature spaces. While I've reached 90.8% malicious recall, the remaining failure cases cluster in a way that suggests a distributional shift problem rather than model capacity. I'm trying to understand the role of pretraining objectives and feature engineering in transferring robustly to downstream tasks with few labeled samples.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Detection of Synthetic or Cloned Voices Using Deep Learning and Acoustic Feature Analysis",
+      "Non-parametric classification via expand-and-sparsify representation"
+    ],
+    "linkedinNote": "Emailed you re: voice cloning detection. In malware detection, distributional shift in sparse feature spaces — top 0.4% JEE Main (1.2M).",
+    "sentAt": "2026-07-09T11:17:09.752Z",
+    "messageId": "19f4698882a89a7c",
+    "threadId": "19f4698882a89a7c"
+  },
+  {
+    "name": "Kazuto Fukuchi",
+    "affiliation": "University of Tsukuba",
+    "email": "fukuchi@cs.tsukuba.ac.jp",
+    "subject": "Question about your 2024 paper on Certified Defenses for CBIR",
+    "body": "Dear Professor Fukuchi,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on deterministic and probabilistic certified defenses for content-based image retrieval against adversarial examples showed that certified robustness for CBIR can be guaranteed by verifying whether a given feature extraction DNN satisfies the certified robustness at given input images. \n\nI recently built a hyperspectral foundation model using masked autoencoders, achieving 20% improved downstream land-cover classification separability while reducing pre-training latency by 25%. However, I struggled to understand why spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples, whether it was the masking strategy, the spectral tokenization, or something about the pre-training objective.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Provable Data Scaling Law for Meta Learning via Complexity Minimization",
+      "Provable Target Sample Complexity Improvements as Pre-Trained Models Scale",
+      "Deterministic and Probabilistic Certified Defenses for Content-Based Image Retrieval",
+      "Robust Deep Reinforcement Learning against Adversarial Behavior Manipulation"
+    ],
+    "linkedinNote": "Emailed you re: Certified Defenses for CBIR. Struggled to understand why spectral-spatial representations transferred robustly. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:18:15.525Z",
+    "messageId": "19f469989691bf21",
+    "threadId": "19f469989691bf21"
+  },
+  {
+    "name": "Mahito Sugiyama",
+    "affiliation": "National Inst. of Informatics",
+    "email": "mahito@nii.ac.jp",
+    "subject": "The Chaos Effect in Deep Learning — Your 2025 finding",
+    "body": "Dear Professor Sugiyama,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on the two-phase learning dynamics of neural networks showed that training undergoes a distinct phase transition, with a chaotic period where the network is highly sensitive to initial conditions — the Chaos Effect. I'm trying to understand how this effect impacts the generalization of pre-trained models in downstream tasks. My work on representation learning and self-supervised learning has shown some promise, but I'm struggling to explain why certain pretraining objectives lead to better generalization. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "When Graph Language Models Go Beyond Memorization",
+      "Riemannian Optimization over Symmetric Positive Definite Matrices with the Alpha-Procrustes Geometry",
+      "Same Graph, Different Likelihoods: Calibration of Autoregressive Graph Generators via Permutation-Equivalent Encodings",
+      "New Evidence of the Two-Phase Learning Dynamics of Neural Networks"
+    ],
+    "linkedinNote": "Emailed you re: The Chaos Effect in Deep Learning. Struggling to understand the generalization of pre-trained models in downstream tasks. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:19:41.467Z",
+    "messageId": "19f469ad942b7ec2",
+    "threadId": "19f469ad942b7ec2"
+  },
+  {
+    "name": "Matthew Guzdial",
+    "affiliation": "University of Alberta",
+    "email": "mguzdial3@gatech.edu",
+    "subject": "Question about your 2025 paper on Finite Automata Extraction",
+    "body": "Dear Professor Guzdial,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Finite Automata Extraction showed that world models can be made more precise and explainable by learning a neuro-symbolic representation from gameplay video. This problem space resonates with my work on representation learning and multimodal learning. I recently built a hyperspectral foundation model that learned transferable spatial-spectral representations, but couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. Your FAE approach to learn world models as programs from gameplay video seems to address this same issue.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Learning Finite State Machines with Gameplay Video",
+      "Time-based Chart Partitioning: Improving Local Coherency in Rhythm Game Chart Generation",
+      "Finite Automata Extraction: Low-data World Model Learning as Programs from Gameplay Video",
+      "Human-AI collaboration in real-world complex environment with reinforcement learning"
+    ],
+    "linkedinNote": "Emailed you re: Finite Automata Extraction. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:20:16.871Z",
+    "messageId": "19f469b6300da25b",
+    "threadId": "19f469b6300da25b"
+  },
+  {
+    "name": "Miklós Z. Rácz",
+    "affiliation": "Northwestern University",
+    "email": "racz@northwestern.edu",
+    "subject": "Question about average-case graph isomorphism and its applications",
+    "body": "Dear Professor Rácz,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates nationally.\n\nYour 2025 paper on average-case graph isomorphism demonstrated that a local algorithm produces a low-depth canonical labeling for sparse graphs with high probability. I've been trying to understand how to extend this to more complex graph structures, particularly those with varying degrees of connectivity.\n\nIn my own work, I've been exploring the application of graph isomorphism to hyperspectral image analysis, where I've encountered difficulties in finding efficient algorithms for representing complex spatial relationships. I've recently achieved 20% improvement in downstream land-cover classification separability using a masked autoencoder, but I'm struggling to explain the transferability of these spectral-spatial representations.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Optimal Hardness of Online Algorithms for Large Common Induced Subgraphs",
+      "Average-case and smoothed analysis of graph isomorphism",
+      "Efficient Graph Matching for Correlated Stochastic Block Models"
+    ],
+    "linkedinNote": "Emailed you re: average-case graph isomorphism. Struggling to apply it to hyperspectral image analysis. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:21:31.074Z",
+    "messageId": "19f469c84e5df09b",
+    "threadId": "19f469c84e5df09b"
+  },
+  {
+    "name": "Mohan Sridharan",
+    "affiliation": "University of Edinburgh",
+    "email": "m.sridharan@ed.ac.uk",
+    "subject": "Question about your 2025 paper on Inter-Agent Relative Representations for Multi-Agent Option Discovery",
+    "body": "Dear Professor Sridharan,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Inter-Agent Relative Representations for Multi-Agent Option Discovery showed that temporally extended actions can be used to improve coordination in multi-agent settings. The approach you proposed for discovering strongly coordinated behaviours via inter-agent relative dynamics resonates with my efforts to create autonomous systems that can adapt to complex domains. However, I struggled to understand why the joint-state abstraction you described would not lead to loosely coupled or independent behaviours. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Collaborate and explain on-the-fly: knowledge-based reasoning and learning in ad hoc teamwork",
+      "Anticipate, Adapt, Act: A Hybrid Framework for Task Planning",
+      "Inter-Agent Relative Representations for Multi-Agent Option Discovery",
+      "Discovering Coordinated Joint Options via Inter-Agent Relative Dynamics"
+    ],
+    "linkedinNote": "Emailed you re: Inter-Agent Relative Representations for Multi-Agent Option Discovery. Struggled to explain why joint-state abstraction wouldn't lead to loosely coupled behaviours. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:22:08.329Z",
+    "messageId": "19f469d16936a771",
+    "threadId": "19f469d16936a771"
+  },
+  {
+    "name": "Nika Haghtalab",
+    "affiliation": "Univ. of California - Berkeley",
+    "email": "nika@berkeley.edu",
+    "subject": "Question about meta-models in language learning",
+    "body": "Dear Professor Haghtalab,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on learning generative meta-models of LLM activations showed that diffusion models can uncover structure in neural network activations without structural assumptions, acting as priors that improve intervention fidelity. I ran into a similar struggle while working on retrieval-augmented generation pipelines at ArchiGen AI Labs: the accuracy gains plateaued past a certain retrieval threshold, and improving retrieval quality further stopped helping generation quality.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Learning a Generative Meta-Model of LLM Activations",
+      "Understanding In-context Learning of Addition via Activation Subspaces",
+      "Iterative Label Refinement Matters More than Preference Optimization under Weak Supervision",
+      "What Do Learning Dynamics Reveal About Generalization in LLM Reasoning?"
+    ],
+    "linkedinNote": "Emailed you re: meta-models. Accuracy gains plateaued past certain retrieval threshold. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:22:46.457Z",
+    "messageId": "19f469dad11f6f9a",
+    "threadId": "19f469dad11f6f9a"
+  },
+  {
+    "name": "Roman Barták",
+    "affiliation": "Charles University",
+    "email": "bartak@ktiml.mff.cuni.cz",
+    "subject": "Question about Ghost Agents in SAT-based Models for Multi-Agent Pathfinding",
+    "body": "Dear Professor Barták,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Ghost Agents in SAT-based Models for Multi-Agent Pathfinding showed that allowing agents to occupy multiple locations simultaneously can improve pathfinding efficiency. However, I struggled to understand how the introduction of ghost agents affects the complexity of the SAT formula. Specifically, I couldn't explain why the number of constraints in the formula scales differently with the number of agents and locations when using ghost agents versus traditional SAT-based MAPF solvers.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Modelling Multi-Agent Pathfinding Problems by Integrating Connectivity and No-Collision Constraints",
+      "The Effect of Decomposition Rule Modeling on the Efficiency of Hierarchical Planners",
+      "Ghost Agents in SAT-based Models for Multi-Agent Pathfinding",
+      "On Using Domain Control Knowledge in Planning"
+    ],
+    "linkedinNote": "Emailed you re: Ghost Agents in SAT-based Models for Multi-Agent Pathfinding. Tried to understand how introducing ghost agents affects SAT formula complexity. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:23:23.622Z",
+    "messageId": "19f469e3c98ffe04",
+    "threadId": "19f469e3c98ffe04"
+  },
+  {
+    "name": "Sanjoy Dasgupta",
+    "affiliation": "Univ. of California - San Diego",
+    "email": "dasgupta@eng.ucsd.edu",
+    "subject": "Question about your 2026 paper on nearest neighbor search with k-d trees",
+    "body": "Dear Professor Dasgupta,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates nationwide.\n\nYour 2026 paper on nearest neighbor search with k-d trees showed that comprehensive search can be much faster than defeatist search in high dimensions. However, I ran into a similar problem when optimizing the route planning in my EV charging infrastructure aggregation system — PluginAny — where partial observability of charger availability turned a static graph problem into something closer to a POMDP. I was wondering whether the insights from your paper could be applied to such partially observable Markov decision processes.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Performance bounds for nearest neighbor search with k-d trees",
+      "Learnability with Partial Labels and Adaptive Nearest Neighbors",
+      "Reliable Programmatic Weak Supervision With Confidence Intervals for Label Probabilities",
+      "Learning Smooth Distance Functions via Queries"
+    ],
+    "linkedinNote": "Emailed you re: nearest neighbor search with k-d trees. Optimizing route planning in PluginAny — partial observability turned it into a POMDP. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:24:37.852Z",
+    "messageId": "19f469f5e7064a01",
+    "threadId": "19f469f5e7064a01"
+  },
+  {
+    "name": "Sanmay Das",
+    "affiliation": "Virginia Tech",
+    "email": "sanmay@vt.edu",
+    "subject": "Question about your 2025 paper on LLM judgments aligning with human judgments",
+    "body": "Dear Professor Das,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on street-level AI demonstrated that large language models can make judgments that align with human judgments and vulnerability scoring systems in homelessness resource allocation. However, I've been working on a retrieval-augmented generation (RAG) pipeline where accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Federated Parameter-Efficient Adaptation for Interference Mitigation at the Wireless Edge",
+      "Street-Level AI: Are Large Language Models Ready for Real-World Judgments?",
+      "Letter from Chairs",
+      "Reducing Congestion Through Information Design"
+    ],
+    "linkedinNote": "Emailed you re: LLM judgments. RAG pipeline accuracy gains plateaued past a certain retrieval threshold. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:25:13.786Z",
+    "messageId": "19f469feaabd28b4",
+    "threadId": "19f469feaabd28b4"
+  },
+  {
+    "name": "Sheila A. McIlraith",
+    "affiliation": "University of Toronto",
+    "email": "sheila@cs.toronto.edu",
+    "subject": "Question about your 2025 paper on evaluating generalization capabilities of LLM-based agents",
+    "body": "Dear Professor McIlraith,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on evaluating generalization capabilities of LLM-based agents in mixed-motive scenarios using Concordia showed that Concordia can be used to measure an agent's ability to identify and exploit opportunities for mutual gain across diverse partners and contexts. I was working on a Retrieval-Augmented Generation (RAG) pipeline for my internship, but the accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Learning Bilevel Policies over Symbolic World Models for Long-Horizon Planning",
+      "Satisficing and Optimal Generalised Planning via Goal Regression",
+      "Gauss-Newton Unlearning for the LLM Era",
+      "Evaluating Generalization Capabilities of LLM-Based Agents in Mixed-Motive Scenarios Using Concordia"
+    ],
+    "linkedinNote": "Emailed you re: Evaluating Generalization Capabilities of LLM-Based Agents. Accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:25:51.465Z",
+    "messageId": "19f46a07e95ce397",
+    "threadId": "19f46a07e95ce397"
+  },
+  {
+    "name": "Tomi Janhunen",
+    "affiliation": "Tampere University",
+    "email": "tomi.janhunen@tuni.fi",
+    "subject": "Question about Explainability via Short Formulas",
+    "body": "Dear Professor Janhunen,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on explainability via short formulas showed that the local explainability problem is complete for the second level of the polynomial hierarchy. I'm struggling to understand how this relates to the explainability of AI systems in general, especially when dealing with complex decision-making processes.\n\nI'm trying to put my next few months into research problems in this direction, whether remotely now or more intensively over winter. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Explainability via Short Formulas: the Case of Propositional Logic with Implementation",
+      "Plingo: A System for Probabilistic Reasoning in Answer Set Programming",
+      "Toward Designing Ethically Acceptable AI Security Systems Through Agent Modeling",
+      "Automating Cybersecurity Compliance in DevSecOps with Open Information Model for Security as Code"
+    ],
+    "linkedinNote": "Emailed you re: Explainability via Short Formulas. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:26:28.451Z",
+    "messageId": "19f46a10e9689c49",
+    "threadId": "19f46a10e9689c49"
+  },
+  {
+    "name": "Vasile Rus",
+    "affiliation": "University of Memphis",
+    "email": "vrus@memphis.edu",
+    "subject": "Question about your 2025 paper on MIMIC-SR-ICD11",
+    "body": "Dear Professor Rus,\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on MIMIC-SR-ICD11 demonstrated that self-reports preserve clinically salient signals that templated electronic health record (EHR) documentation often attenuates or omits. I'm trying to understand how this affects downstream diagnosis models, especially when they're trained on EHR data alone. I've worked on a similar problem in Android malware detection, where distributional shifts in feature spaces led to failure cases that couldn't be explained by standard calibration.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Persona-Conditioned Generation of Patient Self-Reports from EHRs",
+      "MIMIC-SR-ICD11: A Dataset for Narrative-Based Diagnosis",
+      "Automated Assessment of Student Self-Explanation in Code Comprehension Using Pre-Trained Language Models",
+      "Mastery Guided Non-parametric Clustering to Scale-up Strategy Prediction"
+    ],
+    "linkedinNote": "Emailed you re: MIMIC-SR-ICD11. Distributional shifts in EHR data make downstream models fail. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:27:04.747Z",
+    "messageId": "19f46a19c3705d40",
+    "threadId": "19f46a19c3705d40"
+  },
+  {
+    "name": "Wanyun Cui",
+    "affiliation": "SUFE",
+    "email": "cui.wanyun@sufe.edu.cn",
+    "subject": "Connecting your research on graph neural networks to real-world energy systems",
+    "body": "Dear Professor Cui,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on graph neural networks and their applications aligns with my interests in real-world energy systems. Specifically, I ran into difficulties in applying graph neural networks to model complex energy infrastructures and their interactions. In my own work on PluginAny, our charging infrastructure aggregation system, I found that standard graph neural network architectures struggled to capture partial observability of charger availability.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this research space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: graph neural networks. Struggled to model partial observability of charger availability in energy systems. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-09T11:27:34.219Z",
+    "messageId": "19f46a210d013e8a",
+    "threadId": "19f46a210d013e8a"
   }
 ]
