@@ -10157,7 +10157,9 @@
     "linkedinNote": "Emailed you re: 2026 dialogue dynamics paper. Benchmarked 20+ models in multi-agent systems but couldn't explain cooperation/competition performance gap. Top 0.4% JEE Main (1.2M) — Aditya",
     "sentAt": "2026-06-30T14:45:37.114Z",
     "messageId": "19f18fe24d20dabb",
-    "threadId": "19f18fe24d20dabb"
+    "threadId": "19f18fe24d20dabb",
+    "replied": true,
+    "repliedAt": "2026-07-09T10:00:00.038Z"
   },
   {
     "name": "Subhransu Maji",
@@ -20353,7 +20355,9 @@
     "linkedinNote": "Emailed you re: Normalized Square Root (2025). Difficulty in quantifying the impact of privacy parameters on model generalizability. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-08T21:21:00.583Z",
     "messageId": "19f439b025a4138d",
-    "threadId": "19f439b025a4138d"
+    "threadId": "19f439b025a4138d",
+    "replied": true,
+    "repliedAt": "2026-07-09T10:00:58.639Z"
   },
   {
     "name": "Najoung Kim",
@@ -21017,7 +21021,9 @@
     "linkedinNote": "Emailed you re: 2024 paper on AI metacognition. 20% improvement in downstream separability but couldn't explain why spectral-spatial representations transferred robustly. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-09T07:53:54.318Z",
     "messageId": "19f45de738c77f3c",
-    "threadId": "19f45de738c77f3c"
+    "threadId": "19f45de738c77f3c",
+    "replied": true,
+    "repliedAt": "2026-07-09T10:01:02.328Z"
   },
   {
     "name": "Peter Henderson 0002",
@@ -21143,7 +21149,9 @@
     "linkedinNote": "Emailed you re: NEST. Co-locating VQAs concurrently on the same computer using NEST — struggling to understand system throughput. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-09T07:59:05.118Z",
     "messageId": "19f45e33037b76d5",
-    "threadId": "19f45e33037b76d5"
+    "threadId": "19f45e33037b76d5",
+    "replied": true,
+    "repliedAt": "2026-07-09T10:01:03.249Z"
   },
   {
     "name": "Cunjing Ge",
