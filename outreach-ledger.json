@@ -9856,7 +9856,9 @@
     "linkedinNote": "Emailed you re: Discrete MeanFlow. 90.8% malicious recall in Android malware detection — but remaining failure cases clustered like a distributional shift problem. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-30T11:26:16.890Z",
     "messageId": "19f1847a700435d4",
-    "threadId": "19f1847a700435d4"
+    "threadId": "19f1847a700435d4",
+    "replied": true,
+    "repliedAt": "2026-07-09T16:31:58.250Z"
   },
   {
     "name": "Yuhong Guo",
@@ -21249,7 +21251,9 @@
     "linkedinNote": "Emailed re: Control Illusion. Instruction prioritization struggles in RAG pipelines. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-09T11:14:02.576Z",
     "messageId": "19f4695ad6a7ec63",
-    "threadId": "19f4695ad6a7ec63"
+    "threadId": "19f4695ad6a7ec63",
+    "replied": true,
+    "repliedAt": "2026-07-09T16:32:59.552Z"
   },
   {
     "name": "Xinyang Li",
@@ -21396,7 +21400,9 @@
     "linkedinNote": "Emailed you re: average-case graph isomorphism. Struggling to apply it to hyperspectral image analysis. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-09T11:21:31.074Z",
     "messageId": "19f469c84e5df09b",
-    "threadId": "19f469c84e5df09b"
+    "threadId": "19f469c84e5df09b",
+    "replied": true,
+    "repliedAt": "2026-07-09T16:33:00.956Z"
   },
   {
     "name": "Mohan Sridharan",
@@ -21747,7 +21753,9 @@
     "linkedinNote": "Emailed you re: Your 2025 paper on LLM-based query optimization. LLMs tend to struggle with retrieval quality past a certain point, even when improving retrieval objectives stopped helping generation quality. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-09T15:33:34.601Z",
     "messageId": "19f478348432740c",
-    "threadId": "19f478348432740c"
+    "threadId": "19f478348432740c",
+    "replied": true,
+    "repliedAt": "2026-07-09T16:33:03.140Z"
   },
   {
     "name": "Yuekang Li",
