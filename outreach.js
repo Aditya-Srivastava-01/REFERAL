@@ -156,10 +156,15 @@ async function fetchRecentPapers(candidate, mailto) {
       `&select=title,publication_year,abstract_inverted_index&mailto=${encodeURIComponent(mailto)}`
   );
 
+  // Reject papers that are clearly from a different field — these appear when
+  // OpenAlex merges two authors with the same name (e.g. two "Nisarg Shah"s).
+  const WRONG_FIELD = /\b(legal system|court|lawsuit|legislation|clinical trial|patient outcome|hospital|surgery|radiology|pharmacol|mri fingerprint|epidemiol|pandemic model|sketch cues|xr remote|remote collaboration)\b/i;
+
   const seen = new Set();
   const papers = [];
   for (const w of works.results || []) {
     if (!w.title) continue;
+    if (WRONG_FIELD.test(w.title)) continue; // name-collision paper from different field
     const key = w.title.toLowerCase().replace(/\s+/g, " ").trim();
     if (seen.has(key)) continue; // OpenAlex sometimes lists a paper twice
     seen.add(key);
@@ -236,21 +241,27 @@ P5 — CLOSE (1 sentence):
 
 SIGN-OFF: "Best,\nAditya"
 
-━━━ DOMAIN PIVOT (pick exactly ONE project — never mention more than one) ━━━
+━━━ DOMAIN PIVOT (pick exactly ONE project using the CSRankings area field) ━━━
 
-Vision / remote sensing / spectral / self-supervised / foundation models:
+The user message includes "CSRankings research areas:" listing which venues this professor publishes in.
+Use this to pick the project — do NOT guess from the professor's name or paper topics alone.
+
+areas = vision, inforet, or contains "cvpr/eccv/iccv":
 → Hyperspectral MAE on AVIRIS cubes. Struggle: downstream separability improved 20% and pre-training latency dropped 25%, but couldn't explain WHY the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples — whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective.
 
-Security / OOD / anomaly detection / systems:
+areas = security, systems, or contains anomaly/OOD signals in papers:
 → Android malware detection on CIC-AndMal2017. Reverse-engineered APKs via Apktool into 1,418 sparse features. Struggle: benchmarked 20+ models, reached 90.8% malicious recall — but the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem, and standard calibration didn't resolve it.
 
-NLP / LLM / RAG / agents / multimodal:
+areas = nlp, or contains "acl/emnlp/naacl":
 → RAG pipeline at ArchiGen AI, 30% accuracy improvement. Struggle: accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself.
 
-Robotics / mobility / graph / routing / optimization:
+areas = robotics, or contains "icra/iros/rss":
 → PluginAny EV routing system — live multi-network charging aggregation and route planning. Struggle: standard shortest-path approaches broke under partial observability of charger availability; real-time state changes turned a static graph problem into something closer to a POMDP.
 
-General ML / broad → use the closest vocabulary match above. Never mention more than one project.
+areas = ai, mlmining, or contains "aaai/ijcai/icml/iclr/nips/kdd" (broad ML):
+→ Pick the project whose vocabulary most closely matches the professor's actual papers. Default to RAG pipeline if papers are LLM/agent/reasoning focused; hyperspectral MAE if papers are representation learning / self-supervised; malware detection if papers are OOD/robustness focused.
+
+No areas field → use the paper topics to infer. Never mention more than one project.
 
 ━━━ SUBJECT LINE ━━━
 
@@ -316,13 +327,17 @@ async function generateEmail(model, profile, candidate, papers) {
     ? `⚠️ ONLY THESE ${papers.length} PAPER(S) MAY BE CITED. Any other title or year = fabrication failure:\n`
     : "";
 
+  const areasLine = candidate.areas
+    ? `CSRankings research areas: ${candidate.areas}\n`
+    : "";
+
   const userMessage = `STUDENT PROFILE (the sender — sign as "${YOUR_NAME}"):
 ${profile}
 
 PROFESSOR (the recipient):
 Name: ${candidate.name}
 Institution: ${candidate.affiliation}
-Recent papers:
+${areasLine}Recent papers:
 ${paperWarning}${paperBlock}
 
 Write the outreach email now.`;

@@ -113,14 +113,24 @@ async function main() {
     countryByInst.set(r.institution, r.countryabbrv.toLowerCase());
   }
 
+  // Reverse map: conference code → friendly area name.
+  const CONF_TO_AREA = {};
+  for (const [area, confs] of Object.entries(AREA_CONFERENCES)) {
+    for (const conf of confs) CONF_TO_AREA[conf] = area;
+  }
+
   // Aggregate recent publication weight per (author, institution) in our areas.
+  // Also track which areas each author publishes in (for domain-pivot in emails).
   console.log("Scoring authors by recent publications in selected areas ...");
-  const scores = new Map(); // "name|inst" -> number
+  const scores = new Map(); // "name|inst" -> { total, areaSet }
   for (const r of loadCsvFile("generated-author-info.csv", ["name", "dept", "area", "adjustedcount", "year"])) {
     if (!CONFERENCES.has(r.area)) continue;
     if (parseInt(r.year, 10) < SINCE_YEAR) continue;
     const key = `${r.name}|${r.dept}`;
-    scores.set(key, (scores.get(key) || 0) + parseFloat(r.adjustedcount || "0"));
+    const entry = scores.get(key) || { total: 0, areaSet: new Set() };
+    entry.total += parseFloat(r.adjustedcount || "0");
+    entry.areaSet.add(CONF_TO_AREA[r.area] || r.area);
+    scores.set(key, entry);
   }
   console.log(`  ${scores.size} active authors found.`);
 
@@ -140,9 +150,9 @@ async function main() {
 
   // Rank, filter by country, take top N.
   const ranked = [...scores.entries()]
-    .map(([key, score]) => {
+    .map(([key, entry]) => {
       const [name, affiliation] = key.split("|");
-      return { name, affiliation, score };
+      return { name, affiliation, score: entry.total, areas: [...entry.areaSet] };
     })
     .filter((p) => {
       const country = countryByInst.get(p.affiliation) || "us";
@@ -200,7 +210,7 @@ async function main() {
     if (done % 25 === 0) console.log(`  ${done}/${ranked.length}`);
   });
 
-  const header = ["name", "affiliation", "country", "homepage", "email", "email_guess", "email_score", "recent_score"];
+  const header = ["name", "affiliation", "country", "homepage", "email", "email_guess", "email_score", "recent_score", "areas"];
   const records = ranked.map((p) => ({
     name: p.name,
     affiliation: p.affiliation,
@@ -210,6 +220,7 @@ async function main() {
     email_guess: p.email_guess || "",
     email_score: p.email_score || "",
     recent_score: p.score.toFixed(2),
+    areas: (p.areas || []).join(","),
   }));
   fs.writeFileSync(CANDIDATES_PATH, toCsv(header, records));
 
