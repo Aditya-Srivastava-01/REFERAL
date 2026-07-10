@@ -22073,7 +22073,9 @@
     "linkedinNote": "Emailed you re: Efficient RL for optimizing conversation level outcomes. Ran into similar challenges in EV routing system under partial observability of charger availability. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-09T18:12:06.611Z",
     "messageId": "19f48146e7cd32d5",
-    "threadId": "19f48146e7cd32d5"
+    "threadId": "19f48146e7cd32d5",
+    "replied": true,
+    "repliedAt": "2026-07-10T09:51:49.361Z"
   },
   {
     "name": "Benjamin Moseley",
@@ -22315,7 +22317,9 @@
     "linkedinNote": "Emailed you re: 2026 gaslighting negation attacks. Anomaly detection in Android malware clustering in a way that resembles distributional shift rather than model capacity issue. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-09T21:39:02.004Z",
     "messageId": "19f48d1df2b39a3c",
-    "threadId": "19f48d1df2b39a3c"
+    "threadId": "19f48d1df2b39a3c",
+    "replied": true,
+    "repliedAt": "2026-07-10T09:51:51.440Z"
   },
   {
     "name": "Yu Yin 0001",
@@ -22757,7 +22761,9 @@
     "linkedinNote": "Emailed Wendelin Böhmer re: 2026 offline RL paper. Distributional shift in anomaly detection looked like a model capacity problem, but standard calibration didn't help. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-10T04:07:09.152Z",
     "messageId": "19f4a353401cb411",
-    "threadId": "19f4a353401cb411"
+    "threadId": "19f4a353401cb411",
+    "replied": true,
+    "repliedAt": "2026-07-10T09:51:54.241Z"
   },
   {
     "name": "Ziming Zhao 0008",
@@ -23139,7 +23145,9 @@
     "linkedinNote": "Emailed re: Blind Radio Map Construction via Topology-Guided Manifold Learning. Struggling to understand why spectral-spatial representations transferred robustly in hyperspectral imagery. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-10T07:56:22.149Z",
     "messageId": "19f4b070f6ba3284",
-    "threadId": "19f4b070f6ba3284"
+    "threadId": "19f4b070f6ba3284",
+    "replied": true,
+    "repliedAt": "2026-07-10T09:51:56.703Z"
   },
   {
     "name": "Matthew B. Blaschko",
@@ -23156,7 +23164,9 @@
     "linkedinNote": "Emailed you re: SoftCFG. Your work on uncertainty-guided guidance for AR models connects to an issue I ran into with transferable spectral-spatial representations. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-10T07:56:53.381Z",
     "messageId": "19f4b078941b3873",
-    "threadId": "19f4b078941b3873"
+    "threadId": "19f4b078941b3873",
+    "replied": true,
+    "repliedAt": "2026-07-10T09:51:57.188Z"
   },
   {
     "name": "Arto Klami",
@@ -23207,6 +23217,8 @@
     "linkedinNote": "Emailed James C. Gee re: 2026 adaptive Riemannian optimization for multi-scale diffeomorphic matching. Struggling to explain spectral-spatial representation transfer in hyperspectral foundation models. Top 0.4% JEE Main (1.2M) — Aditya",
     "sentAt": "2026-07-10T07:58:33.376Z",
     "messageId": "19f4b0910f715f33",
-    "threadId": "19f4b0910f715f33"
+    "threadId": "19f4b0910f715f33",
+    "replied": true,
+    "repliedAt": "2026-07-10T09:51:58.484Z"
   }
 ]
