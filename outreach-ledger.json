@@ -14531,7 +14531,9 @@
     "linkedinNote": "Emailed you re: Can LLMs Introspect? A Reality Check. Difficulty in LLM human-like memory simulation — what to measure for alignment with humans? Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-03T10:46:53.601Z",
     "messageId": "19f2796ab90961d7",
-    "threadId": "19f2796ab90961d7"
+    "threadId": "19f2796ab90961d7",
+    "replied": true,
+    "repliedAt": "2026-07-13T09:43:43.967Z"
   },
   {
     "name": "Matei Zaharia",
@@ -18167,7 +18169,9 @@
     "linkedinNote": "Emailed Prof Giorgos Tolias re: Instance-Level Generation for Representation Learning. Hyperspectral representation learning struggle: why spectral-spatial representations transfer robustly. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-07T18:14:11.869Z",
     "messageId": "19f3dc99ea0164a7",
-    "threadId": "19f3dc99ea0164a7"
+    "threadId": "19f3dc99ea0164a7",
+    "replied": true,
+    "repliedAt": "2026-07-13T09:44:01.540Z"
   },
   {
     "name": "Li Fei-Fei 0001",
@@ -24357,7 +24361,9 @@
     "linkedinNote": "Emailed you re: Solver-in-the-Loop Framework for Improving LLMs on Answer Set Programming. Stuck on why pre-training objective worked for generalization to unseen logic puzzles. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-10T21:19:12.872Z",
     "messageId": "19f4de617730d46f",
-    "threadId": "19f4de617730d46f"
+    "threadId": "19f4de617730d46f",
+    "replied": true,
+    "repliedAt": "2026-07-13T09:44:29.456Z"
   },
   {
     "name": "Margo I. Seltzer",
@@ -24912,7 +24918,9 @@
     "linkedinNote": "Emailed you re: AI for the public good. EV infrastructure aggregation turned into a POMDP. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-13T07:31:26.037Z",
     "messageId": "19f5a634f0db703c",
-    "threadId": "19f5a634f0db703c"
+    "threadId": "19f5a634f0db703c",
+    "replied": true,
+    "repliedAt": "2026-07-13T09:44:32.137Z"
   },
   {
     "name": "Wei Gao 0008",
@@ -24990,7 +24998,9 @@
     "linkedinNote": "Emailed you re: uncertainty decomposition in LLMs. Stuck on why retrieval quality improves but generation quality plateaus. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-13T07:34:24.259Z",
     "messageId": "19f5a66060b59d0d",
-    "threadId": "19f5a66060b59d0d"
+    "threadId": "19f5a66060b59d0d",
+    "replied": true,
+    "repliedAt": "2026-07-13T09:44:32.862Z"
   },
   {
     "name": "Junzhou Huang",
