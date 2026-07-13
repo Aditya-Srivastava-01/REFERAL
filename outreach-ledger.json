@@ -25828,5 +25828,175 @@
     "sentAt": "2026-07-13T15:05:10.759Z",
     "messageId": "19f5c02bac40d466",
     "threadId": "19f5c02bac40d466"
+  },
+  {
+    "name": "Ramya Korlakai Vinayak",
+    "affiliation": "University of Wisconsin - Madison",
+    "email": "ramya@ece.wisc.edu",
+    "subject": "Your finding on adaptive scoring and thresholding with human feedback — something I ran into",
+    "body": "Dear Professor Korlakai Vinayak,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on adaptive scoring and thresholding with human feedback for robust out-of-distribution detection demonstrated that human-in-the-loop frameworks can safely update scoring functions and thresholds on the fly to handle newly observed, evolving OOD inputs. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Learning from Less: Measuring the Effectiveness of RLVR in Low Data and Compute Regimes",
+      "Time To Impeach LLM-as-a-Judge: Programs are the Future of Evaluation",
+      "Adaptive Scoring and Thresholding with Human Feedback for Robust Out-of-Distribution Detection",
+      "ScriptoriumWS: A Code Generation Assistant for Weak Supervision"
+    ],
+    "linkedinNote": "Emailed you re: adaptive scoring and thresholding. OOD detection performance plateaued due to biased scoring functions — I'm trying to understand the impact of adaptive scoring on downstream tasks. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-13T18:00:55.974Z",
+    "messageId": "19f5ca3a0ea019de",
+    "threadId": "19f5ca3a0ea019de"
+  },
+  {
+    "name": "Christopher Kanan",
+    "affiliation": "University of Rochester",
+    "email": "chriskanan@gmail.com",
+    "subject": "Question about data filtering in tracking systems — your 2024 paper",
+    "body": "Dear Professor Kanan,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on co-design of 2D heterojunctions for data filtering in tracking systems demonstrated that customized mixed kernel functions can be adapted for real-time low-momentum particle rejection. However, when I tried to apply a similar approach to my research on anomaly detection for large-scale datasets, I struggled to explain why the accuracy plateaued past a certain threshold. This seemed to be due to the difficulty in capturing the distributional shifts in high-dimensional feature spaces.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01.\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Comparison of Nb and Ta pentoxide loss tangents for superconducting quantum devices",
+      "Cerebellar-Inspired Residual Control for Fault Recovery: From Inference-Time Adaptation to Structural Consolidation",
+      "From Macroscopic Quantum Tunneling to Quantum Computing: The 2025 Nobel Prize in Physics",
+      "Co-Design of 2D Heterojunctions for Data Filtering in Tracking Systems"
+    ],
+    "linkedinNote": "Emailed you re: co-design of 2D heterojunctions for data filtering. Struggled with distributional shifts in high-dimensional feature spaces while applying anomaly detection. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-13T18:01:32.328Z",
+    "messageId": "19f5ca4304eff753",
+    "threadId": "19f5ca4304eff753"
+  },
+  {
+    "name": "Eshwar Chandrasekharan",
+    "affiliation": "Univ. of Illinois at Urbana-Champaign",
+    "email": "eshwar@illinois.edu",
+    "subject": "Question about your 2025 paper on panel review in moderation",
+    "body": "Dear Professor Chandrasekharan,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University, ranking in the top 0.4% of 1.2 million candidates in JEE Main with a 99.59 percentile score.\n\nYour 2025 paper on Venire, an ML-backed system for panel review on Reddit, demonstrated that machine learning can identify cases where moderators are likely to disagree, and fast-track them for multi-person review. This resonates with my own struggles building and testing a retrieval-augmented generation (RAG) pipeline, where I saw accuracy gains plateau past a certain retrieval threshold. I was wondering how Venire might adapt to RAG's retrieval-quality bottleneck.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "The Language of Approval: Identifying the Drivers of Positive Feedback Online",
+      "Social Simulacra in the Wild: AI Agent Communities on Moltbook",
+      "Venire: A Machine Learning-Guided Panel Review System for Community Content Moderation",
+      "Mind Your Ps and Qs: Supporting Positive Reinforcement in Moderation Through a Positive Queue"
+    ],
+    "linkedinNote": "Emailed you re: 2025 Venire panel review. Retrieval-quality bottleneck in RAG pipelines. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-13T18:02:28.318Z",
+    "messageId": "19f5ca50afce931e",
+    "threadId": "19f5ca50afce931e"
+  },
+  {
+    "name": "Takayuki Okatani",
+    "affiliation": "Tohoku University",
+    "email": "okatani@tohoku.ac.jp",
+    "subject": "Question about your 2025 paper on Contextual Diversity Refinement of Composite Attributes",
+    "body": "Dear Professor Okatani,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Contextual Diversity Refinement of Composite Attributes in Text to Image Retrieval demonstrated a novel task called CDR-CA, aiming to refine the diversities of multiple attributes according to the application's context. I'm struggling with how to capture nuanced geological reasoning in landslide image analysis using large language models, while ensuring data scarcity and geological diversity are mitigated. Specifically, I'm trying to understand how to develop specialized transfer learning and data augmentation tailored to landslide imagery. My experience with multimodal AI approaches has been in the realm of retrieval-augmented generation, but I'd love to explore this direction further.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "LAMS-Edit: Latent and Attention Mixing with Schedulers for Improved Content Preservation in Diffusion-Based Image and Style Editing",
+      "MS-DPPs: Multi-Source Determinantal Point Processes for Contextual Diversity Refinement of Composite Attributes in Text to Image Retrieval",
+      "Rethinking Open-Set Object Detection: Issues, A New Formulation, and Taxonomy",
+      "Multimodal artificial intelligence approaches using large language models for expert‐level landslide image analysis"
+    ],
+    "linkedinNote": "Emailed you re: MS-DPPs. Struggling with how to capture nuanced geological reasoning in landslide image analysis using LLMs. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-13T18:03:05.649Z",
+    "messageId": "19f5ca59cef7591f",
+    "threadId": "19f5ca59cef7591f"
+  },
+  {
+    "name": "Vishnu Suresh Lokhande",
+    "affiliation": "University at Buffalo",
+    "email": "vishnulo@buffalo.edu",
+    "subject": "Question about your 2026 paper on Variance-Guided Score Modulation",
+    "body": "Dear Professor Lokhande,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Variance-Guided Score Modulation (VSM) showed that score smoothness causes hallucinations in Image Generation diffusion models. I'm trying to understand why controlling the score Jacobian reduces hallucinations, but couldn't explain how the VSM strategy interacts with other regularization techniques like weight decay or dropout. I've been experimenting with similar approaches on my own project, a hyperspectral foundation model, where I improved downstream land-cover classification separability by 20% while reducing pre-training latency by 25%. However, I'm struggling to generalize this improvement to other tasks and datasets.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Score-Control for Hallucination Reduction in Diffusion Models",
+      "Forget Less by Learning from Parents Through Hierarchical Relationships",
+      "ManifoldGD: Training-Free Hierarchical Manifold Guidance for Diffusion-Based Dataset Distillation",
+      "Beyond Pooling: Matching for Robust Generalization under Data Heterogeneity"
+    ],
+    "linkedinNote": "Emailed you re: Variance-Guided Score Modulation. Struggling to explain how VSM interacts with regularization techniques. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-13T18:04:20.260Z",
+    "messageId": "19f5ca6c03fae134",
+    "threadId": "19f5ca6c03fae134"
+  },
+  {
+    "name": "Chenxi Wang",
+    "affiliation": "Chinese Academy of Sciences",
+    "email": "wangchenxi@ict.ac.cn",
+    "subject": "Question about your 2026 paper on Mechanism-aware Personalized Learning",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Mechanism-aware Personalized Learning Intervention for short- and long-term academic outcome modeling showed that a unified framework integrating learner-state encoding, theory-informed latent proxy estimation, personalized intervention policy learning, and dual-horizon academic outcome modeling can improve academic achievement while modeling students' longer-horizon academic development. This framework connects to something I ran into while building a retrieval-augmented generation (RAG) pipeline at ArchiGen AI, where accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality. \n\nI'm trying to spend the coming winter break working deeply on problems like this and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Mechanism-aware personalized learning intervention for short- and long-term academic outcome modeling",
+      "Understanding EFL Teachers’ Cognition of Integrating GenAI in Language Education: A Qualitative Inquiry",
+      "JoDiffusion: Jointly Diffusing Image with Pixel-Level Annotations for Semantic Segmentation Promotion",
+      "Application of the Integration of Teaching-Research-Clinic Trinity Model in the Teaching of Nervous System in Physiology"
+    ],
+    "linkedinNote": "Emailed you re: Wang 2026 Mechanism-aware Personalized Learning. Accuracy gains plateaued in RAG pipeline. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-13T18:04:58.217Z",
+    "messageId": "19f5ca755bd6b3e3",
+    "threadId": "19f5ca755bd6b3e3"
+  },
+  {
+    "name": "Achuta Kadambi",
+    "affiliation": "Univ. of California - Los Angeles",
+    "email": "achuta@ee.ucla.edu",
+    "subject": "Question about your 2025 MPRS-MAPPO algorithm",
+    "body": "Dear Professor Kadambi,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University (DTU), India (graduating May 2028). Secured **99.59 percentile in JEE Main**, placing in the **top 0.4% among more than one million candidates nationwide**. Current CGPA: **8.06/10**.\n\nYour 2025 paper on Multi-UAV Dynamic Target Search Based on Multi-Potential-Field Fusion Reward Shaping MAPPO demonstrated that adaptive fusion weights can be used to improve policy quality in reward-sparse environments like dynamic target search. However, I am struggling to understand how the probability edge potential field, maximum probability potential field, and coverage probability sum potential field are used to construct the reward function, especially given the varying strengths and durations of interval excitation in real-world scenarios.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Reliable Range-Based Relative Localization Under Interval Excitation",
+      "Multi-UAV Dynamic Target Search Based on Multi-Potential-Field Fusion Reward Shaping MAPPO",
+      "A Deep Learning-Based Framework for Data Mining and Recognition of Workers’ Dynamic Behavioral Trajectories",
+      "UI-Ins: Enhancing GUI Grounding with Multi-Perspective Instruction-as-Reasoning"
+    ],
+    "linkedinNote": "Emailed you re: MPRS-MAPPO. 90.8% malicious recall on CIC-AndMal2017, but couldn't understand reward shaping in real-world multi-UAV search. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-13T18:05:34.219Z",
+    "messageId": "19f5ca7e14157a98",
+    "threadId": "19f5ca7e14157a98"
+  },
+  {
+    "name": "Zhongjie Ba",
+    "affiliation": "Zhejiang University",
+    "email": "zhongjieba@zju.edu.cn",
+    "subject": "Question about your 2026 paper on RedAgent: An Autonomous Agent for Context-Aware Red Teaming of LLM Jailbreaks",
+    "body": "Dear Professor Ba,\n\n\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\n\nYour 2026 paper on RedAgent: An Autonomous Agent for Context-Aware Red Teaming of LLM Jailbreaks showed that LLM jailbreak threats can be context-specific, requiring context-aware red teaming. I was working on a retrieval-augmented generation (RAG) pipeline for ArchiGen AI, and I ran into a similar problem where accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself. I was able to achieve a 30% accuracy improvement, but I couldn't explain why the plateau happened.\n\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Beyond Content: A Comprehensive Speech Toxicity Dataset and Detection Framework Incorporating Paralinguistic Cues",
+      "R <sup>2</sup> BD: A Reconstruction-Based Method for Generalizable and Efficient Detection of Fake Images",
+      "A Passive Defense Against Out-of-Band Injection Threats to Microphone-Based Devices",
+      "RedAgent: An Autonomous Agent for Context-Aware Red Teaming of LLM Jailbreaks"
+    ],
+    "linkedinNote": "Emailed you re: RedAgent: An Autonomous Agent for Context-Aware Red Teaming of LLM Jailbreaks. Accuracy gains plateaued in RAG pipeline — unclear why retrieval and generation objectives aren't decoupling. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-13T18:06:13.291Z",
+    "messageId": "19f5ca87ba675f24",
+    "threadId": "19f5ca87ba675f24"
+  },
+  {
+    "name": "Zhe Jiang 0001",
+    "affiliation": "University of Florida",
+    "email": "zhe.jiang@ufl.edu",
+    "subject": "Question about Agentic RL Training Frameworks and LLM Hallucinations",
+    "body": "Dear Professor Zhe Jiang 0001,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University (DTU), India (graduating May 2028). Secured **99.59 percentile in JEE Main**, placing in the **top 0.4% among more than one million candidates nationwide**.\n\nRecent papers by your group have been insightful, particularly 'LiteResearcher: A Scalable Agentic RL Training Framework for Deep Research Agent' (2026) and 'Loki's Dance of Illusions: A Comprehensive Survey of Hallucination in Large Language Models' (2025). Your 2025 paper on LLM hallucinations showed that these phenomena can be mitigated using detection methods like intent analysis and contextual understanding. However, I struggled to apply this understanding to the limitations of my current RAG pipeline at ArchiGen AI, where accuracy gains plateaued past a certain retrieval threshold.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "LiteResearcher: A Scalable Agentic RL Training Framework for Deep Research Agent",
+      "The study of human-AI Co-creation design under generative artificial intelligence: cognition, process, method, and outcome",
+      "Loki's Dance of Illusions: A Comprehensive Survey of Hallucination in Large Language Models",
+      "MRR-FV: Unlocking Complex Fact Verification with Multi-Hop Retrieval and Reasoning"
+    ],
+    "linkedinNote": "Emailed you re: LiteResearcher and LLM hallucinations. RAG pipeline accuracy gains plateaued past a certain retrieval threshold. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-13T18:06:51.190Z",
+    "messageId": "19f5ca90f27359c2",
+    "threadId": "19f5ca90f27359c2"
+  },
+  {
+    "name": "Zhen Zhang 0023",
+    "affiliation": "Nanjing University",
+    "email": "zhen_zhang@nju.edu.cn",
+    "subject": "Question about robust malicious group identification in multilingual social networks: a graph representation learning approach",
+    "body": "Dear Professor Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University, 99.59 percentile in JEE Main, top 0.4% of 1.2 million candidates nationwide.\n\nYour 2026 paper on robust malicious group identification in multilingual social networks using graph representation learning demonstrated that multimodal data can optimize real-time monitoring and early warning systems for group influence recognition. This resonated with my struggle to understand how to effectively detect anomalies in large-scale systems, particularly in the context of cybersecurity.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Efficient and High-Accuracy Ray Tracing in Discretized Ionospheric Models",
+      "Unified Modulation Matrix-Based Shared Control for Teleoperated Multi-Robot Formation and Obstacle Avoidance",
+      "ICOA: An Improved Coati Optimization Algorithm with Multi-Strategy Enhancement for Global Optimization and Engineering Design Problems",
+      "Toward robust malicious group identification in multilingual social networks: a graph representation learning approach"
+    ],
+    "linkedinNote": "",
+    "sentAt": "2026-07-13T18:07:41.903Z",
+    "messageId": "19f5ca9d58ff4bc0",
+    "threadId": "19f5ca9d58ff4bc0"
   }
 ]
