@@ -4828,7 +4828,9 @@
     "linkedinNote": "Emailed you re: spectral-spatial masked pretraining. 20% accuracy gains in land-cover classification with 25% pre-training latency reduction. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-06-24T04:16:36.002Z",
     "messageId": "19ef7d81b8a6bf6e",
-    "threadId": "19ef7d81b8a6bf6e"
+    "threadId": "19ef7d81b8a6bf6e",
+    "replied": true,
+    "repliedAt": "2026-07-14T08:22:14.538Z"
   },
   {
     "name": "Dawei Cheng",
