@@ -852,5 +852,33 @@
     "messageId": "19f602c0d66b0bac",
     "threadId": "19f602c0d66b0bac",
     "replied": false
+  },
+  {
+    "orgName": "Ignite Northwest",
+    "partnerName": "Steve Simmons",
+    "partnerRole": "General Partner",
+    "portfolioReference": "Zipwhip — messaging aggregation, similar API layer thesis",
+    "email": "startups@ignitenorthwest.com",
+    "subject": "350k followers, routing platform",
+    "body": "You backed Zipwhip before messaging aggregation was obvious — PluginAny is the same intelligent routing layer for the plugin ecosystem. \n\n PluginAny is a discovery, aggregation, marketplace, and real-time routing platform. Proof: routing engine live. CTO: top 0.4% JEE nationally — 1 in 1.2 million. \n\n We'd love to be in your next cohort — happy to send a deck or jump on a call.",
+    "linkedinNote": "Building intelligent routing for plugin ecosystem, 350k followers — Aditya",
+    "sentAt": "2026-07-15T10:40:40.604Z",
+    "messageId": "19f655d49cb8ce90",
+    "threadId": "19f655d49cb8ce90",
+    "replied": false
+  },
+  {
+    "orgName": "Naturally Chicago",
+    "partnerName": "Pete Wilkins",
+    "partnerRole": "Managing Director",
+    "portfolioReference": "",
+    "email": "info@naturallychicago.org",
+    "subject": "350k followers, routing platform",
+    "body": "You backed companies in the natural products space — PluginAny brings aggregation and routing to the plugin ecosystem. \n\n PluginAny is a discovery, aggregation, marketplace, and real-time routing platform. Proof: routing engine live. CTO: top 0.4% JEE nationally — 1 in 1.2 million. \n\n We'd love to be in your next cohort — happy to send a deck or jump on a call. Best, Aditya CTO, PluginAny https://pluginany.com",
+    "linkedinNote": "Building the intelligent layer for plugin discovery and routing, 350k followers — Aditya",
+    "sentAt": "2026-07-15T10:41:30.493Z",
+    "messageId": "19f655e0cfe88066",
+    "threadId": "19f655e0cfe88066",
+    "replied": false
   }
 ]
