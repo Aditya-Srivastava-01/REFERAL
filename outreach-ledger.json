@@ -20024,7 +20024,9 @@
     "linkedinNote": "Emailed you re: SeafloorAI. Struggling to explain robust transfer with hyperspectral pretraining. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-08T17:49:11.341Z",
     "messageId": "19f42d9165f44df4",
-    "threadId": "19f42d9165f44df4"
+    "threadId": "19f42d9165f44df4",
+    "replied": true,
+    "repliedAt": "2026-07-16T15:43:42.696Z"
   },
   {
     "name": "Ian Horrocks 0001",
@@ -20126,7 +20128,9 @@
     "linkedinNote": "Emailed you re: \"When Visuals Aren't the Problem\". 30% accuracy improvement in AI response accuracy, but accuracy gains plateaued past a certain retrieval threshold, and I couldn't explain why. Top 0.4% JEE Main (1.2M) — Aditya",
     "sentAt": "2026-07-08T17:53:26.179Z",
     "messageId": "19f42dcf863116b5",
-    "threadId": "19f42dcf863116b5"
+    "threadId": "19f42dcf863116b5",
+    "replied": true,
+    "repliedAt": "2026-07-16T15:43:43.942Z"
   },
   {
     "name": "Stefan Harmeling",
@@ -25564,7 +25568,9 @@
     "linkedinNote": "Emailed you re: Probably Approximately Global Robustness Certification. Distributional shift in my malware detection pipeline. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-13T14:53:10.487Z",
     "messageId": "19f5bf7bcfeb65ed",
-    "threadId": "19f5bf7bcfeb65ed"
+    "threadId": "19f5bf7bcfeb65ed",
+    "replied": true,
+    "repliedAt": "2026-07-16T15:44:07.611Z"
   },
   {
     "name": "Ulrike von Luxburg",
