@@ -20426,7 +20426,9 @@
     "linkedinNote": "Emailed Ping Liu re: The Evolution of Dataset Distillation: Toward Scalable and Generalizable Solutions. Benchmarked 20+ models on a malicious data set, but couldn't resolve distributional shift. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-08T21:22:48.310Z",
     "messageId": "19f439ca885f28d9",
-    "threadId": "19f439ca885f28d9"
+    "threadId": "19f439ca885f28d9",
+    "replied": true,
+    "repliedAt": "2026-07-16T11:48:20.463Z"
   },
   {
     "name": "Munindar P. Singh",
