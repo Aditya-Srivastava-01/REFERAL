@@ -26341,5 +26341,248 @@
     "sentAt": "2026-07-17T06:33:54.132Z",
     "messageId": "19f6ec812774c50b",
     "threadId": "19f6ec812774c50b"
+  },
+  {
+    "name": "Vipin Chaudhary",
+    "affiliation": "Case Western Reserve University",
+    "email": "vipin.chaudhary@case.edu",
+    "subject": "Question about your 2026 paper on InterQ",
+    "body": "Dear Professor Chaudhary,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on InterQ showed that communication-aware scheduling across modular QPUs with classical and quantum links can improve shared quantum cloud environments. This aligns with my project on plugin-based EV charging infrastructure aggregation, where partial observability of charger availability makes standard shortest-path approaches ineffective.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Scalable Quantum Circuit Simulation via Circuit Cutting and FPGA Acceleration",
+      "Distributed Scheduling for Modular Quantum Computing in Cloud",
+      "Scheduling Optimization of Distributed LLM Inference",
+      "InterQ: Communication-Aware Scheduling Across Modular QPUs with Classical and Quantum Links"
+    ],
+    "linkedinNote": "Emailed you re: InterQ. Shortest-path approaches break under partial observability of charger availability. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-17T10:06:04.334Z",
+    "messageId": "19f6f8a50dd1ebae",
+    "threadId": "19f6f8a50dd1ebae"
+  },
+  {
+    "name": "Wei Wan",
+    "affiliation": "City University of Macau",
+    "email": "weiwan@cityu.edu.mo",
+    "subject": "Question about your 2025 paper on learning from implicit weights",
+    "body": "Dear Professor Wan,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Auto-Rubric showed that implicit weights can be effectively converted into explicit rubrics for reward modeling, significantly reducing data requirements. However, I found it challenging to understand how the iterative rubric learning process can induce discriminative criteria via verification-driven refinement without explicit optimization. Specifically, I couldn't explain why the verification-driven refinement step is necessary for inducing discriminative criteria when the rubric learning process is already able to compress the candidate criteria pool into a compact core set.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01",
+    "papersReferenced": [
+      "Frame-attentive dynamic link prediction: uncovering narrative resonance in social networks with large language model",
+      "AlcheMinT: Fine-grained Temporal Control for Multi-Reference Consistent Video Generation",
+      "Seismic catalog construction in Jiangxi by integrating seismometers and accelerometers",
+      "Auto-Rubric: Learning From Implicit Weights to Explicit Rubrics for Reward Modeling"
+    ],
+    "linkedinNote": "Emailed you re: Auto-Rubric. Struggling to understand iterative rubric learning — why verification-driven refinement? Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-17T10:06:50.483Z",
+    "messageId": "19f6f8b0682f7ce0",
+    "threadId": "19f6f8b0682f7ce0"
+  },
+  {
+    "name": "Xiao Wang 0012",
+    "affiliation": "Northwestern University",
+    "email": "wangxiao1254@gmail.com",
+    "subject": "Question about your 2025 Efficient Transformer Inference with Dynamic Head Selection paper",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Efficient Transformer Inference with Dynamic Head Selection showed that collaborative edge environments can reduce the computational cost of transformer inference by 23.5% and delay by 18.9%. I'm trying to optimize the inference speed of transformer models for edge devices in my own project, and I'm curious about the impact of dynamic head selection on model performance and power efficiency.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A Weak Texture Image Registration Algorithm Based on Improved Disk",
+      "Highly Efficient Information Reconciliation Based on Correlation Thresholding Driven by Experimental Data in Classical Key Distribution",
+      "Design and Implementation of a Lightweight Online Human Behavior Recognition Method for Nighttime Surveillance Videos",
+      "ETDH: Efficient Transformer Inference with Dynamic Head Selection in Collaborative Edge Environments"
+    ],
+    "linkedinNote": "Emailed you re: ETDH. Optimizing transformer inference speed for edge devices, but my approach can't explain the benefit of dynamic head selection. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-17T10:07:22.710Z",
+    "messageId": "19f6f8b84d30a34e",
+    "threadId": "19f6f8b84d30a34e"
+  },
+  {
+    "name": "Gerald Penn",
+    "affiliation": "University of Toronto",
+    "email": "gpenn@cs.toronto.edu",
+    "subject": "Your 2025 paper on λ-GRPO: Unifying the GRPO Frameworks with Learnable Token Preferences",
+    "body": "Dear Professor Penn,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on λ-GRPO: Unifying the GRPO Frameworks with Learnable Token Preferences showed that reinforcement learning with human feedback can be made more interpretable by allowing learnable token preferences. However, I struggled to understand why this was possible without compromising the efficiency of the GRPO framework.\n\nWhile building a retrieval-augmented generation pipeline at ArchiGen AI, I noticed that the accuracy gains plateaued past a certain retrieval threshold. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "$λ$-GRPO: Unifying the GRPO Frameworks with Learnable Token Preferences",
+      "Conversational Voice Interfaces: Translating Research Into Actionable Design",
+      "Making the Write Connections: Linking Writing Support Tools with Writer Needs",
+      "Multi-Agent Based Character Simulation for Story Writing"
+    ],
+    "linkedinNote": "Emailed Gerald Penn re: $lambda$-GRPO. Accuracy gains plateauing in RAG pipeline. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-17T10:08:00.555Z",
+    "messageId": "19f6f8c182b693e3",
+    "threadId": "19f6f8c182b693e3"
+  },
+  {
+    "name": "Hui Fang 0003",
+    "affiliation": "Loughborough University",
+    "email": "h.fang@lboro.ac.uk",
+    "subject": "Question about your 2025 paper on Rapid Adaptation of Chemical Named Entity Recognition",
+    "body": "Dear Professor Fang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Rapid Adaptation of Chemical Named Entity Recognition Using Few-Shot Learning and LLM Distillation showed that chemical NER systems can quickly adapt to extract new types of chemical entities by using only a limited number of annotated examples. I struggled to explain why the metric-learning approach to transfer entity similarity knowledge from high-resource chemical domains worked so well in your experiments. The remaining question is whether this few-shot adaptation capability could be further improved by integrating other knowledge transfer techniques, such as multi-task learning or meta-learning.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "ReGeS: Reciprocal Retrieval–Generation Synergy for Conversational Recommender Systems",
+      "Rapid Adaptation of Chemical Named Entity Recognition Using Few-Shot Learning and LLM Distillation",
+      "FAIR-QR: Enhancing Fairness-aware Information Retrieval through Query Refinement",
+      "E&lt;sup&gt;2&lt;/sup&gt;-ViTUNet: Enhanced dual-encoder vision transformer UNet for single-image rain removal"
+    ],
+    "linkedinNote": "Emailed Hui Fang re: Rapid Adaptation of Chemical Named Entity Recognition. Struggled to explain why metric-learning approach worked so well. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-17T10:08:36.298Z",
+    "messageId": "19f6f8ca23c6bab1",
+    "threadId": "19f6f8ca23c6bab1"
+  },
+  {
+    "name": "Xinyu Wang 0001",
+    "affiliation": "Zhejiang University",
+    "email": "wangxinyu@zju.edu.cn",
+    "subject": "Question about your 2025 paper on Prototype-Based Feature Representation Learning",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Prototype-Based Feature Representation Learning for Image Deep Clustering demonstrated that pseudo-supervised information through pre-training stage improves clustering performance, reducing the risk of class collision issue. However, my experience with retrieval-augmented generation (RAG) and large-scale multimodal learning shows that pre-training objectives can sometimes lead to a bottleneck where improving retrieval quality further stops helping generation quality. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Scheduling virtual machines and containers: A comparative review of techniques, performance, and future trends",
+      "Prototype-Based Feature Representation Learning for Image Deep Clustering",
+      "Enhancing Data Integrity in Data-Driven Environmental Science Research through Blockchain Technology",
+      "Ofp2seg: 3D Medical Segmentation by a Mask Guide to Enhanced Bi-Directional Optical Flow Propagation"
+    ],
+    "linkedinNote": "Emailed you re: PLDC. Retrieval quality gains plateauing past a certain threshold — shifting from retrieval to generation objectives, not retrieval itself. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-17T10:09:11.735Z",
+    "messageId": "19f6f8d2fbb15915",
+    "threadId": "19f6f8d2fbb15915"
+  },
+  {
+    "name": "Kavita Bala",
+    "affiliation": "Cornell University",
+    "email": "kavitabala@cornell.edu",
+    "subject": "Question about your 2025 paper on MONITRS and multimodal observations",
+    "body": "Dear Professor Bala,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on MONITRS showed that multimodal observations of natural incidents through remote sensing can be used for effective disaster response. However, I found that the narrow focus on specific disaster types and reliance on manual expert interpretation can limit the utility of these systems for broader applications. I'm struggling to understand what aspects of these systems can be generalised and how to adapt them for more general-purpose monitoring.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "MONITRS: Multimodal Observations of Natural Incidents Through Remote Sensing",
+      "Scale-Aware Recognition in Satellite Images under Resource Constraints",
+      "AllClear: A Comprehensive Dataset and Benchmark for Cloud Removal in Satellite Imagery"
+    ],
+    "linkedinNote": "Emailed you re: MONITRS. Struggling to generalise natural disaster monitoring systems — something I ran into. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-17T10:09:48.530Z",
+    "messageId": "19f6f8dbf6d8eb51",
+    "threadId": "19f6f8dbf6d8eb51"
+  },
+  {
+    "name": "Jongmin Lee 0004",
+    "affiliation": "Yonsei University",
+    "email": "jongminlee@yonsei.ac.kr",
+    "subject": "Question about Out-of-Distribution Detection",
+    "body": "Dear Professor Lee,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on out-of-distribution detection and anomaly detection demonstrated that these problems are crucial for robust AI systems, especially in the security and scientific discovery domains. However, I struggled to understand how to improve the performance of these detection systems when dealing with complex, real-world distributions that have shifted from the training data. For instance, in my Android malware detection pipeline, I achieved 90.8% malicious recall but couldn't explain why the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed Jongmin Lee re: Out-of-Distribution Detection. Struggled to explain distributional shift in sparse feature spaces. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-17T10:10:23.617Z",
+    "messageId": "19f6f8e4706aebe0",
+    "threadId": "19f6f8e4706aebe0"
+  },
+  {
+    "name": "Stefan Dietze",
+    "affiliation": "University of Düsseldorf",
+    "email": "stefan.dietze@hhu.de",
+    "subject": "Question about your work on fine-grained scholarly entity extraction",
+    "body": "Dear Professor Dietze,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour GSAP-ERE paper (2025) on fine-grained scholarly entity extraction demonstrated that manually curated datasets can enable fine-tuned models to automatically extract information relevant for downstream tasks. I ran into a similar challenge while working on an end-to-end Android malware detection system, where I had to extract and link sparse features from APK binaries. However, I couldn't explain why my models still struggled with a particular distributional shift problem, and standard calibration didn't resolve it.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Towards Automated Detection of Comprehension Difficulties in Questionnaire Items: An Eye-Tracking Study on Negated Items",
+      "6th International Workshop on Computational Methods for Online Discourse Analysis (BeyondFacts'26)",
+      "GSAP-ERE: Fine-Grained Scholarly Entity and Relation Extraction Focused on Machine Learning",
+      "A Research Vision for Web Search on Emerging Topics"
+    ],
+    "linkedinNote": "Emailed you re: GSAP-ERE. Struggled with distributional shift in sparse feature spaces — standard calibration didn't help. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-17T10:10:56.653Z",
+    "messageId": "19f6f8ec9754f249",
+    "threadId": "19f6f8ec9754f249"
+  },
+  {
+    "name": "Alon Cohen",
+    "affiliation": "Tel Aviv University",
+    "email": "alonco@tauex.tau.ac.il",
+    "subject": "Question about your 2026 paper on memory-efficient AdamW",
+    "body": "Dear Professor Cohen,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University (DTU), India, securing 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide.\n\nYour 2026 paper on Gefen, a memory-efficient optimizer that automatically shares second-moment estimates across parameter blocks and quantizes the first moment using a learned codebook, showed that it reduces AdamW's memory footprint by ~8x while maintaining the same performance, corresponding to a reduction of 6.5 GiB per billion parameters.\n\nI'm currently exploring methods to improve the efficiency of large-scale pretraining for hyperspectral foundation models. While Gefen seems promising, I'm struggling to understand how the learned codebook affects the optimizer's performance, especially in the context of mixed Hessian entries constraining the ratio of squared gradients toward one.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Gefen: Optimized Stochastic Optimizer",
+      "Sample Complexity of Agnostic Multiclass Classification: Natarajan Dimension Strikes Back",
+      "Mirror Descent Beyond Euclidean Stability: An Exponential Separation in Initialization Sensitivity",
+      "Near-Optimal Decentralized Stochastic Convex Optimization over Networks"
+    ],
+    "linkedinNote": "Emailed you re: Gefen Optimized Stochastic Optimizer. Struggling to understand how the learned codebook affects performance, especially in mixed Hessian entries. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-17T10:11:33.361Z",
+    "messageId": "19f6f8f570a1c651",
+    "threadId": "19f6f8f570a1c651"
+  },
+  {
+    "name": "Angelo Montanari",
+    "affiliation": "University of Udine",
+    "email": "angelo.montanari@uniud.it",
+    "subject": "Question about your 2025 paper on Automata-less Monitoring via Trace-Checking",
+    "body": "Dear Professor Montanari,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Automata-less Monitoring via Trace-Checking (Extended Version) showed that monitoring can be done without constructing a DFA under certain conditions, by building on the notion of intentionally safe and cosafe formulas. I found this idea intriguing, particularly in the context of security systems where efficient monitoring is crucial.\n\nI've been working on an Android malware detection pipeline, which involves reverse-engineering APK binaries and extracting a 1,418-dimensional sparse feature space. However, I encountered a problem where the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem. Your work on trace-checking for monitoring could potentially help me identify the root cause of this issue.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Automata-less Monitoring via Trace-Checking (Extended Version)",
+      "Do LLMs Really Struggle at NL-FOL Translation? Revealing their Strengths via a Novel Benchmarking Strategy",
+      "Interpretable Early Failure Detection via Machine Learning and Trace Checking-Based Monitoring",
+      "Synthesis of timeline-based planning strategies avoiding determinization"
+    ],
+    "linkedinNote": "Emailed you re: Automata-less Monitoring via Trace-Checking. Clustering in Android malware detection pipeline looks like distributional shift problem. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-17T10:12:04.296Z",
+    "messageId": "19f6f8fd11f5e3a1",
+    "threadId": "19f6f8fd11f5e3a1"
+  },
+  {
+    "name": "Antônio H. Ribeiro",
+    "affiliation": "Uppsala University",
+    "email": "antonio.horta.ribeiro@it.uu.se",
+    "subject": "Question about your 2025 paper on multi-source domain fine-tuning",
+    "body": "Dear Professor Ribeiro,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on multi-source domain fine-tuning showed that this framework can improve deep generalization performance in physiological time series analysis. I've been trying to apply similar ideas to time-series forecasting in industrial systems, but I'm struggling to extend the multi-source approach to handle the large variations in sensor noise and sampling rates. Specifically, I've found that the domain fine-tuning step doesn't seem to generalise well when the test data has a different noise distribution than the training data.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A multi-source domain fine-tuning framework for deep generalization performance in physiological time series analysis",
+      "Mortalidade por Insuficiência Cardíaca durante a Pandemia da COVID-19: Insights de uma Coorte de Hospitais Públicos no Brasil",
+      "Características clínicas e fatores associados à internação hospitalar de pessoas com Covid-19 acompanhadas por telessaúde"
+    ],
+    "linkedinNote": "Emailed you re: multi-source domain fine-tuning framework. Struggling to extend this approach to industrial time-series forecasting with varying noise and sampling rates. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-17T10:12:36.781Z",
+    "messageId": "19f6f904e636f3ba",
+    "threadId": "19f6f904e636f3ba"
+  },
+  {
+    "name": "Bashar Alhafni",
+    "affiliation": "MBZUAI",
+    "email": "bashar.alhafni@mbzuai.ac.ae",
+    "subject": "Transfer Efficiency in Pretraining for Vision Tasks",
+    "body": "Dear Professor Alhafni,\n\nYour work on multimodal learning and vision tasks — which has established the importance of pretraining for robust transfer efficiency — connects to something I ran into while building a hyperspectral foundation model. I applied masked autoencoders to learn transferable spatial-spectral representations, improving downstream land-cover classification separability by 20% while reducing pre-training latency by 25%. However, I couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples — whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: Multimodal Learning. Transfer efficiency to downstream vision tasks — a bottleneck that I couldn't explain. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-17T10:13:09.781Z",
+    "messageId": "19f6f90d158faba7",
+    "threadId": "19f6f90d158faba7"
+  },
+  {
+    "name": "Daniel Gnad 0001",
+    "affiliation": "Heidelberg University",
+    "email": "daniel.gnad@uni-heidelberg.de",
+    "subject": "Question about your 2025 paper on faceted actions",
+    "body": "Dear Professor Gnad,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on faceted actions demonstrated that enforcing or forbidding such facets allows for navigating even large plan spaces. This resonated with my own work on plugin-based route planning systems for electric vehicles, where we faced difficulties in dealing with partial observability of charger availability. My plugin-based system currently uses a static graph approach, which breaks under real-time state changes. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Domain Model Acquisition from Binary Traces",
+      "Managing Infinite Abstractions in Numeric Pattern Database Heuristics",
+      "Interactive Exploration of Plan Spaces",
+      "Combining Heuristics and Transition Classifiers in Classical Planning"
+    ],
+    "linkedinNote": "Emailed you re: Interactive Exploration of Plan Spaces. Static graph approach to EV charging route planning breaks under real-time charger state changes. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-17T10:13:40.771Z",
+    "messageId": "19f6f9148e6b6cbd",
+    "threadId": "19f6f9148e6b6cbd"
+  },
+  {
+    "name": "Devon Jarvis",
+    "affiliation": "University of the Witwatersrand",
+    "email": "devon.jarvis@wits.ac.za",
+    "subject": "Question about your 2025 paper on enhancing interpretability of Transformers",
+    "body": "Dear Professor Jarvis,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on sparse autoencoders in neural decoding frameworks showed that they can enhance interpretability of Transformers by producing hidden units that respond selectively to specific variables. I was exploring similar ideas in a project where I applied a sparse autoencoder to a Transformer model for hyperspectral image classification. However, I struggled to understand why the sparse autoencoder didn't produce units that selectively responded to interpretable features like spectral bands or spatial locations.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Beyond Black Boxes: Enhancing Interpretability of Transformers Trained on Neural Data",
+      "Adult learners recall and recognition performance and affective feedback when learning from an AI-generated synthetic video",
+      "Frequency and Generalisation of Periodic Activation Functions in Reinforcement Learning",
+      "Impact of symmetry in local learning rules on predictive neural representations and generalization in spatial navigation"
+    ],
+    "linkedinNote": "",
+    "sentAt": "2026-07-17T10:14:13.381Z",
+    "messageId": "19f6f91c98a53ff4",
+    "threadId": "19f6f91c98a53ff4"
   }
 ]
