@@ -26881,5 +26881,162 @@
     "sentAt": "2026-07-20T03:59:50.295Z",
     "messageId": "19f7dae19aa09009",
     "threadId": "19f7dae19aa09009"
+  },
+  {
+    "name": "Dongsheng Luo",
+    "affiliation": "Singapore Management University",
+    "email": "dsluo@smu.edu.sg",
+    "subject": "Your work on multimodal learning in the context of sustainability and infrastructure — something I ran into",
+    "body": "Dear Professor Luo,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour research on multimodal learning has a connection to something I ran into while building a hyperspectral foundation model for spatial-spectral representation learning. Despite achieving a 20% improvement in downstream land-cover classification separability, I couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples — whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: multimodal learning. Ran into a transfer efficiency problem similar to your work. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-20T06:54:53.066Z",
+    "messageId": "19f7e4e5c3c7fe90",
+    "threadId": "19f7e4e5c3c7fe90"
+  },
+  {
+    "name": "Thanh Hong Nguyen",
+    "affiliation": "University of Oregon",
+    "email": "thanhhng@cs.uoregon.edu",
+    "subject": "Question about ComaDICE and Offline MARL",
+    "body": "Dear Professor Nguyen,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on ComaDICE showed that offline cooperative multi-agent reinforcement learning can be made robust to stationary distribution shifts using regularization. I'm trying to apply a similar concept to my project on Android malware detection, but I'm stuck on how to quantify the impact of the distribution shift on model performance.\n\nI've been reverse-engineering APKs and extracting 1,418-dimensional sparse features, and I've seen 90.8% malicious recall using threshold calibration and class imbalance correction. However, the remaining failure cases seem to be clustering in a way that suggests a distributional shift problem rather than a model capacity problem.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "ComaDICE: Offline Cooperative Multi-Agent Reinforcement Learning with Stationary Distribution Shift Regularization"
+    ],
+    "linkedinNote": "Emailed you re: ComaDICE. Stuck on quantifying distribution shift impact on Android malware detection (90.8% recall, but remaining failure cases suggest distribution shift problem). Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-20T06:55:22.084Z",
+    "messageId": "19f7e4ecd6acc076",
+    "threadId": "19f7e4ecd6acc076"
+  },
+  {
+    "name": "Johannes Bjerva",
+    "affiliation": "Aalborg University",
+    "email": "jbjerva@cs.aau.dk",
+    "subject": "Your 2026 paper on HILTON — hierarchical topic modeling in multi-turn conversations",
+    "body": "Dear Professor Bjerva,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on HILTON: Human-In-the-Loop Topic Modeling of Multi-turn Conversations demonstrated that combining summary capabilities of large language models with unsupervised clustering can uncover coherent topics in workplace conversations. I was building a pipeline at ArchiGen AI Labs where I had to improve AI response accuracy by 30% using RAG — accuracy gains plateaued past a certain retrieval threshold, and improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself. I'm trying to put my next few months into research problems in this direction, whether remotely now or more intensively over winter.\n\nIf this problem space is active in your group, I'd value the chance to contribute — especially over the winter break.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Towards Understanding Professional AI Assistant Use: Human-in-the-Loop Topic Modeling of Multi-turn Conversations",
+      "SEFL: A Framework for Generating Synthetic Educational Assignment Feedback with LLM Agents",
+      "A Principled Framework for Evaluating on Typologically Diverse Languages",
+      "Limited-Resource Adapters Are Regularizers, Not Linguists"
+    ],
+    "linkedinNote": "Emailed you re: HILTON paper. 30% accuracy gain with RAG pipeline plateaued past retrieval threshold. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-20T06:55:57.131Z",
+    "messageId": "19f7e4f5609885d3",
+    "threadId": "19f7e4f5609885d3"
+  },
+  {
+    "name": "Omar Khattab",
+    "affiliation": "Massachusetts Inst. of Technology",
+    "email": "okhattab@mit.edu",
+    "subject": "Question about your 2026 paper on Reasoning-Intensive Regression",
+    "body": "Dear Professor Khattab,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Reasoning-Intensive Regression showed that prompting frozen LLMs and fine-tuning Transformer encoders via gradient descent will often struggle in RiR tasks. I attempted to adapt this idea to a retrieval-augmented generation (RAG) pipeline at ArchiGen AI Labs, where it improved AI response accuracy by 30%. However, the accuracy gains plateaued past a certain retrieval threshold, suggesting that the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Reasoning-Intensive Regression"
+    ],
+    "linkedinNote": "Emailed you re: Reasoning-Intensive Regression. RAG pipeline accuracy gains plateaued past retrieval threshold. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-20T06:56:39.145Z",
+    "messageId": "19f7e4ffb56f82bb",
+    "threadId": "19f7e4ffb56f82bb"
+  },
+  {
+    "name": "Giuseppe Marra",
+    "affiliation": "KU Leuven",
+    "email": "giuseppe.marra@kuleuven.be",
+    "subject": "Question about your 2026 paper on EM-NeSy: Expectation Maximization for Neurosymbolic Learning",
+    "body": "Dear Professor Marra,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on EM-NeSy: Expectation Maximization for Neurosymbolic Learning showed that it's possible to cast probabilistic NeSy learning as an instance of the Expectation-Maximization (EM) algorithm. This formulation allowed you to extend NeSy to approximate reasoning without additional modifications or differentiability requirements of the symbolic component.\n\nI've been exploring representation learning and self-supervised learning, and I'm trying to apply these techniques to my project on hyperspectral foundation models. However, I couldn't fully explain why spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples — whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective. I've seen that the EM-NeSy formulation could potentially be applied to my problem, but I'm not sure if it would require significant modifications to the architecture.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "EM-NeSy: Expectation Maximization for Neurosymbolic Learning",
+      "The Standard Interpretable Model: A general theory of interpretable machine learning to deductively design interpretable methods using Lagrangian mechanics",
+      "Prototype-Grounded Concept Models for Verifiable Concept Alignment",
+      "DeepProofLog: Efficient Proving in Deep Stochastic Logic Programs"
+    ],
+    "linkedinNote": "Emailed you re: EM-NeSy. Struggled explaining transfer efficiency of spectral-spatial representations in hyperspectral. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-20T06:57:18.547Z",
+    "messageId": "19f7e50942b4bee9",
+    "threadId": "19f7e50942b4bee9"
+  },
+  {
+    "name": "Michael P. Wellman",
+    "affiliation": "University of Michigan",
+    "email": "wellman@umich.edu",
+    "subject": "Your 2025 paper on strategic foundation models - exploring strategic reasoning",
+    "body": "Dear Professor Wellman,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on strategic foundation models showed that large language models can be used for strategic reasoning, but their capabilities remain impoverished when evaluating strategic games. While building a plugin-any EV routing system, I ran into a problem where standard shortest-path approaches broke under partial observability of charger availability. I couldn't explain why this was happening and how it relates to strategic reasoning.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. My work focuses on applying machine learning to difficult real-world systems across security, infrastructure, scientific discovery, and sustainability.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Combining Deep Reinforcement Learning and Search with Generative Models for Game-Theoretic Opponent Modeling",
+      "Policy Abstraction and Nash Refinement in Tree-Exploiting PSRO",
+      "Strategic Foundation Models",
+      "Navigating in a space of game views"
+    ],
+    "linkedinNote": "Emailed Professor Michael P. Wellman re: strategic foundation models. Ran into issues with partial observability of charger availability while building plugin-any EV routing system. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-20T06:59:05.651Z",
+    "messageId": "19f7e52376e7f497",
+    "threadId": "19f7e52376e7f497"
+  },
+  {
+    "name": "Andrew Lowy",
+    "affiliation": "CISPA Helmholtz Center",
+    "email": "lowy@cispa.de",
+    "subject": "Question about user-level private stochastic convex optimization",
+    "body": "Dear Professor Lowy,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on user-level private stochastic convex optimization showed that existing algorithms for user-level differential privacy are impractical in many large-scale machine learning scenarios. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A Stochastic Optimization Framework for Private and Fair Learning From Decentralized Data",
+      "Faster Algorithms for User-Level Private Stochastic Convex Optimization",
+      "Exploring User-level Gradient Inversion with a Diffusion Prior",
+      "Analyzing Inference Privacy Risks Through Gradients in Machine Learning"
+    ],
+    "linkedinNote": "Emailed you re: user-level private stochastic convex optimization. Low reconstruction quality of existing gradient inversion attacks suggests a need for stronger priors or different attack surface. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-20T06:59:44.127Z",
+    "messageId": "19f7e52cc0e70c1a",
+    "threadId": "19f7e52cc0e70c1a"
+  },
+  {
+    "name": "Yiqun Wang 0001",
+    "affiliation": "Chongqing University",
+    "email": "yiqun.wang@cqu.edu.cn",
+    "subject": "Question about your 2025 paper on EXP-CASA model approach",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on EXP-CASA demonstrated that a novel light use efficiency model approach can enhance terrestrial net primary productivity estimation. While building a hyperspectral foundation model, I found it challenging to explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples — whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective. My model achieved a 20% improvement in downstream land-cover classification separability while reducing pre-training latency by 25%.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Enhancing terrestrial net primary productivity estimation with EXP-CASA: A novel light use efficiency model approach",
+      "Many Faces of Ad Hoc Transactions"
+    ],
+    "linkedinNote": "Emailed you re: EXP-CASA model. Struggling with representation transferability across few-shot tasks. Top 0.4% JEE Main (1.2M) — Aditya",
+    "sentAt": "2026-07-20T07:01:09.233Z",
+    "messageId": "19f7e5418db94d76",
+    "threadId": "19f7e5418db94d76"
+  },
+  {
+    "name": "Yutong Wang 0002",
+    "affiliation": "Illinois Institute of Technology",
+    "email": "ywang562@illinoistech.edu",
+    "subject": "Question about your 2025 paper on Dynamic Decoupling Enhanced Transformer",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University (DTU), India (graduating May 2028). Secured 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide.\n\nYour 2025 paper on dynamic decoupling enhanced transformer in image registration showed that recursive networks can enhance transformer performance in image registration. I attempted to apply similar techniques to hyperspectral image registration for a project, but the complexity of the data and the lack of suitable benchmarks caused issues. I've been trying to understand why the recursive network's effect on the transformer is so significant, but the existing literature doesn't provide much insight.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached as a PDF to this email, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Multi-scale recursive network for dynamic decoupling enhanced transformer in image registration",
+      "DNUNet: A lightweight adaptive medical image segmentation network based on dual-path multilevel interactive convolution and norm sparse fusion module",
+      "Enhanced medical image segmentation via deep dynamic self-adjusting U-Net with multi-scale attention and semantic mitigation",
+      "Dynamic neighbourhood-enhanced UNet with interwoven fusion for medical image segmentation"
+    ],
+    "linkedinNote": "Emailed you re: dynamic decoupling enhanced transformer. Hyperspectral image registration issues with recursive networks. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-20T07:01:41.526Z",
+    "messageId": "19f7e5496d8c123e",
+    "threadId": "19f7e5496d8c123e"
+  },
+  {
+    "name": "Zining Zhu 0001",
+    "affiliation": "Stevens Institute of Technology",
+    "email": "zining.zhu@stevens.edu",
+    "subject": "Question about your 2025 paper on LLM safety through Sparse Autoencoders",
+    "body": "Dear Professor Zhu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on feature-guided SAE steering for refusal-rate control using contrasting prompts showed that LLM steering can be improved using Sparse Autoencoders. However, I struggled to understand the systematic feature selection methods you employed, and how they balanced safety-utility tradeoffs. Specifically, I couldn't explain which steering features and strengths were optimal for the AI-Generated Prompts Dataset, and how your method generalized to other LLMs.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Feature-Guided SAE Steering for Refusal-Rate Control using Contrasting Prompts",
+      "Survey on Neural Network Parameter Acquisition: from Optimization to Generation",
+      "Distribution Prompting: Understanding the Expressivity of Language Models Through the Next-Token Distributions They Can Produce",
+      "GFA: Generalized Feature Affinity for Semantic Segmentation in Resolution-Degraded Images"
+    ],
+    "linkedinNote": "Emailed you re: 2025 LLM safety paper. Stuck on feature selection methods. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-20T07:02:16.830Z",
+    "messageId": "19f7e5520a0313ad",
+    "threadId": "19f7e5520a0313ad"
   }
 ]
