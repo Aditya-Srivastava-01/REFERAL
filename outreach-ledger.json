@@ -23531,7 +23531,9 @@
     "linkedinNote": "Emailed you re: 2025 IMC Benchmark. Learned invariant features didn't generalize well across environments, even with well-specified causes. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-10T11:21:49.741Z",
     "messageId": "19f4bc32bee4c121",
-    "threadId": "19f4bc32bee4c121"
+    "threadId": "19f4bc32bee4c121",
+    "replied": true,
+    "repliedAt": "2026-07-21T08:44:09.022Z"
   },
   {
     "name": "Mathias Lécuyer",
@@ -27110,7 +27112,9 @@
     "linkedinNote": "Emailed you re: OOD work. Anomaly detection in sparse feature spaces resonates with my own struggles with EV charging system logs. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-21T06:37:17.999Z",
     "messageId": "19f83649fa8f4797",
-    "threadId": "19f83649fa8f4797"
+    "threadId": "19f83649fa8f4797",
+    "replied": true,
+    "repliedAt": "2026-07-21T08:44:39.854Z"
   },
   {
     "name": "Yu-Bin Yang",
@@ -27253,7 +27257,9 @@
     "linkedinNote": "Emailed you re: Secure and Private Recommendation. Found it hard to understand how FeGSuPe defends against both data poisoning attacks and inference attacks, especially with dynamic user data. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-21T06:44:07.034Z",
     "messageId": "19f836addb445daa",
-    "threadId": "19f836addb445daa"
+    "threadId": "19f836addb445daa",
+    "replied": true,
+    "repliedAt": "2026-07-21T08:44:41.659Z"
   },
   {
     "name": "Ting Chen 0006",
