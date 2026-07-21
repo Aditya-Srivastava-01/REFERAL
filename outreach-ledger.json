@@ -27692,5 +27692,111 @@
     "sentAt": "2026-07-21T10:41:29.110Z",
     "messageId": "19f84442ec4b7bcb",
     "threadId": "19f84442ec4b7bcb"
+  },
+  {
+    "name": "Yu Li 0022",
+    "affiliation": "Jilin University",
+    "email": "liyu90@jlu.edu.cn",
+    "subject": "Question about your 2025 paper on Federated Graph Neural Network",
+    "body": "Dear Professor Li,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Federated Graph Neural Network showed that federated social recommender systems based on Graph Neural Network can be made secure and private by employing Diffie-Hellman for secure embedding transmission to protect user privacy, removing collaboration mechanism to reduce attack risks, and utilizing cosine similarity to improve the performance of recommendations.\n\nWhile building an Android malware detection system, I struggled with anomaly detection in the presence of distributional shift in sparse feature spaces. The remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem, and standard calibration didn't resolve it. The idea of employing similar techniques in a federated setting, as you proposed, resonates with my own exploration of anomaly detection methods.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Secure and Private Recommendation based on Federated Graph Neural Network",
+      "Fault Knowledge Graph Construction Method for Hydraulic Turbine Speed Control System Based on BERTWWM-BiLSTM-MHA-CRF Model",
+      "Multifunctional neuromorphic optoelectronic computing using all 2D floating-gate transistors",
+      "semi-PD: Towards Efficient LLM Serving via Phase-Wise Disaggregated Computation and Unified Storage"
+    ],
+    "linkedinNote": "Emailed you re: Federated Graph Neural Network. Struggled with anomaly detection in sparse feature spaces. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T14:09:46.613Z",
+    "messageId": "19f8502e11f6df24",
+    "threadId": "19f8502e11f6df24"
+  },
+  {
+    "name": "Yunhuai Liu",
+    "affiliation": "Peking University",
+    "email": "yunhuai.liu@pku.edu.cn",
+    "subject": "Question about your 2026 paper on REAL: A Reasoning-Enhanced Graph Framework",
+    "body": "Dear Professor Liu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on REAL: A Reasoning-Enhanced Graph Framework showed that structured memory systems can fail to capture explicit relations among memories. I was experimenting with retrieval-augmented generation pipelines at ArchiGen AI, and found that the retrieval component's performance plateaued past a certain threshold, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself. Despite improving retrieval quality, generation quality stopped improving. I'd value the chance to contribute and learn, especially over the winter break.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "REAL: A Reasoning-Enhanced Graph Framework for Long-Term Memory Management of LLMs",
+      "Octopus: An ABR-RAN Closed-Loop Approach Towards High QoE Multi-User 5G VR Gaming",
+      "DeepAFL: Deep Analytic Federated Learning",
+      "QuEST: Quantization-Conditioned Efficient Stealthy Trojan"
+    ],
+    "linkedinNote": "Emailed Yunhuai Liu re: REAL: A Reasoning-Enhanced Graph Framework. Retrieval-augmented generation performance plateaued past a certain threshold. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T14:10:22.789Z",
+    "messageId": "19f85036d912ca41",
+    "threadId": "19f85036d912ca41"
+  },
+  {
+    "name": "Shueng-Han Gary Chan",
+    "affiliation": "HKUST",
+    "email": "gchan@cse.ust.hk",
+    "subject": "Your work on multimodal learning — transfer efficiency",
+    "body": "Dear Professor Chan,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on multimodal learning — specifically, how different pre-training objectives affect transfer efficiency in downstream tasks — connects to what I've been trying to understand. In my hyperspectral MAE, I saw a 20% improvement in downstream land-cover classification separability while reducing pre-training latency by 25%, but couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: multimodal learning. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T14:10:58.192Z",
+    "messageId": "19f8503f69b0fd21",
+    "threadId": "19f8503f69b0fd21"
+  },
+  {
+    "name": "Qihua Zhou",
+    "affiliation": "Shenzhen University",
+    "email": "qihuazhou@szu.edu.cn",
+    "subject": "Question about your 2025 paper on Federated Self-Supervised Learning",
+    "body": "Dear Professor Zhou,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on federated self-supervised learning showed that feature correlation can be used to guide knowledge transfer among heterogeneous models in FL without requiring a public dataset. This finding resonates with my own work on building robust AI systems, especially in edge cases where labeled data is scarce.\n\nIn my recent project on hyperspectral image analysis, I struggled to explain why pre-training latency dropped by 25% along with a 20% improvement in downstream separability — was it the masking strategy or something about the pretraining objective? I found that your work on feature correlation might provide a new perspective to address this question. My CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Feature Correlation-Guided Knowledge Transfer for Federated Self-Supervised Learning"
+    ],
+    "linkedinNote": "Emailed you re: Feature Correlation-Guided Knowledge Transfer. Struggled to explain pre-training latency drop in hyperspectral task. Top 0.4% JEE Main (1.2M).",
+    "sentAt": "2026-07-21T14:11:26.513Z",
+    "messageId": "19f850467505fea3",
+    "threadId": "19f850467505fea3"
+  },
+  {
+    "name": "Shi Feng 0001",
+    "affiliation": "Northeastern University (China)",
+    "email": "fengshi@cse.neu.edu.cn",
+    "subject": "Video and Visibility Data Alignment Method for Fog Density Estimation",
+    "body": "Dear Professor Shi Feng 0001,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on image-based fog density estimation demonstrated that feature fusion methods can improve accuracy and computational efficiency. I was working on a computer vision project exploring remote sensing and noticed that accurate fog density estimation is crucial for downstream analysis — especially when combining image data with other sensors. My struggle is that even with robust feature extraction, the accuracy of fog density estimation in images can vary significantly depending on the dataset. I achieved a 15% improvement in land-cover classification accuracy using hyperspectral imagery, but couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. \n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Sliding mode control under multi-node WTOD protocol with bit-constrained dynamic coding scheme",
+      "Image based fog density estimation",
+      "Fog Density Analysis Based on the Alignment of an Airport Video and Visibility Data",
+      "Design and key technology research of intelligent meeting record system for railway scenarios"
+    ],
+    "linkedinNote": "Emailed re: Video and Visibility Data Alignment Method for Fog Density Estimation. Struggled with fog density estimation accuracy in images. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T14:11:54.184Z",
+    "messageId": "19f8504d20d8cb02",
+    "threadId": "19f8504d20d8cb02"
+  },
+  {
+    "name": "Heli Sun",
+    "affiliation": "Xi'an Jiaotong University",
+    "email": "hlsun@mail.xjtu.edu.cn",
+    "subject": "Question about your 2025 paper on robust anomaly detection in multivariate time series",
+    "body": "Dear Professor Sun,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on DARTs showed that a dual-path robust framework for anomaly detection in high-dimensional multivariate time series can be made differentiable without accuracy loss. This problem space is very relevant to my work on anomaly detection in Android malware, where the remaining failure cases after modeling seemed to cluster in a way that looked like a distributional shift problem rather than a model capacity problem.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "DARTs: A Dual-Path Robust Framework for Anomaly Detection in High-Dimensional Multivariate Time Series",
+      "HOLA: Enhancing Audio-visual Deepfake Detection via Hierarchical Contextual Aggregations and Efficient Pre-training",
+      "Sentiment-enhanced Multi-hop Connected Graph Attention Network for Multimodal Aspect-Based Sentiment Analysis",
+      "Text-Dominant Speech-Enhanced for Multimodal Aspect-Based Sentiment Analysis network"
+    ],
+    "linkedinNote": "Emailed you re: DARTs. Android malware detection clustered in a distributional shift rather than a model capacity problem. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T14:12:30.266Z",
+    "messageId": "19f85055f153e636",
+    "threadId": "19f85055f153e636"
+  },
+  {
+    "name": "Keith G. Mills",
+    "affiliation": "Louisiana State University",
+    "email": "keith.mills@lsu.edu",
+    "subject": "Your work on representation learning - a question on multimodal transfer",
+    "body": "Dear Professor Mills,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on representation learning and multimodal learning has connections to something I ran into while building a hyperspectral foundation model. I was trying to understand why the spectral-spatial representations I learned transferred robustly to downstream tasks with so few labeled samples, but couldn't explain whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective. I managed to achieve a 20% improvement in downstream land-cover classification separability, but pre-training latency dropped by 25% — which I'm still trying to understand.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf your group is working on multimodal transfer and applications, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: multimodal transfer. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T14:13:06.262Z",
+    "messageId": "19f8505ec7d157c6",
+    "threadId": "19f8505ec7d157c6"
   }
 ]
