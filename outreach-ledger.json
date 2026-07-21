@@ -27371,5 +27371,324 @@
     "sentAt": "2026-07-21T06:48:18.449Z",
     "messageId": "19f836eb33c806e6",
     "threadId": "19f836eb33c806e6"
+  },
+  {
+    "name": "Xiaoguang Liu 0001",
+    "affiliation": "Nankai University",
+    "email": "liuxg74@hotmail.com",
+    "subject": "Question about your 2025 paper on PIM kernel fusion",
+    "body": "Dear Professor Liu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on PIM kernel fusion demonstrated that processing-in-memory (PIM) kernels in applications inherently have diverse resource requirements. I ran into a similar problem when building a distributed EV routing system — PluginAny — that aggregates and routes charging sessions across multiple networks. Standard shortest-path approaches broke under partial observability of charger availability; real-time state changes turned a static graph problem into something closer to a POMDP. I'm not sure whether kernel fusion could help with this kind of dynamic resource allocation, but it's a problem that I couldn't explain why my usual approaches weren't working.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Proactive SSD Failure Prediction for Large-Scale Data Center with Siamese Neural Network",
+      "Future Context Modeling for Time Series Anomaly Prediction",
+      "PIMFuse: Kernel Fusion for Processing-in-Memory",
+      "Proactive SSD Failure Prediction with A Gradient-Guided LSTM-xLSTM Hybrid Model"
+    ],
+    "linkedinNote": "Emailed you re: PIM kernel fusion. Distributed EV routing broke under partial charger observability. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:30:54.932Z",
+    "messageId": "19f843a80d3940b6",
+    "threadId": "19f843a80d3940b6"
+  },
+  {
+    "name": "Yue Gao 0005",
+    "affiliation": "Shanghai Jiao Tong University",
+    "email": "yuegao@sjtu.edu.cn",
+    "subject": "Question about Hyper-RAG and hallucinations",
+    "body": "Dear Professor Gao,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Hyper-RAG showed that hypergraph-driven retrieval-augmented generation can comprehensively capture both pairwise and beyond-pairwise correlations in domain-specific knowledge, thereby mitigating LLM hallucinations. This is fascinating, as I've been struggling with a similar issue in RAG pipelines at ArchiGen AI Labs. Specifically, I've found that accuracy gains plateaued past a certain retrieval threshold, and improving retrieval quality further stopped helping generation quality. While Hyper-RAG is promising, I'm curious about the extent to which its benefits can be transferred to real-world applications. I'd love to explore this further and see if there's a way to adapt Hyper-RAG's architecture to our specific use case.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Hyper-RAG: combating LLM hallucinations using hypergraph-driven retrieval-augmented generation",
+      "SoftHGNN: Soft Hypergraph Neural Networks for General Visual Recognition",
+      "Classifying Front-Page News in Authoritative Publications Based on BERT Text Representations: A Case of People’s Daily",
+      "H <sup>3</sup> Former: Hypergraph-based Semantic-Aware Aggregation via Hyperbolic Hierarchical Contrastive Loss for Fine-Grained Visual Classification"
+    ],
+    "linkedinNote": "Emailed re: Hyper-RAG. Plateaued accuracy gains in RAG pipelines, seeking to apply Hyper-RAG's benefits to real-world applications. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:31:32.763Z",
+    "messageId": "19f843b149c76393",
+    "threadId": "19f843b149c76393"
+  },
+  {
+    "name": "Miao Liu 0007",
+    "affiliation": "Tsinghua University",
+    "email": "miaoliu@mail.tsinghua.edu.cn",
+    "subject": "Question about your 2026 paper on State-Anchored Frozen Large Language Model Adaptation",
+    "body": "Dear Professor Liu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on State-Anchored Frozen Large Language Model Adaptation demonstrated that NILM can be achieved via weak supervision, using state-anchored models that decouple appliance state detection from power amplitude estimation. While I've replicated this architecture, I'm struggling to explain the performance gain when using window-level activity labels over dense frame-level power annotations.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A Method for Comment Text Feature Mining via Integrated Keyword Extraction, Clustering, and Sentiment Analysis",
+      "Short-Packet Communication in CDRT Networks with Imperfect CSI Over Nakagami-m Fading Channels: RSMA or NOMA?",
+      "Weakly Supervised Non-Intrusive Load Monitoring via State-Anchored Frozen Large Language Model Adaptation",
+      "KAConvNet: Kolmogorov–Arnold convolutional networks for vision recognition"
+    ],
+    "linkedinNote": "Emailed you re: State-Anchored Frozen Large Language Model Adaptation. 90.8% malicious recall via Android Malware Detection Pipeline. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:32:18.911Z",
+    "messageId": "19f843bc8f553945",
+    "threadId": "19f843bc8f553945"
+  },
+  {
+    "name": "Yaxing Wang",
+    "affiliation": "Nankai University",
+    "email": "yaxing@nankai.edu.cn",
+    "subject": "Question about your 2026 StyleDiffusion paper on Prompt-Embedding Inversion",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on StyleDiffusion demonstrated that prompt-embedding inversion can produce accurate text-based image editing without significant structural changes. However, I struggled to understand why attention regularization is effective in preserving object-like attention maps after reconstruction and editing. I attempted to adapt this approach to improve my RAG pipeline's generation quality, but the performance plateaued past a certain retrieval threshold.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "PanoKernel: Large Distortion-Aware Kernel for Panoramic Depth Perception",
+      "StyleDiffusion: Prompt-Embedding Inversion for Text-Based Editing",
+      "Adaptive Sparse Self-Attention for Efficient Image Super-Resolution and Beyond",
+      "Weakly Supervised Bird’s Eye View Motion Prediction With Object Prior"
+    ],
+    "linkedinNote": "Emailed Yaxing Wang re: StyleDiffusion. Struggled to adapt attention regularization for RAG. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:32:53.682Z",
+    "messageId": "19f843c510ca7b7c",
+    "threadId": "19f843c510ca7b7c"
+  },
+  {
+    "name": "Yuan Yao 0001",
+    "affiliation": "Nanjing University",
+    "email": "yao@nju.edu.cn",
+    "subject": "Question about your work on Deep Transfer Learning",
+    "body": "Dear Professor Yao,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on transfer efficiency in deep learning — specifically the phenomenon of robust transfer from pretraining to downstream tasks with few labeled samples — has caught my eye. This is an area I've been trying to understand better as I work on building robust representation learning models for infrastructure monitoring. For instance, I've found that using masked autoencoders on hyperspectral imagery improved downstream land-cover classification separability by 20% while reducing pre-training latency by 25%. However, I'm struggling to explain why this transfer efficiency is so robust to few-labeled samples — whether it's the masking strategy, the spectral tokenization, or something about the pretraining objective.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: Deep Transfer Learning. Struggling to explain robust transfer with few labeled samples, trying to understand masked autoencoders in hyperspectral imagery. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:33:25.323Z",
+    "messageId": "19f843cccf59182b",
+    "threadId": "19f843cccf59182b"
+  },
+  {
+    "name": "Beilun Wang",
+    "affiliation": "Southeast University",
+    "email": "beilun@seu.edu.cn",
+    "subject": "Question about your 2026 paper on Global Graph UNderstanding",
+    "body": "Dear Professor Wang,\n\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Global Graph UNderstanding introduced GGUN, a perturbation-based framework leveraging Graph Neural Networks to identify influential node groups in attributed graphs. This work impressed me with its fusion of graph structure and node attributes, as I've been working on a similar project involving sparse feature spaces for anomaly detection in Android malware.\n\nIn my project, I reverse-engineered APK binaries into a 1,418-dimensional sparse feature space and benchmarked 20+ machine learning models, achieving 90.8% malicious recall. However, the remaining failure cases seemed to cluster in a way that looked like a distributional shift problem rather than a model capacity problem. I'd love to discuss how GGUN could be applied to this issue and potential applications in my domain.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\n\nBest,\nAditya",
+    "papersReferenced": [
+      "NGSim: A High-Fidelity and Efficient Simulator for Optimizing Network Function Graphs",
+      "Identification of Influential Node Group in Attributed Graph through Explaining Graph Neural Network",
+      "Structured Episodic Event Memory",
+      "Information-Agnostic Model Poisoning Attacks Against Byzantine-Robust Federated Learning"
+    ],
+    "linkedinNote": "Emailed you re: Global Graph UNderstanding. My Android malware detection pipeline had 20% failure cases clustering like a distributional shift problem. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:33:53.024Z",
+    "messageId": "19f843d38b407b23",
+    "threadId": "19f843d38b407b23"
+  },
+  {
+    "name": "Tai-Jiang Mu",
+    "affiliation": "Tsinghua University",
+    "email": "taijiang@tsinghua.edu.cn",
+    "subject": "Question about precise camera control in video generation",
+    "body": "Dear Professor Mu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on RGE-GS demonstrated that reward-guided expansive driving scene reconstruction can be used to learn robust diffusion priors. I was trying to apply similar ideas to my project on hyperspectral image reconstruction, but I hit a wall when trying to couple the diffusion prior with the spatial-spectral representation. Specifically, the pretraining objectives I tried to use resulted in downstream separability improvements, but the representations didn't transfer robustly to unseen scenes — whether it was due to the masking strategy, the spectral tokenization, or something else. I've managed to improve downstream classification separability by 20% and pre-training latency by 25%, but I'd love to understand what I'm missing.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Beyond Inpainting: Unleash 3D Understanding for Precise Camera-Controlled Video Generation",
+      "RGE-GS: Reward-Guided Expansive Driving Scene Reconstruction via Diffusion Priors",
+      "SDLKF: Signed Distance Linear Kernel Function for surface reconstruction",
+      "RELATE3D: REfocusing Latent Adapter for Targeted local Enhancement and Editing in 3D Generation"
+    ],
+    "linkedinNote": "Emailed you re: precise camera control in video generation. Trying to apply similar ideas to hyperspectral image reconstruction. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:34:18.547Z",
+    "messageId": "19f843d9a95341f1",
+    "threadId": "19f843d9a95341f1"
+  },
+  {
+    "name": "Ziming Liu",
+    "affiliation": "Tsinghua University",
+    "email": "zmliu@tsinghua.edu.cn",
+    "subject": "Your work on multimodal learning and foundation models — something I ran into",
+    "body": "Dear Professor Liu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on multimodal learning and foundation models connects to something I ran into while building a retrieval-augmented generation pipeline at ArchiGen AI. There, accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself. To better understand this, I tried quantifying the effect of retrieval quality on generation quality by measuring the mutual information between retrieval scores and generation outputs, but the results were inconclusive.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: multimodal learning. Accuracy gains plateaued in RAG pipeline. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:34:46.821Z",
+    "messageId": "19f843e0adc17db4",
+    "threadId": "19f843e0adc17db4"
+  },
+  {
+    "name": "Xiaoyue Feng",
+    "affiliation": "Jilin University",
+    "email": "fengxy@jlu.edu.cn",
+    "subject": "Question about Blockchain Phishing Detection via GraphFlowGen",
+    "body": "Dear Professor Feng,\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Blockchain Phishing Detection via GraphFlowGen demonstrated the importance of learning and replicating structured interaction patterns to capture local dynamic patterns vital for node classification. I'm working on a project that uses graph attention networks for anomaly detection in mobility systems, but I've been struggling to understand why GraphFlowGen's preprocessing module effectively minimizes isolated subgraph generation. Specifically, I'm interested in how GraphFlowGen jointly extracts structural and temporal contexts from transaction data without fragmenting structures or losing information.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\nBest,\nAditya",
+    "papersReferenced": [
+      "Total-effect Test can Erroneously Reject Complete Mediation --- Proofs and Examples",
+      "A Deep Dynamic Graph Generative Framework for Blockchain Phishing Detection",
+      "Effective Strategies for Teaching Machine Learning",
+      "Analysis of Motivations in Machine Learning Textbooks"
+    ],
+    "linkedinNote": "Emailed Xiaoyue Feng re: GraphFlowGen; Struggling to understand how GraphFlowGen extracts structural & temporal contexts from transaction data without fragmenting structures or losing information. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:35:24.452Z",
+    "messageId": "19f843e9dcba87df",
+    "threadId": "19f843e9dcba87df"
+  },
+  {
+    "name": "Tianxing Wu 0001",
+    "affiliation": "Southeast University",
+    "email": "tianxingwu@seu.edu.cn",
+    "subject": "Question about your 2025 paper on Workflow offloading for energy minimization",
+    "body": "Dear Professor Wu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Workflow offloading for energy minimization under deep reinforcement learning demonstrated that energy consumption can be reduced by offloading non-essential tasks, but I found it challenging to understand how you determined the optimal offloading strategy. Specifically, the trade-off between reducing energy consumption and increasing task completion time remained unclear. I've been working on similar ideas in the context of EV charging infrastructure aggregation and interoperability systems, where I encountered a similar problem of balancing energy efficiency and real-time constraints.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Multi-Faceted Continual Knowledge Graph Embedding for Semantic-Aware Link Prediction",
+      "Self-Supervised Similar Community Search based on Graph Matching Network",
+      "VDMSTool: A Vector Database Index Optimization Framework Based on Bayesian Optimization",
+      "Workflow offloading for energy minimization under deep reinforcement learning"
+    ],
+    "linkedinNote": "Emailed you re: Workflow offloading for energy minimization. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:36:00.449Z",
+    "messageId": "19f843f2b714dd08",
+    "threadId": "19f843f2b714dd08"
+  },
+  {
+    "name": "Man Lan",
+    "affiliation": "East China Normal University",
+    "email": "mlan@cs.ecnu.edu.cn",
+    "subject": "Question about your 2025 paper on K-Level Reasoning",
+    "body": "Dear Professor Lan,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on K-Level Reasoning demonstrated a way to establish higher-order beliefs in large language models for strategic reasoning, effectively enabling them to evaluate complex arguments and reason about abstract concepts. This resonates with my recent project on a Retrieval-Augmented Generation pipeline that improved AI response accuracy by 30%, where accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Semantic Relation-Enhanced Clip Adapter for Domain Adaptive Zero-Shot Learning",
+      "Fùxì: A Benchmark for Evaluating Language Models on Ancient Chinese Text Understanding and Generation",
+      "K-Level Reasoning: Establishing Higher Order Beliefs in Large Language Models for Strategic Reasoning",
+      "Overview of the NLPCC 2024 Shared Task 5: Argument Mining for Chinese Argumentative Essay"
+    ],
+    "linkedinNote": "Emailed you re: K-Level Reasoning. Retrieval-augmented generation accuracy gains plateauing due to objective coupling — top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:36:28.237Z",
+    "messageId": "19f843f969010ae6",
+    "threadId": "19f843f969010ae6"
+  },
+  {
+    "name": "Hao Xu 0012",
+    "affiliation": "Jilin University",
+    "email": "xuhao@jlu.edu.cn",
+    "subject": "Question about your 2025 paper on multi-step chain reasoning for emotion-cause pair extraction",
+    "body": "Dear Professor Xu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Eeec: Emotion-Experiencer-Event-Cause Multi-Step Chain Reasoning for Emotion-Cause Pair Extraction showed that multi-step reasoning can be effectively applied to complex emotion-cause pair extraction tasks. This resonates with my work on building large-scale RAG pipelines, where I noticed that accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Eeec:Emotion-Experiencer-Event-Cause Multi-Step Chain Reasoning for Emotion-Cause Pair Extraction"
+    ],
+    "linkedinNote": "Emailed you re: 2025 paper on emotion-cause pair extraction. Accuracy gains plateaued past retrieval threshold — bottleneck shifted to retrieval-generation coupling. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:37:08.822Z",
+    "messageId": "19f84403509256bd",
+    "threadId": "19f84403509256bd"
+  },
+  {
+    "name": "Jun Zhang 0003",
+    "affiliation": "Nankai University",
+    "email": "junzhang@nankai.edu.cn",
+    "subject": "Question about your 2025 paper on Federated Graph Neural Network",
+    "body": "Dear Professor Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Secure and Private Recommendation based on Federated Graph Neural Network showed that Federated social recommender systems based on Graph Neural Network can be made secure and private against data poisoning attacks and inference attacks. However, I struggled to understand why existing efforts failed to address the security and privacy issues of Federated Recommender systems based on GNN.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Secure and Private Recommendation based on Federated Graph Neural Network",
+      "Fault Knowledge Graph Construction Method for Hydraulic Turbine Speed Control System Based on BERTWWM-BiLSTM-MHA-CRF Model",
+      "Multifunctional neuromorphic optoelectronic computing using all 2D floating-gate transistors",
+      "semi-PD: Towards Efficient LLM Serving via Phase-Wise Disaggregated Computation and Unified Storage"
+    ],
+    "linkedinNote": "Emailed you re: Secure and Private Recommendation. Struggled to understand why existing federated GNN efforts failed to address security and privacy issues. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:37:45.823Z",
+    "messageId": "19f8440c5bbbffdf",
+    "threadId": "19f8440c5bbbffdf"
+  },
+  {
+    "name": "Yaping Yan",
+    "affiliation": "Southeast University",
+    "email": "yan@seu.edu.cn",
+    "subject": "Question about your 2026 paper on ConDiffFuzz: Dependency-Aware Consistency Checking",
+    "body": "Dear Professor Yan,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on ConDiffFuzz demonstrated that dependency-aware consistency checking can effectively discover faults in industrial control protocol implementations. This finding resonated with my struggle to understand why standard anomaly detection methods often fail to capture subtle patterns in complex systems.\n\nI've been working on an anomaly detection pipeline for Android malware and noticed that standard calibration methods didn't resolve the remaining failure cases. I'm trying to put my next few months into research problems in this direction, whether remotely now or more intensively over winter.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Geometric quantification of cell phenotype transition manifolds with information geometry",
+      "ConDiffFuzz: Dependency-Aware Consistency Checking for Differential Fuzzing of Industrial Control Protocol Implementations",
+      "GDC-Net: a U-Net for precise brain vessel segmentation with global–local and depthwise attention plus content-aware upsampling",
+      "High-Order Control Barrier Functions-Based Adaptive Robust Safety Control for Manipulator Under Model Uncertainty and Disturbance"
+    ],
+    "linkedinNote": "Emailed you re: ConDiffFuzz. Anomaly detection failure in Android malware pipeline. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:38:19.903Z",
+    "messageId": "19f84414bf98437d",
+    "threadId": "19f84414bf98437d"
+  },
+  {
+    "name": "Dian Shen",
+    "affiliation": "Southeast University",
+    "email": "dshen@seu.edu.cn",
+    "subject": "Question about your 2026 paper on QuReC image restoration",
+    "body": "Dear Professor Shen,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on QuReC showed that all-in-one image restoration can be achieved with query-specific guidance and local-global response calibration. I ran into a similar problem when working on a hyperspectral foundation model, where downstream separability improved 20% and pre-training latency dropped 25% — but I couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "QuReC: All-in-One Image Restoration with Query-Specific Guidance and Local-Global Response Calibration",
+      "NGSim: A High-Fidelity and Efficient Simulator for Optimizing Network Function Graphs",
+      "Identification of Influential Node Group in Attributed Graph through Explaining Graph Neural Network",
+      "Information-Agnostic Model Poisoning Attacks Against Byzantine-Robust Federated Learning"
+    ],
+    "linkedinNote": "Emailed you re: QuReC. 20% downstream separability improvement in hyperspectral, pre-training latency dropped 25%, but couldn't explain why transfer worked so well. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:38:54.481Z",
+    "messageId": "19f8441d18759c4b",
+    "threadId": "19f8441d18759c4b"
+  },
+  {
+    "name": "Cam-Tu Nguyen",
+    "affiliation": "Nanjing University",
+    "email": "ncamtu@nju.edu.cn",
+    "subject": "Your Work on Foundation Models and Multimodal Learning",
+    "body": "Dear Professor Nguyen,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on foundation models and multimodal learning demonstrated the challenges of coupling retrieval and generation objectives. In my recent work on Retrieval-Augmented Generation (RAG) pipelines at ArchiGen AI, I achieved 30% accuracy improvement, but accuracy gains plateaued past a certain retrieval threshold, suggesting a bottleneck in how retrieval and generation objectives are coupled.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: foundation models. Accuracy gains plateaued past a certain retrieval threshold. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:39:27.954Z",
+    "messageId": "19f8442555c768cc",
+    "threadId": "19f8442555c768cc"
+  },
+  {
+    "name": "Guolei Sun",
+    "affiliation": "Nankai University",
+    "email": "guolei.sun@nankai.edu.cn",
+    "subject": "Your 2025 paper on SAM2 with VCOS — struggling with robustness to dynamic camouflaged scenarios",
+    "body": "Dear Professor Sun,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on SAM2 with VCOS demonstrated that Segment Anything Model 2 can effectively detect camouflaged objects in videos by leveraging multimodal large language models (MLLMs) and existing VCOS methods. However, I'm struggling with the robustness of SAM2 to dynamic camouflaged scenarios, where the objects blend seamlessly in the surroundings for videos due to similar colors and textures and poor light conditions.\n\nIn my hyperspectral foundation model for land-cover classification, I observed a 20% improvement in downstream separability using masked autoencoders. However, the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "HiM2SAM: Enhancing SAM2 with Hierarchical Motion Estimation and Memory Optimization towards Long-term Tracking",
+      "Evaluating SAM2 for Video Semantic Segmentation",
+      "EgoNight: Towards Egocentric Vision Understanding at Night with a Challenging Benchmark",
+      "When SAM2 meets video camouflaged object segmentation: a comprehensive evaluation and adaptation"
+    ],
+    "linkedinNote": "Emailed you re: SAM2 meets VCOS. Struggling with robustness to dynamic camouflaged scenarios in hyperspectral foundation models. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:39:56.070Z",
+    "messageId": "19f8442c3b5772ba",
+    "threadId": "19f8442c3b5772ba"
+  },
+  {
+    "name": "Bin Xu 0001",
+    "affiliation": "Tsinghua University",
+    "email": "xubin@tsinghua.edu.cn",
+    "subject": "Question about NMPC-Based Trajectory Optimization and Hierarchical Control",
+    "body": "Dear Professor Xu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on NMPC-Based Trajectory Optimization and Hierarchical Control of a Ducted Fan Flying Robot with a Robotic Arm showed that hierarchical control can enable accurate and smooth tracking of the robot's end effector in complex environments. However, I struggled to understand how this control approach would adapt to changes in the physical environment or the target's motion, especially when considering the coupling effects between the aerial platform, the robotic arm, and the physical environment.\n\nIn my own work on autonomous vehicle routing, I encountered similar challenges with state changes and partial observability of infrastructure availability. While my standard shortest-path approaches broke under these conditions, I'm curious to know how your hierarchical control framework might address these issues.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "NMPC-Based Trajectory Optimization and Hierarchical Control of a Ducted Fan Flying Robot with a Robotic Arm",
+      "Aerial Landing Trajectory Planning of Sub-mother UAV System Based on PSO Algorithm Considering Aerodynamic Interference",
+      "Landing Trajectory Planning Method for Amphibious Platforms in Complex Terrain Environments"
+    ],
+    "linkedinNote": "Emailed you re: NMPC-Based Trajectory Optimization and Hierarchical Control. State changes and partial observability in routing — top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:40:21.302Z",
+    "messageId": "19f8443240a00b3a",
+    "threadId": "19f8443240a00b3a"
+  },
+  {
+    "name": "Min Zhang 0002",
+    "affiliation": "East China Normal University",
+    "email": "zhangmin@sei.ecnu.edu.cn",
+    "subject": "Question about your 2026 paper on ToolOmni",
+    "body": "Dear Professor Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on ToolOmni showed that LLMs can be enabled for open-world tool use via proactive retrieval and grounded execution within a reasoning loop. This agentic framework addressed the challenge of aligning user intent with tool semantics and generalizing to unseen tools. I ran into a similar problem while building a retrieval-augmented generation pipeline, where accuracy gains plateaued past a certain retrieval threshold, and I couldn't explain why improving retrieval quality further stopped helping generation quality.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "ToolOmni: Enabling Open-World Tool Use via Agentic learning with Proactive Retrieval and Grounded Execution",
+      "Mathematical Reasoning Enhanced LLM for Formula Derivation: A Case Study on Fiber NLI Modellin",
+      "[Application of digital health technology in remote rehabilitation and long-term management of chronic obstructive pulmonary disease patients].",
+      "Construction of a Quality Evaluation System for University Course Teaching Based on Multimodal Brain Data"
+    ],
+    "linkedinNote": "Emailed you re: ToolOmni. Accuracy gains plateaued past a certain retrieval threshold in RAG pipeline. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:40:54.841Z",
+    "messageId": "19f8443a847fa253",
+    "threadId": "19f8443a847fa253"
+  },
+  {
+    "name": "Tian Bai 0002",
+    "affiliation": "Jilin University",
+    "email": "baitian@jlu.edu.cn",
+    "subject": "Your 2024 paper on semantic-augmented imitation learning via language model",
+    "body": "Dear Professor Bai,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on SEAL introduced a novel framework that leverages Large Language Models' semantic and world knowledge for sub-goal learning without prior knowledge of task hierarchies. I found this particularly intriguing because I've been building retrieval-augmented generation pipelines at ArchiGen AI Labs, but the accuracy gains plateaued past a certain retrieval threshold. I'm trying to understand how to couple retrieval and generation objectives to improve generation quality further. I've achieved a 30% accuracy improvement using a RAG pipeline but couldn't explain why the accuracy gains stopped improving after a certain point.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "SEAL: SEmantic-Augmented Imitation Learning via Language Model",
+      "Hi-Map: Hierarchical Factorized Radiance Field for High-Fidelity Monocular Dense Mapping"
+    ],
+    "linkedinNote": "Emailed Tian Bai about SEAL & retrieval-augmentation. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-21T10:41:29.110Z",
+    "messageId": "19f84442ec4b7bcb",
+    "threadId": "19f84442ec4b7bcb"
   }
 ]
