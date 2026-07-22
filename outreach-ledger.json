@@ -28125,5 +28125,21 @@
     "sentAt": "2026-07-22T06:50:53.105Z",
     "messageId": "19f88976bc225ed2",
     "threadId": "19f88976bc225ed2"
+  },
+  {
+    "name": "Chunlei Peng",
+    "affiliation": "Xidian University",
+    "email": "clpeng@xidian.edu.cn",
+    "subject": "Question about your 2025 paper on LLM-as-a-Judge",
+    "body": "Dear Professor Peng,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates. \n\nYour 2025 paper on LLM-as-a-Judge System showed that LLM-as-a-Judge has potential in multiple tasks, but has not been fully explored in tool invocation scenarios. I'm trying to apply this idea to plugin-based systems, where the invoked plugins can be evaluated in real-time. However, I'm struggling to understand how the iterative generation and evaluation criteria guided multiple generation strategies integrate the advantages of different large models to enhance evaluation stability. Specifically, I couldn't explain why methods that perform well in reasoning tasks are difficult to directly transfer to tool calling scenarios.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A Method for Enhancing Invocation Capabilities in Tool Calling with LLM-as-a-Judge System",
+      "Multimodal Pressure Sensor: Advancing Continuous Cardiovascular Monitoring through Synergistic Capacitive and Piezoresistive Sensing",
+      "Active Learning Method Based on Pseudo-labeling"
+    ],
+    "linkedinNote": "Emailed you re: LLM-as-a-Judge. Struggling to understand why methods that perform well in reasoning tasks are difficult to directly transfer to tool calling scenarios. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-22T10:31:40.735Z",
+    "messageId": "19f89618e9702ea9",
+    "threadId": "19f89618e9702ea9"
   }
 ]
