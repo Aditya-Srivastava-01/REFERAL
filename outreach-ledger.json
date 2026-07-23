@@ -28141,5 +28141,119 @@
     "sentAt": "2026-07-22T10:31:40.735Z",
     "messageId": "19f89618e9702ea9",
     "threadId": "19f89618e9702ea9"
+  },
+  {
+    "name": "Carolina Scarton",
+    "affiliation": "University of Sheffield",
+    "email": "c.scarton@sheffield.ac.uk",
+    "subject": "Question about your 2025 paper on Cross-Modal Alignment Leveraging a Text-Centric Approach",
+    "body": "Dear Professor Scarton,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on CACARA showed that multimodal alignment can be achieved through text-centric approaches without requiring full retraining. I was building a retrieval-augmented generation pipeline, where multimodal interactions between images and text are crucial, and the problem of seamless integration of new modalities into an existing bimodal/multimodal model without requiring full retraining resonated with me.\n\nI benchmarked 20+ models on the Android malware detection task using a 1,418-dimensional sparse feature space, and the remaining failure cases clustered in a way that looked like a distributional shift problem. The connection to multimodal alignment and label option design in zero-shot classification is intriguing.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "CACARA: Cross-Modal Alignment Leveraging a Text-Centric Approach for Cost-Effective Multimodal and Multilingual Learning",
+      "A Lightweight Approach for User and Keyword Classification in Controversial Topics",
+      "Leveraging Large Language Models for Zero-shot Lay Summarisation in Biomedicine and Beyond",
+      "Label Set Optimization via Activation Distribution Kurtosis for Zero-Shot Classification with Generative Models"
+    ],
+    "linkedinNote": "Emailed you re: CACARA. Benchmarked 20+ models on Android malware detection, but failure cases clustered like a distributional shift problem. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-23T06:35:54.940Z",
+    "messageId": "19f8db01381d321c",
+    "threadId": "19f8db01381d321c"
+  },
+  {
+    "name": "Federica Arrigoni",
+    "affiliation": "Politecnico di Milano",
+    "email": "federica.arrigoni@polimi.it",
+    "subject": "Distributional shift in sparse feature spaces — your work on anomaly detection",
+    "body": "Dear Professor Arrigoni,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on anomaly detection and out-of-distribution signals in data — specifically, identifying distributional shifts — connects to something I ran into while building an Android malware detection pipeline. I reverse-engineered APKs via Apktool into 1,418 sparse features and benchmarked 20+ models, achieving 90.8% malicious recall. However, the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem, and standard calibration didn't resolve it.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: distributional shift in sparse feature spaces. 90.8% malicious recall in malware detection, but remaining failures looked like distributional shift problem. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-23T06:36:19.088Z",
+    "messageId": "19f8db070a747b2e",
+    "threadId": "19f8db070a747b2e"
+  },
+  {
+    "name": "Gemma Roig",
+    "affiliation": "Goethe University Frankfurt",
+    "email": "roignoguera@em.uni-frankfurt.de",
+    "subject": "Question about Concreteness Effect on Language Model Representations",
+    "body": "Dear Professor Roig,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on the Concreteness Effect on language models showed that the representational alignment between humans and language models is implicitly driven by a concreteness effect, and that concreteness influences how words are processed. However, I struggled to understand whether this effect would extend to multimodal learning scenarios, where the input modalities may have different concreteness profiles.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "The Representational Alignment between Humans and Language Models is implicitly driven by a Concreteness Effect",
+      "Follow the MEP: Scalable Neural Representations for Minimum-Energy Path Discovery in Molecular Systems",
+      "UIDAPLE: Unsupervised Incremental Domain Adaptation through Adaptive Prompt Learning",
+      "Human Gaze Boosts Object-Centered Representation Learning"
+    ],
+    "linkedinNote": "Emailed you re: Concreteness Effect. Struggling to extend this effect to multimodal learning scenarios. Top 0.4% JEE Main (1.2M) — Aditya",
+    "sentAt": "2026-07-23T06:36:52.471Z",
+    "messageId": "19f8db0f3d1adb70",
+    "threadId": "19f8db0f3d1adb70"
+  },
+  {
+    "name": "H. Jin Kim",
+    "affiliation": "Seoul National University",
+    "email": "hjinkim@snu.ac.kr",
+    "subject": "Question about your 2024 paper on portable acceleration of CMS computing workflows",
+    "body": "Dear Professor Kim,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on portable acceleration of CMS computing workflows demonstrated the potential for coprocessors to improve data processing in large scientific experiments. This aligns with my interest in applying machine learning to real-world systems, especially in the context of scientific discovery and sustainability. I was particularly intrigued by the SONIC approach for accelerated inference tasks on coprocessors.\n\nHowever, I struggled to understand how the performance benefits of coprocessors translate to the entire workflow, especially when considering the overheads of data transfer and workflow orchestration. Can you share your insights on this aspect, or is there a specific project or problem area in your group where I could apply my skills to explore this further?\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Wasserstein normalized autoencoder for anomaly detection",
+      "Improving missing transverse momentum estimation with a deep neural network",
+      "Search for top squarks in final states with many light-flavor jets and 0, 1, or 2 charged leptons in proton-proton collisions at $$\\sqrt{s}=13$$ TeV",
+      "Portable Acceleration of CMS Computing Workflows with Coprocessors as a Service"
+    ],
+    "linkedinNote": "Emailed you re: portable acceleration of CMS computing workflows. Struggled to understand performance benefits of coprocessors in scientific workflows. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-23T06:37:21.019Z",
+    "messageId": "19f8db162949697c",
+    "threadId": "19f8db162949697c"
+  },
+  {
+    "name": "Kristoffer Wickstrøm",
+    "affiliation": "UiT The Arctic Univ. of Norway",
+    "email": "kristoffer.k.wickstrom@uit.no",
+    "subject": "Question about your 2025 paper on self-explainable Vision Transformers",
+    "body": "Dear Professor Wickstrøm,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Keypoint Counting Classifiers showed that Vision Transformers can be turned into self-explainable models without retraining. I'm building a retrieval-augmented generation pipeline and found that the keypoint counting method could help me improve the interpretability of my model's decision process.\n\nHowever, I struggled with explaining why the model's attention mechanisms were focusing on certain key points, even when they didn't seem relevant to the downstream task. I've experimented with different masking strategies, but couldn't get a clear answer.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Keypoint Counting Classifiers: Turning Vision Transformers into Self-Explainable Models Without Training",
+      "The Impact of Longitudinal Mammogram Alignment on Breast Cancer Risk Assessment",
+      "In-Hoc Concept Representations to Regularise Deep Learning in Medical Imaging",
+      "From Colors to Classes: Emergence of Concepts in Vision Transformers"
+    ],
+    "linkedinNote": "Emailed you re: Keypoint Counting Classifiers. Struggled explaining attention mechanisms in my RAG pipeline. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-23T06:38:07.479Z",
+    "messageId": "19f8db218672cbba",
+    "threadId": "19f8db218672cbba"
+  },
+  {
+    "name": "Lirong Xia",
+    "affiliation": "Rutgers University",
+    "email": "lirong.xia@rutgers.edu",
+    "subject": "Question about your 2024 paper on Distribution of Chores with Information Asymmetry",
+    "body": "Dear Professor Xia,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on Distribution of Chores with Information Asymmetry demonstrated that dubious chores provide a more fine-grained approximation of envy-freeness than envy-freeness up to one item. This resonates with my current project on Android malware detection, where I found that 20% of the failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem. However, standard calibration didn’t resolve it. I’m trying to put my next few months into research problems in this direction, whether remotely now or more intensively over winter.\n\nIf this problem space is active in your group, I’d value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Mixture of Complementary Agents for Robust LLM Ensemble",
+      "Distribution of Chores with Information Asymmetry",
+      "Computing Most Equitable Voting Rules",
+      "Anti-Collusion Dynamic Distanced Online Testing"
+    ],
+    "linkedinNote": "Emailed you re: Distribution of Chores with Information Asymmetry. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-23T06:39:51.951Z",
+    "messageId": "19f8db3b0ce311a1",
+    "threadId": "19f8db3b0ce311a1"
+  },
+  {
+    "name": "Meina Kan",
+    "affiliation": "Chinese Academy of Sciences",
+    "email": "kanmeina@ict.ac.cn",
+    "subject": "Question about your 2026 paper on Mitigating Privacy Risks in LVLMs via Neuron-Level Gradient Gating",
+    "body": "Dear Professor Kan,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Neural Gate: Mitigating Privacy Risks in LVLMs via Neuron-Level Gradient Gating showed that LVLMs often fail to consistently refuse instructions designed to compromise user privacy. This resonates with my own work on applied machine learning for scientific systems, where data security and integrity are critical. Specifically, I built an Android Malware Detection Pipeline that achieved 90.8% malicious recall using threshold calibration and class imbalance correction. However, I'm struggling to explain why the remaining failure cases cluster in a way that looks like a distributional shift problem rather than a model capacity problem.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Neural Gate: Mitigating Privacy Risks in LVLMs via Neuron-Level Gradient Gating",
+      "Patching the visual ability of large multimodal models by collaborating with small models",
+      "OSI: One-step Inversion Excels in Extracting Diffusion Watermarks",
+      "Collaborative Map-Based and Route-Based Policy Learning for Continuous Vision-and-Language Navigation"
+    ],
+    "linkedinNote": "Emailed Meina Kan re: Neural Gate. Clustering in Android malware detection — distributional shift problem. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-23T06:40:27.989Z",
+    "messageId": "19f8db43d794e6d7",
+    "threadId": "19f8db43d794e6d7"
   }
 ]
