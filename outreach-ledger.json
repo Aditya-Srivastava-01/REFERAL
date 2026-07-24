@@ -28255,5 +28255,34 @@
     "sentAt": "2026-07-23T06:40:27.989Z",
     "messageId": "19f8db43d794e6d7",
     "threadId": "19f8db43d794e6d7"
+  },
+  {
+    "name": "Wojciech Jamroga",
+    "affiliation": "IPI PAN",
+    "email": "wojciech.jamroga@ipipan.waw.pl",
+    "subject": "Your work on robustness in AI connects to something I ran into",
+    "body": "Dear Professor Jamroga,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on robustness in AI — specifically out-of-distribution detection — connects to something I ran into while building an Android malware detection pipeline. I reverse-engineered APKs into 1,418 sparse features and benchmarked 20+ models, but the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem. I was unable to resolve it with standard calibration. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: robustness in AI. Distributional shift in sparse feature spaces — something I ran into. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-24T06:33:15.383Z",
+    "messageId": "19f92d3fe1ebd822",
+    "threadId": "19f92d3fe1ebd822"
+  },
+  {
+    "name": "Ayellet Tal",
+    "affiliation": "Technion",
+    "email": "ayellet@ee.technion.ac.il",
+    "subject": "Question about your 2026 paper on Open-Set 3D Recognition",
+    "body": "Dear Professor Tal,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on HOLA demonstrated that multi-modal alignment can capture a holistic understanding of 3D objects, enhancing the loss's hardness-aware focus on challenging negatives. However, I was left wondering how to adapt this approach to real-world applications with partial or noisy views, such as those encountered in remote sensing or LiDAR-based systems.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "HOLA: Holistic Multi-Modal Alignment for Open-Set 3D Recognition",
+      "SFMNet: Sparse Focal Modulation for 3D Object Detection",
+      "WiSAR3D - Aerial LiDAR dataset for 3D object detection",
+      "VALD: Multi-Stage Vision Attack Detection for Efficient LVLM Defense"
+    ],
+    "linkedinNote": "Emailed you re: HOLA: Holistic Multi-Modal Alignment for Open-Set 3D Recognition. Struggled to adapt multi-modal alignment to real-world applications with partial or noisy views — interested in discussing.",
+    "sentAt": "2026-07-24T06:33:38.573Z",
+    "messageId": "19f92d45960d7339",
+    "threadId": "19f92d45960d7339"
   }
 ]
