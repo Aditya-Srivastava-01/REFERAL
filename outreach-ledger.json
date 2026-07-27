@@ -28320,5 +28320,51 @@
     "sentAt": "2026-07-27T03:49:17.415Z",
     "messageId": "19fa1b0f442ad1c5",
     "threadId": "19fa1b0f442ad1c5"
+  },
+  {
+    "name": "Yong Man Ro",
+    "affiliation": "KAIST",
+    "email": "ymro@kaist.ac.kr",
+    "subject": "Your work on computer vision and self-supervised learning",
+    "body": "Dear Professor Ro,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates nationally. Your work on computer vision and self-supervised learning — particularly learning representations from raw sensor data — connects to something I ran into while building a hyperspectral foundation model. I applied masked autoencoders (MAE) to learn transferable spatial-spectral representations, improving downstream land-cover classification separability by 20% while reducing pre-training latency by 25%. However, I struggled to explain why spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: Your work on computer vision and self-supervised learning. Struggled to explain spectral-spatial representation transfer with few labeled samples. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-27T07:39:49.505Z",
+    "messageId": "19fa284056922716",
+    "threadId": "19fa284056922716"
+  },
+  {
+    "name": "Kaiyi Ji",
+    "affiliation": "University at Buffalo",
+    "email": "kaiyiji@buffalo.edu",
+    "subject": "Rethinking Parameter Sharing for LLM Fine-Tuning with Multiple LoRAs",
+    "body": "Dear Professor Ji,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Rethinking Parameter Sharing for LLM Fine-Tuning with Multiple LoRAs showed that inner LoRA matrices are highly similar during training and suitable for sharing. However, I found that using multiple LoRAs with identical initialization can lead to unexpected knowledge encoding and transfer, which can be problematic for fine-tuning on multiple tasks. I'm looking to explore this phenomenon further and contribute to research in this direction.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Turning Back Without Forgetting: Selective Backward Refinement for Parameter-Efficient Continual Learning",
+      "DeepMTL2R: A Library for Deep Multi-task Learning to Rank",
+      "Provable Effects of Data Replay in Continual Learning: A Feature Learning Perspective",
+      "Rethinking Parameter Sharing for LLM Fine-Tuning with Multiple LoRAs"
+    ],
+    "linkedinNote": "Emailed you re: Rethinking Parameter Sharing for LLM Fine-Tuning with Multiple LoRAs. Found that identical LoRA initialization leads to unexpected knowledge encoding and transfer, which can be problematic for fine-tuning on multiple tasks. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-27T07:40:14.279Z",
+    "messageId": "19fa284673d84f04",
+    "threadId": "19fa284673d84f04"
+  },
+  {
+    "name": "Danny Ziyi Chen",
+    "affiliation": "University of Notre Dame",
+    "email": "dchen@nd.edu",
+    "subject": "Question about Dual-level Fuzzy Learning with Patch Guidance",
+    "body": "Dear Professor Chen,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU – 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Dual-level Fuzzy Learning with Patch Guidance demonstrated that precise feature-based grading boundaries can be learned from ambiguous ordinal labels with patch-level supervision. I'm struggling to understand how your patch-labeling and filtering strategies enable the model to focus on patch-level features exclusively with only image-level ordinal labels available.\n\nIn my experience with Android malware detection, I found that standard approaches often fail to capture the fine-grained features necessary for accurate classification. However, in my recent project on hyperspectral foundation models, I saw a 20% improvement in downstream land-cover classification separability while reducing pre-training latency by 25%. The transferable spatial-spectral representations learned by the model seemed robust to few labeled samples, but I'm unsure whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Towards Autonomous Decision-Making: A Survey of Multimodal Medical Reasoning",
+      "Dual-level Fuzzy Learning with Patch Guidance for Image Ordinal Regression",
+      "TopoImages: Incorporating Local Topology Encoding into Deep Learning Models for Medical Image Classification",
+      "Group-On: Boosting One-Shot Segmentation with Supportive Query"
+    ],
+    "linkedinNote": "Emailed you re: Dual-level Fuzzy Learning with Patch Guidance. Struggling to understand how patch-labeling and filtering strategies enable patch-level features focus with only image-level ordinal labels available. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-27T07:40:48.164Z",
+    "messageId": "19fa284eb8fb776a",
+    "threadId": "19fa284eb8fb776a"
   }
 ]
