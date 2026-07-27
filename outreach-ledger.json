@@ -28288,5 +28288,37 @@
     "sentAt": "2026-07-24T06:33:38.573Z",
     "messageId": "19f92d45960d7339",
     "threadId": "19f92d45960d7339"
+  },
+  {
+    "name": "Yongchao Xu",
+    "affiliation": "Wuhan University",
+    "email": "yongchao.xu@whu.edu.cn",
+    "subject": "Question about your 2026 paper on Dual-Pass Speech-to-Speech Translation",
+    "body": "Dear Professor Xu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on DESpeech showed that direct speech-to-speech translation can be made more efficient by decomposing translation into two specialized stages: acoustic feature extraction and semantic understanding. However, I was unable to explain how the dual-pass architecture enables optimal resource allocation while maintaining cross-modal information flow — whether it was the use of discrete units as intermediate representations or the multi-task learning framework.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Deformable 2D Gaussian Splatting for Efficient Wireless Radiance Field Rendering",
+      "A survey on large language models with multilingualism: recent advances and new frontiers",
+      "BiLSTM Defect Detection Model Based on Ast Dynamic Path Feature",
+      "DESpeech: a dual-pass encoder approach for efficient speech-to-speech translation"
+    ],
+    "linkedinNote": "Emailed you re: DESpeech. Struggle to understand cross-modal information flow in dual-pass architectures. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-27T03:48:42.978Z",
+    "messageId": "19fa1b06f567db54",
+    "threadId": "19fa1b06f567db54"
+  },
+  {
+    "name": "Kun Li 0001",
+    "affiliation": "Tianjin University",
+    "email": "lik@tju.edu.cn",
+    "subject": "Question about your Cloud Resource Analysis in 2025",
+    "body": "Dear Professor Kun Li 0001,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on total cost of ownership and Google Cloud resources for the ATLAS Experiment at the LHC showed that network usage significantly impacts the costs of certain ATLAS workflows, underscoring the importance of implementing cost control mechanisms.\n\nI've been trying to apply machine learning to real-world systems, specifically in the area of sustainable energy and mobility, where infrastructure aggregation and cost optimization are critical. However, I couldn't explain why integrating renewable energy sources into existing grids often breaks under partial observability of resource availability — whether it's due to the static graph problem turning into a POMDP, or something else entirely.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If your group is working on related topics, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Erratum: Software and computing for Run 3 of the ATLAS experiment at the LHC",
+      "Total Cost of Ownership and Evaluation of Google Cloud Resources for the ATLAS Experiment at the LHC"
+    ],
+    "linkedinNote": "Emailed you re: Total Cost of Ownership and Evaluation of Google Cloud Resources for the ATLAS Experiment at the LHC. Struggled to adapt energy grid planning under POMDP — Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-27T03:49:17.415Z",
+    "messageId": "19fa1b0f442ad1c5",
+    "threadId": "19fa1b0f442ad1c5"
   }
 ]
