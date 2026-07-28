@@ -29287,7 +29287,9 @@
     "linkedinNote": "Emailed you re: Out-of-Distribution Detection. Clustering in distributional shift after benchmarking 20+ models on CIC-AndMal2017. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-28T14:36:25.426Z",
     "messageId": "19fa927c9f0f5437",
-    "threadId": "19fa927c9f0f5437"
+    "threadId": "19fa927c9f0f5437",
+    "replied": true,
+    "repliedAt": "2026-07-28T19:50:09.898Z"
   },
   {
     "name": "Aixin Sun",
@@ -29482,7 +29484,9 @@
     "linkedinNote": "Emailed you re: LARM. Our malware detection pipeline's remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-28T17:44:55.816Z",
     "messageId": "19fa9d45ffdc98b3",
-    "threadId": "19fa9d45ffdc98b3"
+    "threadId": "19fa9d45ffdc98b3",
+    "replied": true,
+    "repliedAt": "2026-07-28T19:50:14.745Z"
   },
   {
     "name": "Shi-Sheng Huang",
