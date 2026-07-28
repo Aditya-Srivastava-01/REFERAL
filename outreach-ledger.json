@@ -29356,5 +29356,311 @@
     "sentAt": "2026-07-28T14:39:43.846Z",
     "messageId": "19fa92ad15984fab",
     "threadId": "19fa92ad15984fab"
+  },
+  {
+    "name": "Lesia Semenova",
+    "affiliation": "Rutgers University",
+    "email": "lesia.semenova@rutgers.edu",
+    "subject": "Question about Rashomon Set Exploration for Concept-Based Models",
+    "body": "Dear Professor Semenova,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on exploring the Rashomon set for Concept-Based Models demonstrated that specialized parallel adapters and checkpointing schemes can generate multiple models with diverse concepts. \n\nI'm trying to put my next few months into research problems in this direction, whether remotely now or more intensively over winter. Specifically, I've been working on hyperspectral foundation models and have seen similar challenges in explaining the reasoning behind the learned concepts. I'm actively looking to spend the coming winter break working deeply on problems like this and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Position: Explainability Research Must Prioritize Foundations over Ad-hoc Methods",
+      "ElliCE: Efficient and Provably Robust Algorithmic Recourse via the Rashomon Sets",
+      "Exploring the Rashomon Set for Concept-Based Models",
+      "Navigating Progress: Enhancing Public Transit for More Equitable Communities via Interpretable Causal Inference"
+    ],
+    "linkedinNote": "Emailed you re: Exploring the Rashomon Set for Concept-Based Models. Hyperspectral foundation model learnings struggle to explain learned concepts. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-28T17:41:13.413Z",
+    "messageId": "19fa9d0fbd6a7a75",
+    "threadId": "19fa9d0fbd6a7a75"
+  },
+  {
+    "name": "Shuyuan Yang 0001",
+    "affiliation": "Xidian University",
+    "email": "syyang@xidian.edu.cn",
+    "subject": "Question about your 2025 paper on high-frequency enhanced Transformers",
+    "body": "Dear Professor Yang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on HET: An Efficient High-Frequency Enhancement Transformer for Specific Emitter Identification showed that Transformers can be made computationally efficient for high-frequency fingerprint feature extraction. I'm building an EV charging infrastructure aggregation system, where high-frequency sensing structures might be essential for accurate charger availability detection. However, standard shortest-path approaches break under partial observability of charger availability, turning a static graph problem into something closer to a POMDP. I'm trying to put my next few months into research problems in this direction, whether remotely now or more intensively over winter.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "HET: An Efficient High-Frequency Enhancement Transformer for Specific Emitter Identification",
+      "A consistency regularization training method for automatic modulation classification under incomplete information",
+      "Progressive cross-validation learning for signal classification with noisy labels",
+      "Spatial–Temporal Diffusion Model for Matrix Factorization"
+    ],
+    "linkedinNote": "Emailed you re: HET. EV charging routing under partial observability turned static graph problem into POMDP. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-28T17:41:44.913Z",
+    "messageId": "19fa9d1747b8da19",
+    "threadId": "19fa9d1747b8da19"
+  },
+  {
+    "name": "Keke Chen",
+    "affiliation": "Univ. of Maryland - Baltimore County",
+    "email": "kekechen@umbc.edu",
+    "subject": "RecPS: Can you explain why the privacy risk scoring works?",
+    "body": "Dear Professor Chen,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on RecPS: Privacy Risk Scoring for Recommender Systems showed that you can quantify the privacy risk of model users. I've been building a dataset modification strategy for controlled data access and was wondering if I can understand why your privacy risk scoring approach, specifically the RecPS model, works effectively.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "RecPS: Privacy Risk Scoring for Recommender Systems",
+      "Adaptive Domain Inference Attack with Concept Hierarchy",
+      "Calibrating Practical Privacy Risks for Differentially Private Machine Learning",
+      "Demo: FT-PrivacyScore: Personalized Privacy Scoring Service for Machine Learning Participation"
+    ],
+    "linkedinNote": "Emailed you re: RecPS. Struggled to understand why your approach works effectively. Top 0.4% JEE Main (1.2M).",
+    "sentAt": "2026-07-28T17:42:12.155Z",
+    "messageId": "19fa9d1de6f7b77e",
+    "threadId": "19fa9d1de6f7b77e"
+  },
+  {
+    "name": "Bing Li 0010",
+    "affiliation": "Wuhan University",
+    "email": "bingli@whu.edu.cn",
+    "subject": "Question about your 2025 paper on hybrid telecentric laser vision measurement",
+    "body": "Dear Professor Li,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on hybrid telecentric laser vision measurement showed that geometric error evaluation can be done on multi-scale levels with higher accuracy. I'm currently working on a project applying machine learning to difficult real-world systems, and I hit a wall when I realized that traditional calibration methods break when there are partial observations or missing data. This is exactly the problem you addressed in your paper.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Hybrid Telecentric Laser Vision Measurement for Multi-Scale Geometric Error Evaluation of Aircraft Engine Shaft"
+    ],
+    "linkedinNote": "Emailed you re: Hybrid Telecentric Laser Vision Measurement. Traditional calibration methods breaking under partial observations — top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-28T17:42:48.432Z",
+    "messageId": "19fa9d26c20ddfac",
+    "threadId": "19fa9d26c20ddfac"
+  },
+  {
+    "name": "Zhibo Wang 0001",
+    "affiliation": "Zhejiang University",
+    "email": "zhibowang@zju.edu.cn",
+    "subject": "Question about your work on FEniCSx implementation",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on FEniCSx implementation for 2D and 3D topology optimization demonstrated impressive support for parallel computing. This aligns with my interest in high-performance computing and large-scale systems. \n\nWhile building a routing system for EV charging infrastructure, I ran into difficulties with parallelization of state updates in live environments. Your work on parallel FEniCSx optimization seems to address a similar challenge, and I'm trying to integrate this into my project.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Correction to: FEniTop: a simple FEniCSx implementation for 2D and 3D topology optimization supporting parallel computing"
+    ],
+    "linkedinNote": "Emailed you re: FEniCSx implementation. FEniCSx parallelization for live state updates is a challenge I'm tackling. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-28T17:43:24.559Z",
+    "messageId": "19fa9d2fb1cd342a",
+    "threadId": "19fa9d2fb1cd342a"
+  },
+  {
+    "name": "Jianbing Zhang",
+    "affiliation": "Nanjing University",
+    "email": "zjb@nju.edu.cn",
+    "subject": "Question about Energy-Efficient Parallel-Pipelined Pedestrian Detection",
+    "body": "Dear Professor Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on energy- and resource-efficient parallel-pipelined pedestrian detection showed that multiscale image computation scheduling for always-on intelligent edge devices can be achieved with a high frame rate without sacrificing precision. This problem space connects to something I ran into while building a real-time EV routing system for PluginAny — live multi-network charging aggregation and route planning.\n\nStandard shortest-path approaches broke under partial observability of charger availability; real-time state changes turned a static graph problem into something closer to a POMDP. I've benchmarked 20+ models for this application, but couldn't explain why they faltered under partial observability.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "An Energy- and Resource-Efficient Parallel-Pipelined Pedestrian Detector With Multiscale Image Computation Scheduling for Always-On Intelligent Edge Devices"
+    ],
+    "linkedinNote": "Emailed you re: Energy-Efficient Parallel-Pipelined Pedestrian Detection. Struggled with applying shortest-path approaches under partial observability. Top 0.4% JEE Main (1.2M).",
+    "sentAt": "2026-07-28T17:43:53.659Z",
+    "messageId": "19fa9d36cb8ef65d",
+    "threadId": "19fa9d36cb8ef65d"
+  },
+  {
+    "name": "Jingwen Leng",
+    "affiliation": "Shanghai Jiao Tong University",
+    "email": "leng-jw@sjtu.edu.cn",
+    "subject": "Question about Zero-Knowledge Proof Computation via GPU Acceleration",
+    "body": "Dear Professor Jingwen Leng,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates. Your 2026 paper on FluxZK: Scalable and Efficient Zero-Knowledge Proof Computation via GPU Acceleration showed that proof generation speedup can be achieved through computation-transfer pipelining, load balancing, and memory access fusion. This aligns with my own attempts at improving proof generation speed in multi-GPU systems, where I struggled with optimizing the proof generation process for large-scale computations.\n\nI built a system that uses tensor parallelism and in-switch computing for tensor-parallelism on multi-GPU systems, but encountered challenges in aligning communication modes with computation's memory semantics requirement. Your work on FluxZK demonstrated a 1.97 × to 2.16 × proof generation speedup over a state-of-the-art open source GPU acceleration library. I'm trying to put my next few months into research problems in this direction, whether remotely now or more intensively over winter.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "FluxZK: Scalable and Efficient Zero-Knowledge Proof Computation via GPU Acceleration",
+      "GF-DiT: Scheduling Parallelism for Diffusion Transformer Serving",
+      "MoE-Hub: Taming Software Complexity for Seamless MoE Overlap with Hardware-Accelerated Communication on Multi-GPU Systems",
+      "Towards Compute-Aware In-Switch Computing for LLMs Tensor-Parallelism on Multi-GPU Systems"
+    ],
+    "linkedinNote": "Emailed you re: FluxZK. Struggled with optimizing proof generation speed in multi-GPU systems. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-28T17:44:22.874Z",
+    "messageId": "19fa9d3de570a08c",
+    "threadId": "19fa9d3de570a08c"
+  },
+  {
+    "name": "Marius Kloft",
+    "affiliation": "TU Kaiserslautern",
+    "email": "fellenz@cs.uni-kl.de",
+    "subject": "Question about your 2025 paper on formally exploring time-series anomaly detection evaluation metrics",
+    "body": "Dear Professor Kloft,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on formally exploring time-series anomaly detection evaluation metrics showed that many existing metrics capture only narrow aspects of the task and often yield misleading results. I'm working on a problem in applied anomaly detection for scientific systems, where standard evaluation metrics have consistently failed to explain the distributional shift in sparse feature spaces. Specifically, our malware detection pipeline on the CIC-AndMal2017 dataset achieved 90.8% malicious recall, but the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem, and standard calibration didn't resolve it. \n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Reimagining Anomalies: What If Anomalies Were Normal?",
+      "TORA: Train Once, Realign Anytime for Offline Multi-Objective Reinforcement Learning",
+      "Formally Exploring Time-Series Anomaly Detection Evaluation Metrics",
+      "Optimal Utility Bounds for Differentially Private Gradient Descent in Three-Layer Neural Networks"
+    ],
+    "linkedinNote": "Emailed you re: LARM. Our malware detection pipeline's remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-28T17:44:55.816Z",
+    "messageId": "19fa9d45ffdc98b3",
+    "threadId": "19fa9d45ffdc98b3"
+  },
+  {
+    "name": "Shi-Sheng Huang",
+    "affiliation": "Beijing Normal University",
+    "email": "huangss@bnu.edu.cn",
+    "subject": "Question about your 2025 paper on 3D-Informed World-Consistent Video Generation",
+    "body": "Dear Professor Huang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Gen3C showed that 3D-Informed World-Consistent Video Generation with Precise Camera Control can eliminate inconsistencies by leveraging a 3D cache of point clouds obtained by predicting the pixel-wise depth of seed images or previously generated frames. However, I struggled to understand how Gen3C achieves precise camera control when the camera parameters are mere inputs to the neural network that must then infer how the video depends on the camera.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models",
+      "Lyra: Generative 3D Scene Reconstruction via Video Diffusion Model Self-Distillation",
+      "Gen3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control",
+      "EGAvatar: Efficient GAN Inversion for Generalizable Head Avatar From Few-Shot Images"
+    ],
+    "linkedinNote": "Emailed you re: Gen3C. Struggled to understand how camera control is achieved in your 2025 paper. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-28T17:45:22.285Z",
+    "messageId": "19fa9d4c64c9a171",
+    "threadId": "19fa9d4c64c9a171"
+  },
+  {
+    "name": "Anshuman Chhabra",
+    "affiliation": "University of South Florida",
+    "email": "anshumanc@usf.edu",
+    "subject": "Question about your 2025 paper on head movement behaviors during multi-person conversations",
+    "body": "Dear Professor Chhabra,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on classification of communication and head movement behaviors during multi-person conversations using Deep Learning showed that head movements can be used to predict behaviors such as nodding, head shaking, listening to a person versus a video, or talking. This paper aligns with my ongoing project on building a plugin for real-time state change detection for partially observable charger availability in EV routing systems. Struggling to explain how my pre-training objective can be used to learn patterns in state changes similar to your work on head movement behaviors.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Classification of Communication and Head Movement Behaviors during Multi-Person Conversations using Deep Learning",
+      "\"Whose Side Are You On?\" Estimating Ideology of Political and News Content Using Large Language Models and Few-shot Demonstration Selection",
+      "Towards Safer Social Media Platforms: Scalable and Performant Few-Shot Harmful Content Moderation Using Large Language Models",
+      "Re-ranking Using Large Language Models for Mitigating Exposure to Harmful Content on Social Media Platforms"
+    ],
+    "linkedinNote": "Emailed you re: 2025 head movement behaviors paper. Struggling to explain how pre-training objective can be used to learn patterns in state changes similar to your work on head movement behaviors. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-28T17:45:59.199Z",
+    "messageId": "19fa9d557bf5cc0f",
+    "threadId": "19fa9d557bf5cc0f"
+  },
+  {
+    "name": "Jian Zhang 0087",
+    "affiliation": "Beihang University",
+    "email": "zhangj_cs@buaa.edu.cn",
+    "subject": "Question about your 2025 paper on multi-domain fusion for cargo UAV fault diagnosis knowledge graph construction",
+    "body": "Dear Professor Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates. \n\nYour 2025 paper on multi-domain fusion for cargo UAV fault diagnosis knowledge graph construction showed that domain fusion can significantly improve the accuracy of fault diagnosis knowledge graphs. I built a similar system for Android malware detection, which used a 1,418-dimensional sparse feature space to classify APKs into malicious or benign. However, when I benchmarked 20+ models, I noticed that the remaining failure cases clustered in a way that looked similar to a distributional shift problem, rather than a model capacity problem. I'm actively looking to spend the coming winter break working on problems like this, and can contribute remotely before that if useful. \n\nIf this problem space is active in your group, I'd value the chance to contribute and learn. \n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "A Risk-Aware Coordinated Optimisation Scheduling Method for Coupled Power-Computing-Network-Storage Systems in Remote Data Centres Based on Graph Attention, Green Affinity and CVaR",
+      "Correction to: Multi-domain fusion for cargo UAV fault diagnosis knowledge graph construction",
+      "A Time-Frequency Synchronization for Ka-band Inter Satellite Link of the Navigation Satellite System",
+      "Research on the Mechanism of Dynamic Monitoring of Undergraduate Students’ Learning Situation and Adaptive Adjustment of Teaching Mode--Based on the Perspective of Educational Evaluation Reform"
+    ],
+    "linkedinNote": "Emailed you re: 2025 paper on cargo UAV fault diagnosis. Clustering issues in my Android malware detection project. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-28T17:46:36.455Z",
+    "messageId": "19fa9d5e9b42400a",
+    "threadId": "19fa9d5e9b42400a"
+  },
+  {
+    "name": "Jun Zhuang 0004",
+    "affiliation": "Boise State University",
+    "email": "junzhuang@boisestate.edu",
+    "subject": "Decomposing Strategic Behavior in LLM Reasoning — Jun Zhuang 0004",
+    "body": "Dear Professor Zhuang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Large Language Model strategic reasoning showed that GPT-4o's behavior in adversarial environments resembles normative decision-making, human strategic behavior, or something distinct from both. Specifically, the decomposition of strategic behavior into belief formation and action selection was crucial in identifying whether LLMs can reason strategically. This resonated with my own struggles in understanding why a certain retrieval-augmented generation pipeline I was building reached a 30% accuracy improvement, but then plateaued past a certain retrieval threshold.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Can Large Language Models Reason Strategically? Evidence From Attacker–Defender Signaling Games",
+      "Behavioral validation for a game‐theoretic model of attacker strategic decisions, signaling, and deterrence in multi‐layer security for soft targets",
+      "Blockchain for Large Language Model Security and Safety: A Holistic Survey",
+      "A Review of Attacker–Defender Games and Cyber Security"
+    ],
+    "linkedinNote": "Emailed you re: Can Large Language Models Reason Strategically? Evidence From Attacker–Defender Signaling Games. Reached 30% accuracy gain in pipeline but plateaued past retrieval threshold. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-28T17:47:13.995Z",
+    "messageId": "19fa9d67aabdfb29",
+    "threadId": "19fa9d67aabdfb29"
+  },
+  {
+    "name": "Li Shen 0001",
+    "affiliation": "University of Pennsylvania",
+    "email": "li.shen@pennmedicine.upenn.edu",
+    "subject": "Question about Finger-level Hand Motion Captioning and Adversarial Training",
+    "body": "Dear Professor Shen,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates nationwide.\n\nYour 2025 paper on FingerCap demonstrated that fine-grained finger-level hand motion captioning can be made effective by leveraging LLM-based rubrics for precise evaluation. However, I struggled to understand how the temporal sparsity issue was mitigated in the proposed Video-MLLM architecture. Specifically, I'd like to explore whether there are any techniques or design choices that can help alleviate this bottleneck in capturing subtle finger motions.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "The landscape of knowledge graph and large language model-augmented knowledge graph applications in dementia caregiving support: a scoping review",
+      "Boosting the Performance of Decentralized Federated Learning via Catalyst Acceleration",
+      "Strength-Adaptive Adversarial Training",
+      "FingerCap: Fine-grained Finger-level Hand Motion Captioning"
+    ],
+    "linkedinNote": "Emailed you re: Finger-level Hand Motion Captioning. Struggled to understand the temporal sparsity mitigation in FingerCap. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-28T17:47:52.397Z",
+    "messageId": "19fa9d710dd9154e",
+    "threadId": "19fa9d710dd9154e"
+  },
+  {
+    "name": "Wenjie Wang 0008",
+    "affiliation": "ShanghaiTech University",
+    "email": "wangwj1@shanghaitech.edu.cn",
+    "subject": "Question about your 2025 paper on jailbreak attacks and defenses for VLMs",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on jailbreak attacks and defenses for Vision Language Models showed that VLMs face significant security challenges, including jailbreak attacks, where attackers attempt to bypass the model's safety alignment to elicit harmful responses.\n\nIn my own work on Android malware detection, I've often encountered similar distributional shift problems when the model struggles to generalise to unseen scenarios, and standard calibration doesn't resolve it. Benchmarking 20+ models, I reached 90.8% malicious recall, but the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "MMJ-Bench: A Comprehensive Study on Jailbreak Attacks and Defenses for Vision Language Models"
+    ],
+    "linkedinNote": "Emailed you re: MMJ-Bench. Distributional shift in models struggling to generalise - my 90.8% malicious recall had remaining failure cases clustering like a shift problem. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-28T17:48:24.361Z",
+    "messageId": "19fa9d78ca72ec75",
+    "threadId": "19fa9d78ca72ec75"
+  },
+  {
+    "name": "Zijun Cui",
+    "affiliation": "Michigan State University",
+    "email": "cuizijun@msu.edu",
+    "subject": "Question about physics-aware diffusion for hand motion recovery",
+    "body": "Dear Professor Cui,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour paper PAD-Hand: Physics-Aware Diffusion for Hand Motion Recovery (2026) showed that physics-aware conditional diffusion can refine noisy pose sequences into physically plausible hand motion while estimating the physics variance in motion estimates. However, I couldn't understand how you integrated physics into the diffusion process and produced per-joint, per-time variances that measure physics consistency.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "SiPhy: Single-Image Physical Property Reasoning",
+      "Grading the Unspoken: Evaluating Tacit Reasoning in Quantum Field Theory and String Theory with LLMs",
+      "PAD-Hand: Physics-Aware Diffusion for Hand Motion Recovery",
+      "Beyond Motion Pattern: An Empirical Study of Physical Forces for Human Motion Understanding"
+    ],
+    "linkedinNote": "Emailed you re: PAD-Hand. Struggled to integrate physics into diffusion process. Top 0.4% JEE Main (1.2M).",
+    "sentAt": "2026-07-28T17:49:03.117Z",
+    "messageId": "19fa9d82584bec59",
+    "threadId": "19fa9d82584bec59"
+  },
+  {
+    "name": "Salem Lahlou",
+    "affiliation": "MBZUAI",
+    "email": "salem.lahlou@mbzuai.ac.ae",
+    "subject": "Your work on multimodal foundations — something I ran into",
+    "body": "Dear Professor Lahlou,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on multimodal foundations connects to something I ran into while building a hyperspectral foundation model using a masked autoencoder. I improved downstream land-cover classification separability by 20% while reducing pre-training latency by 25%. However, I couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples — whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: multimodal foundations. Transfer efficiency of hyperspectral representations — struggled to explain robustness. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-28T17:49:34.950Z",
+    "messageId": "19fa9d8a1276c559",
+    "threadId": "19fa9d8a1276c559"
+  },
+  {
+    "name": "Asako Kanezaki",
+    "affiliation": "Institute of Science Tokyo",
+    "email": "asako.kanezaki.d4@tohoku.ac.jp",
+    "subject": "Question about your 2025 paper on Embodied Navigation with Auxiliary Task of Action Description Prediction",
+    "body": "Dear Professor Kanezaki,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU, 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Embodied Navigation with Auxiliary Task of Action Description Prediction demonstrated that incorporating auxiliary tasks like action description prediction can significantly improve navigation performance in complex environments. I'm working on a project involving route planning and live charger discovery for EV charging infrastructure, and I've encountered similar challenges with partial observability of charger availability.\n\nI've applied standard shortest-path approaches, but they break under real-time state changes, turning a static graph problem into something closer to a POMDP. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "3D Segmentation Using Viewpoint-Dependent Spatial Relationships",
+      "Embodied Navigation with Auxiliary Task of Action Description Prediction",
+      "Modality Selection and Skill Segmentation via Cross-Modality Attention",
+      "FlowLoss: Dynamic Flow-Conditioned Loss Strategy for Video Diffusion Models"
+    ],
+    "linkedinNote": "Emailed you re: Embodied Navigation with Auxiliary Task of Action Description Prediction. Route planning system for EV charging infrastructure broke under partial observability of charger availability. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-28T17:50:02.811Z",
+    "messageId": "19fa9d90e5c39b24",
+    "threadId": "19fa9d90e5c39b24"
+  },
+  {
+    "name": "Babak Salimi",
+    "affiliation": "Univ. of California - San Diego",
+    "email": "bsalimi@ucsd.edu",
+    "subject": "Question about your 2025 paper on Scalable Model-Agnostic Data Valuation",
+    "body": "Dear Professor Salimi,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on KAIROS: Scalable Model-Agnostic Data Valuation showed that assigning each example a distributional influence score can faithfully approximate the exact leave-one-out ranking within $O(1/N^2)$. This got me thinking about how to extend this idea to robust offline evaluation of ranking systems.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Residual Skill Optimization for Text-to-SQL Ensembles",
+      "Fine-Tuning Without Forgetting via Loss-Adaptive Learning Rates",
+      "KAIROS: Scalable Model-Agnostic Data Valuation",
+      "Towards Robust Offline Evaluation: A Causal and Information Theoretic Framework for Debiasing Ranking Systems"
+    ],
+    "linkedinNote": "Emailed you re: KAIROS: Scalable Model-Agnostic Data Valuation. KAIROS's exact LOO ranking within $O(1/N^2)$ got me stuck on how to extend this idea to robust offline evaluation of ranking systems. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-28T17:50:36.569Z",
+    "messageId": "19fa9d9931eb9ec3",
+    "threadId": "19fa9d9931eb9ec3"
+  },
+  {
+    "name": "Balder ten Cate",
+    "affiliation": "University of Amsterdam",
+    "email": "b.d.tencate@uva.nl",
+    "subject": "When do preservation theorems transfer to the finite?",
+    "body": "Dear Professor ten Cate,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University (DTU), India (graduating May 2028). Secured 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide.\n\nYour 2026 paper on modal definability and preservation theorems showed that several classic results survive when attention is restricted to finite structures, while a number of first-order preservation theorems for basic frame operations fail. This made me wonder about the implications of distributional shift in sparse feature spaces for machine learning models like those I've worked with on Android malware detection. I benchmarked 20+ models, reached 90.8% malicious recall, but the remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem. I was hoping to contribute to your group's ongoing research on this problem, applying machine learning to real problems and advancing our understanding of preservation theorems in the finite setting.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached as a PDF to this email, and my code is here: https://github.com/Aditya-Srivastava-01.",
+    "papersReferenced": [
+      "Characterizing LTL Formulas by Examples",
+      "Characterizing LTL Formulas by Examples (full version)",
+      "When do modal definability and preservation theorems transfer to the finite?",
+      "Modal Fragments"
+    ],
+    "linkedinNote": "Emailed you re: Modal Fragments. Benchmarked 20+ ML models for Android malware detection, but remaining failure cases looked like distributional shift. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-28T17:51:13.909Z",
+    "messageId": "19fa9da23964fc33",
+    "threadId": "19fa9da23964fc33"
   }
 ]
