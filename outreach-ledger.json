@@ -28847,7 +28847,9 @@
     "linkedinNote": "Emailed you re: 2025 paper on LLM code generation quality. Accuracy gains plateaued past a certain retrieval threshold in RAG pipeline at ArchiGen AI. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-28T10:47:45.747Z",
     "messageId": "19fa85671f1be32e",
-    "threadId": "19fa85671f1be32e"
+    "threadId": "19fa85671f1be32e",
+    "replied": true,
+    "repliedAt": "2026-07-28T16:14:23.950Z"
   },
   {
     "name": "Ohad Shamir",
@@ -29243,7 +29245,9 @@
     "linkedinNote": "Emailed Hang Zhao re: WCT-Net. Struggled to understand multi-scale cross-layer fusion unit in WCT-Net. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-28T14:34:41.009Z",
     "messageId": "19fa9263184002c9",
-    "threadId": "19fa9263184002c9"
+    "threadId": "19fa9263184002c9",
+    "replied": true,
+    "repliedAt": "2026-07-28T16:14:29.855Z"
   },
   {
     "name": "Tong Yang 0003",
@@ -29269,7 +29273,9 @@
     "linkedinNote": "Emailed you re: Transfer Efficiency in Hyperspectral Representations. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-28T14:35:55.177Z",
     "messageId": "19fa927521a8596e",
-    "threadId": "19fa927521a8596e"
+    "threadId": "19fa927521a8596e",
+    "replied": true,
+    "repliedAt": "2026-07-28T16:14:30.599Z"
   },
   {
     "name": "Peter A. Jansen",
