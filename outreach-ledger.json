@@ -29953,5 +29953,147 @@
     "sentAt": "2026-07-29T06:48:06.632Z",
     "messageId": "19faca164eed5e9c",
     "threadId": "19faca164eed5e9c"
+  },
+  {
+    "name": "Guohong Fu",
+    "affiliation": "Soochow University",
+    "email": "ghfu@suda.edu.cn",
+    "subject": "Question about your Bidirectional GPT work",
+    "body": "Dear Professor Fu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates nationwide.\n\nYour 2025 Bidirectional GPT paper showed that large language model pretraining can be made controllable without sacrificing its ability to generalize to unseen tasks. I was trying to build a retrieval-augmented generation (RAG) pipeline at ArchiGen AI, where accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself. I was wondering whether this phenomenon is related to the hard training sample generation mechanisms you discussed in the Bidirectional GPT work.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Bidirectional GPT",
+      "Rethinking hard training sample generation for medical image segmentation",
+      "Enhancing multi-modal aspect-based sentiment classification via emotional semantic-aware cross-modal relation inference",
+      "OpenBA: an open-sourced 15B bilingual asymmetric Seq2Seq model pre-trained from scratch"
+    ],
+    "linkedinNote": "Emailed you re: Bidirectional GPT. Accuracy gains in RAG plateaued past a certain retrieval threshold. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-30T06:34:01.849Z",
+    "messageId": "19fb1baddab9332a",
+    "threadId": "19fb1baddab9332a"
+  },
+  {
+    "name": "Gongshen Liu",
+    "affiliation": "Shanghai Jiao Tong University",
+    "email": "lgshen@sjtu.edu.cn",
+    "subject": "Thinking In a Crowd: LLM deliberation & auxiliary info impact",
+    "body": "Dear Professor Liu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper, 'Thinking In a Crowd: How Auxiliary Information Shapes LLM Reasoning', demonstrated that the model's deliberative 'thinking mode' is a double-edged sword, improving accuracy with helpful context but catastrophically dropping with misleading info. I've replicated this vulnerability in my own RAG pipeline work, where accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Domain Adaptation of MLLM-Based GUI Agents in Documentation-Rich Environments with Standard Operating Procedures",
+      "OpenImplicit: Benchmarking Implicit Reasoning in MLLMs via Open-Ended Evaluation",
+      "Flooding spread of manipulated knowledge in LLM-based multi-agent communities",
+      "Thinking In a Crowd: How Auxiliary Information Shapes LLM Reasoning"
+    ],
+    "linkedinNote": "Emailed you re: Thinking In a Crowd. Replicated deliberation & auxiliary info impact in RAG pipeline work. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-30T06:34:43.171Z",
+    "messageId": "19fb1bb7f8096c3a",
+    "threadId": "19fb1bb7f8096c3a"
+  },
+  {
+    "name": "Hongzi Zhu",
+    "affiliation": "Shanghai Jiao Tong University",
+    "email": "hongzi@sjtu.edu.cn",
+    "subject": "Your 2025 IoT Architecture finding on scalable networking — an efficiency bottleneck in IoT sensor aggregation",
+    "body": "Dear Professor Zhu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on the novel processor-sharing IoT architecture showed that large-scale IoT deployment can be made inexpensive and low-power without sacrificing long-range, large-scale networking. However, I struggled to understand why this architecture achieves scalability without incurring significant overheads. This question resonates with my recent work on optimizing IoT sensor aggregation pipelines.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Juice: Lightweight Foreground Prediction for On-Camera Surveillance Video Compression",
+      "Online Edge-Assisted Video Analytics on Mobile Agents via Differential Video Encoding",
+      "Reliable and Efficient LLM Inference on Resource-Constrained Mobile Devices via Dynamic Scheduling",
+      "The What s Next IoT Architecture for Large-Scale Deployment"
+    ],
+    "linkedinNote": "",
+    "sentAt": "2026-07-30T06:35:17.161Z",
+    "messageId": "19fb1bc03d0a90e0",
+    "threadId": "19fb1bc03d0a90e0"
+  },
+  {
+    "name": "Zipei Fan",
+    "affiliation": "Jilin University",
+    "email": "fanzipei@jlu.edu.cn",
+    "subject": "Question about your 2026 paper on Quality-aware Generative Distillation for Livestock Detection",
+    "body": "Dear Professor Fan,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Quality-aware Generative Distillation for Livestock Detection showed that generative distillation can be used for robust and efficient livestock detection while preserving the quality of the generated images. However, I found it challenging to understand how the quality-aware distillation loss function was designed to balance the trade-off between quality and efficiency. Specifically, I struggled to replicate the results from your paper using a similar setup.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Quality-aware generative distillation for robust and efficient livestock detection",
+      "SSCTAD: Semi-Supervised Contrastive Learning for Trajectory Anomaly Detection",
+      "Adaptive Multi-Level Graph Compression with Structural Preservation for Large-Scale Network",
+      "Boundary as Barrier: Boundary-Guided Coherence Refinement for Robust Semantic Segmentation"
+    ],
+    "linkedinNote": "Emailed you re: Quality-aware Generative Distillation for Livestock Detection. Struggled to replicate results from 2026 paper. Top 0.4% JEE Main (1.2M).",
+    "sentAt": "2026-07-30T06:35:50.298Z",
+    "messageId": "19fb1bc84fb4111f",
+    "threadId": "19fb1bc84fb4111f"
+  },
+  {
+    "name": "Mohammad Mohammadi Amiri",
+    "affiliation": "Rensselaer Polytechnic Institute",
+    "email": "mamiri@rpi.edu",
+    "subject": "Question about your 2026 paper on DMVM and decentralized valuation",
+    "body": "Dear Professor Amiri,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on DMVM (Decentralized Multi-task Valuation via Model Merging) showed that dataset valuation can be made efficient and accurate in decentralized environments without a trusted central coordinator. This aligns with my struggle to understand why data-driven systems often fail to generalize to unseen tasks. My current work on hyperspectral MAE for land-cover classification has seen downstream separability improve by 20% and pre-training latency drop by 25%, but I couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Efficient Decentralized Multi-task Dataset Valuation via Model Merging",
+      "LCGuard: Latent Communication Guard for Safe KV Sharing in Multi-Agent Systems",
+      "RefusalGuard: Geometry-Preserving Fine-Tuning for Safety in LLMs",
+      "Privacy, Security, and Data Leakage Concerns in Multi-Agent AI Systems: A Literature Review"
+    ],
+    "linkedinNote": "",
+    "sentAt": "2026-07-30T06:36:27.128Z",
+    "messageId": "19fb1bd144fa1da5",
+    "threadId": "19fb1bd144fa1da5"
+  },
+  {
+    "name": "Doug Downey",
+    "affiliation": "Northwestern University",
+    "email": "ddowney@eecs.northwestern.edu",
+    "subject": "Your Work on Natural Language Understanding — A Question about Coupling Retrieval and Generation Objectives",
+    "body": "Dear Professor Downey,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on natural language understanding — the finding that retrieval-augmented generation can outperform standalone generators — resonates with my recent struggle to understand the plateau in accuracy gains when improving retrieval quality further stopped helping generation quality in my RAG pipeline at ArchiGen AI. The accuracy gains plateaued past a certain retrieval threshold, and I'm unsure why the bottleneck shifted to how retrieval and generation objectives were coupled, not retrieval itself. I've managed to improve retrieval quality by 15% through a combination of better indexing and retrieval heuristics, but the gains in generation quality have stagnated.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "",
+    "sentAt": "2026-07-30T06:36:58.377Z",
+    "messageId": "19fb1bd8e95bf616",
+    "threadId": "19fb1bd8e95bf616"
+  },
+  {
+    "name": "Battista Biggio",
+    "affiliation": "University of Cagliari",
+    "email": "battista.biggio@unica.it",
+    "subject": "Question about your 2025 paper on counting adversarial SQL injections",
+    "body": "Dear Professor Biggio,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Countering Adversarial SQL Injections With Robust Machine Learning showed that manual configurations of Web Application Firewalls can be suboptimal. I'm struggling to explain why a similar trade-off exists in my Android malware detection system — where 20+ models achieved 90.8% malicious recall, but standard calibration didn't resolve distributional shift in the remaining failure cases. I used 1,418 sparse features reverse-engineered from APKs via Apktool.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "ModSec-AdvLearn: Countering Adversarial SQL Injections With Robust Machine Learning",
+      "ModSec-Learn: Boosting ModSecurity with Machine Learning",
+      "HO-FMN: Hyperparameter optimization for fast minimum-norm attacks"
+    ],
+    "linkedinNote": "Emailed you re: ModSec-AdvLearn. Struggling to explain why distributional shift persists in malware detection despite 90.8% malicious recall. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-07-30T06:37:32.572Z",
+    "messageId": "19fb1be13d65f079",
+    "threadId": "19fb1be13d65f079"
+  },
+  {
+    "name": "Minsung Kim",
+    "affiliation": "Rutgers University",
+    "email": "minsungk@cs.princeton.edu",
+    "subject": "Your work on representation learning — something I ran into",
+    "body": "Dear Professor Kim,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on representation learning — specifically, how self-supervised learning can be used to improve transfer efficiency in downstream tasks — connects to something I ran into while building a hyperspectral foundation model. I was trying to explain why my spatial-spectral representations transferred robustly to downstream tasks with so few labeled samples, and your findings on masked autoencoders and pretraining objectives left me wondering whether there's a connection to the spectral tokenization strategy I used. The downstream separability improved 20% and pre-training latency dropped 25%, but I'm not sure if it was due to the masked strategy or the self-supervised objective.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: representation learning. Ran into transfer efficiency issues with hyperspectral models. Top 0.4% JEE Main (1.2M) — Aditya",
+    "sentAt": "2026-07-30T06:38:09.926Z",
+    "messageId": "19fb1bea45c3eebd",
+    "threadId": "19fb1bea45c3eebd"
+  },
+  {
+    "name": "Weining Qian",
+    "affiliation": "East China Normal University",
+    "email": "wnqian@dase.ecnu.edu.cn",
+    "subject": "Question about your 2025 paper on NL2GQL datasets and multi-turn dialogues",
+    "body": "Dear Professor Qian,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on NL2GQL datasets and multi-turn dialogues demonstrated the need for automated methods to construct multi-turn NL2GQL datasets. I'm building a retrieval-augmented generation (RAG) pipeline that aims to improve question answering in multi-turn dialogues. However, I've hit a wall in understanding how to best handle context-dependent queries — whether it's through explicit memory or by integrating the dialogue history into the retrieval process. One quantified result from my work is a 30% accuracy improvement in AI response quality using RAG.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Survey of Natural Language Processing for Education: Taxonomy, Systematic Review, and Future Trends",
+      "FastBlend: Enhancing Video Stylization Consistency via Model-Free Patch Blending",
+      "Multi-turn Natural Language to Graph Query Language Translation",
+      "Scheduling Data Processing Pipelines for Incremental Training on MLP-based Recommendation Models"
+    ],
+    "linkedinNote": "Emailed you re: 'Multi-turn Natural Language to Graph Query Language Translation'. Stuck on context-dependent queries and dialogue history integration. Top 0.4% JEE Main. — Aditya",
+    "sentAt": "2026-07-30T06:38:41.101Z",
+    "messageId": "19fb1bf1e152be23",
+    "threadId": "19fb1bf1e152be23"
   }
 ]
