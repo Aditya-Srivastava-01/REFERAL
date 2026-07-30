@@ -21768,7 +21768,9 @@
     "linkedinNote": "Emailed you re: hardware acceleration for HPS algorithms. Struggled to understand the recomputation strategy for minimizing data transfers to/from the GPU. Top 0.4% JEE Main (1.2M). — Aditya",
     "sentAt": "2026-07-09T15:33:00.723Z",
     "messageId": "19f4782c59e3b42e",
-    "threadId": "19f4782c59e3b42e"
+    "threadId": "19f4782c59e3b42e",
+    "replied": true,
+    "repliedAt": "2026-07-30T08:45:14.349Z"
   },
   {
     "name": "Jeffrey Xu Yu",
@@ -30077,7 +30079,9 @@
     "linkedinNote": "Emailed you re: representation learning. Ran into transfer efficiency issues with hyperspectral models. Top 0.4% JEE Main (1.2M) — Aditya",
     "sentAt": "2026-07-30T06:38:09.926Z",
     "messageId": "19fb1bea45c3eebd",
-    "threadId": "19fb1bea45c3eebd"
+    "threadId": "19fb1bea45c3eebd",
+    "replied": true,
+    "repliedAt": "2026-07-30T08:46:20.950Z"
   },
   {
     "name": "Weining Qian",
