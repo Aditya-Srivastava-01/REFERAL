@@ -30159,5 +30159,135 @@
     "sentAt": "2026-07-31T06:52:26.593Z",
     "messageId": "19fb6f2157f9eea3",
     "threadId": "19fb6f2157f9eea3"
+  },
+  {
+    "name": "Rolandos Alexandros Potamias",
+    "affiliation": "Imperial College London",
+    "email": "r.potamias@imperial.ac.uk",
+    "subject": "Question about your 2026 work on Efficient Zero-Shot Stereo Matching",
+    "body": "Dear Professor Potamias,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Lite Any Stereo V2 showed that efficient stereo models can be designed for strong zero-shot generalization without sacrificing inference speed. However, I struggled to explain why a 2D-only cost aggregation framework can be optimized for real inference latency, especially when dealing with complex scenes. This confuses me, as I implemented a similar architecture for hyperspectral data and observed improved separability downstream, but couldn't understand the underlying reason. I've seen a 20% improvement in separability, but still wonder about the specifics of the aggregation strategy.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Lite Any Stereo V2: Faster and Stronger Efficient Zero-Shot Stereo Matching",
+      "StableHand: Quality-Aware Flow Matching for World-Space Dual-Hand Motion Estimation from Egocentric Video",
+      "AnyHand: A Large-Scale Synthetic Dataset for RGB(-D) Hand Pose Estimation",
+      "Do You See What I Am Pointing At? Gesture-Based Egocentric Video Question Answering"
+    ],
+    "linkedinNote": "Emailed you re: Efficient Zero-Shot Stereo Matching. Confused by 2D-only cost aggregation framework — 20% separability improvement on hyperspectral data, but can't explain the specifics. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-03T03:38:51.938Z",
+    "messageId": "19fc5b3ee25c026f",
+    "threadId": "19fc5b3ee25c026f"
+  },
+  {
+    "name": "Ndapandula Nakashole",
+    "affiliation": "Univ. of California - San Diego",
+    "email": "nnakashole@eng.ucsd.edu",
+    "subject": "Question about your 2024 paper on linearizing structured data in encoder-decoder LMs",
+    "body": "Dear Professor Nakashole,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on linearizing structured data in encoder-decoder language models revealed that these models can mimic human-designed processes such as schema linking and syntax prediction, indicating a deep learning of structure beyond simple token sequencing. \n\nWhile working on a retrieval-augmented generation (RAG) pipeline at ArchiGen AI, I hit a wall when accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality, as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself. \n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "On Linearizing Structured Data in Encoder-Decoder Language Models: Insights from Text-to-SQL"
+    ],
+    "linkedinNote": "Emailed you re: linearizing structured data in encoder-decoder LMs. Accuracy gains plateaued past a certain retrieval threshold in RAG pipeline. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-03T03:39:28.312Z",
+    "messageId": "19fc5b47c4ab4c48",
+    "threadId": "19fc5b47c4ab4c48"
+  },
+  {
+    "name": "Laks V. S. Lakshmanan",
+    "affiliation": "University of British Columbia",
+    "email": "laks@cs.ubc.ca",
+    "subject": "Question about your 2026 paper on Topology-Aware LLM-Driven Social Simulation",
+    "body": "Dear Professor Lakshmanan,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Topology-Aware LLM-Driven Social Simulation showed that integrating structural reasoning into agent interactions can lead to more realistic and efficient dynamics. I was struck by how well the TopoSim framework aligned agents with similar roles and contexts, especially in complex systems.\n\nI'm building a retrieval-augmented generation system for a real-world application, and I'm struggling to understand how to effectively couple retrieval and generation objectives in a way that doesn't lead to suboptimal performance.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Topology-Aware LLM-Driven Social Simulation: A Unified Framework for Efficient and Realistic Agent Dynamics",
+      "A Multi-Agent Approach for Claim Verification from Tabular Data Documents",
+      "A Community-Based Approach for Stance Distribution and Argument Organization",
+      "Corrigendum: A Comprehensive Benchmark on Spectral GNNs: The Impact on Efficiency, Memory, and Effectiveness: [Experiments &amp; Analysis]"
+    ],
+    "linkedinNote": "Emailed you re: Topology-Aware LLM-Driven Social Simulation. Struggling to couple retrieval and generation objectives in RAG pipelines. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-03T03:40:16.915Z",
+    "messageId": "19fc5b53b9b1a2bc",
+    "threadId": "19fc5b53b9b1a2bc"
+  },
+  {
+    "name": "Joon Son Chung",
+    "affiliation": "KAIST",
+    "email": "joonson@kaist.ac.kr",
+    "subject": "Question about your work on multi-modal learning for robotics",
+    "body": "Dear Professor Joon Son Chung,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on multi-modal learning for robotics — specifically, integrating computer vision with sensorimotor information to predict and adapt to unstructured environments — connects to something I ran into while building a plugin system for live EV charging aggregation and route planning. Standard shortest-path approaches broke under partial observability of charger availability, and real-time state changes turned a static graph problem into something closer to a POMDP.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: robotics multi-modal learning. Shortest-path approaches broke under partial observability of charger availability; real-time state changes turned a static graph problem into a POMDP. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-03T03:40:52.381Z",
+    "messageId": "19fc5b5c49f0ca6a",
+    "threadId": "19fc5b5c49f0ca6a"
+  },
+  {
+    "name": "Yu Wang 0160",
+    "affiliation": "University of Oregon",
+    "email": "yu.wang6@uga.edu",
+    "subject": "Question about your 2025 paper on structured mammography reporting",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on BI-RADS-compliant structured mammography reporting using locally deployed large language models under privacy constraints showed that language model compression can be made differentiable without accuracy loss. This finding connects to a problem I'm encountering while building a hyperspectral foundation model — improving downstream land-cover classification separability by 20% while reducing pre-training latency by 25% seems to rely heavily on the spectral-spatial representations being robustly transferable to downstream tasks with so few labeled samples. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01.\n\nBest,\nAditya",
+    "papersReferenced": [
+      "BI-RADS-compliant structured mammography reporting using locally deployed large language models under privacy constraints",
+      "Training robust neural network by importance sampling and minibatching",
+      "Compression and restoration: exploring elasticity in continual test-time adaptation",
+      "PoVF: Empowering decentralized blockchain systems with verifiable function consensus"
+    ],
+    "linkedinNote": "Emailed you re: 2025 paper on BI-RADS-compliant structured mammography reporting. Transfer efficiency of spectral-spatial representations puzzles me. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-03T03:41:20.302Z",
+    "messageId": "19fc5b630ca4e580",
+    "threadId": "19fc5b630ca4e580"
+  },
+  {
+    "name": "Joey Bose",
+    "affiliation": "Imperial College London",
+    "email": "joey.bose@imperial.ac.uk",
+    "subject": "Spectral-spatial masked pretraining and transfer efficiency",
+    "body": "Dear Professor Bose,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University (DTU), India (graduating May 2028). I secured 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide.\n\nYour work on computer vision, especially in the areas of representation learning and self-supervised learning, connects to something I ran into while building a hyperspectral foundation model. The model used a masked autoencoder to learn transferable spatial-spectral representations, which improved downstream land-cover classification separability by 20% while reducing pre-training latency by 25%. However, I struggled explaining why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples, especially considering the masking strategy and pretraining objective used.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed Professor Joey Bose re: spectral-spatial masked pretraining. Struggled explaining transfer efficiency in hyperspectral representations. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-03T03:41:50.737Z",
+    "messageId": "19fc5b6a8a84b237",
+    "threadId": "19fc5b6a8a84b237"
+  },
+  {
+    "name": "Tongxin Li 0001",
+    "affiliation": "CUHK (SZ)",
+    "email": "litongxin@cuhk.edu.cn",
+    "subject": "Transparency in Foundation Models for OOD Generalization — Your Work on Explainability",
+    "body": "Dear Professor Li,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on explainability in foundation models — specifically how to disentangle inductive biases from data and generalization errors — connects to something I ran into while building a retrieval-augmented generation pipeline at ArchiGen AI. I designed RAG pipelines that improved AI response accuracy by 30%, but the accuracy gains plateaued past a certain retrieval threshold, and I struggled to understand why improving retrieval quality stopped helping generation quality. I was wondering if your group has explored this phenomenon and whether there's alignment with your research interests.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: transparency in foundation models. Struggled to disentangle inductive biases from data & generalization errors. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-03T03:42:21.445Z",
+    "messageId": "19fc5b71f63fbe1d",
+    "threadId": "19fc5b71f63fbe1d"
+  },
+  {
+    "name": "Yihao Huang 0001",
+    "affiliation": "East China Normal University",
+    "email": "huangyihao22@gmail.com",
+    "subject": "Question about Cross-image Consistency Constraints for Personalized Text-to-Image Synthesis",
+    "body": "Dear Professor Yihao Huang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Privacy Protection Against Personalized Text-to-Image Synthesis via Cross-image Consistency Constraints showed that cross-image consistency constraints can effectively disrupt the training of personalization models. However, I struggled to understand the trade-off between the effectiveness of these constraints and the computational resources needed to implement them. Specifically, I'm interested in exploring whether the constraints can be optimized for real-time online applications, considering the potential for distributional shift in the input data.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Casting a SPELL: Sentence Pairing Exploration for LLM Limitation-Breaking",
+      "Red Teaming LLMs via Linguistic-Aware Fuzzing",
+      "Privacy Protection Against Personalized Text-to-Image Synthesis via Cross-image Consistency Constraints",
+      "Efficient and Effective Universal Adversarial Attack Against Vision-Language Pre-Training Models"
+    ],
+    "linkedinNote": "Emailed you re: Cross-image Consistency Constraints. Struggled to understand the trade-off between effectiveness and computational resources. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-03T03:42:52.973Z",
+    "messageId": "19fc5b79a15aa0c6",
+    "threadId": "19fc5b79a15aa0c6"
+  },
+  {
+    "name": "Xin Zheng 0008",
+    "affiliation": "RMIT University",
+    "email": "xin.zheng2@rmit.edu.au",
+    "subject": "Your work on multimodal representation learning",
+    "body": "Dear Professor Zheng,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on multimodal representation learning — particularly the fusion of vision and language modalities — connects to something I ran into while building a hyperspectral foundation model. I was trying to improve downstream land-cover classification separability by 20% while reducing pre-training latency by 25%, but couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "",
+    "sentAt": "2026-08-03T03:43:30.008Z",
+    "messageId": "19fc5b82d9405e2c",
+    "threadId": "19fc5b82d9405e2c"
   }
 ]
