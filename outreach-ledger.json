@@ -30289,5 +30289,146 @@
     "sentAt": "2026-08-03T03:43:30.008Z",
     "messageId": "19fc5b82d9405e2c",
     "threadId": "19fc5b82d9405e2c"
+  },
+  {
+    "name": "Wen Sun 0002",
+    "affiliation": "Cornell University",
+    "email": "wensun1616@gmail.com",
+    "subject": "Question about your 2025 paper on ransomware detection",
+    "body": "Dear Professor Wen Sun,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Transformer-Based Ransomware Detection Framework showed that lightweight models can be effective in sequential pattern recognition without sacrificing accuracy, but I'm struggling to understand how to streamline the Transformer Encoder for real-world deployment in resource-constrained environments. Specifically, what factors contributed to the proposed framework's computational efficiency compared to standard Transformer models?\n\nI'm actively looking to spend the coming winter break working on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Transformer-Based Ransomware Detection Framework: A Lightweight Approach",
+      "A Recommendation System for Trigger–Action Programming Rules via Graph Contrastive Learning"
+    ],
+    "linkedinNote": "Emailed you re: Wen Sun's 2025 ransomware detection paper. Struggled with streamlining the Transformer Encoder for real-world deployment in resource-constrained environments. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-04T06:34:02.473Z",
+    "messageId": "19fcb7aab34d1263",
+    "threadId": "19fcb7aab34d1263"
+  },
+  {
+    "name": "Yizheng Zhao",
+    "affiliation": "Nanjing University",
+    "email": "zhaoyz@nju.edu.cn",
+    "subject": "Question about your 2026 paper on Image Fragment Carving",
+    "body": "Dear Professor Zhao,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Image Fragment Carving Based on DCT Semantics and an Adjustment Factor showed that fragment connection weighting algorithms can be made more effective using discrete cosine transform semantic features and a weight adjustment factor. I was trying to apply similar ideas to my hyperspectral image processing pipeline, but couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. Specifically, I found that the representation learning objective seemed to couple with the pretraining objective, but couldn't quantify or explain this phenomenon.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Image Fragment Carving Based on DCT Semantics and an Adjustment Factor",
+      "Multimodal cultural heritage image recognition based on quantum and classical multimodal fusion network",
+      "A lightweight pruning framework with minimal retraining using Taylor expansion and multi-knowledge preservation strategy",
+      "Acceleration of YOLOv5 Object Detection Model Based on FPGA"
+    ],
+    "linkedinNote": "Emailed Yizheng Zhao re: Image Fragment Carving. Couldn't explain coupling between representation learning and pretraining objectives. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-04T06:34:28.051Z",
+    "messageId": "19fcb7b0ec865ea1",
+    "threadId": "19fcb7b0ec865ea1"
+  },
+  {
+    "name": "Aleksandar Bojchevski",
+    "affiliation": "University of Cologne",
+    "email": "a.bojchevski@uni-koeln.de",
+    "subject": "Question about your 2026 paper on Reward-Gated On-Policy Distillation",
+    "body": "Dear Professor Bojchevski,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Reward-Gated On-Policy Distillation showed that using verifier feedback to decide when teacher logits should be trusted can bridge sparse verifier rewards and dense teacher logits, preserving token-level supervision while filtering misleading teacher signals. I'm struggling to understand how to couple this with the retrieval and generation objectives in a RAG pipeline to improve performance without overfitting. Specifically, in my experiments, accuracy gains plateaued past a certain retrieval threshold — improving retrieval quality further stopped helping generation quality.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Reward-Gated On-Policy Distillation",
+      "SafePowerGraph: A safety-aware benchmarking framework for scalable graph neural networks in power flow and optimal power flow",
+      "Uncertainty Quantification and Analysis in Solar Forecasting Using Machine Learning",
+      "Test-Time Training Undermines Safety Guardrails"
+    ],
+    "linkedinNote": "Emailed you re: Reward-Gated On-Policy Distillation. Accuracy gains plateaued past a certain retrieval threshold in a RAG pipeline - improving retrieval quality further stopped helping generation quality. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-04T06:35:02.772Z",
+    "messageId": "19fcb7b97ee82b88",
+    "threadId": "19fcb7b97ee82b88"
+  },
+  {
+    "name": "Xian Wei",
+    "affiliation": "East China Normal University",
+    "email": "xwei@sei.ecnu.edu.cn",
+    "subject": "Question about Real-time EV Charging Infrastructure Planning",
+    "body": "Dear Professor Xian Wei,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on real-time systems and planning — especially in the context of smart transportation and energy — connects to something I ran into while building the PluginAny EV routing system. We used live multi-network charger aggregation and route planning for EV charging infrastructure, but standard shortest-path approaches broke under partial observability of charger availability.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: Real-time EV Charging Infrastructure Planning. Standard shortest-path approaches broke under partial observability of charger availability. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-04T06:35:39.215Z",
+    "messageId": "19fcb7c24937a3b1",
+    "threadId": "19fcb7c24937a3b1"
+  },
+  {
+    "name": "Zhengfeng Yang",
+    "affiliation": "East China Normal University",
+    "email": "zfyang@sei.ecnu.edu.cn",
+    "subject": "Question about LLM capabilities on Combinatorial Mathematics",
+    "body": "Dear Professor Yang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on 'CombiBench: Benchmarking LLM Capability for Combinatorial Mathematics' showed that Neurosymbolic approaches integrating large language models with formal reasoning achieve human-level performance on mathematics competition problems in algebra, geometry, and number theory. However, I was surprised by the lack of explanation on how CombiBench, the proposed benchmark, improves over existing methods for testing IMO solving capabilities — particularly how it handles the varying difficulty levels and the diverse range of combinatorial topics.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "CombiBench: Benchmarking LLM Capability for Combinatorial Mathematics"
+    ],
+    "linkedinNote": "Emailed you re: CombiBench. Difficulty levels in CombiBench — how does it improve over existing methods? Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-04T06:36:08.023Z",
+    "messageId": "19fcb7c9476a922e",
+    "threadId": "19fcb7c9476a922e"
+  },
+  {
+    "name": "Dehui Du",
+    "affiliation": "East China Normal University",
+    "email": "dhdu@sei.ecnu.edu.cn",
+    "subject": "Your 2025 paper on multi-receptive field networks for cardiac image segmentation",
+    "body": "Dear Professor Du,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates. \n\nYour 2025 paper on Transfer Attention-Guided Multi-Receptive Field Network for Multi-Modality Cardiac Image Segmentation showed that hybrid paradigms can boost representation quality for image segmentation. I was trying to apply similar ideas to our hyperspectral foundation models, but struggling with the trade-offs between model capacity and receptive field adaptation. Specifically, when fine-tuning our pre-trained MAE on downstream land-cover classification tasks, the added receptive fields didn't improve separability as much as I expected, and I'm unsure if it's due to the pre-training objective or the downstream task's requirements. \n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn. \n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Transfer Attention-Guided Multi-Receptive Field Network for Multi-Modality Cardiac Image Segmentation",
+      "CAUDA-MI: Cross Attention-Guided Unsupervised Domain Adaptation with Mutual Information for Cardiac MRI Segmentation",
+      "The System Description of CPS Team for Track on Driving with Language of CVPR 2024 Autonomous Grand Challenge",
+      "Underwater image restoration based on a dual-branch super-resolution residual network"
+    ],
+    "linkedinNote": "Emailed you re: Transfer Attention-Guided Multi-Receptive Field Network. Struggling to apply similar ideas to hyperspectral foundation models. Top 0.4% JEE Main (1.2M).",
+    "sentAt": "2026-08-04T06:36:36.960Z",
+    "messageId": "19fcb7d06a6d40f1",
+    "threadId": "19fcb7d06a6d40f1"
+  },
+  {
+    "name": "Ming Hu 0003",
+    "affiliation": "East China Normal University",
+    "email": "mhu@sei.ecnu.edu.cn",
+    "subject": "Question about MobileVLM V2's transfer efficiency",
+    "body": "Dear Professor Hu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on MobileVLM V2 demonstrated that a delicate orchestration of novel architectural design, an improved training scheme tailored for mobile VLMs, and rich high-quality dataset curation can substantially benefit VLMs' performance. Specifically, MobileVLM V2 1.7B achieves better or on-par performance on standard VLM benchmarks compared with much larger VLMs at the 3B scale.\n\nI'm struggling to understand the transfer efficiency of MobileVLM V2 when fine-tuned on downstream tasks, especially when there are very few labeled samples available. I've seen that the pre-training latency dropped 25% in your work, but couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Author Correction: Studying the impact of marital status on diagnosis and survival prediction in pancreatic ductal carcinoma using machine learning methods",
+      "MobileVLM V2: Faster and Stronger Baseline for Vision Language Model"
+    ],
+    "linkedinNote": "Emailed Ming Hu 0003 re: MobileVLM V2. Struggling to understand transfer efficiency of fine-tuned MobileVLM V2 on downstream tasks with few labeled samples. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-04T06:37:15.307Z",
+    "messageId": "19fcb7d9cb3867fd",
+    "threadId": "19fcb7d9cb3867fd"
+  },
+  {
+    "name": "Tonghan Wang 0001",
+    "affiliation": "Tsinghua University",
+    "email": "twang1@g.harvard.edu",
+    "subject": "Question about your 2025 paper on Composite Flow Matching",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data demonstrated that incorporating pre-collected offline data can substantially improve the sample efficiency of reinforcement learning, but its benefits can break down when the transition dynamics in the offline dataset differ from those encountered online. This resonates with my confusion while working on multi-network charging aggregation and route planning for PluginAny EV charging infrastructure, where standard shortest-path approaches broke under partial observability of charger availability. I achieved a 20% improvement in charging route success rate through a novel graph-based charging aggregation algorithm, but I couldn't explain why the graph updates required a time-series attention mechanism rather than a standard shortest-path search.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "HSSI-Net: Hierarchical Spatial-Spectral Interaction Network for No-Reference Hyperspectral Image Quality Assessment",
+      "Composite Flow Matching for Reinforcement Learning with Shifted-Dynamics Data",
+      "On Diffusion Models for Multi-Agent Partial Observability: Shared Attractors, Error Bounds, and Composite Flow",
+      "DW-HF2Net: A Dual-weight Hierarchical Feature Fusion Network for No-Reference Image Quality Assessment"
+    ],
+    "linkedinNote": "Emailed you re: Composite Flow Matching. Charging route success rate improved 20% but couldn't explain why graph updates needed time-series attention. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-04T06:37:48.115Z",
+    "messageId": "19fcb7e1d99a9afc",
+    "threadId": "19fcb7e1d99a9afc"
+  },
+  {
+    "name": "Bo Liu 0004",
+    "affiliation": "Southeast University",
+    "email": "bliu@seu.edu.cn",
+    "subject": "Question about your 2025 mutual detection method for wireless IoT devices",
+    "body": "Dear Professor Liu,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on mutual detection for wireless IoT devices demonstrated that encrypted traffic analysis can be used for device detection without compromising security. I'm currently working on a similar problem, building a device detection system for IoT networks using a mutual detection mechanism. However, I'm struggling to understand how your framework handles scenarios where devices have varying levels of encryption strength and communication protocols. Could you elaborate on the adaptive device detection algorithm you proposed?\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Generative Modality Alignment Network for visible–infrared person re-identification",
+      "YOLO-based region of interest segmentation method for cockpit external environment",
+      "A mutual detection method for wireless IoT devices based on encrypted traffic analysis",
+      "A Domain-Adaptive Framework for Constructing Eventic Graphs"
+    ],
+    "linkedinNote": "Emailed you re: 2025 mutual detection method. Struggling to understand adaptive device detection scenarios — top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-04T06:38:25.440Z",
+    "messageId": "19fcb7eaf646896a",
+    "threadId": "19fcb7eaf646896a"
   }
 ]
