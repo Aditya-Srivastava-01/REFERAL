@@ -30432,5 +30432,90 @@
     "sentAt": "2026-08-04T06:38:25.440Z",
     "messageId": "19fcb7eaf646896a",
     "threadId": "19fcb7eaf646896a"
+  },
+  {
+    "name": "Liujuan Cao",
+    "affiliation": "Xiamen University",
+    "email": "caoliujuan@xmu.edu.cn",
+    "subject": "Question about your 2025 paper on training-free scene understanding",
+    "body": "Dear Professor Cao,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on training-free hierarchical scene understanding for Gaussian Splatting with Superpoint Graphs showed that scene reconstruction can be achieved without requiring iterative optimization over per-view 2D semantic feature maps. \n\nI'm currently trying to build a system for live multi-network EV charging aggregation and route planning, where standard shortest-path approaches break under partial observability of charger availability. I'm stuck on how to represent charger availability in a way that allows real-time state changes without making the graph static.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "3D-STMN++: Leveraging semantic proxies to enhance superpoint-text matching for 3D Referring Expression Segmentation",
+      "CODrone: A Comprehensive Oriented Object Detection Benchmark for UAV",
+      "UniVST: A Unified Framework for Training-Free Localized Video Style Transfer",
+      "Training-Free Hierarchical Scene Understanding for Gaussian Splatting with Superpoint Graphs"
+    ],
+    "linkedinNote": "Emailed you re: 2025 training-free scene understanding. Stuck on charger availability representation for live EV routing. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-05T06:34:40.549Z",
+    "messageId": "19fd0a19d19c2afe",
+    "threadId": "19fd0a19d19c2afe"
+  },
+  {
+    "name": "Jinsong Su",
+    "affiliation": "Xiamen University",
+    "email": "jssu@xmu.edu.cn",
+    "subject": "Your 2025 paper on difference-aware gender fairness",
+    "body": "Dear Professor Su,\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on difference-aware gender fairness for Vision-Language Models demonstrated that selective debiasing can preserve valid distinctions in explicit contexts while mitigating unwanted bias in neutral ones. I was trying to apply a similar approach to my work on hyperspectral foundation models, but couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples — whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Beyond Black-Box Interventions: Latent Probing for Faithful Retrieval-Augmented Generation",
+      "BioPro: Towards Difference-Aware Gender Fairness for Vision-Language Models",
+      "Gloss Matters: Unlocking the Potential of Non-Autoregressive Sign Language Translation",
+      "EditEval: Towards Comprehensive and Automatic Evaluation for Text-guided Video Editing"
+    ],
+    "linkedinNote": "Emailed you re: Beyond Black-Box Interventions. Stuck on why spectral-spatial representations transfer robustly in my hyperspectral foundation model. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-05T06:35:10.791Z",
+    "messageId": "19fd0a2120a964f1",
+    "threadId": "19fd0a2120a964f1"
+  },
+  {
+    "name": "Hanzi Wang",
+    "affiliation": "Xiamen University",
+    "email": "hanzi.wang@xmu.edu.cn",
+    "subject": "Question about your 2026 paper on Spurious Correlation Removal Always Learnable?",
+    "body": "Dear Professor Wang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU - 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates. Your 2026 paper on spurious correlation removal always being learnable showed that invariant learning can fail even when the invariant structure is statistically identifiable. I was trying to build a similar framework for anomaly detection in hyperspectral imagery but hit a wall when trying to understand the computational barrier for invariant recovery. Specifically, I couldn't explain why the recovery algorithm's minimax risk is $mathbb{E}[dist(hat{V},V_{mathrm{inv}})^2]=Θ(k(d-k)/(n|mathcal{E}|))$.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Is Spurious Correlation Removal Always Learnable?",
+      "SAM2-OV: A Novel Detection-Only Tuning Paradigm for Open-Vocabulary Multi-Object Tracking",
+      "ART-VOD: Adaptive Relational Distillation and Temporal Modeling for Open-Vocabulary Video Object Detection",
+      "Video-to-Task Learning via Motion-Guided Attention for Few-Shot Action Recognition"
+    ],
+    "linkedinNote": "Emailed you re: Spurious Correlation Removal Always Learnable?. Struggle to explain minimax risk for invariant recovery in anomaly detection - top 0.4% JEE Main.",
+    "sentAt": "2026-08-05T06:35:48.054Z",
+    "messageId": "19fd0a2a20a26963",
+    "threadId": "19fd0a2a20a26963"
+  },
+  {
+    "name": "Yu Zang",
+    "affiliation": "Xiamen University",
+    "email": "siqishen@xmu.edu.cn",
+    "subject": "Your 2025 paper on RDPA: Real-Time Distributed-Concentrated Penetration Attack for Point Cloud Learning",
+    "body": "Dear Professor Yu Zang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on RDPA: Real-Time Distributed-Concentrated Penetration Attack for Point Cloud Learning showed that penetration attack strategy should pay attention to not only the selection and disturbance of points, but also the penetration of current defense methods. This finding made me realize that defense methods in point cloud learning are often overlooked in favor of attack efficiency. However, I'm struggling with evaluating the effectiveness of these defense methods in real-world scenarios, especially when the point cloud data is sparse or noisy. My recent work on hyperspectral foundation models suggests that representation learning can play a crucial role in improving point cloud data quality, but I need to understand how to apply this to defense methods.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Visual analysis of quality management in Chinese drug clinical trials based on CiteSpace and COOC",
+      "RDPA: Real-Time Distributed-Concentrated Penetration Attack for Point Cloud Learning",
+      "Boosting Adversarial Transferability through Augmentation in Hypothesis Space",
+      "DSTF: Dual-Stream Spatio-Temporal Fusion Network for Event-Based Data"
+    ],
+    "linkedinNote": "Emailed you re: RDPA. Struggling to evaluate effectiveness of defense methods in sparse/noisy point cloud data. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-05T06:36:14.145Z",
+    "messageId": "19fd0a309eeb3fbc",
+    "threadId": "19fd0a309eeb3fbc"
+  },
+  {
+    "name": "Joong-Ho Won",
+    "affiliation": "Seoul National University",
+    "email": "wonj@stats.snu.ac",
+    "subject": "Question about Quantum Convolutional Neural Networks for 6G Multi-User Interference Mitigation",
+    "body": "Dear Professor Won,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on Quantum Convolutional Neural Networks (QCNN) for 6G Multi-User Interference Mitigation demonstrated that QCNNs consistently outperform classical CNNs in handling the complex, non-ideal channel environments of modern wireless communications. I'm building a real-time EV charging infrastructure aggregation and interoperability system, and I've hit a wall trying to address the partial observability of charger availability under real-time state changes — standard shortest-path approaches break under these conditions. I'd love to spend the coming winter break exploring how to leverage QCNNs for real-time state estimation and route planning. I'm actively looking to contribute to research problems like this, either remotely now or over winter.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "An Unsupervised Detection-to-Mitigation Framework for Resource Exhaustion Attacks in 5G/6G Network Slicing",
+      "Layer-Aware TDNN: Speaker Recognition Using Multi-Layer Features from Pre-Trained Models",
+      "Quantum Convolutional Neural Networks (QCNN) for 6G Multi-User Interference Mitigation",
+      "FSI-TLS: Forward-Secure Inspection on TLS without Server-Side Modifications"
+    ],
+    "linkedinNote": "Emailed you re: Quantum Convolutional Neural Networks for 6G Multi-User Interference Mitigation. Struggling to apply QCNNs under partial observability of charger availability. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-05T06:36:40.796Z",
+    "messageId": "19fd0a371dbf4001",
+    "threadId": "19fd0a371dbf4001"
   }
 ]
