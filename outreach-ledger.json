@@ -30523,5 +30523,34 @@
     "threadId": "19fd0a371dbf4001",
     "replied": true,
     "repliedAt": "2026-08-05T08:51:54.422Z"
+  },
+  {
+    "name": "Minqi Jiang",
+    "affiliation": "SUFE",
+    "email": "jiangminqi@mail.shufe.edu.cn",
+    "subject": "Your Work on Edge Computing and IoT",
+    "body": "Dear Professor Jiang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on edge computing and IoT — especially the challenges of real-time data processing and sensor fusion — connects to something I ran into while building PluginAny EV routing system. Struggle: standard shortest-path approaches broke under partial observability of charger availability; real-time state changes turned a static graph problem into something closer to a POMDP.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: edge computing. Standard shortest-path approaches break under partial observability of charger availability; real-time state changes turn a static graph problem into a POMDP. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-06T06:37:48.372Z",
+    "messageId": "19fd5cad4e2393ac",
+    "threadId": "19fd5cad4e2393ac"
+  },
+  {
+    "name": "Shruti Vyas",
+    "affiliation": "University of Central Florida",
+    "email": "shruti@ucf.edu",
+    "subject": "Question about your 2024 paper on semi-supervised active learning for video action detection",
+    "body": "Dear Professor Vyas,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2024 paper on semi-supervised active learning for video action detection demonstrated that NoiseAug, a simple augmentation strategy, effectively selects informative samples for video action detection. However, when I implemented a similar augmentation strategy for my own project on action detection in videos, I hit a wall when trying to select samples that are both informative and representative of the entire dataset. I managed to improve overall action detection accuracy by 10% using a more extensive feature set, but I couldn't explain why the selected samples didn't improve the model's ability to generalize to unseen data.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Robust Onion: Peeling Open Vocab Object Detectors Under Noise",
+      "Where Do Vision-Language Models Fail? World Scale Analysis for Image Geolocalization",
+      "MolVision: Molecular Property Prediction with Vision Language Models",
+      "Semi-supervised Active Learning for Video Action Detection"
+    ],
+    "linkedinNote": "Emailed you re: Semi-supervised Active Learning for Video Action Detection. Found that selected samples didn't improve model generalization in my own project. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-06T06:38:20.830Z",
+    "messageId": "19fd5cb54abb34af",
+    "threadId": "19fd5cb54abb34af"
   }
 ]
