@@ -30562,5 +30562,22 @@
     "threadId": "19fd5cb54abb34af",
     "replied": true,
     "repliedAt": "2026-08-07T00:14:31.544Z"
+  },
+  {
+    "name": "Maxim Likhachev",
+    "affiliation": "Carnegie Mellon University",
+    "email": "mlikhach@andrew.cmu.edu",
+    "subject": "Question about your 2025 paper on Real-Time Kinodynamic Belief-Space Planning",
+    "body": "Dear Professor Likhachev,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Real-Time Kinodynamic Belief-Space Planning showed that tree-like structures can help plan motion for fast-moving objects with noisy sensors in real-time. I'm working on a similar problem where we need to plan motion for robots in a shared environment with partial observability.\n\nHowever, I've run into a difficulty when trying to extend this tree-like structure to handle complex constraints and multiple goals. I was wondering if there's any work in your group that explores this problem space.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Multi Graph Search for High-Dimensional Robot Motion Planning",
+      "Think Fast: Real-Time Kinodynamic Belief-Space Planning for Projectile Interception",
+      "Conflict-Based Search as a Protocol: A Multi-Agent Motion Planning Protocol for Heterogeneous Agents, Solvers, and Independent Tasks",
+      "Dynamic Agent Grouping ECBS: Scaling Windowed Multi-Agent Path Finding with Completeness Guarantees"
+    ],
+    "linkedinNote": "Emailed you re: Think Fast: Real-Time Kinodynamic Belief-Space Planning. Stuck on extending the tree-like structure to handle complex constraints and multiple goals. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-10T02:21:53.540Z",
+    "messageId": "19fe979f9c91a640",
+    "threadId": "19fe979f9c91a640"
   }
 ]
