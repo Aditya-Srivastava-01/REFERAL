@@ -30579,5 +30579,73 @@
     "sentAt": "2026-08-10T02:21:53.540Z",
     "messageId": "19fe979f9c91a640",
     "threadId": "19fe979f9c91a640"
+  },
+  {
+    "name": "Chuanxia Zheng",
+    "affiliation": "Nanyang Technological University",
+    "email": "chuanxia.zheng@ntu.edu.sg",
+    "subject": "Question about your 2026 paper on AnyHand: A Large-Scale Synthetic Dataset for RGB(-D) Hand Pose Estimation",
+    "body": "Dear Professor Zheng,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on AnyHand: A Large-Scale Synthetic Dataset for RGB(-D) Hand Pose Estimation showed that scaling training data markedly improves hand pose estimation. However, I ran into a problem when trying to apply your work to a similar problem in the Android security domain, where I found that the distributional shift issue was harder to resolve due to the complex feature interactions and occluded regions in the APK binary images. I achieved 90.8% malicious recall with a 1,418-dimensional sparse feature space using threshold calibration and class imbalance correction, but the remaining failure cases looked like a distributional shift problem rather than a model capacity problem.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Syn4D: A Multiview Synthetic 4D Dataset",
+      "Feed-Forward 3D Scene Modeling: A Problem-Driven Perspective",
+      "AnyHand: A Large-Scale Synthetic Dataset for RGB(-D) Hand Pose Estimation",
+      "Learning Compact 3D Gaussians via Feed-Forward Point Fusion"
+    ],
+    "linkedinNote": "Emailed you re: AnyHand. Android malware detection failure cases looked like distributional shift problem. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-11T05:14:47.132Z",
+    "messageId": "19fef3e9e3b1c471",
+    "threadId": "19fef3e9e3b1c471"
+  },
+  {
+    "name": "Jianfei Yang",
+    "affiliation": "Nanyang Technological University",
+    "email": "jianfei.yang@ntu.edu.sg",
+    "subject": "Question about your 2025 RM-RL paper for precise robot manipulation",
+    "body": "Dear Professor Yang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Role-Model Reinforcement Learning (RM-RL) showed that online and offline training can be unified in real-world environments for precise robot manipulation. I found this particularly interesting because it addresses the difficulty of obtaining high-quality demonstrations for precision tasks.\n\nIn my work on plugin-based EV charging infrastructure aggregation and route planning, I've encountered issues with standard shortest-path approaches breaking under partial observability of charger availability. Your work on RM-RL reformulating policy learning as supervised learning for online training data using approximately optimal actions resonates with me.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Gaussian Adaptive Patching Powered Fully-Connected Spatial-Temporal Graph for Multivariate Time-Series Data",
+      "RAW-Adapter: Adapting Pre-Trained Visual Model to Camera RAW Images and a Benchmark",
+      "RM-RL: Role-Model Reinforcement Learning for Precise Robot Manipulation",
+      "Mask2IV: Interaction-Centric Video Generation via Mask Trajectories"
+    ],
+    "linkedinNote": "Emailed you re: Jianfei Yang's 2025 RM-RL paper. Standard shortest-path approaches breaking under partial observability of charger availability. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-11T05:15:38.327Z",
+    "messageId": "19fef3f66e40671e",
+    "threadId": "19fef3f66e40671e"
+  },
+  {
+    "name": "Atsushi Nitanda",
+    "affiliation": "Nanyang Technological University",
+    "email": "atsushi.nitanda@ntu.edu.sg",
+    "subject": "Question about your 2025 paper on curriculum post-training",
+    "body": "Dear Professor Nitanda,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on curriculum post-training for LLMs showed that certain depth-increasing curricula can yield exponential improvements in sample complexity. I've been working on a retrieval-augmented generation (RAG) pipeline at ArchiGen AI, where accuracy gains plateaued past a certain retrieval threshold. I'm struggling to understand why improving retrieval quality further didn't help generation quality, and whether the bottleneck has shifted to how retrieval and generation objectives are coupled, not retrieval itself.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Policy Gradient for Continuous-Time Robust Markov Decision Processes",
+      "Slowly Annealed Langevin Dynamics: Theory and Applications to Training-Free Guided Generation",
+      "Auto-Clustering with Continuous Distribution Estimation on Centroids",
+      "Provable Benefit of Curriculum in Transformer Tree-Reasoning Post-Training"
+    ],
+    "linkedinNote": "Emailed Prof. Nitanda re: 'Provable Benefit of Curriculum in Transformer Tree-Reasoning Post-Training'. 30% accuracy improvement in RAG pipeline, but accuracy gains plateaued past a certain retrieval threshold. Top 0.4% JEE Main. — Aditya",
+    "sentAt": "2026-08-11T05:16:53.427Z",
+    "messageId": "19fef408c33a4920",
+    "threadId": "19fef408c33a4920"
+  },
+  {
+    "name": "Xuefeng Du",
+    "affiliation": "Nanyang Technological University",
+    "email": "xuefeng.du@ntu.edu.sg",
+    "subject": "Your 2025 paper on Hallucination Detection in LLM Latents",
+    "body": "Dear Professor Du,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates nationwide.\n\nYour 2025 paper on \"Steer LLM Latents for Hallucination Detection\" demonstrated the effectiveness of the Truthfulness Separator Vector (TSV) in reshaping the LLM's representation space for enhanced separation between truthful and hallucinated outputs. I was intrigued by the two-stage framework that optimizes TSV on labeled exemplars and employs optimal transport-based pseudo-labeling for unlabeled LLM generations.\n\nWhile building my Hyperspectral Foundation Model, I struggled to explain why spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. Your work on hallucination detection in LLM latents, particularly the application of TSV, resonates with this challenge, as I couldn't help but wonder whether similar techniques could be adapted for my task.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01",
+    "papersReferenced": [
+      "Toward Trustworthy Vision-language Models in the Wild: Theory, Algorithm and Application",
+      "Teach AI What It Doesn’t Know",
+      "Improving Neural Architecture Search by Minimizing Worst-Case Validation Loss",
+      "Steer LLM Latents for Hallucination Detection"
+    ],
+    "linkedinNote": "Emailed you re: Steer LLM Latents for Hallucination Detection. Hyperspectral representation transfer robustness — top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-11T05:17:29.062Z",
+    "messageId": "19fef411992a8e5b",
+    "threadId": "19fef411992a8e5b"
   }
 ]
