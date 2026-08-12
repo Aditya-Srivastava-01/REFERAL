@@ -30651,5 +30651,22 @@
     "sentAt": "2026-08-11T05:17:29.062Z",
     "messageId": "19fef411992a8e5b",
     "threadId": "19fef411992a8e5b"
+  },
+  {
+    "name": "Tiejun Ma",
+    "affiliation": "University of Edinburgh",
+    "email": "tiejun.ma@ed.ac.uk",
+    "subject": "Question about your 2025 paper on Bridging Pairwise and Listwise Methods",
+    "body": "Dear Professor Ma,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on TSPRank showed that bridging pairwise and listwise methods with a bilinear Travelling Salesman Model can lead to better global rankings. This resonates with my own work on retrieval-augmented generation pipelines, where I struggled with improving accuracy beyond a certain retrieval threshold — the bottleneck seemed to shift to how retrieval and generation objectives were coupled, not retrieval itself.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "TSPRank: Bridging Pairwise and Listwise Methods with a Bilinear Travelling Salesman Model",
+      "Revolutionizing graph classification generalization with an adaptive causality-enhanced framework",
+      "Application and Development of Quantitative Factor Mining in Financial Markets",
+      "Stochastic Programming-based Optimization Model for the Committee Configuration of Parallel Consensus in Sharded Blockchain"
+    ],
+    "linkedinNote": "Emailed Tiejun Ma re: TSPRank. Struggled to improve retrieval-augmented generation accuracy beyond threshold. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-12T05:42:12.270Z",
+    "messageId": "19ff47e15911fa77",
+    "threadId": "19ff47e15911fa77"
   }
 ]
