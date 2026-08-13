@@ -30668,5 +30668,85 @@
     "sentAt": "2026-08-12T05:42:12.270Z",
     "messageId": "19ff47e15911fa77",
     "threadId": "19ff47e15911fa77"
+  },
+  {
+    "name": "Mengmi Zhang",
+    "affiliation": "Nanyang Technological University",
+    "email": "mengmi.zhang@ntu.edu.sg",
+    "subject": "Question about Dual Prompt Learning for Adapting VLMs to Downstream ITR",
+    "body": "Dear Professor Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on DCAR showed that image-text matching can be enhanced by dynamically adjusting prompt vectors from both semantic and visual dimensions. I ran into a similar bottleneck in my work on hyperspectral MAE, where I improved downstream land-cover classification separability by 20% while reducing pre-training latency by 25% — but couldn't explain why the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "PRISM: Progressive Reasoning through Iterative Slot Memory for Vision",
+      "Learning to See the Elephant in the Room: Self-Supervised Context Reasoning in Humans and AI",
+      "A Pilot Study Exploring the Alignment of Humans and CNN During Perception of Social Interactions",
+      "Dual Prompt Learning for Adapting Vision-Language Models to Downstream Image-Text Retrieval"
+    ],
+    "linkedinNote": "Emailed you re: Dual Prompt Learning for Adapting VLMs to Downstream ITR. Bottleneck in hyperspectral MAE pretraining. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-13T05:44:49.971Z",
+    "messageId": "19ff9a6d8e532f8e",
+    "threadId": "19ff9a6d8e532f8e"
+  },
+  {
+    "name": "Siu Lun Chau",
+    "affiliation": "Nanyang Technological University",
+    "email": "siulun.chau@ntu.edu.sg",
+    "subject": "Your 2026 paper on Kernel Embeddings and Conditional Distributions",
+    "body": "Dear Professor Chau,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2026 paper on kernel embeddings and conditional distributions showed that measuring differences between conditional distributions can be made differentiable without accuracy loss. I'm working on representation learning and self-supervised learning, and your work on kernel embeddings for conditional distributions demonstrated that it can be used to improve downstream tasks.\n\nHowever, I'm struggling to explain why certain downstream tasks still have poor performance despite using state-of-the-art models. I benchmarked 10+ models on a hyperspectral image classification task, but the results still showed a distributional shift problem rather than a model capacity problem. Your work on kernel embeddings for conditional distributions might be useful in addressing this issue.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Measuring Differences between Conditional Distributions using Kernel Embeddings",
+      "Quantification of Credal Uncertainty: A Distance-Based Approach",
+      "Exact Shapley Attributions in Quadratic-time for FANOVA Gaussian Processes",
+      "Verbalizing LLM's Higher-order Uncertainty via Imprecise Probabilities"
+    ],
+    "linkedinNote": "Emailed you re: Kernel Embeddings & Conditional Distributions. Distributional shift in downstream tasks still unclear despite state-of-the-art models, top 0.4% JEE Main (1.2M) — Aditya",
+    "sentAt": "2026-08-13T05:45:21.519Z",
+    "messageId": "19ff9a754f367dbe",
+    "threadId": "19ff9a754f367dbe"
+  },
+  {
+    "name": "Yewen Pu",
+    "affiliation": "Nanyang Technological University",
+    "email": "yewen.pu@ntu.edu.sg",
+    "subject": "Question about Transfer Efficiency in Hyperspectral Image Pretraining",
+    "body": "Dear Professor Pu,\n\nYour work on hyperspectral image processing and representation learning — which has shown that spatial-spectral representations can be transferred to downstream tasks with surprising accuracy despite few labeled samples — connects to something I ran into while building a Masked Autoencoder (MAE) for hyperspectral imagery. I improved downstream separability by 20% and pre-training latency dropped 25%, but couldn't explain WHY the spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples — whether it was the masking strategy, the spectral tokenization, or something about the pretraining objective.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: Transfer Efficiency in Hyperspectral Image Pretraining. Ran into a similar problem while building a Masked Autoencoder (MAE) for hyperspectral imagery. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-13T05:45:49.106Z",
+    "messageId": "19ff9a7c1317dafc",
+    "threadId": "19ff9a7c1317dafc"
+  },
+  {
+    "name": "Wei Yang Bryan Lim",
+    "affiliation": "Nanyang Technological University",
+    "email": "bryan.limwy@ntu.edu.sg",
+    "subject": "Question about your 2026 work on persuasive and compliant tendencies in LLMs",
+    "body": "Dear Professor Lim,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at Delhi Technological University — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates. Your 2026 paper on persuasive and compliant tendencies in large language models showed that stronger persuasive tendency does not significantly improve group outcomes, whereas compliant-oriented models show more stable advantages in cooperation.\n\nThis resonates with my own experience while building retrieval-augmented generation (RAG) pipelines at ArchiGen AI Labs. I noticed that improving retrieval quality further stopped helping generation quality as if the bottleneck had shifted to how retrieval and generation objectives were coupled, not retrieval itself. I'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Persuasive and Compliant Tendencies Predict Group Decision-Making in Humans and Language Models",
+      "Adversarial Attacks for Good: A Survey of Proactive Protection across the Visual Content Lifecycle",
+      "CoCurve: Cross-Module Co-Pruning Curvature for Training-Free Structured LLM Pruning",
+      "XDomainBench: Diagnosing Reasoning Collapse in High-Dimensional Scientific Knowledge Composition"
+    ],
+    "linkedinNote": "Emailed you re: Persuasive and Compliant Tendencies Predict Group Decision-Making in Humans and Language Models. Noticed a bottleneck shift in RAG pipelines like mine. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-13T05:46:50.640Z",
+    "messageId": "19ff9a8b0d17afdc",
+    "threadId": "19ff9a8b0d17afdc"
+  },
+  {
+    "name": "Themis Gouleakis",
+    "affiliation": "Nanyang Technological University",
+    "email": "themis.gouleakis@ntu.edu.sg",
+    "subject": "Question about your 2025 paper on Gaussian Mean Testing under Truncation",
+    "body": "Dear Professor Gouleakis,\n\nI am Aditya Srivastava, a second-year B.Tech student in Information Technology at Delhi Technological University (DTU), India (graduating May 2028). Secured 99.59 percentile in JEE Main, placing in the top 0.4% among more than one million candidates nationwide. My work focuses on applying machine learning to difficult real-world systems across security, infrastructure, scientific discovery, and sustainability.\n\nYour 2025 paper on Gaussian Mean Testing under Truncation showed that sample truncations affect the complexity of this task. This resonates with my struggle in understanding how to perform anomaly detection in partially-observed systems, such as Android malware detection where some APK features might be missing. I benchmarked 20+ models on CIC-AndMal2017, achieving 90.8% malicious recall, but the remaining failure cases clustered in a way that looked like a distributional shift problem. I couldn't explain why standard calibration didn't resolve it.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. I'm trying to put my next few months into research problems in this direction, whether remotely now or more intensively over winter.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Mean Testing under Truncation beyond Gaussian",
+      "Learning High-dimensional Gaussians from Censored Data",
+      "Gaussian Mean Testing under Truncation",
+      "Product Distribution Learning with Imperfect Advice"
+    ],
+    "linkedinNote": "Emailed you re: 2025 Gaussian Mean Testing under Truncation. Anomaly detection in partially-observed systems - couldn't explain why standard calibration didn't resolve it. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-13T05:47:28.285Z",
+    "messageId": "19ff9a944056e714",
+    "threadId": "19ff9a944056e714"
   }
 ]
