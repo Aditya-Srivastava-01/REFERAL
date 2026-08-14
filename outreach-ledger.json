@@ -30748,5 +30748,22 @@
     "sentAt": "2026-08-13T05:47:28.285Z",
     "messageId": "19ff9a944056e714",
     "threadId": "19ff9a944056e714"
+  },
+  {
+    "name": "Fajie Yuan",
+    "affiliation": "Westlake University",
+    "email": "yuanfajie@westlake.edu.cn",
+    "subject": "Your work on user-centric dialogue systems",
+    "body": "Dear Professor Yuan,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour U-Fold paper on dynamic intent-aware context folding for user-centric agents demonstrated that it can better retain fine-grained constraints and intermediate facts for later decisions, and also track evolving user intent to prevent omissions and erroneous actions. However, I struggled with how to efficiently incorporate dialogue history into my own multi-turn conversational AI system — the more turns, the more challenging it becomes to balance between retaining relevant information and adapting to the evolving user intent. I've experimented with some pre-processing and post-processing techniques, but the results were not as promising as I had hoped.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Dynamic-in-Few-Step: Unifying Dynamic Computation and Few-Step Distillation for Efficient Video Generation",
+      "U-Fold: Dynamic Intent-Aware Context Folding for User-Centric Agents",
+      "A Content-Driven Micro-Video Recommendation Dataset at Scale",
+      "Exploring the Upper Limits of Text-Based Collaborative Filtering Using Large Language Models: Discoveries and Insights"
+    ],
+    "linkedinNote": "Emailed you re: U-Fold. Struggled incorporating dialogue history into my conversational AI system. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-14T05:42:16.619Z",
+    "messageId": "19ffecadf9ed1f61",
+    "threadId": "19ffecadf9ed1f61"
   }
 ]
