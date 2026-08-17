@@ -30779,5 +30779,39 @@
     "sentAt": "2026-08-17T01:45:11.054Z",
     "messageId": "1a00d64e325fba4b",
     "threadId": "1a00d64e325fba4b"
+  },
+  {
+    "name": "Yuxuan Du",
+    "affiliation": "Nanyang Technological University",
+    "email": "yuxuan.du@ntu.edu.sg",
+    "subject": "Question about your 2025 paper on overlap-adaptive hybrid speaker diarization",
+    "body": "Dear Professor Du,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on overlap-adaptive hybrid speaker diarization and ASR-aware observation addition for MISP 2025 Challenge demonstrated that ASR performance improves by up to 10% when leveraging speaker diarization.\n\nI've been working on a similar problem of anomaly detection in Android malware, where benchmarking 20+ models revealed a distributional shift in sparse feature spaces that standard calibration couldn't resolve. The remaining failure cases clustered in a way that looked like a distributional shift problem rather than a model capacity problem. I'm trying to put my next few months into research problems in this direction, whether remotely now or more intensively over winter.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "Quantum compiling with reinforcement learning on a superconducting processor",
+      "Overlap-Adaptive Hybrid Speaker Diarization and ASR-Aware Observation Addition for MISP 2025 Challenge",
+      "State Similarity in Modular Superconducting Quantum Processors with Classical Communications",
+      "Rethink the Role of Deep Learning towards Large-scale Quantum Systems"
+    ],
+    "linkedinNote": "Emailed you re: 2025 MISP Challenge. Anomaly detection in Android malware clusters into distributional shift. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-17T04:51:16.014Z",
+    "messageId": "1a00e0f3eb6fafa6",
+    "threadId": "1a00e0f3eb6fafa6"
+  },
+  {
+    "name": "Amit Bermano",
+    "affiliation": "Tel Aviv University",
+    "email": "amberman@tauex.tau.ac.il",
+    "subject": "Question about your Instant3dit approach to multiview inpainting",
+    "body": "Dear Professor Bermano,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour 2025 paper on Instant3dit showed that 3D shape editing can be done in ≈ 3 seconds without optimization. This aligns with my struggles with high-latency pre-training in my hyperspectral foundation model — where pre-training latency dropped 25% but couldn't explain why spectral-spatial representations transferred robustly to downstream tasks with so few labeled samples. I achieved a 20% improvement in downstream land-cover classification separability but hit a wall trying to understand why.\n\nI'm actively looking to spend the coming winter break working deeply on problems like this, and can contribute remotely before that if useful. If this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [
+      "<i>MaX4Zero</i> : Masked Extended Attention for Zero‐Shot Virtual Try‐On In The Wild",
+      "PractiLight: Practical Light Control Using Foundational Diffusion Models",
+      "Express4D: Expressive, Friendly, and Extensible 4D Facial Motion Generation Benchmark",
+      "Instant3dit: Multiview Inpainting for Fast Editing of 3D Objects"
+    ],
+    "linkedinNote": "Emailed you re: Instant3dit. Struggled with high-latency pre-training in hyperspectral foundation model. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-17T04:51:51.176Z",
+    "messageId": "1a00e0fc97be7dc2",
+    "threadId": "1a00e0fc97be7dc2"
   }
 ]
