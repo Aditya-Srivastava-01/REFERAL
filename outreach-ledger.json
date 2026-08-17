@@ -30767,5 +30767,17 @@
     "threadId": "19ffecadf9ed1f61",
     "replied": true,
     "repliedAt": "2026-08-14T07:48:45.373Z"
+  },
+  {
+    "name": "Li Zhang 0039",
+    "affiliation": "Drexel University",
+    "email": "harry.zhang@drexel.edu",
+    "subject": "Your work on transformers and pretraining — something I ran into",
+    "body": "Dear Professor Zhang,\n\nI am Aditya Srivastava, a second-year B.Tech IT student at DTU — 99.59 percentile JEE Main, top 0.4% of 1.2 million candidates.\n\nYour work on transformers and pretraining demonstrated that representation learning can be made differentiable without accuracy loss. I'm trying to put my next few months into research problems in this direction, whether remotely now or more intensively over winter, and would be glad to start remotely if there's fit. I'm actively looking to spend the coming winter break working deeply on problems like this.\n\nIf this problem space is active in your group, I'd value the chance to contribute and learn.\n\nMy CV is attached, and my code is here: https://github.com/Aditya-Srivastava-01\n\nBest,\nAditya",
+    "papersReferenced": [],
+    "linkedinNote": "Emailed you re: transformers. Ran into issues with pretraining objectives. Top 0.4% JEE Main (1.2M). — Aditya",
+    "sentAt": "2026-08-17T01:45:11.054Z",
+    "messageId": "1a00d64e325fba4b",
+    "threadId": "1a00d64e325fba4b"
   }
 ]
